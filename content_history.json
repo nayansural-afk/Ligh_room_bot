@@ -59,6 +59,15 @@
       "ai_prompt": "",
       "status": "published",
       "message_id": 1061
+    },
+    {
+      "timestamp": "2026-08-19T13:57:11.580691+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "futuristic android soft neon",
+      "title": "Neon Android Glow 🚀",
+      "ai_prompt": "Neon Android Glow 🚀\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic futuristic android with soft neon accents, subtle blue and magenta glows outlining the limbs and circuitry. Set against a bustling neon cityscape at night, with rain-slicked streets reflecting holographic advertisements. Use an 85mm prime lens, f/1.8 aperture for cinematic shallow depth, capturing crisp details on the android's textured metal skin. Lighting: backlit by distant neon signs, rim",
+      "status": "published",
+      "message_id": 1062
     }
   ],
   "style_counts": {
@@ -103,9 +112,19 @@
       "theme_counts": {
         "image generation model upgrade": 1
       }
+    },
+    {
+      "timestamp": "2026-08-19T13:57:11.673704+00:00",
+      "member_count": 3007,
+      "total_posts_recorded": 7,
+      "theme_counts": {
+        "image generation model upgrade": 1,
+        "futuristic android soft neon": 1
+      }
     }
   ],
   "theme_counts": {
-    "image generation model upgrade": 1
+    "image generation model upgrade": 1,
+    "futuristic android soft neon": 1
   }
 }
