@@ -1,17 +1,17 @@
 """
 Light Room bot — Viral AI Image Prompt Publisher
 
-Posts ready-to-copy image-generation prompts (Midjourney / Flux / SD style).
-Style: "Send your photo → become Spider-Man" viral transformations.
+Posts ready-to-copy image-generation prompts (Midjourney / Flux / SD).
+Style: "Send your photo → become Spider-Man"
 
-1 post per run. Workflow runs 3x/day → 3 prompts/day total.
+1 post per run × 3 schedule times/day = 3 posts/day.
 
 Secrets: TELEGRAM_TOKEN, GROQ_API_KEY
-Optional: CHANNEL_ID (default @LightRooms)
 """
 
 import os
 import json
+import re
 import random
 import asyncio
 from datetime import datetime, timezone
@@ -24,7 +24,7 @@ TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 
-POSTS_PER_RUN = 1  # workflow runs 3x/day → 3 posts/day
+POSTS_PER_RUN = 1
 HISTORY_FILE = Path("content_history.json")
 
 PROMPT_THEMES = [
@@ -63,11 +63,7 @@ def load_history():
                 return json.load(f)
         except Exception:
             pass
-    return {
-        "posts": [],
-        "theme_counts": {},
-        "analytics_snapshots": [],
-    }
+    return {"posts": [], "theme_counts": {}, "analytics_snapshots": []}
 
 
 def save_history(history):
@@ -95,7 +91,7 @@ def choose_theme(history):
     return random.choices(PROMPT_THEMES, weights=weights, k=1)[0]
 
 
-def groq_generate(prompt, json_mode=False, max_tokens=1000):
+def groq_generate(prompt, max_tokens=700):
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -107,8 +103,6 @@ def groq_generate(prompt, json_mode=False, max_tokens=1000):
         "temperature": 0.9,
         "max_tokens": max_tokens,
     }
-    if json_mode:
-        data["response_format"] = {"type": "json_object"}
     response = requests.post(url, headers=headers, json=data, timeout=60)
     result = response.json()
     if "choices" not in result:
@@ -116,32 +110,51 @@ def groq_generate(prompt, json_mode=False, max_tokens=1000):
     return result["choices"][0]["message"]["content"]
 
 
+def _extract(tag, text):
+    m = re.search(rf"<{tag}>\s*(.*?)\s*</{tag}>", text, re.DOTALL | re.IGNORECASE)
+    return m.group(1).strip() if m else ""
+
+
 def generate_prompt_post(theme, recent_titles):
-    avoid = ", ".join(recent_titles[-8:]) if recent_titles else "none"
-    prompt = f"""
-You write viral content for a Telegram channel about AI image prompts
-(Midjourney, Flux, Stable Diffusion, ChatGPT images).
+    avoid = ", ".join([t for t in recent_titles[-8:] if t]) or "none"
+    prompt = f"""Write a viral AI image-prompt post for Telegram.
 
-Theme for this post: {theme}
+Theme: {theme}
+Do NOT repeat these titles: {avoid}
 
-Avoid repeating these recent titles: {avoid}
+Style of hook (examples):
+- Send your selfie → become Spider-Man
+- Turn yourself into a Studio Ghibli character
+- Your face as a 1920s Hollywood star
 
-Create a post in this exact style of viral hooks:
-- "Send your photo and become Spider-Man"
-- "Turn yourself into a Studio Ghibli character"
-- "Your face as a 1920s Hollywood star"
+Reply with EXACTLY this format (no extra text outside tags):
 
-Return ONLY valid JSON with these keys:
-{{
-  "title": "short punchy title with 1 emoji (max 10 words)",
-  "hook": "one viral line like: Send your selfie → become ...",
-  "ai_prompt": "a complete, ready-to-copy image generation prompt in English. Include: subject description, style, lighting, camera/lens feel, quality tags. 40-80 words. Written so someone pastes it into Midjourney or Flux with their photo / face reference.",
-  "how_to": "2 short lines: how to use (e.g. upload selfie + paste prompt in Midjourney / ChatGPT / Flux)",
-  "caption": "full Telegram post text in English:\n- start with the hook\n- blank line\n- the AI prompt inside triple backticks\n- blank line\n- how_to\n- 5 relevant hashtags\nKeep under 900 characters total."
-}}
+<title>short title with one emoji</title>
+<hook>one viral line starting with Send your photo or Turn yourself</hook>
+<ai_prompt>A full English Midjourney/Flux prompt, 40-70 words, photorealistic, include lighting and camera feel, ready to paste with a face/selfie reference</ai_prompt>
+<how_to>Two short lines on how to use (selfie + Midjourney or Flux or ChatGPT image)</how_to>
 """
-    raw = groq_generate(prompt, json_mode=True, max_tokens=900)
-    return json.loads(raw)
+    raw = groq_generate(prompt)
+    title = _extract("title", raw) or theme.title()
+    hook = _extract("hook", raw) or f"Send your photo → {theme}"
+    ai_prompt = _extract("ai_prompt", raw) or raw.strip()
+    how_to = _extract("how_to", raw) or (
+        "1) Upload your selfie\n2) Paste the prompt in Midjourney / Flux / ChatGPT"
+    )
+
+    caption = (
+        f"{hook}\n\n"
+        f"```\n{ai_prompt}\n```\n\n"
+        f"{how_to}\n\n"
+        f"#AIPrompt #Midjourney #Flux #AIArt #PhotoTransform"
+    )
+    return {
+        "title": title,
+        "hook": hook,
+        "ai_prompt": ai_prompt,
+        "how_to": how_to,
+        "caption": caption,
+    }
 
 
 async def snapshot_channel_stats(bot, history):
@@ -167,7 +180,7 @@ async def publish_one(bot, history, index):
     recent_titles = [p.get("title", "") for p in history.get("posts", [])]
     data = generate_prompt_post(theme, recent_titles)
 
-    caption = data.get("caption") or data.get("hook", theme)
+    caption = data["caption"]
     if len(caption) > 4000:
         caption = caption[:3990] + "…"
 
