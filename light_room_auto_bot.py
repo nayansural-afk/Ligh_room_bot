@@ -74,24 +74,31 @@ def apply_preset_preview(params, output_path):
     actually reflects the preset, instead of being an AI-imagined picture."""
     img = Image.open(SAMPLE_PHOTO).convert("RGB")
 
-    # exposure (-1.0 .. 1.0) -> brightness multiplier around 1.0
-    brightness_factor = 1.0 + (params["exposure"] * 0.5)
-    img = ImageEnhance.Brightness(img).enhance(brightness_factor)
+    # exposure (-1.0 .. 1.0) -> stronger brightness shift
+    brightness_factor = 1.0 + (params["exposure"] * 0.9)
+    img = ImageEnhance.Brightness(img).enhance(max(brightness_factor, 0.1))
 
-    # contrast (-40 .. 60) -> factor around 1.0
-    contrast_factor = 1.0 + (params["contrast"] / 100)
+    # contrast (-40 .. 60) -> stronger swing
+    contrast_factor = 1.0 + (params["contrast"] / 45)
     img = ImageEnhance.Contrast(img).enhance(max(contrast_factor, 0.1))
 
-    # saturation (-20 .. 30) -> factor around 1.0
-    saturation_factor = 1.0 + (params["saturation"] / 100)
+    # saturation + vibrance combined (-20 .. 30 and -20 .. 50) -> stronger color shift
+    color_push = (params["saturation"] + params["vibrance"]) / 60
+    saturation_factor = 1.0 + color_push
     img = ImageEnhance.Color(img).enhance(max(saturation_factor, 0.0))
 
-    # temperature (-50 .. 50) -> shift red/blue channels slightly
+    # clarity (-20 .. 40) -> extra local contrast/sharpness punch
+    clarity_factor = 1.0 + (params["clarity"] / 60)
+    img = ImageEnhance.Sharpness(img).enhance(max(clarity_factor, 0.0))
+
+    # temperature (-50 .. 50) -> much stronger warm/cool color cast
     r, g, b = img.split()
-    temp_shift = params["temperature"] / 100
-    if temp_shift != 0:
-        r = r.point(lambda p: min(255, max(0, int(p + 255 * temp_shift * 0.15))))
-        b = b.point(lambda p: min(255, max(0, int(p - 255 * temp_shift * 0.15))))
+    temp_shift = params["temperature"] / 50  # -1.0 .. 1.0
+    tint_shift = params["tint"] / 50
+    if temp_shift != 0 or tint_shift != 0:
+        r = r.point(lambda p: min(255, max(0, int(p + 255 * temp_shift * 0.35))))
+        b = b.point(lambda p: min(255, max(0, int(p - 255 * temp_shift * 0.35))))
+        g = g.point(lambda p: min(255, max(0, int(p + 255 * tint_shift * 0.2))))
     img = Image.merge("RGB", (r, g, b))
 
     img.save(output_path, quality=90)
