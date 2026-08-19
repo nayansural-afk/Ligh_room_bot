@@ -14,6 +14,7 @@ import random
 import uuid as uuid_lib
 import asyncio
 from telegram import Bot
+from PIL import Image, ImageEnhance
 
 # ---------- settings ----------
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
@@ -21,6 +22,7 @@ GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 
 POSTS_PER_RUN = 2  # how many posts each run publishes
+SAMPLE_PHOTO = "IMG_1042.jpeg"  # the real photo the preset preview gets applied to
 
 # base style seeds — the model expands one of these each run so presets stay varied
 STYLE_SEEDS = [
@@ -65,6 +67,35 @@ XMP_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
  </rdf:RDF>
 </x:xmpmeta>
 """
+
+
+def apply_preset_preview(params, output_path):
+    """Apply the preset's real numeric values to SAMPLE_PHOTO so the preview
+    actually reflects the preset, instead of being an AI-imagined picture."""
+    img = Image.open(SAMPLE_PHOTO).convert("RGB")
+
+    # exposure (-1.0 .. 1.0) -> brightness multiplier around 1.0
+    brightness_factor = 1.0 + (params["exposure"] * 0.5)
+    img = ImageEnhance.Brightness(img).enhance(brightness_factor)
+
+    # contrast (-40 .. 60) -> factor around 1.0
+    contrast_factor = 1.0 + (params["contrast"] / 100)
+    img = ImageEnhance.Contrast(img).enhance(max(contrast_factor, 0.1))
+
+    # saturation (-20 .. 30) -> factor around 1.0
+    saturation_factor = 1.0 + (params["saturation"] / 100)
+    img = ImageEnhance.Color(img).enhance(max(saturation_factor, 0.0))
+
+    # temperature (-50 .. 50) -> shift red/blue channels slightly
+    r, g, b = img.split()
+    temp_shift = params["temperature"] / 100
+    if temp_shift != 0:
+        r = r.point(lambda p: min(255, max(0, int(p + 255 * temp_shift * 0.15))))
+        b = b.point(lambda p: min(255, max(0, int(p - 255 * temp_shift * 0.15))))
+    img = Image.merge("RGB", (r, g, b))
+
+    img.save(output_path, quality=90)
+    return output_path
 
 
 def groq_generate(prompt, json_mode=False):
@@ -153,15 +184,22 @@ async def publish_one(bot: Bot, style: str, index: int):
     xmp_content = build_xmp(params)
     caption = generate_caption(style, params["name"])
 
-    filename = f"{params['name'].replace(' ', '_')}.xmp"
-    with open(filename, "w", encoding="utf-8") as f:
+    base_name = params["name"].replace(" ", "_")
+    xmp_filename = f"{base_name}.xmp"
+    preview_filename = f"{base_name}_preview.jpg"
+
+    with open(xmp_filename, "w", encoding="utf-8") as f:
         f.write(xmp_content)
 
-    with open(filename, "rb") as f:
-        await bot.send_document(chat_id=CHANNEL_ID, document=f, filename=filename)
+    apply_preset_preview(params, preview_filename)
 
-    await bot.send_message(chat_id=CHANNEL_ID, text=caption)
-    print(f"✅ پست {index+1} منتشر شد: {params['name']}")
+    with open(preview_filename, "rb") as f:
+        await bot.send_photo(chat_id=CHANNEL_ID, photo=f, caption=caption)
+
+    with open(xmp_filename, "rb") as f:
+        await bot.send_document(chat_id=CHANNEL_ID, document=f, filename=xmp_filename)
+
+    print(f"✅ Post {index+1} published: {params['name']}")
 
 
 async def main():
