@@ -50,6 +50,15 @@
       "ai_prompt": "",
       "status": "published",
       "message_id": 1060
+    },
+    {
+      "timestamp": "2026-08-19T13:56:18.122781+00:00",
+      "content_type": "ai_news",
+      "theme": "image generation model upgrade",
+      "title": "🤖 AI update",
+      "ai_prompt": "",
+      "status": "published",
+      "message_id": 1061
     }
   ],
   "style_counts": {
@@ -86,6 +95,17 @@
       "member_count": 3007,
       "total_posts_recorded": 5,
       "theme_counts": {}
+    },
+    {
+      "timestamp": "2026-08-19T13:56:18.276474+00:00",
+      "member_count": 3007,
+      "total_posts_recorded": 6,
+      "theme_counts": {
+        "image generation model upgrade": 1
+      }
     }
-  ]
+  ],
+  "theme_counts": {
+    "image generation model upgrade": 1
+  }
 }
