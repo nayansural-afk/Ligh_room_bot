@@ -1,37 +1,37 @@
 """
-ربات Light Room — نسخه اتوماتیک
-هر بار اجرا: چند پریست اورجینال (XMP) با AI می‌سازه، فایل XMP واقعی تولید می‌کنه،
-کپشن فارسی می‌نویسه و به کانال تلگرام می‌فرسته.
+Light Room bot — automatic version
+Each run: generates a few original Lightroom presets (XMP) with AI, builds a real
+XMP file, writes an English caption, and posts them to the Telegram channel.
 
-نحوه‌ی اجرا روی PythonAnywhere:
-  - این فایل رو آپلود کن
-  - از تب "Tasks" یه Scheduled Task بساز که هر روز این فایل رو اجرا کنه:
-      python3.x /home/USERNAME/light_room_auto_bot.py
+Runs via GitHub Actions on a daily schedule. Reads secrets from environment
+variables instead of hardcoding them:
+  TELEGRAM_TOKEN, GROQ_API_KEY, CHANNEL_ID (optional, defaults to @LightRooms)
 """
 
+import os
 import requests
 import random
 import uuid as uuid_lib
 import asyncio
 from telegram import Bot
 
-# ---------- تنظیمات ----------
-TELEGRAM_TOKEN = "8832220907:AAE7EFce1Wet5P9fsDN0kb_tpqXUUsrFw58"
-GROQ_API_KEY = "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"
-CHANNEL_ID = "@LightRooms"
+# ---------- settings ----------
+TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 
-POSTS_PER_RUN = 2  # چند پست هر بار اجرا (چون PythonAnywhere رایگان معمولاً فقط ۱ بار در روز اجرا میشه)
+POSTS_PER_RUN = 2  # how many posts each run publishes
 
-# چند تم/سبک پایه که مدل هر بار یکی رو بسط می‌ده تا پریست‌ها تکراری نباشن
+# base style seeds — the model expands one of these each run so presets stay varied
 STYLE_SEEDS = [
-    "سینمایی گرم با کنتراست بالا",
-    "مینیمال و روشن با تون خنثی",
-    "خیابانی تیره با گرین ملایم",
-    "پاستلی و نرم برای پرتره",
-    "غروب طلایی با اشباع بالا",
-    "بلک اند وایت درام با کنتراست شدید",
-    "فیلم آنالوگ با نویز و رنگ‌پریدگی کنترل‌شده",
-    "طبیعت سبز پررنگ برای لندسکیپ",
+    "warm cinematic with high contrast",
+    "bright minimal with neutral tones",
+    "dark street style with subtle green tint",
+    "soft pastel tones for portraits",
+    "golden hour sunset with rich saturation",
+    "dramatic black and white with heavy contrast",
+    "analog film look with controlled grain and fade",
+    "lush green nature tones for landscapes",
 ]
 
 XMP_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
@@ -90,25 +90,25 @@ def groq_generate(prompt, json_mode=False):
 
 
 def generate_preset_params(style):
-    """از AI می‌خواد یه ست پارامتر واقعی و منطقی برای پریست بسازه (JSON خالص)."""
+    """Ask the AI for a realistic, coherent set of preset parameters (raw JSON)."""
     prompt = f"""
-    یک پریست اورجینال Adobe Lightroom برای سبک زیر طراحی کن:
-    سبک: {style}
+    Design an original Adobe Lightroom preset for this style:
+    Style: {style}
 
-    فقط یک JSON با دقیقاً همین کلیدها برگردون (بدون هیچ توضیح اضافه):
+    Return ONLY a JSON object with exactly these keys (no extra text):
     {{
-      "name": "اسم خلاقانه انگلیسی برای پریست (کوتاه، بدون فاصله زیاد)",
-      "temperature": عدد بین -50 تا 50,
-      "tint": عدد بین -30 تا 30,
-      "exposure": عدد اعشاری بین -1.0 تا 1.0,
-      "contrast": عدد بین -40 تا 60,
-      "highlights": عدد بین -80 تا 40,
-      "shadows": عدد بین -40 تا 80,
-      "whites": عدد بین -30 تا 40,
-      "blacks": عدد بین -40 تا 30,
-      "clarity": عدد بین -20 تا 40,
-      "vibrance": عدد بین -20 تا 50,
-      "saturation": عدد بین -20 تا 30
+      "name": "short creative English preset name (no long phrases)",
+      "temperature": number between -50 and 50,
+      "tint": number between -30 and 30,
+      "exposure": decimal number between -1.0 and 1.0,
+      "contrast": number between -40 and 60,
+      "highlights": number between -80 and 40,
+      "shadows": number between -40 and 80,
+      "whites": number between -30 and 40,
+      "blacks": number between -40 and 30,
+      "clarity": number between -20 and 40,
+      "vibrance": number between -20 and 50,
+      "saturation": number between -20 and 30
     }}
     """
     import json
@@ -136,14 +136,14 @@ def build_xmp(params):
 
 def generate_caption(style, preset_name):
     prompt = f"""
-    یک کپشن فارسی جذاب برای کانال تلگرامی «Light Room» بنویس که یک پریست جدید
-    به اسم "{preset_name}" با سبک «{style}» معرفی می‌کند.
+    Write an engaging English caption for the Telegram channel "Light Room"
+    introducing a new preset called "{preset_name}" in the style: {style}.
 
-    شامل:
-    - تیتر جذاب با ایموجی
-    - توضیح کوتاه درباره حس و حال این پریست و کجا خوب جواب می‌ده
-    - هشتگ‌های مرتبط با ادیت عکس و لایت‌روم
-    - لحن دوستانه و کوتاه (حداکثر ۶-۷ خط)
+    Include:
+    - An eye-catching title with an emoji
+    - A short description of the mood and best use case for this preset
+    - Relevant hashtags about photo editing and Lightroom
+    - Friendly, concise tone (max 6-7 lines)
     """
     return groq_generate(prompt)
 
