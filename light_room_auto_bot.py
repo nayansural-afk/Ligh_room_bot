@@ -33,7 +33,6 @@ POSTS_PER_RUN = 1  # one strong post per run (daily schedule)
 SAMPLE_PHOTO = "IMG_1042.jpeg"
 HISTORY_FILE = Path("content_history.json")
 
-# Content pillars (weights sum to 100)
 CONTENT_PILLARS = {
     "before_after": 40,
     "preset_of_the_day": 25,
@@ -89,7 +88,6 @@ XMP_TEMPLATE = """<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 """
 
 
-# ---------- history ----------
 def load_history():
     if HISTORY_FILE.exists():
         try:
@@ -116,22 +114,16 @@ def record_post(history, entry):
     history.setdefault("posts", []).append(entry)
     style = entry.get("style", "")
     pillar = entry.get("pillar", "")
-    history.setdefault("style_counts", {})[style] = (
-        history["style_counts"].get(style, 0) + 1
-    )
-    history.setdefault("pillar_counts", {})[pillar] = (
-        history["pillar_counts"].get(pillar, 0) + 1
-    )
+    history.setdefault("style_counts", {})[style] = history["style_counts"].get(style, 0) + 1
+    history.setdefault("pillar_counts", {})[pillar] = history["pillar_counts"].get(pillar, 0) + 1
     save_history(history)
 
 
-# ---------- selection ----------
 def choose_pillar(history):
     recent = history.get("posts", [])[-20:]
     recent_counts = {}
     for p in recent:
         recent_counts[p.get("pillar")] = recent_counts.get(p.get("pillar"), 0) + 1
-
     weights = []
     pillars = list(CONTENT_PILLARS.keys())
     for pillar in pillars:
@@ -144,17 +136,12 @@ def choose_pillar(history):
 def choose_style(history, exploration_rate=0.25):
     if random.random() < exploration_rate:
         return random.choice(STYLE_SEEDS)
-
     counts = history.get("style_counts", {})
     max_c = max(counts.values()) if counts else 0
-    weights = []
-    for s in STYLE_SEEDS:
-        c = counts.get(s, 0)
-        weights.append((max_c - c) + 2)
+    weights = [(max_c - counts.get(s, 0)) + 2 for s in STYLE_SEEDS]
     return random.choices(STYLE_SEEDS, weights=weights, k=1)[0]
 
 
-# ---------- Groq ----------
 def groq_generate(prompt, json_mode=False, max_tokens=900):
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
@@ -169,7 +156,6 @@ def groq_generate(prompt, json_mode=False, max_tokens=900):
     }
     if json_mode:
         data["response_format"] = {"type": "json_object"}
-
     response = requests.post(url, headers=headers, json=data, timeout=60)
     result = response.json()
     if "choices" not in result:
@@ -206,7 +192,7 @@ def generate_hook_and_caption(pillar, style, preset_name, tip_text=None):
     pillar_instructions = {
         "before_after": (
             "This is a Before & After post. Hook should create curiosity about the transformation. "
-            "Caption must clearly say Before → After and invite people to try the free XMP."
+            "Caption must clearly say Before to After and invite people to try the free XMP."
         ),
         "preset_of_the_day": (
             "This is Preset of the Day. Hook should feel like a daily gift. "
@@ -221,11 +207,9 @@ def generate_hook_and_caption(pillar, style, preset_name, tip_text=None):
             "Mention trying something fresh or slightly unconventional."
         ),
     }
-
     tip_block = f"\nEditing tip to weave in: {tip_text}" if tip_text else ""
-
     prompt = f"""
-You write for the Telegram channel "Light Rooms" (photo editing / Lightroom presets).
+You write for the Telegram channel Light Rooms (photo editing / Lightroom presets).
 
 Content type: {pillar}
 Style: {style}
@@ -241,7 +225,7 @@ Write:
    - The hook as the first line
    - Short mood / use-case description
    - Clear call to download the free .xmp (next message)
-   - 4–6 relevant hashtags
+   - 4-6 relevant hashtags
 
 Return ONLY valid JSON:
 {{
@@ -261,24 +245,17 @@ One or two short sentences only. No intro. Return plain text.
     return groq_generate(prompt, max_tokens=120).strip()
 
 
-# ---------- image helpers ----------
 def apply_preset_preview(params, output_path):
-    """Apply numeric preset values to SAMPLE_PHOTO for a real preview."""
     img = Image.open(SAMPLE_PHOTO).convert("RGB")
-
     brightness_factor = 1.0 + (params["exposure"] * 0.9)
     img = ImageEnhance.Brightness(img).enhance(max(brightness_factor, 0.1))
-
     contrast_factor = 1.0 + (params["contrast"] / 45)
     img = ImageEnhance.Contrast(img).enhance(max(contrast_factor, 0.1))
-
     color_push = (params["saturation"] + params["vibrance"]) / 60
     saturation_factor = 1.0 + color_push
     img = ImageEnhance.Color(img).enhance(max(saturation_factor, 0.0))
-
     clarity_factor = 1.0 + (params["clarity"] / 60)
     img = ImageEnhance.Sharpness(img).enhance(max(clarity_factor, 0.0))
-
     r, g, b = img.split()
     temp_shift = params["temperature"] / 50
     tint_shift = params["tint"] / 50
@@ -287,7 +264,6 @@ def apply_preset_preview(params, output_path):
         b = b.point(lambda p: min(255, max(0, int(p - 255 * temp_shift * 0.35))))
         g = g.point(lambda p: min(255, max(0, int(p + 255 * tint_shift * 0.2))))
     img = Image.merge("RGB", (r, g, b))
-
     img.save(output_path, quality=90)
     return output_path
 
@@ -309,11 +285,8 @@ def _add_label(img, label):
 
 
 def make_before_after_collage(before_path, after_path, output_path):
-    """One image: BEFORE | AFTER side by side — single Telegram post."""
     before = Image.open(before_path).convert("RGB")
     after = Image.open(after_path).convert("RGB")
-
-    # match heights
     h = min(before.height, after.height)
     before = before.resize(
         (int(before.width * h / before.height), h), Image.Resampling.LANCZOS
@@ -321,10 +294,8 @@ def make_before_after_collage(before_path, after_path, output_path):
     after = after.resize(
         (int(after.width * h / after.height), h), Image.Resampling.LANCZOS
     )
-
     before = _add_label(before, "BEFORE")
     after = _add_label(after, "AFTER")
-
     gap = 8
     collage = Image.new("RGB", (before.width + after.width + gap, h), (20, 20, 20))
     collage.paste(before, (0, 0))
@@ -334,37 +305,48 @@ def make_before_after_collage(before_path, after_path, output_path):
 
 
 def build_xmp(params):
-    return XMP_TEMPLATE.format(
-        temperature=params["temperature"],
-        tint=params["tint"],
-        exposure=params["exposure"],
-        contrast=params["contrast"],
-        highlights=params["highlights"],
-        shadows=params["shadows"],
-        whites=params["whites"],
-        blacks=params["blacks"],
-        clarity=params["clarity"],
-        vibrance=params["vibrance"],
-        saturation=params["saturation"],
-        preset_uuid=str(uuid_lib.uuid4()).upper(),
-        name=params["name"],
+    # Build without relying on a fragile multi-line template string
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.4.0">\n'
+        ' <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n'
+        '  <rdf:Description rdf:about=""\n'
+        '    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"\n'
+        '   crs:Version="15.0"\n'
+        '   crs:ProcessVersion="11.0"\n'
+        f'   crs:Temperature="{params["temperature"]}"\n'
+        f'   crs:Tint="{params["tint"]}"\n'
+        f'   crs:Exposure2012="{params["exposure"]}"\n'
+        f'   crs:Contrast2012="{params["contrast"]}"\n'
+        f'   crs:Highlights2012="{params["highlights"]}"\n'
+        f'   crs:Shadows2012="{params["shadows"]}"\n'
+        f'   crs:Whites2012="{params["whites"]}"\n'
+        f'   crs:Blacks2012="{params["blacks"]}"\n'
+        f'   crs:Clarity2012="{params["clarity"]}"\n'
+        f'   crs:Vibrance="{params["vibrance"]}"\n'
+        f'   crs:Saturation="{params["saturation"]}"\n'
+        '   crs:PresetType="Normal"\n'
+        '   crs:HasSettings="True"\n'
+        f'   crs:UUID="{str(uuid_lib.uuid4()).upper()}"\n'
+        '  >\n'
+        '   <crs:Name>\n'
+        '    <rdf:Alt>\n'
+        f'     <rdf:li xml:lang="x-default">{params["name"]}</rdf:li>\n'
+        '    </rdf:Alt>\n'
+        '   </crs:Name>\n'
+        '  </rdf:Description>\n'
+        ' </rdf:RDF>\n'
+        '</x:xmpmeta>\n'
     )
 
 
-# ---------- real analytics (Bot API limits) ----------
-async def snapshot_channel_stats(bot: Bot, history: dict):
-    """
-    Real metrics available via Bot API (no fake views):
-      - member_count (subscribers)
-    Views per post are NOT available to bots; only the channel owner
-    sees them in Telegram's built-in Analytics.
-    """
+async def snapshot_channel_stats(bot, history):
+    """Real Bot API metrics only — no fake views."""
     try:
         count = await bot.get_chat_member_count(CHANNEL_ID)
     except Exception as e:
-        print(f"⚠️ member_count failed: {e}")
+        print(f"member_count failed: {e}")
         count = None
-
     snap = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "member_count": count,
@@ -373,12 +355,11 @@ async def snapshot_channel_stats(bot: Bot, history: dict):
     }
     history.setdefault("analytics_snapshots", []).append(snap)
     save_history(history)
-    print(f"📊 Analytics snapshot | members={count}")
+    print(f"Analytics snapshot | members={count}")
     return snap
 
 
-# ---------- publish ----------
-async def publish_one(bot: Bot, history: dict, index: int):
+async def publish_one(bot, history, index):
     pillar = choose_pillar(history)
     style = choose_style(history)
     params = generate_preset_params(style)
@@ -402,13 +383,11 @@ async def publish_one(bot: Bot, history: dict, index: int):
     apply_preset_preview(params, after_raw)
     make_before_after_collage(SAMPLE_PHOTO, after_raw, collage_filename)
 
-    # ONE photo post: Before | After collage + caption
     with open(collage_filename, "rb") as f:
         photo_msg = await bot.send_photo(
             chat_id=CHANNEL_ID, photo=f, caption=caption
         )
 
-    # XMP as follow-up document
     with open(xmp_filename, "rb") as f:
         doc_msg = await bot.send_document(
             chat_id=CHANNEL_ID, document=f, filename=xmp_filename
@@ -427,24 +406,21 @@ async def publish_one(bot: Bot, history: dict, index: int):
         "document_message_id": doc_msg.message_id,
     }
     record_post(history, entry)
-    print(f"✅ Post {index + 1} | {pillar} | {preset_name} | msg={photo_msg.message_id}")
+    print(f"Post {index + 1} | {pillar} | {preset_name} | msg={photo_msg.message_id}")
 
 
 async def main():
     bot = Bot(token=TELEGRAM_TOKEN)
     history = load_history()
-
     for i in range(POSTS_PER_RUN):
         try:
             await publish_one(bot, history, i)
         except Exception as e:
-            print(f"❌ Error on post {i + 1}: {e}")
-
-    # Real analytics snapshot after each run
+            print(f"Error on post {i + 1}: {e}")
     try:
         await snapshot_channel_stats(bot, history)
     except Exception as e:
-        print(f"⚠️ analytics: {e}")
+        print(f"analytics: {e}")
 
 
 if __name__ == "__main__":
