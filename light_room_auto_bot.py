@@ -1,10 +1,9 @@
 """
-Light Room bot — Viral AI Image Prompt Publisher
+Light Room bot — Ready AI Image Prompts + AI News
 
-Posts ready-to-copy image-generation prompts (Midjourney / Flux / SD).
-Style: "Send your photo → become Spider-Man"
-
-1 post per run × 3 schedule times/day = 3 posts/day.
+Content mix (3 posts/day via 3 scheduled runs):
+  ~70%  Ready-to-copy photorealistic image prompts (AiFreeRoPrompt style)
+  ~30%  Short interesting AI news (prompt channel style)
 
 Secrets: TELEGRAM_TOKEN, GROQ_API_KEY
 """
@@ -27,32 +26,48 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 POSTS_PER_RUN = 1
 HISTORY_FILE = Path("content_history.json")
 
+# Detailed themes for face-preserving photo prompts (AiFreeRoPrompt style)
 PROMPT_THEMES = [
-    "superhero costume transformation",
-    "anime character version of yourself",
-    "movie character cosplay photorealistic",
-    "fantasy warrior / mage portrait",
-    "cyberpunk neon street style",
-    "oil painting classical portrait",
-    "magazine cover fashion shoot",
-    "80s retro film look portrait",
-    "astronaut / space explorer",
-    "medieval knight in armor",
-    "vampire gothic elegance",
-    "samurai warrior portrait",
-    "Disney / Pixar 3D character",
-    "black and white noir detective",
-    "tropical vacation magazine photo",
-    "rockstar stage performance",
-    "ancient Egyptian royalty",
-    "steampunk inventor",
-    "winter wonderland fantasy",
-    "sports athlete action shot",
-    "royal Victorian era portrait",
-    "zombie apocalypse survivor",
-    "underwater mermaid / merman",
-    "wild west cowboy",
-    "futuristic android",
+    "cinematic low-angle outdoor portrait with wildflowers and sky",
+    "cozy winter close-up with oversized white faux-fur hood",
+    "playful bubblegum bubble shot with crimson backdrop and flash",
+    "half-face extreme close-up with hard flash and film grain",
+    "luxury fashion editorial on sport motorcycle studio shot",
+    "golden hour beach portrait soft rim light",
+    "noir detective rainy street black and white",
+    "cyberpunk neon city night portrait",
+    "Studio Ghibli anime version of the person",
+    "medieval knight armor photorealistic portrait",
+    "samurai warrior traditional armor",
+    "astronaut space suit helmet open",
+    "1920s Hollywood glamour studio portrait",
+    "modern high-fashion magazine cover",
+    "tropical vacation candid smartphone photo",
+    "rockstar stage performance dramatic lights",
+    "ancient Egyptian pharaoh / queen gold and linen",
+    "steampunk inventor workshop",
+    "vampire gothic elegance candlelight",
+    "sports athlete action sweat and intensity",
+    "royal Victorian era formal portrait",
+    "underwater mermaid / merman fantasy",
+    "wild west cowboy desert sunset",
+    "futuristic android soft neon",
+    "oil painting classical museum portrait style",
+    "80s retro film look candid",
+    "black and white film noir detective",
+    "Disney Pixar 3D stylized character",
+    "fantasy mage glowing magic portrait",
+    "street style urban fashion editorial",
+]
+
+NEWS_TOPICS = [
+    "new open-weight LLM release",
+    "image generation model upgrade",
+    "AI agent or tool breakthrough",
+    "interesting research paper or demo",
+    "hardware / inference speed news",
+    "funny or surprising AI story",
+    "open-source model comparison",
 ]
 
 
@@ -75,23 +90,32 @@ def save_history(history):
 
 def record_post(history, entry):
     history.setdefault("posts", []).append(entry)
-    theme = entry.get("theme", "")
+    theme = entry.get("theme", entry.get("content_type", ""))
     history.setdefault("theme_counts", {})[theme] = (
         history["theme_counts"].get(theme, 0) + 1
     )
     save_history(history)
 
 
+def choose_content_type(history):
+    """~70% prompt, ~30% news"""
+    recent = history.get("posts", [])[-6:]
+    news_count = sum(1 for p in recent if p.get("content_type") == "ai_news")
+    if news_count >= 2:
+        return "prompt"
+    if random.random() < 0.32:
+        return "news"
+    return "prompt"
+
+
 def choose_theme(history):
-    if random.random() < 0.2:
-        return random.choice(PROMPT_THEMES)
     counts = history.get("theme_counts", {})
-    max_c = max(counts.values()) if counts else 0
+    max_c = max((counts.get(t, 0) for t in PROMPT_THEMES), default=0)
     weights = [(max_c - counts.get(t, 0)) + 2 for t in PROMPT_THEMES]
     return random.choices(PROMPT_THEMES, weights=weights, k=1)[0]
 
 
-def groq_generate(prompt, max_tokens=700):
+def groq_generate(prompt, max_tokens=900, temperature=0.85):
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -100,14 +124,14 @@ def groq_generate(prompt, max_tokens=700):
     data = {
         "model": "openai/gpt-oss-20b",
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.9,
+        "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    response = requests.post(url, headers=headers, json=data, timeout=60)
+    response = requests.post(url, headers=headers, json=data, timeout=90)
     result = response.json()
     if "choices" not in result:
         raise Exception(f"Invalid Groq response: {result}")
-    return result["choices"][0]["message"]["content"]
+    return result["choices"][0]["message"]["content"].strip()
 
 
 def _extract(tag, text):
@@ -116,44 +140,97 @@ def _extract(tag, text):
 
 
 def generate_prompt_post(theme, recent_titles):
-    avoid = ", ".join([t for t in recent_titles[-8:] if t]) or "none"
-    prompt = f"""Write a viral AI image-prompt post for Telegram.
+    avoid = ", ".join([t for t in recent_titles[-10:] if t]) or "none"
+    system = f"""You write ready-to-copy AI image prompts for Telegram channels like AiFreeRoPrompt.
 
-Theme: {theme}
-Do NOT repeat these titles: {avoid}
+Theme / concept: {theme}
+Do NOT reuse these recent titles: {avoid}
 
-Style of hook (examples):
-- Send your selfie → become Spider-Man
-- Turn yourself into a Studio Ghibli character
-- Your face as a 1920s Hollywood star
+Rules for the prompt itself:
+- English only
+- Photorealistic or highly detailed
+- Always include strong face-preservation instruction: "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo."
+- Include lighting, camera/lens feel, composition, aspect ratio (prefer 9:16 or 3:4 or 4:5)
+- 80–160 words
+- Ready to paste into Midjourney, Flux, ChatGPT image, or similar with a selfie/reference photo
+- No hashtags inside the prompt text
 
-Reply with EXACTLY this format (no extra text outside tags):
+Reply with EXACTLY this XML format and nothing else:
 
-<title>short title with one emoji</title>
-<hook>one viral line starting with Send your photo or Turn yourself</hook>
-<ai_prompt>A full English Midjourney/Flux prompt, 40-70 words, photorealistic, include lighting and camera feel, ready to paste with a face/selfie reference</ai_prompt>
-<how_to>Two short lines on how to use (selfie + Midjourney or Flux or ChatGPT image)</how_to>
+<title>short catchy title with 1 emoji</title>
+<ai_prompt>
+the full ready-to-copy prompt here
+</ai_prompt>
+<footer>one short Persian or English line telling user to copy the prompt and use it with their photo in Midjourney / Flux / ChatGPT</footer>
 """
-    raw = groq_generate(prompt)
-    title = _extract("title", raw) or theme.title()
-    hook = _extract("hook", raw) or f"Send your photo → {theme}"
-    ai_prompt = _extract("ai_prompt", raw) or raw.strip()
-    how_to = _extract("how_to", raw) or (
-        "1) Upload your selfie\n2) Paste the prompt in Midjourney / Flux / ChatGPT"
-    )
+    raw = groq_generate(system, max_tokens=850)
+    title = _extract("title", raw) or theme.title()[:60]
+    ai_prompt = _extract("ai_prompt", raw)
+    footer = _extract("footer", raw) or "Copy the prompt → upload your selfie in Midjourney / Flux / ChatGPT"
+
+    # Fallback if extraction failed: take the longest meaningful block
+    if not ai_prompt or len(ai_prompt) < 40:
+        cleaned = re.sub(r"</?title>|</?ai_prompt>|</?footer>", "", raw, flags=re.I).strip()
+        if len(cleaned) > 60:
+            ai_prompt = cleaned
+        else:
+            ai_prompt = (
+                f"Do not change the face. Keep exact facial features and identity from the reference photo. "
+                f"Photorealistic portrait, {theme}, natural skin texture, detailed lighting, "
+                f"shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical."
+            )
 
     caption = (
-        f"{hook}\n\n"
-        f"```\n{ai_prompt}\n```\n\n"
-        f"{how_to}\n\n"
-        f"#AIPrompt #Midjourney #Flux #AIArt #PhotoTransform"
+        f"{title}\n\n"
+        f"{ai_prompt}\n\n"
+        f"{footer}\n\n"
+        f"#AIPrompt #Midjourney #Flux #AIArt #PhotoPrompt"
     )
     return {
         "title": title,
-        "hook": hook,
         "ai_prompt": ai_prompt,
-        "how_to": how_to,
+        "footer": footer,
         "caption": caption,
+        "theme": theme,
+    }
+
+
+def generate_news_post(recent_hooks):
+    avoid = ", ".join([h for h in recent_hooks[-6:] if h]) or "none"
+    topic = random.choice(NEWS_TOPICS)
+    system = f"""Write a short, punchy AI news post for a Telegram channel (style of @prompt).
+
+Topic direction: {topic}
+Avoid repeating these recent hooks: {avoid}
+
+Style:
+- 1 bold emoji + short attention-grabbing headline
+- 2–4 short paragraphs max
+- Conversational, slightly witty, not corporate
+- English
+- Focus on something that feels fresh / interesting / useful
+- No fake numbers or made-up sources
+- End with nothing extra
+
+Reply with EXACTLY this format:
+
+<title>emoji + short headline</title>
+<body>
+the full post body here
+</body>
+"""
+    raw = groq_generate(system, max_tokens=450, temperature=0.9)
+    title = _extract("title", raw) or "🤖 AI update"
+    body = _extract("body", raw) or raw.strip()
+    if not body or len(body) < 30:
+        body = raw.strip()
+
+    caption = f"{title}\n\n{body}\n\n#AI #AInews #Tech"
+    return {
+        "title": title,
+        "body": body,
+        "caption": caption,
+        "theme": topic,
     }
 
 
@@ -176,13 +253,20 @@ async def snapshot_channel_stats(bot, history):
 
 
 async def publish_one(bot, history, index):
-    theme = choose_theme(history)
+    content_type = choose_content_type(history)
     recent_titles = [p.get("title", "") for p in history.get("posts", [])]
-    data = generate_prompt_post(theme, recent_titles)
+
+    if content_type == "news":
+        data = generate_news_post(recent_titles)
+        entry_type = "ai_news"
+    else:
+        theme = choose_theme(history)
+        data = generate_prompt_post(theme, recent_titles)
+        entry_type = "ai_image_prompt"
 
     caption = data["caption"]
-    if len(caption) > 4000:
-        caption = caption[:3990] + "…"
+    if len(caption) > 4090:
+        caption = caption[:4080] + "…"
 
     msg = await bot.send_message(
         chat_id=CHANNEL_ID,
@@ -192,16 +276,15 @@ async def publish_one(bot, history, index):
 
     entry = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        "content_type": "ai_image_prompt",
-        "theme": theme,
+        "content_type": entry_type,
+        "theme": data.get("theme", ""),
         "title": data.get("title"),
-        "hook": data.get("hook"),
-        "ai_prompt": data.get("ai_prompt"),
+        "ai_prompt": data.get("ai_prompt", ""),
         "status": "published",
         "message_id": msg.message_id,
     }
     record_post(history, entry)
-    print(f"Post {index + 1} | {theme} | {data.get('title')} | msg={msg.message_id}")
+    print(f"Post {index + 1} | {entry_type} | {data.get('title')} | msg={msg.message_id}")
 
 
 async def main():
