@@ -31,6 +31,16 @@
       "tip": null,
       "photo_message_id": 1057,
       "document_message_id": 1058
+    },
+    {
+      "timestamp": "2026-08-19T13:46:21.121290+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "medieval knight in armor",
+      "title": "Medieval Knight In Armor",
+      "hook": "Send your photo → medieval knight in armor",
+      "ai_prompt": "",
+      "status": "published",
+      "message_id": 1059
     }
   ],
   "style_counts": {
@@ -54,6 +64,12 @@
       "timestamp": "2026-08-19T13:41:36.833888+00:00",
       "member_count": 3006,
       "total_posts_recorded": 3,
+      "theme_counts": {}
+    },
+    {
+      "timestamp": "2026-08-19T13:46:21.258851+00:00",
+      "member_count": 3007,
+      "total_posts_recorded": 4,
       "theme_counts": {}
     }
   ]
