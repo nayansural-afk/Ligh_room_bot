@@ -26,7 +26,6 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 POSTS_PER_RUN = 1
 HISTORY_FILE = Path("content_history.json")
 
-# Detailed themes for face-preserving photo prompts (AiFreeRoPrompt style)
 PROMPT_THEMES = [
     "cinematic low-angle outdoor portrait with wildflowers and sky",
     "cozy winter close-up with oversized white faux-fur hood",
@@ -75,7 +74,15 @@ def load_history():
     if HISTORY_FILE.exists():
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+            # migrate old keys
+            if "theme_counts" not in data:
+                data["theme_counts"] = {}
+            if "posts" not in data:
+                data["posts"] = []
+            if "analytics_snapshots" not in data:
+                data["analytics_snapshots"] = []
+            return data
         except Exception:
             pass
     return {"posts": [], "theme_counts": {}, "analytics_snapshots": []}
@@ -84,16 +91,16 @@ def load_history():
 def save_history(history):
     history["posts"] = history.get("posts", [])[-300:]
     history["analytics_snapshots"] = history.get("analytics_snapshots", [])[-90:]
+    history.setdefault("theme_counts", {})
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
 
 def record_post(history, entry):
     history.setdefault("posts", []).append(entry)
-    theme = entry.get("theme", entry.get("content_type", ""))
-    history.setdefault("theme_counts", {})[theme] = (
-        history["theme_counts"].get(theme, 0) + 1
-    )
+    theme = entry.get("theme") or entry.get("content_type") or "unknown"
+    history.setdefault("theme_counts", {})
+    history["theme_counts"][theme] = history["theme_counts"].get(theme, 0) + 1
     save_history(history)
 
 
@@ -109,7 +116,7 @@ def choose_content_type(history):
 
 
 def choose_theme(history):
-    counts = history.get("theme_counts", {})
+    counts = history.get("theme_counts") or {}
     max_c = max((counts.get(t, 0) for t in PROMPT_THEMES), default=0)
     weights = [(max_c - counts.get(t, 0)) + 2 for t in PROMPT_THEMES]
     return random.choices(PROMPT_THEMES, weights=weights, k=1)[0]
@@ -149,7 +156,7 @@ Do NOT reuse these recent titles: {avoid}
 Rules for the prompt itself:
 - English only
 - Photorealistic or highly detailed
-- Always include strong face-preservation instruction: "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo."
+- Always start with or include: "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo."
 - Include lighting, camera/lens feel, composition, aspect ratio (prefer 9:16 or 3:4 or 4:5)
 - 80–160 words
 - Ready to paste into Midjourney, Flux, ChatGPT image, or similar with a selfie/reference photo
@@ -161,14 +168,13 @@ Reply with EXACTLY this XML format and nothing else:
 <ai_prompt>
 the full ready-to-copy prompt here
 </ai_prompt>
-<footer>one short Persian or English line telling user to copy the prompt and use it with their photo in Midjourney / Flux / ChatGPT</footer>
+<footer>Copy this prompt and use it with your photo in Midjourney / Flux / ChatGPT</footer>
 """
     raw = groq_generate(system, max_tokens=850)
     title = _extract("title", raw) or theme.title()[:60]
     ai_prompt = _extract("ai_prompt", raw)
-    footer = _extract("footer", raw) or "Copy the prompt → upload your selfie in Midjourney / Flux / ChatGPT"
+    footer = _extract("footer", raw) or "Copy this prompt and use it with your photo in Midjourney / Flux / ChatGPT"
 
-    # Fallback if extraction failed: take the longest meaningful block
     if not ai_prompt or len(ai_prompt) < 40:
         cleaned = re.sub(r"</?title>|</?ai_prompt>|</?footer>", "", raw, flags=re.I).strip()
         if len(cleaned) > 60:
@@ -203,27 +209,36 @@ def generate_news_post(recent_hooks):
 Topic direction: {topic}
 Avoid repeating these recent hooks: {avoid}
 
-Style:
-- 1 bold emoji + short attention-grabbing headline
-- 2–4 short paragraphs max
-- Conversational, slightly witty, not corporate
-- English
-- Focus on something that feels fresh / interesting / useful
-- No fake numbers or made-up sources
-- End with nothing extra
+Style rules:
+- First line: one emoji + short attention-grabbing headline (max 12 words)
+- Then 2–4 short paragraphs
+- Conversational, slightly witty
+- English only
+- Sound like real recent AI news (models, tools, research, funny incidents)
+- Do NOT invent specific fake company announcements with fake dates
+- Keep it interesting and shareable
 
-Reply with EXACTLY this format:
+Reply with EXACTLY this format and nothing outside the tags:
 
 <title>emoji + short headline</title>
 <body>
-the full post body here
+full post body here (2-4 short paragraphs)
 </body>
 """
-    raw = groq_generate(system, max_tokens=450, temperature=0.9)
-    title = _extract("title", raw) or "🤖 AI update"
-    body = _extract("body", raw) or raw.strip()
-    if not body or len(body) < 30:
-        body = raw.strip()
+    raw = groq_generate(system, max_tokens=500, temperature=0.9)
+    title = _extract("title", raw)
+    body = _extract("body", raw)
+
+    if not title or len(title) < 5:
+        title = "🤖 AI update"
+    if not body or len(body) < 40:
+        body = re.sub(r"</?title>|</?body>", "", raw, flags=re.I).strip()
+        if len(body) < 40:
+            body = (
+                "The open-weight race keeps heating up. New models drop almost weekly, "
+                "and local inference is getting surprisingly usable even on consumer hardware.\n\n"
+                "Worth keeping an eye on the next wave of multimodal and agent-focused releases."
+            )
 
     caption = f"{title}\n\n{body}\n\n#AI #AInews #Tech"
     return {
@@ -244,7 +259,7 @@ async def snapshot_channel_stats(bot, history):
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "member_count": count,
         "total_posts_recorded": len(history.get("posts", [])),
-        "theme_counts": dict(history.get("theme_counts", {})),
+        "theme_counts": dict(history.get("theme_counts") or {}),
     }
     history.setdefault("analytics_snapshots", []).append(snap)
     save_history(history)
@@ -296,6 +311,8 @@ async def main():
             await publish_one(bot, history, i)
         except Exception as e:
             print(f"Error on post {i + 1}: {e}")
+            import traceback
+            traceback.print_exc()
 
     try:
         await snapshot_channel_stats(bot, history)
