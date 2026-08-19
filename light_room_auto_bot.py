@@ -4,7 +4,7 @@ Light Room bot — Viral AI Image Prompt Publisher
 Posts ready-to-copy image-generation prompts (Midjourney / Flux / SD style).
 Style: "Send your photo → become Spider-Man" viral transformations.
 
-3 posts per run. Schedule runs 3x/day via GitHub Actions.
+1 post per run. Workflow runs 3x/day → 3 prompts/day total.
 
 Secrets: TELEGRAM_TOKEN, GROQ_API_KEY
 Optional: CHANNEL_ID (default @LightRooms)
@@ -24,10 +24,9 @@ TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 
-POSTS_PER_RUN = 3
+POSTS_PER_RUN = 1  # workflow runs 3x/day → 3 posts/day
 HISTORY_FILE = Path("content_history.json")
 
-# Prompt themes — viral "transform yourself" style
 PROMPT_THEMES = [
     "superhero costume transformation",
     "anime character version of yourself",
@@ -88,7 +87,6 @@ def record_post(history, entry):
 
 
 def choose_theme(history):
-    """Prefer less-used themes (exploration 20%)."""
     if random.random() < 0.2:
         return random.choice(PROMPT_THEMES)
     counts = history.get("theme_counts", {})
@@ -119,7 +117,6 @@ def groq_generate(prompt, json_mode=False, max_tokens=1000):
 
 
 def generate_prompt_post(theme, recent_titles):
-    """Create one viral AI image prompt package."""
     avoid = ", ".join(recent_titles[-8:]) if recent_titles else "none"
     prompt = f"""
 You write viral content for a Telegram channel about AI image prompts
@@ -171,7 +168,6 @@ async def publish_one(bot, history, index):
     data = generate_prompt_post(theme, recent_titles)
 
     caption = data.get("caption") or data.get("hook", theme)
-    # Telegram caption limit is 4096 for text messages
     if len(caption) > 4000:
         caption = caption[:3990] + "…"
 
@@ -192,7 +188,7 @@ async def publish_one(bot, history, index):
         "message_id": msg.message_id,
     }
     record_post(history, entry)
-    print(f"Post {index + 1}/3 | {theme} | {data.get('title')} | msg={msg.message_id}")
+    print(f"Post {index + 1} | {theme} | {data.get('title')} | msg={msg.message_id}")
 
 
 async def main():
@@ -202,9 +198,6 @@ async def main():
     for i in range(POSTS_PER_RUN):
         try:
             await publish_one(bot, history, i)
-            # small gap so posts don't flood as one block
-            if i < POSTS_PER_RUN - 1:
-                await asyncio.sleep(8)
         except Exception as e:
             print(f"Error on post {i + 1}: {e}")
 
