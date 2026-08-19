@@ -1,9 +1,11 @@
 """
 Light Room bot — AI Content Manager
 
-Turns the simple preset generator into a multi-format content engine for
-@LightRooms with four content pillars, smart style selection, real
-Before → After → XMP delivery, and persistent content history.
+Multi-format content for @LightRooms:
+  - Single-image Before | After collage (one post)
+  - Free XMP preset file
+  - Four content pillars + smart style selection
+  - content_history.json with message_ids + member count
 
 Secrets (env):
   TELEGRAM_TOKEN, GROQ_API_KEY
@@ -27,7 +29,7 @@ TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "@LightRooms")
 
-POSTS_PER_RUN = 2
+POSTS_PER_RUN = 1  # one strong post per run (daily schedule)
 SAMPLE_PHOTO = "IMG_1042.jpeg"
 HISTORY_FILE = Path("content_history.json")
 
@@ -54,31 +56,31 @@ STYLE_SEEDS = [
     "vintage polaroid faded look",
 ]
 
-XMP_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.4.0">
- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about=""
-    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
-   crs:Version="15.0"
-   crs:ProcessVersion="11.0"
-   crs:Temperature="{temperature}"
-   crs:Tint="{tint}"
-   crs:Exposure2012="{exposure}"
-   crs:Contrast2012="{contrast}"
-   crs:Highlights2012="{highlights}"
-   crs:Shadows2012="{shadows}"
-   crs:Whites2012="{whites}"
-   crs:Blacks2012="{blacks}"
-   crs:Clarity2012="{clarity}"
-   crs:Vibrance="{vibrance}"
-   crs:Saturation="{saturation}"
-   crs:PresetType="Normal"
-   crs:HasSettings="True"
-   crs:UUID="{preset_uuid}"
+XMP_TEMPLATE = """<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 5.4.0\">
+ <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">
+  <rdf:Description rdf:about=\"\"
+    xmlns:crs=\"http://ns.adobe.com/camera-raw-settings/1.0/\"
+   crs:Version=\"15.0\"
+   crs:ProcessVersion=\"11.0\"
+   crs:Temperature=\"{temperature}\"
+   crs:Tint=\"{tint}\"
+   crs:Exposure2012=\"{exposure}\"
+   crs:Contrast2012=\"{contrast}\"
+   crs:Highlights2012=\"{highlights}\"
+   crs:Shadows2012=\"{shadows}\"
+   crs:Whites2012=\"{whites}\"
+   crs:Blacks2012=\"{blacks}\"
+   crs:Clarity2012=\"{clarity}\"
+   crs:Vibrance=\"{vibrance}\"
+   crs:Saturation=\"{saturation}\"
+   crs:PresetType=\"Normal\"
+   crs:HasSettings=\"True\"
+   crs:UUID=\"{preset_uuid}\"
   >
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">{name}</rdf:li>
+     <rdf:li xml:lang=\"x-default\">{name}</rdf:li>
     </rdf:Alt>
    </crs:Name>
   </rdf:Description>
@@ -95,12 +97,17 @@ def load_history():
                 return json.load(f)
         except Exception:
             pass
-    return {"posts": [], "style_counts": {}, "pillar_counts": {}}
+    return {
+        "posts": [],
+        "style_counts": {},
+        "pillar_counts": {},
+        "analytics_snapshots": [],
+    }
 
 
 def save_history(history):
-    # Keep last 200 posts to avoid unbounded growth
     history["posts"] = history.get("posts", [])[-200:]
+    history["analytics_snapshots"] = history.get("analytics_snapshots", [])[-60:]
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
@@ -118,9 +125,8 @@ def record_post(history, entry):
     save_history(history)
 
 
-# ---------- selection (exploration / exploitation) ----------
+# ---------- selection ----------
 def choose_pillar(history):
-    """Weighted random with light penalty for over-used pillars recently."""
     recent = history.get("posts", [])[-20:]
     recent_counts = {}
     for p in recent:
@@ -136,17 +142,15 @@ def choose_pillar(history):
 
 
 def choose_style(history, exploration_rate=0.25):
-    """Exploration: pure random. Exploitation: prefer less-used styles."""
     if random.random() < exploration_rate:
         return random.choice(STYLE_SEEDS)
 
     counts = history.get("style_counts", {})
-    # Invert counts so rare styles get higher weight
     max_c = max(counts.values()) if counts else 0
     weights = []
     for s in STYLE_SEEDS:
         c = counts.get(s, 0)
-        weights.append((max_c - c) + 2)  # +2 so never zero
+        weights.append((max_c - c) + 2)
     return random.choices(STYLE_SEEDS, weights=weights, k=1)[0]
 
 
@@ -199,7 +203,6 @@ Return ONLY a JSON object with exactly these keys (no extra text):
 
 
 def generate_hook_and_caption(pillar, style, preset_name, tip_text=None):
-    """Generate a strong hook + full caption tailored to the content type."""
     pillar_instructions = {
         "before_after": (
             "This is a Before & After post. Hook should create curiosity about the transformation. "
@@ -237,7 +240,7 @@ Write:
 2) A full CAPTION (English, friendly, max 8 lines) that includes:
    - The hook as the first line
    - Short mood / use-case description
-   - Clear call to download the free .xmp
+   - Clear call to download the free .xmp (next message)
    - 4–6 relevant hashtags
 
 Return ONLY valid JSON:
@@ -289,27 +292,45 @@ def apply_preset_preview(params, output_path):
     return output_path
 
 
-def make_before_label(src_path, output_path, label="BEFORE"):
-    """Copy the original photo and add a simple corner label."""
-    img = Image.open(src_path).convert("RGB")
+def _add_label(img, label):
     draw = ImageDraw.Draw(img)
     try:
-        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 36)
+        font = ImageFont.truetype(
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 42
+        )
     except Exception:
         font = ImageFont.load_default()
-    # dark bar top-left
-    text = label
-    bbox = draw.textbbox((0, 0), text, font=font)
+    bbox = draw.textbbox((0, 0), label, font=font)
     tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-    pad = 12
+    pad = 14
     draw.rectangle([0, 0, tw + pad * 2, th + pad * 2], fill=(0, 0, 0))
-    draw.text((pad, pad), text, fill=(255, 255, 255), font=font)
-    img.save(output_path, quality=90)
+    draw.text((pad, pad), label, fill=(255, 255, 255), font=font)
+    return img
+
+
+def make_before_after_collage(before_path, after_path, output_path):
+    """One image: BEFORE | AFTER side by side — single Telegram post."""
+    before = Image.open(before_path).convert("RGB")
+    after = Image.open(after_path).convert("RGB")
+
+    # match heights
+    h = min(before.height, after.height)
+    before = before.resize(
+        (int(before.width * h / before.height), h), Image.Resampling.LANCZOS
+    )
+    after = after.resize(
+        (int(after.width * h / after.height), h), Image.Resampling.LANCZOS
+    )
+
+    before = _add_label(before, "BEFORE")
+    after = _add_label(after, "AFTER")
+
+    gap = 8
+    collage = Image.new("RGB", (before.width + after.width + gap, h), (20, 20, 20))
+    collage.paste(before, (0, 0))
+    collage.paste(after, (before.width + gap, 0))
+    collage.save(output_path, quality=92)
     return output_path
-
-
-def make_after_label(src_path, output_path, label="AFTER"):
-    return make_before_label(src_path, output_path, label=label)
 
 
 def build_xmp(params):
@@ -330,6 +351,32 @@ def build_xmp(params):
     )
 
 
+# ---------- real analytics (Bot API limits) ----------
+async def snapshot_channel_stats(bot: Bot, history: dict):
+    """
+    Real metrics available via Bot API (no fake views):
+      - member_count (subscribers)
+    Views per post are NOT available to bots; only the channel owner
+    sees them in Telegram's built-in Analytics.
+    """
+    try:
+        count = await bot.get_chat_member_count(CHANNEL_ID)
+    except Exception as e:
+        print(f"⚠️ member_count failed: {e}")
+        count = None
+
+    snap = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "member_count": count,
+        "total_posts_recorded": len(history.get("posts", [])),
+        "pillar_counts": dict(history.get("pillar_counts", {})),
+    }
+    history.setdefault("analytics_snapshots", []).append(snap)
+    save_history(history)
+    print(f"📊 Analytics snapshot | members={count}")
+    return snap
+
+
 # ---------- publish ----------
 async def publish_one(bot: Bot, history: dict, index: int):
     pillar = choose_pillar(history)
@@ -346,26 +393,24 @@ async def publish_one(bot: Bot, history: dict, index: int):
 
     base_name = preset_name.replace(" ", "_")
     xmp_filename = f"{base_name}.xmp"
-    after_filename = f"{base_name}_after.jpg"
-    before_filename = f"{base_name}_before.jpg"
+    after_raw = f"{base_name}_after_raw.jpg"
+    collage_filename = f"{base_name}_ba.jpg"
 
     with open(xmp_filename, "w", encoding="utf-8") as f:
         f.write(build_xmp(params))
 
-    apply_preset_preview(params, after_filename)
-    make_before_label(SAMPLE_PHOTO, before_filename, "BEFORE")
-    make_after_label(after_filename, after_filename, "AFTER")
+    apply_preset_preview(params, after_raw)
+    make_before_after_collage(SAMPLE_PHOTO, after_raw, collage_filename)
 
-    # Delivery order: Before → After → XMP (for before_after and most posts)
-    # For pure tip posts we still show the visual example
-    with open(before_filename, "rb") as f:
-        await bot.send_photo(chat_id=CHANNEL_ID, photo=f)
+    # ONE photo post: Before | After collage + caption
+    with open(collage_filename, "rb") as f:
+        photo_msg = await bot.send_photo(
+            chat_id=CHANNEL_ID, photo=f, caption=caption
+        )
 
-    with open(after_filename, "rb") as f:
-        await bot.send_photo(chat_id=CHANNEL_ID, photo=f, caption=caption)
-
+    # XMP as follow-up document
     with open(xmp_filename, "rb") as f:
-        await bot.send_document(
+        doc_msg = await bot.send_document(
             chat_id=CHANNEL_ID, document=f, filename=xmp_filename
         )
 
@@ -376,10 +421,13 @@ async def publish_one(bot: Bot, history: dict, index: int):
         "preset_name": preset_name,
         "status": "published",
         "has_before_after": True,
+        "format": "single_collage",
         "tip": tip_text,
+        "photo_message_id": photo_msg.message_id,
+        "document_message_id": doc_msg.message_id,
     }
     record_post(history, entry)
-    print(f"✅ Post {index + 1} | {pillar} | {preset_name}")
+    print(f"✅ Post {index + 1} | {pillar} | {preset_name} | msg={photo_msg.message_id}")
 
 
 async def main():
@@ -391,6 +439,12 @@ async def main():
             await publish_one(bot, history, i)
         except Exception as e:
             print(f"❌ Error on post {i + 1}: {e}")
+
+    # Real analytics snapshot after each run
+    try:
+        await snapshot_channel_stats(bot, history)
+    except Exception as e:
+        print(f"⚠️ analytics: {e}")
 
 
 if __name__ == "__main__":
