@@ -1,5 +1,28 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "timestamp": "2026-08-19T13:21:00+00:00",
+      "pillar": "preset_of_the_day",
+      "style": "(from run)",
+      "preset_name": "Retro Fade",
+      "status": "published",
+      "has_before_after": true,
+      "tip": null,
+      "source": "workflow_run_32257543845"
+    },
+    {
+      "timestamp": "2026-08-19T13:21:05+00:00",
+      "pillar": "preset_of_the_day",
+      "style": "(from run)",
+      "preset_name": "Warm Edge",
+      "status": "published",
+      "has_before_after": true,
+      "tip": null,
+      "source": "workflow_run_32257543845"
+    }
+  ],
   "style_counts": {},
-  "pillar_counts": {}
+  "pillar_counts": {
+    "preset_of_the_day": 2
+  }
 }
