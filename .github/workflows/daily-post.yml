@@ -18,7 +18,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install python-telegram-bot requests
+        run: pip install python-telegram-bot requests Pillow
 
       - name: Run bot
         env:
