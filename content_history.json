@@ -19,10 +19,36 @@
       "has_before_after": true,
       "tip": null,
       "source": "workflow_run_32257543845"
+    },
+    {
+      "timestamp": "2026-08-19T13:30:20.041434+00:00",
+      "pillar": "before_after",
+      "style": "bright minimal with neutral tones",
+      "preset_name": "Bright Minimal",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1057,
+      "document_message_id": 1058
     }
   ],
-  "style_counts": {},
+  "style_counts": {
+    "bright minimal with neutral tones": 1
+  },
   "pillar_counts": {
-    "preset_of_the_day": 2
-  }
+    "preset_of_the_day": 2,
+    "before_after": 1
+  },
+  "analytics_snapshots": [
+    {
+      "timestamp": "2026-08-19T13:30:20.176245+00:00",
+      "member_count": 3006,
+      "total_posts_recorded": 3,
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 1
+      }
+    }
+  ]
 }
