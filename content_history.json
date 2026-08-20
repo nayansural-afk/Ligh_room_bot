@@ -163,6 +163,18 @@
         "preset_of_the_day": 2,
         "before_after": 1
       }
+    },
+    {
+      "timestamp": "2026-08-20T14:10:39.580737+00:00",
+      "member_count": 3000,
+      "total_posts_recorded": 9,
+      "content_type_counts": {
+        "ai_image_prompt": 2
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 1
+      }
     }
   ],
   "theme_counts": {
