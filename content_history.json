@@ -77,6 +77,15 @@
       "ai_prompt": "Retro Night 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture the subject in an 80s retro film style candid shot, standing in a bustling neon‑lit street at dusk. Use a 35mm lens feel with shallow depth of field, soft rim lighting from passing streetlights, subtle film grain and a warm orange‑tinted color grading. The composition is a slight low angle, framing the",
       "status": "published",
       "message_id": 1063
+    },
+    {
+      "timestamp": "2026-08-20T06:00:38.837851+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "royal Victorian era formal portrait",
+      "title": "Victorian Royal Portrait 👑",
+      "ai_prompt": "Victorian Royal Portrait 👑\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic Victorian era formal portrait of a noble sitter. Use warm amber lighting from a single 50mm lens, soft rim light on the left cheek, subtle chiaroscuro. The background is a rich velvet drapery in deep burgundy, slightly blurred to enhance depth of field. Composition: head and shoulders, centered, 3:4 aspect ratio. The sitter wears an embroidered waistcoat with lace cuffs, a silk cravat,",
+      "status": "published",
+      "message_id": 1064
     }
   ],
   "style_counts": {
@@ -142,15 +151,28 @@
         "preset_of_the_day": 2,
         "before_after": 1
       }
+    },
+    {
+      "timestamp": "2026-08-20T06:00:38.998684+00:00",
+      "member_count": 3002,
+      "total_posts_recorded": 9,
+      "content_type_counts": {
+        "ai_image_prompt": 2
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 1
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 1,
-    "80s retro film look candid": 1
+    "80s retro film look candid": 1,
+    "royal Victorian era formal portrait": 1
   },
   "used_news_links": [],
   "content_type_counts": {
-    "ai_image_prompt": 1
+    "ai_image_prompt": 2
   }
 }
