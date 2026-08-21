@@ -99,6 +99,15 @@
       "tip": null,
       "photo_message_id": 1066,
       "document_message_id": 1067
+    },
+    {
+      "timestamp": "2026-08-21T19:15:58.312049+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "astronaut space suit helmet open",
+      "title": "Astronaut Space Suit Helmet Open",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, astronaut space suit helmet open, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1068
     }
   ],
   "style_counts": {
@@ -230,17 +239,32 @@
         "before_after": 1,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-21T19:15:58.580573+00:00",
+      "member_count": 3000,
+      "total_posts_recorded": 11,
+      "content_type_counts": {
+        "ai_image_prompt": 3,
+        "lightroom": 1
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 1,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 1,
     "80s retro film look candid": 1,
-    "royal Victorian era formal portrait": 1
+    "royal Victorian era formal portrait": 1,
+    "astronaut space suit helmet open": 1
   },
   "used_news_links": [],
   "content_type_counts": {
-    "ai_image_prompt": 2,
+    "ai_image_prompt": 3,
     "lightroom": 1
   }
 }
