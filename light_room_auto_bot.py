@@ -1,7 +1,7 @@
 """
 Light Room bot — Full Content Manager
 
-Content types (3 posts/day via scheduled runs):
+Content types (rotated via scheduled runs):
   - Lightroom presets (Before|After collage + free XMP)
   - Ready-to-copy AI image prompts (AiFreeRoPrompt style)
   - Real AI news from RSS feeds (rewritten short)
@@ -15,6 +15,7 @@ import re
 import random
 import uuid as uuid_lib
 import asyncio
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -173,25 +174,60 @@ def choose_content_type(history):
     return random.choices(types, weights=weights, k=1)[0]
 
 
-def groq_generate(prompt, json_mode=False, max_tokens=900, temperature=0.85):
+def _parse_json_loose(text):
+    """Extract a JSON object from model output even if wrapped in markdown."""
+    if not text:
+        return None
+    text = text.strip()
+    text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.I)
+    text = re.sub(r"\s*```$", "", text)
+    try:
+        return json.loads(text)
+    except Exception:
+        pass
+    m = re.search(r"\{.*\}", text, re.DOTALL)
+    if m:
+        try:
+            return json.loads(m.group(0))
+        except Exception:
+            pass
+    return None
+
+
+def groq_generate(prompt, json_mode=False, max_tokens=900, temperature=0.85, retries=3):
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json",
     }
-    data = {
-        "model": "openai/gpt-oss-20b",
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": temperature,
-        "max_tokens": max_tokens,
-    }
-    if json_mode:
-        data["response_format"] = {"type": "json_object"}
-    response = requests.post(url, headers=headers, json=data, timeout=90)
-    result = response.json()
-    if "choices" not in result:
-        raise Exception(f"Invalid Groq response: {result}")
-    return result["choices"][0]["message"]["content"].strip()
+    last_err = None
+    for attempt in range(retries):
+        data = {
+            "model": "openai/gpt-oss-20b",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+        use_json = json_mode and attempt == 0
+        if use_json:
+            data["response_format"] = {"type": "json_object"}
+        try:
+            response = requests.post(url, headers=headers, json=data, timeout=90)
+            result = response.json()
+            if response.status_code == 429:
+                time.sleep(2 ** attempt)
+                last_err = Exception(f"Rate limited: {result}")
+                continue
+            if "choices" not in result:
+                last_err = Exception(f"Invalid Groq response: {result}")
+                if use_json:
+                    continue
+                raise last_err
+            return result["choices"][0]["message"]["content"].strip()
+        except Exception as e:
+            last_err = e
+            time.sleep(1 + attempt)
+    raise last_err or Exception("Groq generate failed")
 
 
 def _extract(tag, text):
@@ -223,74 +259,104 @@ def choose_style(history, exploration_rate=0.25):
     return random.choices(STYLE_SEEDS, weights=weights, k=1)[0]
 
 
-def generate_preset_params(style):
-    prompt = f"""
-Design an original Adobe Lightroom preset for this style:
-Style: {style}
+def _default_preset_params(style):
+    """Deterministic fallback when AI JSON fails."""
+    seed = abs(hash(style)) % 1000
+    names = [
+        "Amber Drift", "Soft Haze", "Noir Edge", "Golden Fade",
+        "Teal Mood", "Film Dust", "Quiet Glow", "Street Ember",
+    ]
+    return {
+        "name": names[seed % len(names)],
+        "temperature": (seed % 41) - 20,
+        "tint": (seed % 21) - 10,
+        "exposure": round(((seed % 17) - 8) / 20, 2),
+        "contrast": (seed % 41) - 10,
+        "highlights": -((seed % 40) + 10),
+        "shadows": (seed % 50) + 10,
+        "whites": (seed % 25) - 10,
+        "blacks": -((seed % 25) + 5),
+        "clarity": (seed % 30),
+        "vibrance": (seed % 35),
+        "saturation": (seed % 21) - 5,
+    }
 
-Return ONLY a JSON object with exactly these keys (no extra text):
-{{
-  "name": "short creative English preset name (2-4 words)",
-  "temperature": number between -50 and 50,
-  "tint": number between -30 and 30,
-  "exposure": decimal number between -1.0 and 1.0,
-  "contrast": number between -40 and 60,
-  "highlights": number between -80 and 40,
-  "shadows": number between -40 and 80,
-  "whites": number between -30 and 40,
-  "blacks": number between -40 and 30,
-  "clarity": number between -20 and 40,
-  "vibrance": number between -20 and 50,
-  "saturation": number between -20 and 30
-}}
-"""
-    raw = groq_generate(prompt, json_mode=True, max_tokens=400)
-    return json.loads(raw)
+
+def generate_preset_params(style):
+    prompt = (
+        f"Design an original Adobe Lightroom preset for this style: {style}.\n"
+        "Return ONLY a valid JSON object with these exact keys:\n"
+        '{"name":"2-4 word English name","temperature":-50to50,"tint":-30to30,'
+        '"exposure":-1.0to1.0,"contrast":-40to60,"highlights":-80to40,'
+        '"shadows":-40to80,"whites":-30to40,"blacks":-40to30,'
+        '"clarity":-20to40,"vibrance":-20to50,"saturation":-20to30}'
+    )
+    try:
+        raw = groq_generate(prompt, json_mode=True, max_tokens=350, temperature=0.7)
+        data = _parse_json_loose(raw)
+        if not data or "name" not in data:
+            raise ValueError("missing name")
+        defaults = _default_preset_params(style)
+        for k, v in defaults.items():
+            if k == "name":
+                continue
+            if k not in data:
+                data[k] = v
+            else:
+                try:
+                    data[k] = float(data[k]) if k == "exposure" else int(float(data[k]))
+                except Exception:
+                    data[k] = v
+        data["name"] = str(data.get("name") or defaults["name"])[:40]
+        return data
+    except Exception as e:
+        print(f"[WARN] preset JSON failed ({e}) — using deterministic fallback")
+        return _default_preset_params(style)
 
 
 def generate_hook_and_caption(pillar, style, preset_name, tip_text=None):
     pillar_instructions = {
-        "before_after": "This is a Before & After post. Hook should create curiosity about the transformation. Caption must clearly say Before to After and invite people to try the free XMP.",
-        "preset_of_the_day": "This is Preset of the Day. Hook should feel like a daily gift. Highlight the mood and best use cases.",
-        "quick_tip": "This is a Quick Editing Tip post. Hook should promise a useful shortcut. Caption focuses on the tip; the preset is a bonus example.",
-        "experimental_trend": "This is an Experimental / Trend post. Hook should feel bold and current. Mention trying something fresh or slightly unconventional.",
+        "before_after": "Before & After post. Hook about the transformation. Caption says free XMP next message.",
+        "preset_of_the_day": "Preset of the Day. Hook like a daily gift. Mood + use cases.",
+        "quick_tip": "Quick Editing Tip. Hook promises a useful shortcut. Preset is bonus.",
+        "experimental_trend": "Experimental / Trend. Hook bold and current.",
     }
-    tip_block = f"\nEditing tip to weave in: {tip_text}" if tip_text else ""
-    prompt = f"""
-You write for the Telegram channel Light Rooms (photo editing / Lightroom presets).
-
-Content type: {pillar}
-Style: {style}
-Preset name: {preset_name}
-{tip_block}
-
-Instructions for this type:
-{pillar_instructions.get(pillar, "")}
-
-Write:
-1) A single-line HOOK (max 12 words, punchy, with 1 emoji if natural)
-2) A full CAPTION (English, friendly, max 8 lines) that includes:
-   - The hook as the first line
-   - Short mood / use-case description
-   - Clear call to download the free .xmp (next message)
-   - 4-6 relevant hashtags
-
-Return ONLY valid JSON:
-{{
-  "hook": "...",
-  "caption": "..."
-}}
-"""
-    raw = groq_generate(prompt, json_mode=True, max_tokens=500)
-    return json.loads(raw)
+    tip_block = f"\nTip: {tip_text}" if tip_text else ""
+    prompt = (
+        f"Telegram channel Light Rooms (Lightroom presets).\n"
+        f"Type: {pillar}\nStyle: {style}\nPreset: {preset_name}{tip_block}\n"
+        f"{pillar_instructions.get(pillar, '')}\n"
+        "Return ONLY valid JSON:\n"
+        '{"hook":"max 12 words + optional emoji","caption":"English friendly caption max 8 lines with hashtags"}'
+    )
+    try:
+        raw = groq_generate(prompt, json_mode=True, max_tokens=450, temperature=0.8)
+        data = _parse_json_loose(raw)
+        if data and (data.get("caption") or data.get("hook")):
+            if not data.get("caption"):
+                data["caption"] = data["hook"]
+            return data
+    except Exception as e:
+        print(f"[WARN] caption JSON failed: {e}")
+    hook = f"✨ {preset_name}"
+    caption = (
+        f"{hook}\n\n"
+        f"Style: {style}\n"
+        f"Free .xmp in the next message — import into Lightroom and try it.\n\n"
+        f"#Lightroom #Preset #PhotoEditing #BeforeAfter"
+    )
+    return {"hook": hook, "caption": caption}
 
 
 def generate_quick_tip(style):
-    prompt = f"""
-Give one practical, specific Adobe Lightroom editing tip related to this style: {style}.
-One or two short sentences only. No intro. Return plain text.
-"""
-    return groq_generate(prompt, max_tokens=120).strip()
+    prompt = (
+        f"Give one practical, specific Adobe Lightroom editing tip related to: {style}.\n"
+        "One or two short sentences only. No intro. Plain text."
+    )
+    try:
+        return groq_generate(prompt, max_tokens=120, temperature=0.7).strip()
+    except Exception:
+        return "Try lifting shadows slightly and pulling highlights down for more balanced contrast."
 
 
 def apply_preset_preview(params, output_path):
@@ -451,7 +517,11 @@ the full ready-to-copy prompt here
 </ai_prompt>
 <footer>Copy this prompt and use it with your photo in Midjourney / Flux / ChatGPT</footer>
 """
-    raw = groq_generate(system, max_tokens=850)
+    try:
+        raw = groq_generate(system, max_tokens=850)
+    except Exception as e:
+        print(f"[WARN] prompt gen failed: {e}")
+        raw = ""
     title = _extract("title", raw) or theme.title()[:60]
     ai_prompt = _extract("ai_prompt", raw)
     footer = _extract("footer", raw) or "Copy this prompt and use it with your photo in Midjourney / Flux / ChatGPT"
@@ -593,7 +663,7 @@ def fetch_fresh_news(used_links, max_age_days=5):
 
 def generate_news_from_rss(item):
     source, title, summary, link = item["source"], item["title"], item.get("summary") or "", item["link"]
-    system = f"""Rewrite this real AI news item into a short, punchy Telegram post (style of @prompt channel).
+    system = f"""Rewrite this real AI news item into a short, punchy Telegram post.
 
 Source: {source}
 Original title: {title}
@@ -602,12 +672,9 @@ Link: {link}
 
 Rules:
 - English only
-- Start with 1 emoji + a short attention-grabbing headline (max 12 words) — do NOT just copy the original title
-- Then 2–3 short paragraphs that explain what happened and why it matters
-- Conversational, slightly witty, not corporate
-- Stick to facts from the title/summary — do not invent numbers, quotes, or claims
+- Start with 1 emoji + short headline (max 12 words)
+- 2–3 short paragraphs; stick to facts — do not invent claims
 - End with the source link on its own line
-- No hashtags inside the body
 
 Reply with EXACTLY this format:
 
@@ -618,7 +685,11 @@ post body here
 Source link at the end
 </body>
 """
-    raw = groq_generate(system, max_tokens=450, temperature=0.75)
+    try:
+        raw = groq_generate(system, max_tokens=450, temperature=0.75)
+    except Exception as e:
+        print(f"[WARN] news rewrite failed: {e}")
+        raw = ""
     post_title = _extract("title", raw)
     body = _extract("body", raw)
     if not post_title or len(post_title) < 5:
