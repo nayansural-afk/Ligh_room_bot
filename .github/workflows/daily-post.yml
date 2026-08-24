@@ -2,10 +2,8 @@ name: Daily Content Posts
 
 on:
   schedule:
-    # 3 times per day (UTC) ≈ morning / afternoon / evening Tehran
-    - cron: "0 5 * * *"
-    - cron: "0 12 * * *"
-    - cron: "0 18 * * *"
+    # Every 2 hours (UTC)
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
