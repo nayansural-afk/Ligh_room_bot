@@ -130,15 +130,28 @@
       "tip": null,
       "photo_message_id": 1070,
       "document_message_id": 1071
+    },
+    {
+      "timestamp": "2026-08-24T16:19:46.791917+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "bright minimal with neutral tones",
+      "preset_name": "Quiet Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1072,
+      "document_message_id": 1073
     }
   ],
   "style_counts": {
-    "bright minimal with neutral tones": 1,
+    "bright minimal with neutral tones": 2,
     "soft pastel tones for portraits": 2
   },
   "pillar_counts": {
     "preset_of_the_day": 2,
-    "before_after": 2,
+    "before_after": 3,
     "experimental_trend": 1
   },
   "analytics_snapshots": [
@@ -431,6 +444,21 @@
         "before_after": 2,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-24T16:19:46.939453+00:00",
+      "member_count": 2997,
+      "total_posts_recorded": 14,
+      "content_type_counts": {
+        "ai_image_prompt": 3,
+        "lightroom": 3,
+        "ai_news": 1
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 3,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -446,7 +474,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 3,
-    "lightroom": 2,
+    "lightroom": 3,
     "ai_news": 1
   }
 }
