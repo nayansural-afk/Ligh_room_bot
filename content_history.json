@@ -174,16 +174,30 @@
       "ai_prompt": "Pharaoh's Radiance ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic portrait of an ancient Egyptian",
       "status": "published",
       "message_id": 1078
+    },
+    {
+      "timestamp": "2026-08-25T19:59:13.227166+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1079,
+      "document_message_id": 1080
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 2,
     "soft pastel tones for portraits": 2,
-    "golden hour sunset with rich saturation": 1
+    "golden hour sunset with rich saturation": 1,
+    "high-key fashion with soft contrast": 1
   },
   "pillar_counts": {
     "preset_of_the_day": 2,
-    "before_after": 4,
+    "before_after": 5,
     "experimental_trend": 1
   },
   "analytics_snapshots": [
@@ -551,6 +565,21 @@
         "before_after": 4,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-25T19:59:13.380818+00:00",
+      "member_count": 2995,
+      "total_posts_recorded": 18,
+      "content_type_counts": {
+        "ai_image_prompt": 4,
+        "lightroom": 5,
+        "ai_news": 2
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 5,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -568,7 +597,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 4,
-    "lightroom": 4,
+    "lightroom": 5,
     "ai_news": 2
   }
 }
