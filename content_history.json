@@ -143,6 +143,15 @@
       "tip": null,
       "photo_message_id": 1072,
       "document_message_id": 1073
+    },
+    {
+      "timestamp": "2026-08-25T08:10:47.646298+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚨 Situational Awareness Fund Faces SEC Probe",
+      "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "status": "published",
+      "message_id": 1075
     }
   ],
   "style_counts": {
@@ -474,6 +483,21 @@
         "before_after": 3,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-25T08:10:47.826391+00:00",
+      "member_count": 2997,
+      "total_posts_recorded": 15,
+      "content_type_counts": {
+        "ai_image_prompt": 3,
+        "lightroom": 3,
+        "ai_news": 2
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 3,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -482,14 +506,15 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 1,
-    "TechCrunch AI": 1
+    "TechCrunch AI": 2
   },
   "used_news_links": [
-    "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/"
+    "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+    "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 3,
     "lightroom": 3,
-    "ai_news": 1
+    "ai_news": 2
   }
 }
