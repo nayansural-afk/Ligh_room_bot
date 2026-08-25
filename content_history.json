@@ -165,6 +165,15 @@
       "tip": null,
       "photo_message_id": 1076,
       "document_message_id": 1077
+    },
+    {
+      "timestamp": "2026-08-25T17:04:15.556606+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "ancient Egyptian pharaoh / queen gold and linen",
+      "title": "Pharaoh's Radiance ✨",
+      "ai_prompt": "Pharaoh's Radiance ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic portrait of an ancient Egyptian",
+      "status": "published",
+      "message_id": 1078
     }
   ],
   "style_counts": {
@@ -527,6 +536,21 @@
         "before_after": 4,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-25T17:04:15.802065+00:00",
+      "member_count": 2995,
+      "total_posts_recorded": 17,
+      "content_type_counts": {
+        "ai_image_prompt": 4,
+        "lightroom": 4,
+        "ai_news": 2
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 4,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -535,14 +559,15 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 1,
-    "TechCrunch AI": 2
+    "TechCrunch AI": 2,
+    "ancient Egyptian pharaoh / queen gold and linen": 1
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
     "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 3,
+    "ai_image_prompt": 4,
     "lightroom": 4,
     "ai_news": 2
   }
