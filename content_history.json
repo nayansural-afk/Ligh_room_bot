@@ -152,15 +152,29 @@
       "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
       "status": "published",
       "message_id": 1075
+    },
+    {
+      "timestamp": "2026-08-25T12:01:35.584249+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "golden hour sunset with rich saturation",
+      "preset_name": "Quiet Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1076,
+      "document_message_id": 1077
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 2,
-    "soft pastel tones for portraits": 2
+    "soft pastel tones for portraits": 2,
+    "golden hour sunset with rich saturation": 1
   },
   "pillar_counts": {
     "preset_of_the_day": 2,
-    "before_after": 3,
+    "before_after": 4,
     "experimental_trend": 1
   },
   "analytics_snapshots": [
@@ -498,6 +512,21 @@
         "before_after": 3,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-25T12:01:35.765783+00:00",
+      "member_count": 2995,
+      "total_posts_recorded": 16,
+      "content_type_counts": {
+        "ai_image_prompt": 3,
+        "lightroom": 4,
+        "ai_news": 2
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 2,
+        "before_after": 4,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -514,7 +543,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 3,
-    "lightroom": 3,
+    "lightroom": 4,
     "ai_news": 2
   }
 }
