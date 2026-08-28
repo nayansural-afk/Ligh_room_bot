@@ -236,17 +236,31 @@
       "tip": null,
       "photo_message_id": 1085,
       "document_message_id": 1086
+    },
+    {
+      "timestamp": "2026-08-28T21:28:50.577297+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "vintage polaroid faded look",
+      "preset_name": "Soft Haze",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1087,
+      "document_message_id": 1088
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 2,
     "soft pastel tones for portraits": 2,
     "golden hour sunset with rich saturation": 2,
-    "high-key fashion with soft contrast": 1
+    "high-key fashion with soft contrast": 1,
+    "vintage polaroid faded look": 1
   },
   "pillar_counts": {
     "preset_of_the_day": 3,
-    "before_after": 5,
+    "before_after": 6,
     "experimental_trend": 1
   },
   "analytics_snapshots": [
@@ -704,6 +718,21 @@
         "before_after": 5,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-28T21:28:50.734179+00:00",
+      "member_count": 2992,
+      "total_posts_recorded": 24,
+      "content_type_counts": {
+        "ai_image_prompt": 7,
+        "lightroom": 7,
+        "ai_news": 3
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 3,
+        "before_after": 6,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -726,7 +755,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 7,
-    "lightroom": 6,
+    "lightroom": 7,
     "ai_news": 3
   }
 }
