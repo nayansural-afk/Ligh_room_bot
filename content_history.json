@@ -258,6 +258,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, rockstar stage performance dramatic lights, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1089
+    },
+    {
+      "timestamp": "2026-08-28T21:58:23.323430+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Neocloud Lambda secures $1B in debt to buy more chips",
+      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "status": "published",
+      "message_id": 1090
     }
   ],
   "style_counts": {
@@ -757,6 +766,21 @@
         "before_after": 6,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-28T21:58:23.504468+00:00",
+      "member_count": 2991,
+      "total_posts_recorded": 26,
+      "content_type_counts": {
+        "ai_image_prompt": 8,
+        "lightroom": 7,
+        "ai_news": 4
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 3,
+        "before_after": 6,
+        "experimental_trend": 1
+      }
     }
   ],
   "theme_counts": {
@@ -765,7 +789,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 1,
-    "TechCrunch AI": 2,
+    "TechCrunch AI": 3,
     "ancient Egyptian pharaoh / queen gold and linen": 1,
     "sports athlete action sweat and intensity": 1,
     "The Verge AI": 1,
@@ -776,11 +800,12 @@
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
     "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-    "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet"
+    "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+    "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 8,
     "lightroom": 7,
-    "ai_news": 3
+    "ai_news": 4
   }
 }
