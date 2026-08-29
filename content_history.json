@@ -298,10 +298,23 @@
       "ai_prompt": "Golden Pharaoh Glimmer 🌟\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic portrait of an ancient Egyptian pharaoh or queen draped in opulent gold and linen attire. Use a shallow depth of field, 50mm lens simulation, cinematic backlighting with golden hour halo, subtle rim light on the shoulders. The composition is close‑up, centered, with a slightly low",
       "status": "published",
       "message_id": 1094
+    },
+    {
+      "timestamp": "2026-08-29T15:02:01.093099+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "bright minimal with neutral tones",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1095,
+      "document_message_id": 1096
     }
   ],
   "style_counts": {
-    "bright minimal with neutral tones": 2,
+    "bright minimal with neutral tones": 3,
     "soft pastel tones for portraits": 2,
     "golden hour sunset with rich saturation": 2,
     "high-key fashion with soft contrast": 1,
@@ -311,7 +324,7 @@
   "pillar_counts": {
     "preset_of_the_day": 4,
     "before_after": 6,
-    "experimental_trend": 1
+    "experimental_trend": 2
   },
   "analytics_snapshots": [
     {
@@ -858,6 +871,21 @@
         "before_after": 6,
         "experimental_trend": 1
       }
+    },
+    {
+      "timestamp": "2026-08-29T15:02:01.220355+00:00",
+      "member_count": 2991,
+      "total_posts_recorded": 30,
+      "content_type_counts": {
+        "ai_image_prompt": 10,
+        "lightroom": 9,
+        "ai_news": 4
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 4,
+        "before_after": 6,
+        "experimental_trend": 2
+      }
     }
   ],
   "theme_counts": {
@@ -883,7 +911,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 10,
-    "lightroom": 8,
+    "lightroom": 9,
     "ai_news": 4
   }
 }
