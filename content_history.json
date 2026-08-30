@@ -333,6 +333,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, half-face extreme close-up with hard flash and film grain, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1099
+    },
+    {
+      "timestamp": "2026-08-30T11:08:10.006017+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual p",
+      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "status": "published",
+      "message_id": 1100
     }
   ],
   "style_counts": {
@@ -942,6 +951,22 @@
         "experimental_trend": 2,
         "quick_tip": 1
       }
+    },
+    {
+      "timestamp": "2026-08-30T11:08:10.190328+00:00",
+      "member_count": 2983,
+      "total_posts_recorded": 33,
+      "content_type_counts": {
+        "ai_image_prompt": 11,
+        "lightroom": 10,
+        "ai_news": 5
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 4,
+        "before_after": 6,
+        "experimental_trend": 2,
+        "quick_tip": 1
+      }
     }
   ],
   "theme_counts": {
@@ -950,7 +975,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 1,
-    "TechCrunch AI": 3,
+    "TechCrunch AI": 4,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 1,
     "The Verge AI": 1,
@@ -964,11 +989,12 @@
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
     "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
     "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
-    "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+    "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+    "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 11,
     "lightroom": 10,
-    "ai_news": 4
+    "ai_news": 5
   }
 }
