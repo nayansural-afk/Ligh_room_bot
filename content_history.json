@@ -324,6 +324,15 @@
       "tip": "",
       "photo_message_id": 1097,
       "document_message_id": 1098
+    },
+    {
+      "timestamp": "2026-08-30T06:06:29.783613+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "half-face extreme close-up with hard flash and film grain",
+      "title": "Half-Face Extreme Close-Up With Hard Flash And Film Grain",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, half-face extreme close-up with hard flash and film grain, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1099
     }
   ],
   "style_counts": {
@@ -917,6 +926,22 @@
         "experimental_trend": 2,
         "quick_tip": 1
       }
+    },
+    {
+      "timestamp": "2026-08-30T06:06:29.912605+00:00",
+      "member_count": 2987,
+      "total_posts_recorded": 32,
+      "content_type_counts": {
+        "ai_image_prompt": 11,
+        "lightroom": 10,
+        "ai_news": 4
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 4,
+        "before_after": 6,
+        "experimental_trend": 2,
+        "quick_tip": 1
+      }
     }
   ],
   "theme_counts": {
@@ -932,7 +957,8 @@
     "Studio Ghibli anime version of the person": 1,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
-    "modern high-fashion magazine cover": 1
+    "modern high-fashion magazine cover": 1,
+    "half-face extreme close-up with hard flash and film grain": 1
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -941,7 +967,7 @@
     "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 10,
+    "ai_image_prompt": 11,
     "lightroom": 10,
     "ai_news": 4
   }
