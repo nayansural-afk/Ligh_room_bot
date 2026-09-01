@@ -422,6 +422,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic astronaut standing in a cramped spacecraft corridor, with the bulky silver space suit helmet slightly ajar revealing a calm, focused face. The interior lights cast a cool blue glow, punctuated by subtle reflections on the visor and the polished metal walls. Capture the scene with a 50mm prime lens equivalent, depth of field shallow to isolate the subject while keeping the background softly blurred. Position the astronaut centered, head tilted slightly toward the camera, creating a 3:4 vertical composition. Add realistic dust motes and faint stars visible through a viewport, enhancing the sense of isolation and awe.",
       "status": "published",
       "message_id": 1127
+    },
+    {
+      "timestamp": "2026-09-01T15:03:24.310462+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "cool blue hour cityscape",
+      "preset_name": "Midnight Urban Cool",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1128,
+      "document_message_id": 1129
     }
   ],
   "style_counts": {
@@ -431,11 +444,11 @@
     "high-key fashion with soft contrast": 1,
     "vintage polaroid faded look": 2,
     "dark street style with subtle green tint": 1,
-    "cool blue hour cityscape": 1,
+    "cool blue hour cityscape": 2,
     "analog film look with controlled grain and fade": 1
   },
   "pillar_counts": {
-    "preset_of_the_day": 4,
+    "preset_of_the_day": 5,
     "before_after": 8,
     "experimental_trend": 2,
     "quick_tip": 1
@@ -1176,6 +1189,22 @@
         "experimental_trend": 2,
         "quick_tip": 1
       }
+    },
+    {
+      "timestamp": "2026-09-01T15:03:24.503712+00:00",
+      "member_count": 2982,
+      "total_posts_recorded": 42,
+      "content_type_counts": {
+        "ai_image_prompt": 13,
+        "lightroom": 13,
+        "ai_news": 9
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 5,
+        "before_after": 8,
+        "experimental_trend": 2,
+        "quick_tip": 1
+      }
     }
   ],
   "theme_counts": {
@@ -1207,7 +1236,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 13,
-    "lightroom": 12,
+    "lightroom": 13,
     "ai_news": 9
   }
 }
