@@ -413,6 +413,15 @@
       "ai_prompt": "Sweat‑Sculpted Victory 💪\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic, highly detailed image of a professional athlete in mid‑action, muscles taut, sweat droplets suspended in air. Use dramatic cinematic lighting: a single warm key light from the left with a subtle rim light to accentuate sweat glistening, back‑lit by a cool blue spotlight to create depth. Shoot with an 85mm prime lens simulation, moderate depth of field",
       "status": "published",
       "message_id": 1116
+    },
+    {
+      "timestamp": "2026-09-01T11:14:42.837997+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "astronaut space suit helmet open",
+      "title": "Open‑Helmet Glow 🚀",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic astronaut standing in a cramped spacecraft corridor, with the bulky silver space suit helmet slightly ajar revealing a calm, focused face. The interior lights cast a cool blue glow, punctuated by subtle reflections on the visor and the polished metal walls. Capture the scene with a 50mm prime lens equivalent, depth of field shallow to isolate the subject while keeping the background softly blurred. Position the astronaut centered, head tilted slightly toward the camera, creating a 3:4 vertical composition. Add realistic dust motes and faint stars visible through a viewport, enhancing the sense of isolation and awe.",
+      "status": "published",
+      "message_id": 1127
     }
   ],
   "style_counts": {
@@ -1151,6 +1160,22 @@
         "experimental_trend": 2,
         "quick_tip": 1
       }
+    },
+    {
+      "timestamp": "2026-09-01T11:14:42.977042+00:00",
+      "member_count": 2980,
+      "total_posts_recorded": 41,
+      "content_type_counts": {
+        "ai_image_prompt": 13,
+        "lightroom": 12,
+        "ai_news": 9
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 4,
+        "before_after": 8,
+        "experimental_trend": 2,
+        "quick_tip": 1
+      }
     }
   ],
   "theme_counts": {
@@ -1158,7 +1183,7 @@
     "futuristic android soft neon": 1,
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
-    "astronaut space suit helmet open": 1,
+    "astronaut space suit helmet open": 2,
     "TechCrunch AI": 7,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 2,
@@ -1181,7 +1206,7 @@
     "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 12,
+    "ai_image_prompt": 13,
     "lightroom": 12,
     "ai_news": 9
   }
