@@ -523,6 +523,15 @@
       "link": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
       "status": "published",
       "message_id": 1141
+    },
+    {
+      "timestamp": "2026-09-03T19:02:24.141157+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Abliteration.ai is making a business out of removing AI guardrails",
+      "link": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "status": "published",
+      "message_id": 1142
     }
   ],
   "style_counts": {
@@ -1422,6 +1431,22 @@
         "experimental_trend": 3,
         "quick_tip": 2
       }
+    },
+    {
+      "timestamp": "2026-09-03T19:02:24.348414+00:00",
+      "member_count": 2982,
+      "total_posts_recorded": 51,
+      "content_type_counts": {
+        "ai_image_prompt": 16,
+        "lightroom": 17,
+        "ai_news": 11
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 6,
+        "before_after": 9,
+        "experimental_trend": 3,
+        "quick_tip": 2
+      }
     }
   ],
   "theme_counts": {
@@ -1430,7 +1455,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 3,
-    "TechCrunch AI": 7,
+    "TechCrunch AI": 8,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 2,
     "The Verge AI": 3,
@@ -1452,11 +1477,12 @@
     "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
     "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
     "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-    "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update"
+    "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+    "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 16,
     "lightroom": 17,
-    "ai_news": 10
+    "ai_news": 11
   }
 }
