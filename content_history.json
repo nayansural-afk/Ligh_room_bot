@@ -611,6 +611,15 @@
       "tip": "",
       "photo_message_id": 1152,
       "document_message_id": 1153
+    },
+    {
+      "timestamp": "2026-09-05T19:02:29.638902+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cyberpunk neon city night portrait",
+      "title": "Neon Night Vibes 🌆",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic cyberpunk portrait at night, neon‑lit skyscraper backdrop with holographic billboards reflecting off rain‑slick pavement. The subject stands in front of a glowing, translucent glass wall, silhouette framed by cascading neon signs in magenta, teal, and violet. Use a shallow depth of field with a 50mm prime lens feel, soft bokeh, slight fisheye distortion, and subtle motion blur from a slow shutter. Capture dramatic backlighting and rim lights to accentuate cheekbones, hair, and clothing textures. Compose in 9:16 portrait, center the face, lower third for cityscape, balanced with vertical neon columns. Add atmospheric haze, lens flare, and a slight vignette for cinematic depth.",
+      "status": "published",
+      "message_id": 1154
     }
   ],
   "style_counts": {
@@ -1639,6 +1648,22 @@
         "experimental_trend": 3,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-05T19:02:29.847389+00:00",
+      "member_count": 2978,
+      "total_posts_recorded": 59,
+      "content_type_counts": {
+        "ai_image_prompt": 19,
+        "lightroom": 21,
+        "ai_news": 12
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 7,
+        "before_after": 9,
+        "experimental_trend": 3,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -1658,7 +1683,8 @@
     "half-face extreme close-up with hard flash and film grain": 1,
     "black and white film noir detective": 1,
     "street style urban fashion editorial": 2,
-    "1920s Hollywood glamour studio portrait": 1
+    "1920s Hollywood glamour studio portrait": 1,
+    "cyberpunk neon city night portrait": 1
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -1675,7 +1701,7 @@
     "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 18,
+    "ai_image_prompt": 19,
     "lightroom": 21,
     "ai_news": 12
   }
