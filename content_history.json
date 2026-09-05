@@ -598,12 +598,25 @@
       "tip": null,
       "photo_message_id": 1150,
       "document_message_id": 1151
+    },
+    {
+      "timestamp": "2026-09-05T15:03:13.417829+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "golden hour sunset with rich saturation",
+      "preset_name": "Amber Drift",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1152,
+      "document_message_id": 1153
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 4,
     "soft pastel tones for portraits": 2,
-    "golden hour sunset with rich saturation": 3,
+    "golden hour sunset with rich saturation": 4,
     "high-key fashion with soft contrast": 2,
     "vintage polaroid faded look": 3,
     "dark street style with subtle green tint": 1,
@@ -616,7 +629,7 @@
     "preset_of_the_day": 7,
     "before_after": 9,
     "experimental_trend": 3,
-    "quick_tip": 4
+    "quick_tip": 5
   },
   "analytics_snapshots": [
     {
@@ -1610,6 +1623,22 @@
         "experimental_trend": 3,
         "quick_tip": 4
       }
+    },
+    {
+      "timestamp": "2026-09-05T15:03:13.558832+00:00",
+      "member_count": 2978,
+      "total_posts_recorded": 58,
+      "content_type_counts": {
+        "ai_image_prompt": 18,
+        "lightroom": 21,
+        "ai_news": 12
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 7,
+        "before_after": 9,
+        "experimental_trend": 3,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -1647,7 +1676,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 18,
-    "lightroom": 20,
+    "lightroom": 21,
     "ai_news": 12
   }
 }
