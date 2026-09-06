@@ -629,6 +629,15 @@
       "ai_prompt": "Frosty Fur Hug ❄️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cozy winter close‑up with an oversized white faux‑fur hood draped over a softly lit face. Warm amber lantern light spills across the hood, creating a gentle rim glow and highlighting the plush texture.",
       "status": "published",
       "message_id": 1155
+    },
+    {
+      "timestamp": "2026-09-06T15:03:21.632237+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Seattle Times and Newsday are the latest publications to sue OpenAI and Microsof",
+      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "status": "published",
+      "message_id": 1156
     }
   ],
   "style_counts": {
@@ -1705,6 +1714,22 @@
         "experimental_trend": 3,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-06T15:03:21.771832+00:00",
+      "member_count": 2974,
+      "total_posts_recorded": 61,
+      "content_type_counts": {
+        "ai_image_prompt": 20,
+        "lightroom": 21,
+        "ai_news": 13
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 7,
+        "before_after": 9,
+        "experimental_trend": 3,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -1713,7 +1738,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 3,
-    "TechCrunch AI": 9,
+    "TechCrunch AI": 10,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 2,
     "The Verge AI": 3,
@@ -1740,11 +1765,12 @@
     "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
     "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
     "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-    "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/"
+    "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+    "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 20,
     "lightroom": 21,
-    "ai_news": 12
+    "ai_news": 13
   }
 }
