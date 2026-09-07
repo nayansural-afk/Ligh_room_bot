@@ -656,6 +656,15 @@
       "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
       "status": "published",
       "message_id": 1159
+    },
+    {
+      "timestamp": "2026-09-07T15:03:31.739466+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "status": "published",
+      "message_id": 1160
     }
   ],
   "style_counts": {
@@ -1796,6 +1805,22 @@
         "experimental_trend": 3,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-07T15:03:31.918381+00:00",
+      "member_count": 2972,
+      "total_posts_recorded": 64,
+      "content_type_counts": {
+        "ai_image_prompt": 21,
+        "lightroom": 21,
+        "ai_news": 15
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 7,
+        "before_after": 9,
+        "experimental_trend": 3,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -1807,7 +1832,7 @@
     "TechCrunch AI": 10,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 3,
-    "The Verge AI": 3,
+    "The Verge AI": 4,
     "Studio Ghibli anime version of the person": 1,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
@@ -1834,11 +1859,12 @@
     "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
     "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
     "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-    "https://openai.com/index/supporting-independent-journalism-in-ukraine"
+    "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
   ],
   "content_type_counts": {
     "ai_image_prompt": 21,
     "lightroom": 21,
-    "ai_news": 14
+    "ai_news": 15
   }
 }
