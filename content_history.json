@@ -744,6 +744,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, sports athlete action sweat and intensity, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1172
+    },
+    {
+      "timestamp": "2026-09-09T15:03:24.427234+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "half-face extreme close-up with hard flash and film grain",
+      "title": "Flashy Lens Glow 🌟",
+      "ai_prompt": "Flashy Lens Glow 🌟\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture an extreme half‑face close‑up with a hard flash that creates sharp, high‑contrast highlights on the skin and sharp edges. Use a 50mm prime lens simulation, 1/200",
+      "status": "published",
+      "message_id": 1173
     }
   ],
   "style_counts": {
@@ -2013,6 +2022,22 @@
         "experimental_trend": 4,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-09T15:03:24.607386+00:00",
+      "member_count": 2968,
+      "total_posts_recorded": 72,
+      "content_type_counts": {
+        "ai_image_prompt": 25,
+        "lightroom": 25,
+        "ai_news": 15
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 7,
+        "before_after": 12,
+        "experimental_trend": 4,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -2029,7 +2054,7 @@
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
     "modern high-fashion magazine cover": 1,
-    "half-face extreme close-up with hard flash and film grain": 1,
+    "half-face extreme close-up with hard flash and film grain": 2,
     "black and white film noir detective": 1,
     "street style urban fashion editorial": 2,
     "1920s Hollywood glamour studio portrait": 1,
@@ -2056,7 +2081,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 24,
+    "ai_image_prompt": 25,
     "lightroom": 25,
     "ai_news": 15
   }
