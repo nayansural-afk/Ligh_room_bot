@@ -801,6 +801,15 @@
       "tip": null,
       "photo_message_id": 1180,
       "document_message_id": 1181
+    },
+    {
+      "timestamp": "2026-09-11T06:14:56.890592+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "vampire gothic elegance candlelight",
+      "title": "Vampire Gothic Elegance Candlelight",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, vampire gothic elegance candlelight, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1182
     }
   ],
   "style_counts": {
@@ -823,12 +832,6 @@
     "quick_tip": 5
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-19T13:41:36.833888+00:00",
-      "member_count": 3006,
-      "total_posts_recorded": 3,
-      "theme_counts": {}
-    },
     {
       "timestamp": "2026-08-19T13:46:21.258851+00:00",
       "member_count": 3007,
@@ -2157,6 +2160,22 @@
         "experimental_trend": 4,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-11T06:14:57.046134+00:00",
+      "member_count": 2963,
+      "total_posts_recorded": 77,
+      "content_type_counts": {
+        "ai_image_prompt": 27,
+        "lightroom": 28,
+        "ai_news": 15
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 9,
+        "before_after": 13,
+        "experimental_trend": 4,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -2180,7 +2199,8 @@
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 2,
     "OpenAI": 1,
-    "underwater mermaid / merman fantasy": 1
+    "underwater mermaid / merman fantasy": 1,
+    "vampire gothic elegance candlelight": 1
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -2200,7 +2220,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 26,
+    "ai_image_prompt": 27,
     "lightroom": 28,
     "ai_news": 15
   }
