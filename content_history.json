@@ -810,6 +810,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, vampire gothic elegance candlelight, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1182
+    },
+    {
+      "timestamp": "2026-09-11T11:15:22.151367+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚀 Nvidia to Grow 70% Next Year",
+      "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "status": "published",
+      "message_id": 1183
     }
   ],
   "style_counts": {
@@ -832,12 +841,6 @@
     "quick_tip": 5
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-19T13:46:21.258851+00:00",
-      "member_count": 3007,
-      "total_posts_recorded": 4,
-      "theme_counts": {}
-    },
     {
       "timestamp": "2026-08-19T13:53:26.508874+00:00",
       "member_count": 3007,
@@ -2176,6 +2179,22 @@
         "experimental_trend": 4,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-11T11:15:22.450619+00:00",
+      "member_count": 2962,
+      "total_posts_recorded": 78,
+      "content_type_counts": {
+        "ai_image_prompt": 27,
+        "lightroom": 28,
+        "ai_news": 16
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 9,
+        "before_after": 13,
+        "experimental_trend": 4,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -2184,7 +2203,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 3,
-    "TechCrunch AI": 10,
+    "TechCrunch AI": 11,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 4,
@@ -2217,11 +2236,12 @@
     "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
     "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
     "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-    "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
+    "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+    "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 27,
     "lightroom": 28,
-    "ai_news": 15
+    "ai_news": 16
   }
 }
