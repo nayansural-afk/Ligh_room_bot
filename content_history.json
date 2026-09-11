@@ -819,6 +819,15 @@
       "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
       "status": "published",
       "message_id": 1183
+    },
+    {
+      "timestamp": "2026-09-11T15:03:13.534201+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🛑 Meta Tightens AI Prompting After Privacy Blunder",
+      "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "status": "published",
+      "message_id": 1184
     }
   ],
   "style_counts": {
@@ -841,12 +850,6 @@
     "quick_tip": 5
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-19T13:53:26.508874+00:00",
-      "member_count": 3007,
-      "total_posts_recorded": 5,
-      "theme_counts": {}
-    },
     {
       "timestamp": "2026-08-19T13:56:18.276474+00:00",
       "member_count": 3007,
@@ -2195,6 +2198,22 @@
         "experimental_trend": 4,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-11T15:03:13.667438+00:00",
+      "member_count": 2962,
+      "total_posts_recorded": 79,
+      "content_type_counts": {
+        "ai_image_prompt": 27,
+        "lightroom": 28,
+        "ai_news": 17
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 9,
+        "before_after": 13,
+        "experimental_trend": 4,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -2206,7 +2225,7 @@
     "TechCrunch AI": 11,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
-    "The Verge AI": 4,
+    "The Verge AI": 5,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
@@ -2237,11 +2256,12 @@
     "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
     "https://openai.com/index/supporting-independent-journalism-in-ukraine",
     "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-    "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"
+    "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+    "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
   ],
   "content_type_counts": {
     "ai_image_prompt": 27,
     "lightroom": 28,
-    "ai_news": 16
+    "ai_news": 17
   }
 }
