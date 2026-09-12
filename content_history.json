@@ -841,6 +841,15 @@
       "tip": null,
       "photo_message_id": 1185,
       "document_message_id": 1186
+    },
+    {
+      "timestamp": "2026-09-12T06:14:08.845679+00:00",
+      "content_type": "ai_news",
+      "theme": "OpenAI",
+      "title": "🤖 Perplexity Deploys GPT‑6 Astra for End‑to‑End Ops",
+      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "status": "published",
+      "message_id": 1187
     }
   ],
   "style_counts": {
@@ -863,15 +872,6 @@
     "quick_tip": 5
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-19T13:57:11.673704+00:00",
-      "member_count": 3007,
-      "total_posts_recorded": 7,
-      "theme_counts": {
-        "image generation model upgrade": 1,
-        "futuristic android soft neon": 1
-      }
-    },
     {
       "timestamp": "2026-08-19T19:11:59.485237+00:00",
       "member_count": 3005,
@@ -2235,6 +2235,22 @@
         "experimental_trend": 4,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-12T06:14:09.041996+00:00",
+      "member_count": 2960,
+      "total_posts_recorded": 81,
+      "content_type_counts": {
+        "ai_image_prompt": 27,
+        "lightroom": 29,
+        "ai_news": 18
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 9,
+        "before_after": 14,
+        "experimental_trend": 4,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -2257,7 +2273,7 @@
     "1920s Hollywood glamour studio portrait": 1,
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 2,
-    "OpenAI": 1,
+    "OpenAI": 2,
     "underwater mermaid / merman fantasy": 1,
     "vampire gothic elegance candlelight": 1
   },
@@ -2278,11 +2294,12 @@
     "https://openai.com/index/supporting-independent-journalism-in-ukraine",
     "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
     "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-    "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
+    "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+    "https://openai.com/index/perplexity-improving-accuracy-with-astra"
   ],
   "content_type_counts": {
     "ai_image_prompt": 27,
     "lightroom": 29,
-    "ai_news": 17
+    "ai_news": 18
   }
 }
