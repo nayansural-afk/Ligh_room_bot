@@ -868,6 +868,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render in photorealistic black and white, high contrast, wet cobblestone street at night, flickering neon signs reflecting on puddles. Detective in trench coat, fedora shadowed, holding a cigarette, eyes looking into camera, slightly tilted head. Use 50mm lens simulation, shallow depth of field, soft Gaussian blur for distant background, dramatic rim lighting from a single lamppost. Composition: rule of thirds, detective slightly off-center, rain streaks in foreground, subtle motion blur on raindrops. Aspect ratio 9:16, cinematic vertical framing, cinematic grain texture, high dynamic range.",
       "status": "published",
       "message_id": 1189
+    },
+    {
+      "timestamp": "2026-09-12T19:02:23.603441+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "moody forest with teal shadows",
+      "preset_name": "Golden Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1190,
+      "document_message_id": 1191
     }
   ],
   "style_counts": {
@@ -881,27 +894,15 @@
     "analog film look with controlled grain and fade": 1,
     "lush green nature tones for landscapes": 3,
     "dramatic black and white with heavy contrast": 2,
-    "moody forest with teal shadows": 1
+    "moody forest with teal shadows": 2
   },
   "pillar_counts": {
     "preset_of_the_day": 9,
-    "before_after": 14,
+    "before_after": 15,
     "experimental_trend": 4,
     "quick_tip": 5
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-20T14:10:39.580737+00:00",
-      "member_count": 3000,
-      "total_posts_recorded": 9,
-      "content_type_counts": {
-        "ai_image_prompt": 2
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1
-      }
-    },
     {
       "timestamp": "2026-08-20T19:21:54.203546+00:00",
       "member_count": 3002,
@@ -2277,6 +2278,22 @@
         "experimental_trend": 4,
         "quick_tip": 5
       }
+    },
+    {
+      "timestamp": "2026-09-12T19:02:23.803087+00:00",
+      "member_count": 2962,
+      "total_posts_recorded": 84,
+      "content_type_counts": {
+        "ai_image_prompt": 29,
+        "lightroom": 30,
+        "ai_news": 18
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 9,
+        "before_after": 15,
+        "experimental_trend": 4,
+        "quick_tip": 5
+      }
     }
   ],
   "theme_counts": {
@@ -2327,7 +2344,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 29,
-    "lightroom": 29,
+    "lightroom": 30,
     "ai_news": 18
   }
 }
