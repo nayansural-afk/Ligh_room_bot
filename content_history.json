@@ -916,6 +916,15 @@
       "tip": null,
       "photo_message_id": 1195,
       "document_message_id": 1196
+    },
+    {
+      "timestamp": "2026-09-13T19:02:12.189956+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "astronaut space suit helmet open",
+      "title": "Astronaut Space Suit Helmet Open",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, astronaut space suit helmet open, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1197
     }
   ],
   "style_counts": {
@@ -938,20 +947,6 @@
     "quick_tip": 6
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-21T19:15:58.580573+00:00",
-      "member_count": 3000,
-      "total_posts_recorded": 11,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-22T05:57:36.453703+00:00",
       "member_count": 2998,
@@ -2337,6 +2332,22 @@
         "experimental_trend": 4,
         "quick_tip": 6
       }
+    },
+    {
+      "timestamp": "2026-09-13T19:02:12.402252+00:00",
+      "member_count": 2961,
+      "total_posts_recorded": 88,
+      "content_type_counts": {
+        "ai_image_prompt": 31,
+        "lightroom": 32,
+        "ai_news": 18
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 10,
+        "before_after": 15,
+        "experimental_trend": 4,
+        "quick_tip": 6
+      }
     }
   ],
   "theme_counts": {
@@ -2344,7 +2355,7 @@
     "futuristic android soft neon": 1,
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
-    "astronaut space suit helmet open": 3,
+    "astronaut space suit helmet open": 4,
     "TechCrunch AI": 11,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
@@ -2386,7 +2397,7 @@
     "https://openai.com/index/perplexity-improving-accuracy-with-astra"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 30,
+    "ai_image_prompt": 31,
     "lightroom": 32,
     "ai_news": 18
   }
