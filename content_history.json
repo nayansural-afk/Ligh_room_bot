@@ -894,6 +894,15 @@
       "tip": "",
       "photo_message_id": 1192,
       "document_message_id": 1193
+    },
+    {
+      "timestamp": "2026-09-13T11:14:21.056896+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cozy winter close-up with oversized white faux-fur hood",
+      "title": "Frosted Comfort ❄️",
+      "ai_prompt": "Frosted Comfort ❄️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic close-up of a winter scene with an oversized white faux-fur hood draped over the shoulders. Use soft, diffused golden hour light to create a warm, cozy glow, with gentle rim lighting highlighting the fur's texture. The camera is angled slightly",
+      "status": "published",
+      "message_id": 1194
     }
   ],
   "style_counts": {
@@ -916,20 +925,6 @@
     "quick_tip": 6
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-21T06:03:11.290852+00:00",
-      "member_count": 3000,
-      "total_posts_recorded": 10,
-      "content_type_counts": {
-        "ai_image_prompt": 2,
-        "lightroom": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-21T14:07:11.837414+00:00",
       "member_count": 3000,
@@ -2311,6 +2306,22 @@
         "experimental_trend": 4,
         "quick_tip": 6
       }
+    },
+    {
+      "timestamp": "2026-09-13T11:14:21.230383+00:00",
+      "member_count": 2960,
+      "total_posts_recorded": 86,
+      "content_type_counts": {
+        "ai_image_prompt": 30,
+        "lightroom": 31,
+        "ai_news": 18
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 9,
+        "before_after": 15,
+        "experimental_trend": 4,
+        "quick_tip": 6
+      }
     }
   ],
   "theme_counts": {
@@ -2332,7 +2343,7 @@
     "street style urban fashion editorial": 2,
     "1920s Hollywood glamour studio portrait": 1,
     "cyberpunk neon city night portrait": 1,
-    "cozy winter close-up with oversized white faux-fur hood": 2,
+    "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 2,
     "underwater mermaid / merman fantasy": 1,
     "vampire gothic elegance candlelight": 1,
@@ -2360,7 +2371,7 @@
     "https://openai.com/index/perplexity-improving-accuracy-with-astra"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 29,
+    "ai_image_prompt": 30,
     "lightroom": 31,
     "ai_news": 18
   }
