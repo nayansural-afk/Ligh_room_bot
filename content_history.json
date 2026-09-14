@@ -934,6 +934,15 @@
       "ai_prompt": "Midnight Velvet 💀\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic, hyper‑detailed portrait of a vampire in gothic elegance, illuminated by warm amber candlelight. Soft, diffused glow casts deep shadows across a velvet dark backdrop, highlighting pale skin and crimson accents. Capture with a 50mm f/1.4 lens, shallow depth of field, subtle bokeh, and a slight tilt‑shift to",
       "status": "published",
       "message_id": 1198
+    },
+    {
+      "timestamp": "2026-09-14T11:16:12.550520+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Trump & Johnson say AI hype is overblown",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "status": "published",
+      "message_id": 1199
     }
   ],
   "style_counts": {
@@ -956,20 +965,6 @@
     "quick_tip": 6
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-22T13:44:28.576970+00:00",
-      "member_count": 2998,
-      "total_posts_recorded": 11,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-22T19:02:07.692802+00:00",
       "member_count": 2996,
@@ -2359,6 +2354,22 @@
         "experimental_trend": 4,
         "quick_tip": 6
       }
+    },
+    {
+      "timestamp": "2026-09-14T11:16:12.756243+00:00",
+      "member_count": 2962,
+      "total_posts_recorded": 90,
+      "content_type_counts": {
+        "ai_image_prompt": 32,
+        "lightroom": 32,
+        "ai_news": 19
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 10,
+        "before_after": 15,
+        "experimental_trend": 4,
+        "quick_tip": 6
+      }
     }
   ],
   "theme_counts": {
@@ -2370,7 +2381,7 @@
     "TechCrunch AI": 11,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
-    "The Verge AI": 5,
+    "The Verge AI": 6,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
@@ -2405,11 +2416,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
     "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
     "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
-    "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+    "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
   ],
   "content_type_counts": {
     "ai_image_prompt": 32,
     "lightroom": 32,
-    "ai_news": 18
+    "ai_news": 19
   }
 }
