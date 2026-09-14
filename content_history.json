@@ -925,6 +925,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, astronaut space suit helmet open, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1197
+    },
+    {
+      "timestamp": "2026-09-14T06:17:05.829103+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "vampire gothic elegance candlelight",
+      "title": "Midnight Velvet 💀",
+      "ai_prompt": "Midnight Velvet 💀\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic, hyper‑detailed portrait of a vampire in gothic elegance, illuminated by warm amber candlelight. Soft, diffused glow casts deep shadows across a velvet dark backdrop, highlighting pale skin and crimson accents. Capture with a 50mm f/1.4 lens, shallow depth of field, subtle bokeh, and a slight tilt‑shift to",
+      "status": "published",
+      "message_id": 1198
     }
   ],
   "style_counts": {
@@ -947,20 +956,6 @@
     "quick_tip": 6
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-22T05:57:36.453703+00:00",
-      "member_count": 2998,
-      "total_posts_recorded": 11,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-22T13:44:28.576970+00:00",
       "member_count": 2998,
@@ -2348,6 +2343,22 @@
         "experimental_trend": 4,
         "quick_tip": 6
       }
+    },
+    {
+      "timestamp": "2026-09-14T06:17:05.995089+00:00",
+      "member_count": 2961,
+      "total_posts_recorded": 89,
+      "content_type_counts": {
+        "ai_image_prompt": 32,
+        "lightroom": 32,
+        "ai_news": 18
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 10,
+        "before_after": 15,
+        "experimental_trend": 4,
+        "quick_tip": 6
+      }
     }
   ],
   "theme_counts": {
@@ -2372,7 +2383,7 @@
     "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 2,
     "underwater mermaid / merman fantasy": 1,
-    "vampire gothic elegance candlelight": 1,
+    "vampire gothic elegance candlelight": 2,
     "luxury fashion editorial on sport motorcycle studio shot": 1,
     "noir detective rainy street black and white": 1
   },
@@ -2397,7 +2408,7 @@
     "https://openai.com/index/perplexity-improving-accuracy-with-astra"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 31,
+    "ai_image_prompt": 32,
     "lightroom": 32,
     "ai_news": 18
   }
