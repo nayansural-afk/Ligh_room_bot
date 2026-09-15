@@ -956,6 +956,15 @@
       "tip": "",
       "photo_message_id": 1200,
       "document_message_id": 1201
+    },
+    {
+      "timestamp": "2026-09-15T06:15:48.831219+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Jensen Huang took a call from Trump, and showed off something else, too",
+      "link": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+      "status": "published",
+      "message_id": 1203
     }
   ],
   "style_counts": {
@@ -978,20 +987,6 @@
     "quick_tip": 7
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-23T05:58:47.244704+00:00",
-      "member_count": 2994,
-      "total_posts_recorded": 11,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-23T13:46:33.548069+00:00",
       "member_count": 2990,
@@ -2385,6 +2380,22 @@
         "experimental_trend": 4,
         "quick_tip": 7
       }
+    },
+    {
+      "timestamp": "2026-09-15T06:15:48.994700+00:00",
+      "member_count": 2961,
+      "total_posts_recorded": 92,
+      "content_type_counts": {
+        "ai_image_prompt": 32,
+        "lightroom": 33,
+        "ai_news": 20
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 10,
+        "before_after": 15,
+        "experimental_trend": 4,
+        "quick_tip": 7
+      }
     }
   ],
   "theme_counts": {
@@ -2393,7 +2404,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 11,
+    "TechCrunch AI": 12,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2432,11 +2443,12 @@
     "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
     "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
     "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-    "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
+    "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+    "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 32,
     "lightroom": 33,
-    "ai_news": 19
+    "ai_news": 20
   }
 }
