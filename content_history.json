@@ -1022,6 +1022,15 @@
       "ai_prompt": "Submerged Siren 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic underwater portrait of a mermaid/merman wearing a flowing iridescent tail, fins glistening like translucent glass. Soft bioluminescent light from coral and drifting plankton creates a dreamy glow, casting gentle shadows on the face. Use a 50mm lens simulation with shallow depth of field, focusing sharply on the eyes and hair, while the background blurs into a pastel sea‑foam wash.",
       "status": "published",
       "message_id": 1211
+    },
+    {
+      "timestamp": "2026-09-16T15:04:04.983731+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚀 Threads Boosts Podcast Promotion",
+      "link": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+      "status": "published",
+      "message_id": 1218
     }
   ],
   "style_counts": {
@@ -1045,21 +1054,6 @@
     "quick_tip": 8
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-24T08:17:15.345041+00:00",
-      "member_count": 2994,
-      "total_posts_recorded": 12,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 1,
-        "ai_news": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-24T11:13:35.608604+00:00",
       "member_count": 2997,
@@ -2464,6 +2458,22 @@
         "experimental_trend": 4,
         "quick_tip": 8
       }
+    },
+    {
+      "timestamp": "2026-09-16T15:04:05.158973+00:00",
+      "member_count": 2957,
+      "total_posts_recorded": 98,
+      "content_type_counts": {
+        "ai_image_prompt": 33,
+        "lightroom": 36,
+        "ai_news": 22
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 11,
+        "before_after": 16,
+        "experimental_trend": 4,
+        "quick_tip": 8
+      }
     }
   ],
   "theme_counts": {
@@ -2472,7 +2482,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 13,
+    "TechCrunch AI": 14,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2513,11 +2523,12 @@
     "https://openai.com/index/perplexity-improving-accuracy-with-astra",
     "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
     "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
-    "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/"
+    "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
+    "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 33,
     "lightroom": 36,
-    "ai_news": 21
+    "ai_news": 22
   }
 }
