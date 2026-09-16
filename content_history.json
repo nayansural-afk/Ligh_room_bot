@@ -1013,6 +1013,15 @@
       "tip": "",
       "photo_message_id": 1209,
       "document_message_id": 1210
+    },
+    {
+      "timestamp": "2026-09-16T11:16:04.530588+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "underwater mermaid / merman fantasy",
+      "title": "Submerged Siren 🌊",
+      "ai_prompt": "Submerged Siren 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic underwater portrait of a mermaid/merman wearing a flowing iridescent tail, fins glistening like translucent glass. Soft bioluminescent light from coral and drifting plankton creates a dreamy glow, casting gentle shadows on the face. Use a 50mm lens simulation with shallow depth of field, focusing sharply on the eyes and hair, while the background blurs into a pastel sea‑foam wash.",
+      "status": "published",
+      "message_id": 1211
     }
   ],
   "style_counts": {
@@ -1036,20 +1045,6 @@
     "quick_tip": 8
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-24T08:09:54.506394+00:00",
-      "member_count": 2994,
-      "total_posts_recorded": 11,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 1,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-24T08:17:15.345041+00:00",
       "member_count": 2994,
@@ -2453,6 +2448,22 @@
         "experimental_trend": 4,
         "quick_tip": 8
       }
+    },
+    {
+      "timestamp": "2026-09-16T11:16:04.715130+00:00",
+      "member_count": 2958,
+      "total_posts_recorded": 97,
+      "content_type_counts": {
+        "ai_image_prompt": 33,
+        "lightroom": 36,
+        "ai_news": 21
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 11,
+        "before_after": 16,
+        "experimental_trend": 4,
+        "quick_tip": 8
+      }
     }
   ],
   "theme_counts": {
@@ -2476,7 +2487,7 @@
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 2,
-    "underwater mermaid / merman fantasy": 1,
+    "underwater mermaid / merman fantasy": 2,
     "vampire gothic elegance candlelight": 2,
     "luxury fashion editorial on sport motorcycle studio shot": 1,
     "noir detective rainy street black and white": 1
@@ -2505,7 +2516,7 @@
     "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 32,
+    "ai_image_prompt": 33,
     "lightroom": 36,
     "ai_news": 21
   }
