@@ -1040,6 +1040,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, golden hour beach portrait soft rim light, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1219
+    },
+    {
+      "timestamp": "2026-09-17T06:15:29.440352+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "black and white film noir detective",
+      "title": "Black And White Film Noir Detective",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, black and white film noir detective, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1220
     }
   ],
   "style_counts": {
@@ -1063,21 +1072,6 @@
     "quick_tip": 8
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-24T16:19:46.939453+00:00",
-      "member_count": 2997,
-      "total_posts_recorded": 14,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 3,
-        "ai_news": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 3,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-24T19:59:32.042266+00:00",
       "member_count": 2997,
@@ -2484,6 +2478,22 @@
         "experimental_trend": 4,
         "quick_tip": 8
       }
+    },
+    {
+      "timestamp": "2026-09-17T06:15:29.597307+00:00",
+      "member_count": 2955,
+      "total_posts_recorded": 100,
+      "content_type_counts": {
+        "ai_image_prompt": 35,
+        "lightroom": 36,
+        "ai_news": 22
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 11,
+        "before_after": 16,
+        "experimental_trend": 4,
+        "quick_tip": 8
+      }
     }
   ],
   "theme_counts": {
@@ -2501,7 +2511,7 @@
     "rockstar stage performance dramatic lights": 1,
     "modern high-fashion magazine cover": 1,
     "half-face extreme close-up with hard flash and film grain": 2,
-    "black and white film noir detective": 1,
+    "black and white film noir detective": 2,
     "street style urban fashion editorial": 2,
     "1920s Hollywood glamour studio portrait": 1,
     "cyberpunk neon city night portrait": 1,
@@ -2538,7 +2548,7 @@
     "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 34,
+    "ai_image_prompt": 35,
     "lightroom": 36,
     "ai_news": 22
   }
