@@ -1049,6 +1049,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, black and white film noir detective, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1220
+    },
+    {
+      "timestamp": "2026-09-17T11:15:31.269177+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "underwater mermaid / merman fantasy",
+      "title": "Underwater Mermaid / Merman Fantasy",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, underwater mermaid / merman fantasy, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1221
     }
   ],
   "style_counts": {
@@ -1072,21 +1081,6 @@
     "quick_tip": 8
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-24T19:59:32.042266+00:00",
-      "member_count": 2997,
-      "total_posts_recorded": 14,
-      "content_type_counts": {
-        "ai_image_prompt": 3,
-        "lightroom": 3,
-        "ai_news": 1
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 3,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-25T08:10:47.826391+00:00",
       "member_count": 2997,
@@ -2494,6 +2488,22 @@
         "experimental_trend": 4,
         "quick_tip": 8
       }
+    },
+    {
+      "timestamp": "2026-09-17T11:15:31.468468+00:00",
+      "member_count": 2955,
+      "total_posts_recorded": 101,
+      "content_type_counts": {
+        "ai_image_prompt": 36,
+        "lightroom": 36,
+        "ai_news": 22
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 11,
+        "before_after": 16,
+        "experimental_trend": 4,
+        "quick_tip": 8
+      }
     }
   ],
   "theme_counts": {
@@ -2517,7 +2527,7 @@
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 2,
-    "underwater mermaid / merman fantasy": 2,
+    "underwater mermaid / merman fantasy": 3,
     "vampire gothic elegance candlelight": 2,
     "luxury fashion editorial on sport motorcycle studio shot": 1,
     "noir detective rainy street black and white": 1,
@@ -2548,7 +2558,7 @@
     "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 35,
+    "ai_image_prompt": 36,
     "lightroom": 36,
     "ai_news": 22
   }
