@@ -1089,6 +1089,19 @@
       "link": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
       "status": "published",
       "message_id": 1225
+    },
+    {
+      "timestamp": "2026-09-18T11:14:43.073734+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "analog film look with controlled grain and fade",
+      "preset_name": "Vintage Grain Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1226,
+      "document_message_id": 1227
     }
   ],
   "style_counts": {
@@ -1099,7 +1112,7 @@
     "vintage polaroid faded look": 5,
     "dark street style with subtle green tint": 3,
     "cool blue hour cityscape": 2,
-    "analog film look with controlled grain and fade": 1,
+    "analog film look with controlled grain and fade": 2,
     "lush green nature tones for landscapes": 5,
     "dramatic black and white with heavy contrast": 3,
     "moody forest with teal shadows": 2,
@@ -1107,26 +1120,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 11,
-    "before_after": 16,
+    "before_after": 17,
     "experimental_trend": 5,
     "quick_tip": 8
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-25T19:59:13.380818+00:00",
-      "member_count": 2995,
-      "total_posts_recorded": 18,
-      "content_type_counts": {
-        "ai_image_prompt": 4,
-        "lightroom": 5,
-        "ai_news": 2
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 5,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-26T08:10:40.278221+00:00",
       "member_count": 2993,
@@ -2538,6 +2536,22 @@
         "experimental_trend": 5,
         "quick_tip": 8
       }
+    },
+    {
+      "timestamp": "2026-09-18T11:14:43.229640+00:00",
+      "member_count": 2951,
+      "total_posts_recorded": 105,
+      "content_type_counts": {
+        "ai_image_prompt": 37,
+        "lightroom": 38,
+        "ai_news": 23
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 11,
+        "before_after": 17,
+        "experimental_trend": 5,
+        "quick_tip": 8
+      }
     }
   ],
   "theme_counts": {
@@ -2595,7 +2609,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 37,
-    "lightroom": 37,
+    "lightroom": 38,
     "ai_news": 23
   }
 }
