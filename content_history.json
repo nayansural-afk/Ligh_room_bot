@@ -1080,6 +1080,15 @@
       "tip": null,
       "photo_message_id": 1223,
       "document_message_id": 1224
+    },
+    {
+      "timestamp": "2026-09-18T06:14:55.749035+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Crusoe raises $3.9B to build massive data centers and small modular ‘AI factorie",
+      "link": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "status": "published",
+      "message_id": 1225
     }
   ],
   "style_counts": {
@@ -1103,21 +1112,6 @@
     "quick_tip": 8
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-25T17:04:15.802065+00:00",
-      "member_count": 2995,
-      "total_posts_recorded": 17,
-      "content_type_counts": {
-        "ai_image_prompt": 4,
-        "lightroom": 4,
-        "ai_news": 2
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 4,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-25T19:59:13.380818+00:00",
       "member_count": 2995,
@@ -2528,6 +2522,22 @@
         "experimental_trend": 5,
         "quick_tip": 8
       }
+    },
+    {
+      "timestamp": "2026-09-18T06:14:55.946620+00:00",
+      "member_count": 2953,
+      "total_posts_recorded": 104,
+      "content_type_counts": {
+        "ai_image_prompt": 37,
+        "lightroom": 37,
+        "ai_news": 23
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 11,
+        "before_after": 16,
+        "experimental_trend": 5,
+        "quick_tip": 8
+      }
     }
   ],
   "theme_counts": {
@@ -2536,7 +2546,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 14,
+    "TechCrunch AI": 15,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2580,11 +2590,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
     "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
     "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
-    "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/"
+    "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+    "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 37,
     "lightroom": 37,
-    "ai_news": 22
+    "ai_news": 23
   }
 }
