@@ -1128,6 +1128,15 @@
       "tip": "",
       "photo_message_id": 1230,
       "document_message_id": 1231
+    },
+    {
+      "timestamp": "2026-09-19T10:25:51.562521+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 India forces caller-ID apps to feed spam reports to telcos",
+      "link": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+      "status": "published",
+      "message_id": 1232
     }
   ],
   "style_counts": {
@@ -1151,21 +1160,6 @@
     "quick_tip": 9
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-27T11:54:44.529398+00:00",
-      "member_count": 2994,
-      "total_posts_recorded": 21,
-      "content_type_counts": {
-        "ai_image_prompt": 6,
-        "lightroom": 5,
-        "ai_news": 3
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 2,
-        "before_after": 5,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-28T01:00:37.132888+00:00",
       "member_count": 2994,
@@ -2580,6 +2574,22 @@
         "experimental_trend": 5,
         "quick_tip": 9
       }
+    },
+    {
+      "timestamp": "2026-09-19T10:25:51.698024+00:00",
+      "member_count": 2950,
+      "total_posts_recorded": 108,
+      "content_type_counts": {
+        "ai_image_prompt": 37,
+        "lightroom": 40,
+        "ai_news": 24
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 12,
+        "before_after": 17,
+        "experimental_trend": 5,
+        "quick_tip": 9
+      }
     }
   ],
   "theme_counts": {
@@ -2588,7 +2598,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 15,
+    "TechCrunch AI": 16,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2633,11 +2643,12 @@
     "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
     "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
     "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
-    "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+    "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+    "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 37,
     "lightroom": 40,
-    "ai_news": 23
+    "ai_news": 24
   }
 }
