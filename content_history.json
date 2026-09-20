@@ -1194,6 +1194,15 @@
       "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
       "status": "published",
       "message_id": 1240
+    },
+    {
+      "timestamp": "2026-09-20T17:47:20.364926+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "1920s Hollywood glamour studio portrait",
+      "title": "1920S Hollywood Glamour Studio Portrait",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, 1920s Hollywood glamour studio portrait, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1241
     }
   ],
   "style_counts": {
@@ -1217,21 +1226,6 @@
     "quick_tip": 10
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-28T22:00:17.006505+00:00",
-      "member_count": 2991,
-      "total_posts_recorded": 27,
-      "content_type_counts": {
-        "ai_image_prompt": 8,
-        "lightroom": 8,
-        "ai_news": 4
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 6,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-29T06:06:44.905621+00:00",
       "member_count": 2989,
@@ -2652,6 +2646,22 @@
         "experimental_trend": 5,
         "quick_tip": 10
       }
+    },
+    {
+      "timestamp": "2026-09-20T17:47:20.588656+00:00",
+      "member_count": 2950,
+      "total_posts_recorded": 114,
+      "content_type_counts": {
+        "ai_image_prompt": 39,
+        "lightroom": 43,
+        "ai_news": 25
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 12,
+        "before_after": 19,
+        "experimental_trend": 5,
+        "quick_tip": 10
+      }
     }
   ],
   "theme_counts": {
@@ -2671,7 +2681,7 @@
     "half-face extreme close-up with hard flash and film grain": 2,
     "black and white film noir detective": 2,
     "street style urban fashion editorial": 2,
-    "1920s Hollywood glamour studio portrait": 1,
+    "1920s Hollywood glamour studio portrait": 2,
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 2,
@@ -2711,7 +2721,7 @@
     "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 38,
+    "ai_image_prompt": 39,
     "lightroom": 43,
     "ai_news": 25
   }
