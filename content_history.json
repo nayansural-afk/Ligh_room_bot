@@ -1172,6 +1172,19 @@
       "ai_prompt": "Bubblegum Blaze 🎈\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic bubblegum bubble shot,",
       "status": "published",
       "message_id": 1237
+    },
+    {
+      "timestamp": "2026-09-20T10:45:54.440945+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "dramatic black and white with heavy contrast",
+      "preset_name": "Dramatic Noir",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1238,
+      "document_message_id": 1239
     }
   ],
   "style_counts": {
@@ -1184,32 +1197,17 @@
     "cool blue hour cityscape": 2,
     "analog film look with controlled grain and fade": 3,
     "lush green nature tones for landscapes": 5,
-    "dramatic black and white with heavy contrast": 3,
+    "dramatic black and white with heavy contrast": 4,
     "moody forest with teal shadows": 2,
     "warm cinematic with high contrast": 2
   },
   "pillar_counts": {
     "preset_of_the_day": 12,
-    "before_after": 18,
+    "before_after": 19,
     "experimental_trend": 5,
     "quick_tip": 10
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-28T21:49:42.563642+00:00",
-      "member_count": 2991,
-      "total_posts_recorded": 25,
-      "content_type_counts": {
-        "ai_image_prompt": 8,
-        "lightroom": 7,
-        "ai_news": 3
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 3,
-        "before_after": 6,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-28T21:58:23.504468+00:00",
       "member_count": 2991,
@@ -2628,6 +2626,22 @@
         "experimental_trend": 5,
         "quick_tip": 10
       }
+    },
+    {
+      "timestamp": "2026-09-20T10:45:54.630355+00:00",
+      "member_count": 2952,
+      "total_posts_recorded": 112,
+      "content_type_counts": {
+        "ai_image_prompt": 38,
+        "lightroom": 43,
+        "ai_news": 24
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 12,
+        "before_after": 19,
+        "experimental_trend": 5,
+        "quick_tip": 10
+      }
     }
   ],
   "theme_counts": {
@@ -2687,7 +2701,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 38,
-    "lightroom": 42,
+    "lightroom": 43,
     "ai_news": 24
   }
 }
