@@ -1185,6 +1185,15 @@
       "tip": null,
       "photo_message_id": 1238,
       "document_message_id": 1239
+    },
+    {
+      "timestamp": "2026-09-20T14:37:56.439827+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚀 6 Days Left to Save on TechCrunch Disrupt",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "status": "published",
+      "message_id": 1240
     }
   ],
   "style_counts": {
@@ -1208,21 +1217,6 @@
     "quick_tip": 10
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-28T21:58:23.504468+00:00",
-      "member_count": 2991,
-      "total_posts_recorded": 26,
-      "content_type_counts": {
-        "ai_image_prompt": 8,
-        "lightroom": 7,
-        "ai_news": 4
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 3,
-        "before_after": 6,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-28T22:00:17.006505+00:00",
       "member_count": 2991,
@@ -2642,6 +2636,22 @@
         "experimental_trend": 5,
         "quick_tip": 10
       }
+    },
+    {
+      "timestamp": "2026-09-20T14:37:56.636309+00:00",
+      "member_count": 2950,
+      "total_posts_recorded": 113,
+      "content_type_counts": {
+        "ai_image_prompt": 38,
+        "lightroom": 43,
+        "ai_news": 25
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 12,
+        "before_after": 19,
+        "experimental_trend": 5,
+        "quick_tip": 10
+      }
     }
   ],
   "theme_counts": {
@@ -2650,7 +2660,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 16,
+    "TechCrunch AI": 17,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2697,11 +2707,12 @@
     "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
     "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
     "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-    "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/"
+    "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+    "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 38,
     "lightroom": 43,
-    "ai_news": 24
+    "ai_news": 25
   }
 }
