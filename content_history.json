@@ -1216,6 +1216,15 @@
       "tip": "",
       "photo_message_id": 1242,
       "document_message_id": 1243
+    },
+    {
+      "timestamp": "2026-09-21T12:10:27.207011+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "luxury fashion editorial on sport motorcycle studio shot",
+      "title": "Luxury Fashion Editorial On Sport Motorcycle Studio Shot",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, luxury fashion editorial on sport motorcycle studio shot, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1244
     }
   ],
   "style_counts": {
@@ -1239,21 +1248,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-29T11:08:32.844697+00:00",
-      "member_count": 2989,
-      "total_posts_recorded": 29,
-      "content_type_counts": {
-        "ai_image_prompt": 10,
-        "lightroom": 8,
-        "ai_news": 4
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 6,
-        "experimental_trend": 1
-      }
-    },
     {
       "timestamp": "2026-08-29T15:02:01.220355+00:00",
       "member_count": 2991,
@@ -2676,6 +2670,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-21T12:10:27.355654+00:00",
+      "member_count": 2949,
+      "total_posts_recorded": 116,
+      "content_type_counts": {
+        "ai_image_prompt": 40,
+        "lightroom": 44,
+        "ai_news": 25
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 12,
+        "before_after": 19,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2701,7 +2711,7 @@
     "OpenAI": 2,
     "underwater mermaid / merman fantasy": 3,
     "vampire gothic elegance candlelight": 2,
-    "luxury fashion editorial on sport motorcycle studio shot": 1,
+    "luxury fashion editorial on sport motorcycle studio shot": 2,
     "noir detective rainy street black and white": 1,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 1,
@@ -2735,7 +2745,7 @@
     "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 39,
+    "ai_image_prompt": 40,
     "lightroom": 44,
     "ai_news": 25
   }
