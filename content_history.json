@@ -1225,6 +1225,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, luxury fashion editorial on sport motorcycle studio shot, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1244
+    },
+    {
+      "timestamp": "2026-09-21T16:55:37.800031+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 With Tabby, a former accountant is using AI to make accountants obsolete",
+      "link": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+      "status": "published",
+      "message_id": 1245
     }
   ],
   "style_counts": {
@@ -1248,21 +1257,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-29T15:02:01.220355+00:00",
-      "member_count": 2991,
-      "total_posts_recorded": 30,
-      "content_type_counts": {
-        "ai_image_prompt": 10,
-        "lightroom": 9,
-        "ai_news": 4
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 6,
-        "experimental_trend": 2
-      }
-    },
     {
       "timestamp": "2026-08-29T19:02:06.758841+00:00",
       "member_count": 2989,
@@ -2686,6 +2680,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-21T16:55:37.941179+00:00",
+      "member_count": 2951,
+      "total_posts_recorded": 117,
+      "content_type_counts": {
+        "ai_image_prompt": 40,
+        "lightroom": 44,
+        "ai_news": 26
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 12,
+        "before_after": 19,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2694,7 +2704,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 17,
+    "TechCrunch AI": 18,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2742,11 +2752,12 @@
     "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
     "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
     "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
-    "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/"
+    "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+    "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 40,
     "lightroom": 44,
-    "ai_news": 25
+    "ai_news": 26
   }
 }
