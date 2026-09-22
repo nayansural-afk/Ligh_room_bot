@@ -1282,6 +1282,15 @@
       "tip": null,
       "photo_message_id": 1251,
       "document_message_id": 1252
+    },
+    {
+      "timestamp": "2026-09-22T18:24:28.006252+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "link": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "status": "published",
+      "message_id": 1253
     }
   ],
   "style_counts": {
@@ -1305,22 +1314,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-30T19:02:07.038600+00:00",
-      "member_count": 2981,
-      "total_posts_recorded": 35,
-      "content_type_counts": {
-        "ai_image_prompt": 11,
-        "lightroom": 11,
-        "ai_news": 6
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 7,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-08-31T06:07:29.087595+00:00",
       "member_count": 2979,
@@ -2744,6 +2737,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-22T18:24:28.181791+00:00",
+      "member_count": 2949,
+      "total_posts_recorded": 122,
+      "content_type_counts": {
+        "ai_image_prompt": 40,
+        "lightroom": 47,
+        "ai_news": 28
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 14,
+        "before_after": 20,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2752,7 +2761,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 1,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 18,
+    "TechCrunch AI": 19,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 4,
     "The Verge AI": 6,
@@ -2803,11 +2812,12 @@
     "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
     "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
     "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
-    "https://huggingface.co/blog/transformers-llama-cpp-quants"
+    "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 40,
     "lightroom": 47,
-    "ai_news": 27
+    "ai_news": 28
   }
 }
