@@ -1260,6 +1260,15 @@
       "tip": null,
       "photo_message_id": 1248,
       "document_message_id": 1249
+    },
+    {
+      "timestamp": "2026-09-22T11:04:56.435474+00:00",
+      "content_type": "ai_news",
+      "theme": "Hugging Face",
+      "title": "🤖 Transformers now runs llama.cpp quants",
+      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "status": "published",
+      "message_id": 1250
     }
   ],
   "style_counts": {
@@ -1283,22 +1292,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-30T11:08:10.190328+00:00",
-      "member_count": 2983,
-      "total_posts_recorded": 33,
-      "content_type_counts": {
-        "ai_image_prompt": 11,
-        "lightroom": 10,
-        "ai_news": 5
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 6,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-08-30T15:02:17.556769+00:00",
       "member_count": 2981,
@@ -2722,6 +2715,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-22T11:04:56.625035+00:00",
+      "member_count": 2949,
+      "total_posts_recorded": 120,
+      "content_type_counts": {
+        "ai_image_prompt": 40,
+        "lightroom": 46,
+        "ai_news": 27
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 13,
+        "before_after": 20,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2751,7 +2760,8 @@
     "noir detective rainy street black and white": 1,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 1,
-    "playful bubblegum bubble shot with crimson backdrop and flash": 1
+    "playful bubblegum bubble shot with crimson backdrop and flash": 1,
+    "Hugging Face": 1
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -2779,11 +2789,12 @@
     "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
     "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
     "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-    "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/"
+    "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+    "https://huggingface.co/blog/transformers-llama-cpp-quants"
   ],
   "content_type_counts": {
     "ai_image_prompt": 40,
     "lightroom": 46,
-    "ai_news": 26
+    "ai_news": 27
   }
 }
