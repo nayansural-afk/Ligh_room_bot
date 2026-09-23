@@ -1300,6 +1300,19 @@
       "ai_prompt": "Midnight Case 🎭\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic black-and-white film noir detective, trench coat, fedora, cigarette smoke swirling, rain-soaked alley, moody high-contrast lighting with deep shadows and subtle rim light.",
       "status": "published",
       "message_id": 1254
+    },
+    {
+      "timestamp": "2026-09-23T10:54:41.578727+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "moody forest with teal shadows",
+      "preset_name": "Teal Mood",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1255,
+      "document_message_id": 1256
     }
   ],
   "style_counts": {
@@ -1313,32 +1326,16 @@
     "analog film look with controlled grain and fade": 3,
     "lush green nature tones for landscapes": 6,
     "dramatic black and white with heavy contrast": 4,
-    "moody forest with teal shadows": 2,
+    "moody forest with teal shadows": 3,
     "warm cinematic with high contrast": 2
   },
   "pillar_counts": {
-    "preset_of_the_day": 14,
+    "preset_of_the_day": 15,
     "before_after": 20,
     "experimental_trend": 5,
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-31T11:08:19.182673+00:00",
-      "member_count": 2978,
-      "total_posts_recorded": 37,
-      "content_type_counts": {
-        "ai_image_prompt": 11,
-        "lightroom": 11,
-        "ai_news": 8
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 7,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-08-31T15:02:24.239832+00:00",
       "member_count": 2977,
@@ -2762,6 +2759,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-23T10:54:41.727171+00:00",
+      "member_count": 2948,
+      "total_posts_recorded": 124,
+      "content_type_counts": {
+        "ai_image_prompt": 41,
+        "lightroom": 48,
+        "ai_news": 28
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 20,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2826,7 +2839,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 41,
-    "lightroom": 47,
+    "lightroom": 48,
     "ai_news": 28
   }
 }
