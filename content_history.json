@@ -1313,6 +1313,15 @@
       "tip": null,
       "photo_message_id": 1255,
       "document_message_id": 1256
+    },
+    {
+      "timestamp": "2026-09-23T15:22:59.738385+00:00",
+      "content_type": "ai_news",
+      "theme": "OpenAI",
+      "title": "🤖 Two years of OpenAI Academy",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "status": "published",
+      "message_id": 1257
     }
   ],
   "style_counts": {
@@ -1336,22 +1345,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-08-31T15:02:24.239832+00:00",
-      "member_count": 2977,
-      "total_posts_recorded": 38,
-      "content_type_counts": {
-        "ai_image_prompt": 11,
-        "lightroom": 11,
-        "ai_news": 9
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 7,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-08-31T19:02:18.274111+00:00",
       "member_count": 2978,
@@ -2775,6 +2768,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-23T15:23:00.052255+00:00",
+      "member_count": 2947,
+      "total_posts_recorded": 125,
+      "content_type_counts": {
+        "ai_image_prompt": 41,
+        "lightroom": 48,
+        "ai_news": 29
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 20,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2797,7 +2806,7 @@
     "1920s Hollywood glamour studio portrait": 2,
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 3,
-    "OpenAI": 2,
+    "OpenAI": 3,
     "underwater mermaid / merman fantasy": 3,
     "vampire gothic elegance candlelight": 2,
     "luxury fashion editorial on sport motorcycle studio shot": 2,
@@ -2835,11 +2844,12 @@
     "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
     "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
     "https://huggingface.co/blog/transformers-llama-cpp-quants",
-    "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+    "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+    "https://openai.com/index/two-years-of-openai-academy"
   ],
   "content_type_counts": {
     "ai_image_prompt": 41,
     "lightroom": 48,
-    "ai_news": 28
+    "ai_news": 29
   }
 }
