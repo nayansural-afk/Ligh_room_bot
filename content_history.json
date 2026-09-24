@@ -1353,6 +1353,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, sports athlete action sweat and intensity, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1261
+    },
+    {
+      "timestamp": "2026-09-24T15:46:11.606350+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "medieval knight armor photorealistic portrait",
+      "title": "Knight's Glint ⚔️",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic portrait of a medieval knight in full plate armor, with intricate etched patterns and polished steel reflecting a dramatic chiaroscuro from a soft golden hour light. Use a 50mm lens perspective, shallow depth of field, subtle bokeh background, cinematic composition centered on the knight's visor. Capture the texture of leather straps and the gleam of metal. Frame in 3:4 aspect ratio, high resolution, cinematic lighting, realistic shadows, subtle rim lighting to accentuate the armor details. Include atmospheric mist for a heroic medieval vibe.",
+      "status": "published",
+      "message_id": 1262
     }
   ],
   "style_counts": {
@@ -1376,22 +1385,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-01T15:03:24.503712+00:00",
-      "member_count": 2982,
-      "total_posts_recorded": 42,
-      "content_type_counts": {
-        "ai_image_prompt": 13,
-        "lightroom": 13,
-        "ai_news": 9
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 5,
-        "before_after": 8,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-09-01T19:02:34.966829+00:00",
       "member_count": 2980,
@@ -2815,6 +2808,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-24T15:46:11.891384+00:00",
+      "member_count": 2947,
+      "total_posts_recorded": 129,
+      "content_type_counts": {
+        "ai_image_prompt": 44,
+        "lightroom": 49,
+        "ai_news": 29
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 21,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2846,7 +2855,8 @@
     "wild west cowboy desert sunset": 1,
     "playful bubblegum bubble shot with crimson backdrop and flash": 1,
     "Hugging Face": 1,
-    "Disney Pixar 3D stylized character": 1
+    "Disney Pixar 3D stylized character": 1,
+    "medieval knight armor photorealistic portrait": 1
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -2880,7 +2890,7 @@
     "https://openai.com/index/two-years-of-openai-academy"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 43,
+    "ai_image_prompt": 44,
     "lightroom": 49,
     "ai_news": 29
   }
