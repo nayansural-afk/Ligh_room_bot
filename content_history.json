@@ -1362,6 +1362,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic portrait of a medieval knight in full plate armor, with intricate etched patterns and polished steel reflecting a dramatic chiaroscuro from a soft golden hour light. Use a 50mm lens perspective, shallow depth of field, subtle bokeh background, cinematic composition centered on the knight's visor. Capture the texture of leather straps and the gleam of metal. Frame in 3:4 aspect ratio, high resolution, cinematic lighting, realistic shadows, subtle rim lighting to accentuate the armor details. Include atmospheric mist for a heroic medieval vibe.",
       "status": "published",
       "message_id": 1262
+    },
+    {
+      "timestamp": "2026-09-24T18:44:37.710473+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "warm cinematic with high contrast",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1263,
+      "document_message_id": 1264
     }
   ],
   "style_counts": {
@@ -1376,31 +1389,15 @@
     "lush green nature tones for landscapes": 6,
     "dramatic black and white with heavy contrast": 4,
     "moody forest with teal shadows": 3,
-    "warm cinematic with high contrast": 2
+    "warm cinematic with high contrast": 3
   },
   "pillar_counts": {
     "preset_of_the_day": 15,
     "before_after": 21,
-    "experimental_trend": 5,
+    "experimental_trend": 6,
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-01T19:02:34.966829+00:00",
-      "member_count": 2980,
-      "total_posts_recorded": 43,
-      "content_type_counts": {
-        "ai_image_prompt": 14,
-        "lightroom": 13,
-        "ai_news": 9
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 5,
-        "before_after": 8,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-09-02T06:20:02.642514+00:00",
       "member_count": 2980,
@@ -2824,6 +2821,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-24T18:44:37.973095+00:00",
+      "member_count": 2946,
+      "total_posts_recorded": 130,
+      "content_type_counts": {
+        "ai_image_prompt": 44,
+        "lightroom": 50,
+        "ai_news": 29
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 21,
+        "experimental_trend": 6,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2891,7 +2904,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 44,
-    "lightroom": 49,
+    "lightroom": 50,
     "ai_news": 29
   }
 }
