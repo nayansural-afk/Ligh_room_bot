@@ -1344,6 +1344,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Disney Pixar 3D stylized character, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1260
+    },
+    {
+      "timestamp": "2026-09-24T11:13:53.855144+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "sports athlete action sweat and intensity",
+      "title": "Sports Athlete Action Sweat And Intensity",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, sports athlete action sweat and intensity, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1261
     }
   ],
   "style_counts": {
@@ -1367,22 +1376,6 @@
     "quick_tip": 11
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-01T11:14:42.977042+00:00",
-      "member_count": 2980,
-      "total_posts_recorded": 41,
-      "content_type_counts": {
-        "ai_image_prompt": 13,
-        "lightroom": 12,
-        "ai_news": 9
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 4,
-        "before_after": 8,
-        "experimental_trend": 2,
-        "quick_tip": 1
-      }
-    },
     {
       "timestamp": "2026-09-01T15:03:24.503712+00:00",
       "member_count": 2982,
@@ -2806,6 +2799,22 @@
         "experimental_trend": 5,
         "quick_tip": 11
       }
+    },
+    {
+      "timestamp": "2026-09-24T11:13:53.996627+00:00",
+      "member_count": 2947,
+      "total_posts_recorded": 128,
+      "content_type_counts": {
+        "ai_image_prompt": 43,
+        "lightroom": 49,
+        "ai_news": 29
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 21,
+        "experimental_trend": 5,
+        "quick_tip": 11
+      }
     }
   ],
   "theme_counts": {
@@ -2816,7 +2825,7 @@
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 19,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
-    "sports athlete action sweat and intensity": 4,
+    "sports athlete action sweat and intensity": 5,
     "The Verge AI": 6,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
@@ -2871,7 +2880,7 @@
     "https://openai.com/index/two-years-of-openai-academy"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 42,
+    "ai_image_prompt": 43,
     "lightroom": 49,
     "ai_news": 29
   }
