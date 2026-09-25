@@ -1397,6 +1397,15 @@
       "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
       "status": "published",
       "message_id": 1267
+    },
+    {
+      "timestamp": "2026-09-25T15:46:22.243218+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "Disney Pixar 3D stylized character",
+      "title": "Pixie Spark 🌈",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Using your selfie, transform into a Disney Pixar 3D stylized character with vibrant, smooth textures and exaggerated expressive eyes. Render in photorealistic detail, with a subtle rim light and warm golden hour back‑lighting to create depth. Use a 50mm lens simulation, shallow depth of field, 0.95 aperture, and a slight upward tilt for a dynamic portrait. Center the character with a soft vignette, composition 9:16, high resolution, and a touch of playful sparkle on the hair.",
+      "status": "published",
+      "message_id": 1268
     }
   ],
   "style_counts": {
@@ -1420,22 +1429,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-02T15:08:38.370920+00:00",
-      "member_count": 2981,
-      "total_posts_recorded": 46,
-      "content_type_counts": {
-        "ai_image_prompt": 15,
-        "lightroom": 15,
-        "ai_news": 9
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 6,
-        "before_after": 8,
-        "experimental_trend": 2,
-        "quick_tip": 2
-      }
-    },
     {
       "timestamp": "2026-09-02T19:02:47.773532+00:00",
       "member_count": 2981,
@@ -2859,6 +2852,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-25T15:46:22.435538+00:00",
+      "member_count": 2945,
+      "total_posts_recorded": 133,
+      "content_type_counts": {
+        "ai_image_prompt": 45,
+        "lightroom": 51,
+        "ai_news": 30
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 21,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -2890,7 +2899,7 @@
     "wild west cowboy desert sunset": 1,
     "playful bubblegum bubble shot with crimson backdrop and flash": 1,
     "Hugging Face": 1,
-    "Disney Pixar 3D stylized character": 1,
+    "Disney Pixar 3D stylized character": 2,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 1
   },
@@ -2927,7 +2936,7 @@
     "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 44,
+    "ai_image_prompt": 45,
     "lightroom": 51,
     "ai_news": 30
   }
