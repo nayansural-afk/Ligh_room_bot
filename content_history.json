@@ -1406,6 +1406,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Using your selfie, transform into a Disney Pixar 3D stylized character with vibrant, smooth textures and exaggerated expressive eyes. Render in photorealistic detail, with a subtle rim light and warm golden hour back‑lighting to create depth. Use a 50mm lens simulation, shallow depth of field, 0.95 aperture, and a slight upward tilt for a dynamic portrait. Center the character with a soft vignette, composition 9:16, high resolution, and a touch of playful sparkle on the hair.",
       "status": "published",
       "message_id": 1268
+    },
+    {
+      "timestamp": "2026-09-25T19:01:23.242038+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "moody forest with teal shadows",
+      "preset_name": "Soft Haze",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1269,
+      "document_message_id": 1270
     }
   ],
   "style_counts": {
@@ -1419,32 +1432,16 @@
     "analog film look with controlled grain and fade": 3,
     "lush green nature tones for landscapes": 6,
     "dramatic black and white with heavy contrast": 4,
-    "moody forest with teal shadows": 4,
+    "moody forest with teal shadows": 5,
     "warm cinematic with high contrast": 3
   },
   "pillar_counts": {
     "preset_of_the_day": 15,
-    "before_after": 21,
+    "before_after": 22,
     "experimental_trend": 6,
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-02T19:02:47.773532+00:00",
-      "member_count": 2981,
-      "total_posts_recorded": 47,
-      "content_type_counts": {
-        "ai_image_prompt": 15,
-        "lightroom": 16,
-        "ai_news": 9
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 6,
-        "before_after": 9,
-        "experimental_trend": 2,
-        "quick_tip": 2
-      }
-    },
     {
       "timestamp": "2026-09-03T06:16:07.083993+00:00",
       "member_count": 2980,
@@ -2868,6 +2865,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-25T19:01:23.499202+00:00",
+      "member_count": 2945,
+      "total_posts_recorded": 134,
+      "content_type_counts": {
+        "ai_image_prompt": 45,
+        "lightroom": 52,
+        "ai_news": 30
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 15,
+        "before_after": 22,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -2937,7 +2950,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 45,
-    "lightroom": 51,
+    "lightroom": 52,
     "ai_news": 30
   }
 }
