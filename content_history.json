@@ -1450,6 +1450,15 @@
       "ai_prompt": "Island Snap 🌴\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture",
       "status": "published",
       "message_id": 1274
+    },
+    {
+      "timestamp": "2026-09-26T18:09:44.350071+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 OpenAI pauses training of its ‘most capable models’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "status": "published",
+      "message_id": 1275
     }
   ],
   "style_counts": {
@@ -1473,22 +1482,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-03T19:02:24.348414+00:00",
-      "member_count": 2982,
-      "total_posts_recorded": 51,
-      "content_type_counts": {
-        "ai_image_prompt": 16,
-        "lightroom": 17,
-        "ai_news": 11
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 6,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 2
-      }
-    },
     {
       "timestamp": "2026-09-04T06:14:54.781297+00:00",
       "member_count": 2980,
@@ -2912,6 +2905,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-26T18:09:44.574126+00:00",
+      "member_count": 2940,
+      "total_posts_recorded": 138,
+      "content_type_counts": {
+        "ai_image_prompt": 47,
+        "lightroom": 53,
+        "ai_news": 31
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 16,
+        "before_after": 22,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -2923,7 +2932,7 @@
     "TechCrunch AI": 19,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 6,
+    "The Verge AI": 7,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
@@ -2979,11 +2988,12 @@
     "https://huggingface.co/blog/transformers-llama-cpp-quants",
     "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
     "https://openai.com/index/two-years-of-openai-academy",
-    "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
+    "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+    "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
   ],
   "content_type_counts": {
     "ai_image_prompt": 47,
     "lightroom": 53,
-    "ai_news": 30
+    "ai_news": 31
   }
 }
