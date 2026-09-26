@@ -1459,6 +1459,15 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
       "status": "published",
       "message_id": 1275
+    },
+    {
+      "timestamp": "2026-09-26T21:41:34.160997+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "wild west cowboy desert sunset",
+      "title": "Desert Dawn 🤠",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper-detailed, photorealistic scene of a rugged cowboy standing on a dusty desert ridge at sunset. The sun is low, casting warm amber light, long shadows across the sand, and a golden halo around the cowboy’s silhouette. Capture the texture of the worn leather coat, the intricate stitching of the cowboy hat, and the dust motes swirling in the air. Use a 35mm lens feel, moderate depth of field, and a slightly wide angle to emphasize the expansive horizon. Composition: cowboy centered, horizon line in the lower third, with a dramatic sky gradient. Aspect ratio 9:16 for vertical portrait.",
+      "status": "published",
+      "message_id": 1276
     }
   ],
   "style_counts": {
@@ -1482,22 +1491,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-04T06:14:54.781297+00:00",
-      "member_count": 2980,
-      "total_posts_recorded": 52,
-      "content_type_counts": {
-        "ai_image_prompt": 16,
-        "lightroom": 17,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 6,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 2
-      }
-    },
     {
       "timestamp": "2026-09-04T11:14:55.916738+00:00",
       "member_count": 2977,
@@ -2921,6 +2914,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-26T21:41:34.374392+00:00",
+      "member_count": 2940,
+      "total_posts_recorded": 139,
+      "content_type_counts": {
+        "ai_image_prompt": 48,
+        "lightroom": 53,
+        "ai_news": 31
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 16,
+        "before_after": 22,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -2949,7 +2958,7 @@
     "luxury fashion editorial on sport motorcycle studio shot": 2,
     "noir detective rainy street black and white": 1,
     "golden hour beach portrait soft rim light": 1,
-    "wild west cowboy desert sunset": 1,
+    "wild west cowboy desert sunset": 2,
     "playful bubblegum bubble shot with crimson backdrop and flash": 1,
     "Hugging Face": 1,
     "Disney Pixar 3D stylized character": 2,
@@ -2992,7 +3001,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 47,
+    "ai_image_prompt": 48,
     "lightroom": 53,
     "ai_news": 31
   }
