@@ -1490,6 +1490,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, black and white film noir detective, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1279
+    },
+    {
+      "timestamp": "2026-09-27T18:45:31.163826+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 OpenAI agents tried to ‘bruteforce’ a UN website",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "status": "published",
+      "message_id": 1280
     }
   ],
   "style_counts": {
@@ -1513,22 +1522,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-04T19:02:31.337556+00:00",
-      "member_count": 2979,
-      "total_posts_recorded": 55,
-      "content_type_counts": {
-        "ai_image_prompt": 18,
-        "lightroom": 18,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 6,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 3
-      }
-    },
     {
       "timestamp": "2026-09-05T06:13:54.711980+00:00",
       "member_count": 2978,
@@ -2952,6 +2945,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-27T18:45:31.297522+00:00",
+      "member_count": 2940,
+      "total_posts_recorded": 142,
+      "content_type_counts": {
+        "ai_image_prompt": 49,
+        "lightroom": 54,
+        "ai_news": 32
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 16,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -2963,7 +2972,7 @@
     "TechCrunch AI": 19,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 7,
+    "The Verge AI": 8,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
@@ -3020,11 +3029,12 @@
     "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
     "https://openai.com/index/two-years-of-openai-academy",
     "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-    "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
+    "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+    "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
   ],
   "content_type_counts": {
     "ai_image_prompt": 49,
     "lightroom": 54,
-    "ai_news": 31
+    "ai_news": 32
   }
 }
