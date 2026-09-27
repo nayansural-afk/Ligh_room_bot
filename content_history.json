@@ -1468,6 +1468,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper-detailed, photorealistic scene of a rugged cowboy standing on a dusty desert ridge at sunset. The sun is low, casting warm amber light, long shadows across the sand, and a golden halo around the cowboy’s silhouette. Capture the texture of the worn leather coat, the intricate stitching of the cowboy hat, and the dust motes swirling in the air. Use a 35mm lens feel, moderate depth of field, and a slightly wide angle to emphasize the expansive horizon. Composition: cowboy centered, horizon line in the lower third, with a dramatic sky gradient. Aspect ratio 9:16 for vertical portrait.",
       "status": "published",
       "message_id": 1276
+    },
+    {
+      "timestamp": "2026-09-27T11:32:13.693522+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "lush green nature tones for landscapes",
+      "preset_name": "Teal Mood",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1277,
+      "document_message_id": 1278
     }
   ],
   "style_counts": {
@@ -1479,34 +1492,18 @@
     "dark street style with subtle green tint": 4,
     "cool blue hour cityscape": 2,
     "analog film look with controlled grain and fade": 3,
-    "lush green nature tones for landscapes": 7,
+    "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 4,
     "moody forest with teal shadows": 5,
     "warm cinematic with high contrast": 3
   },
   "pillar_counts": {
     "preset_of_the_day": 16,
-    "before_after": 22,
+    "before_after": 23,
     "experimental_trend": 6,
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-04T11:14:55.916738+00:00",
-      "member_count": 2977,
-      "total_posts_recorded": 53,
-      "content_type_counts": {
-        "ai_image_prompt": 17,
-        "lightroom": 17,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 6,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 2
-      }
-    },
     {
       "timestamp": "2026-09-04T15:03:27.790123+00:00",
       "member_count": 2978,
@@ -2930,6 +2927,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-27T11:32:13.867795+00:00",
+      "member_count": 2940,
+      "total_posts_recorded": 140,
+      "content_type_counts": {
+        "ai_image_prompt": 48,
+        "lightroom": 54,
+        "ai_news": 31
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 16,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -3002,7 +3015,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 48,
-    "lightroom": 53,
+    "lightroom": 54,
     "ai_news": 31
   }
 }
