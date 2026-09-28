@@ -1534,6 +1534,19 @@
       "ai_prompt": "Midnight Candle 💫\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photograph a refined vampire in candlelit gothic elegance. Use a 85mm prime lens at f/1.4, cinematic depth of field, soft rim lighting from a single flickering candle, casting dramatic chiaroscuro shadows across the face. Position the subject at a 3:4 ratio frame, close‑up, slightly off‑center, with a blurred, ornate candlelit chandelier in",
       "status": "published",
       "message_id": 1285
+    },
+    {
+      "timestamp": "2026-09-28T20:55:25.140670+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "warm cinematic with high contrast",
+      "preset_name": "Street Ember",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1286,
+      "document_message_id": 1287
     }
   ],
   "style_counts": {
@@ -1548,31 +1561,15 @@
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 4,
     "moody forest with teal shadows": 5,
-    "warm cinematic with high contrast": 3
+    "warm cinematic with high contrast": 4
   },
   "pillar_counts": {
-    "preset_of_the_day": 18,
+    "preset_of_the_day": 19,
     "before_after": 23,
     "experimental_trend": 6,
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-05T19:02:29.847389+00:00",
-      "member_count": 2978,
-      "total_posts_recorded": 59,
-      "content_type_counts": {
-        "ai_image_prompt": 19,
-        "lightroom": 21,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-06T06:13:53.783549+00:00",
       "member_count": 2979,
@@ -2996,6 +2993,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-28T20:55:25.329709+00:00",
+      "member_count": 2933,
+      "total_posts_recorded": 146,
+      "content_type_counts": {
+        "ai_image_prompt": 50,
+        "lightroom": 57,
+        "ai_news": 32
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 19,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -3069,7 +3082,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 50,
-    "lightroom": 56,
+    "lightroom": 57,
     "ai_news": 32
   }
 }
