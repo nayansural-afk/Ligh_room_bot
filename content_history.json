@@ -1525,6 +1525,15 @@
       "tip": null,
       "photo_message_id": 1283,
       "document_message_id": 1284
+    },
+    {
+      "timestamp": "2026-09-28T18:33:09.930866+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "vampire gothic elegance candlelight",
+      "title": "Midnight Candle 💫",
+      "ai_prompt": "Midnight Candle 💫\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photograph a refined vampire in candlelit gothic elegance. Use a 85mm prime lens at f/1.4, cinematic depth of field, soft rim lighting from a single flickering candle, casting dramatic chiaroscuro shadows across the face. Position the subject at a 3:4 ratio frame, close‑up, slightly off‑center, with a blurred, ornate candlelit chandelier in",
+      "status": "published",
+      "message_id": 1285
     }
   ],
   "style_counts": {
@@ -1548,22 +1557,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-05T15:03:13.558832+00:00",
-      "member_count": 2978,
-      "total_posts_recorded": 58,
-      "content_type_counts": {
-        "ai_image_prompt": 18,
-        "lightroom": 21,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-05T19:02:29.847389+00:00",
       "member_count": 2978,
@@ -2987,6 +2980,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-28T18:33:10.174448+00:00",
+      "member_count": 2934,
+      "total_posts_recorded": 145,
+      "content_type_counts": {
+        "ai_image_prompt": 50,
+        "lightroom": 56,
+        "ai_news": 32
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 18,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -3011,7 +3020,7 @@
     "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 3,
     "underwater mermaid / merman fantasy": 3,
-    "vampire gothic elegance candlelight": 2,
+    "vampire gothic elegance candlelight": 3,
     "luxury fashion editorial on sport motorcycle studio shot": 2,
     "noir detective rainy street black and white": 1,
     "golden hour beach portrait soft rim light": 1,
@@ -3059,7 +3068,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 49,
+    "ai_image_prompt": 50,
     "lightroom": 56,
     "ai_news": 32
   }
