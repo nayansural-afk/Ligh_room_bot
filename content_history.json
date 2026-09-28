@@ -1547,6 +1547,15 @@
       "tip": null,
       "photo_message_id": 1286,
       "document_message_id": 1287
+    },
+    {
+      "timestamp": "2026-09-28T23:35:38.273640+00:00",
+      "content_type": "ai_news",
+      "theme": "MIT Tech Review AI",
+      "title": "🤖 Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "status": "published",
+      "message_id": 1288
     }
   ],
   "style_counts": {
@@ -1570,22 +1579,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-06T06:13:53.783549+00:00",
-      "member_count": 2979,
-      "total_posts_recorded": 60,
-      "content_type_counts": {
-        "ai_image_prompt": 20,
-        "lightroom": 21,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-06T11:14:13.187346+00:00",
       "member_count": 2976,
@@ -3009,6 +3002,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-28T23:35:38.499007+00:00",
+      "member_count": 2933,
+      "total_posts_recorded": 147,
+      "content_type_counts": {
+        "ai_image_prompt": 50,
+        "lightroom": 57,
+        "ai_news": 33
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 19,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -3042,7 +3051,7 @@
     "Hugging Face": 1,
     "Disney Pixar 3D stylized character": 2,
     "medieval knight armor photorealistic portrait": 1,
-    "MIT Tech Review AI": 1,
+    "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 1,
     "tropical vacation candid smartphone photo": 1
   },
@@ -3078,11 +3087,12 @@
     "https://openai.com/index/two-years-of-openai-academy",
     "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
     "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-    "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
+    "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+    "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 50,
     "lightroom": 57,
-    "ai_news": 32
+    "ai_news": 33
   }
 }
