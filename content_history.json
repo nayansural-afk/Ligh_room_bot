@@ -1583,6 +1583,15 @@
       "ai_prompt": "Aqua Siren 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone",
       "status": "published",
       "message_id": 1291
+    },
+    {
+      "timestamp": "2026-09-29T22:44:53.301132+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "noir detective rainy street black and white",
+      "title": "Noir Detective Rainy Street Black And White",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, noir detective rainy street black and white, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1292
     }
   ],
   "style_counts": {
@@ -1606,22 +1615,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-07T06:16:58.971663+00:00",
-      "member_count": 2973,
-      "total_posts_recorded": 62,
-      "content_type_counts": {
-        "ai_image_prompt": 21,
-        "lightroom": 21,
-        "ai_news": 13
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-07T11:15:57.359598+00:00",
       "member_count": 2972,
@@ -3045,6 +3038,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-29T22:44:53.487590+00:00",
+      "member_count": 2926,
+      "total_posts_recorded": 151,
+      "content_type_counts": {
+        "ai_image_prompt": 53,
+        "lightroom": 57,
+        "ai_news": 34
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 19,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -3071,7 +3080,7 @@
     "underwater mermaid / merman fantasy": 4,
     "vampire gothic elegance candlelight": 3,
     "luxury fashion editorial on sport motorcycle studio shot": 2,
-    "noir detective rainy street black and white": 1,
+    "noir detective rainy street black and white": 2,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 2,
     "playful bubblegum bubble shot with crimson backdrop and flash": 1,
@@ -3119,7 +3128,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 52,
+    "ai_image_prompt": 53,
     "lightroom": 57,
     "ai_news": 34
   }
