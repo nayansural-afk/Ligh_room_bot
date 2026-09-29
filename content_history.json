@@ -1556,6 +1556,15 @@
       "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "status": "published",
       "message_id": 1288
+    },
+    {
+      "timestamp": "2026-09-29T12:15:51.707346+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "royal Victorian era formal portrait",
+      "title": "Victorian Royal Glow 👑",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed Victorian era formal portrait of a monarch in regal attire. Use soft, diffused golden hour lighting with a subtle rim light on the shoulders to emphasize the opulent lace and velvet textures. Capture with a 50mm prime lens simulation, shallow depth of field, slight bokeh background, and a 3:4 aspect ratio. Compose the subject centered, head slightly tilted, holding a silver scepter, with a backdrop of a richly embroidered curtain. Add a subtle warm vignette to enhance the nostalgic Victorian atmosphere. Ensure the image is polished, elegant, and evocative of royal splendor.",
+      "status": "published",
+      "message_id": 1289
     }
   ],
   "style_counts": {
@@ -1579,22 +1588,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-06T11:14:13.187346+00:00",
-      "member_count": 2976,
-      "total_posts_recorded": 60,
-      "content_type_counts": {
-        "ai_image_prompt": 20,
-        "lightroom": 21,
-        "ai_news": 12
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-06T15:03:21.771832+00:00",
       "member_count": 2974,
@@ -3018,13 +3011,29 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-29T12:15:51.926105+00:00",
+      "member_count": 2929,
+      "total_posts_recorded": 148,
+      "content_type_counts": {
+        "ai_image_prompt": 51,
+        "lightroom": 57,
+        "ai_news": 33
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 19,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 1,
     "80s retro film look candid": 1,
-    "royal Victorian era formal portrait": 1,
+    "royal Victorian era formal portrait": 2,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 19,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
@@ -3091,7 +3100,7 @@
     "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 50,
+    "ai_image_prompt": 51,
     "lightroom": 57,
     "ai_news": 33
   }
