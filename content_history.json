@@ -1592,6 +1592,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, noir detective rainy street black and white, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1292
+    },
+    {
+      "timestamp": "2026-09-30T12:01:40.897598+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Airbnb adds AI search, more social features",
+      "link": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "status": "published",
+      "message_id": 1293
     }
   ],
   "style_counts": {
@@ -1615,22 +1624,6 @@
     "quick_tip": 12
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-07T11:15:57.359598+00:00",
-      "member_count": 2972,
-      "total_posts_recorded": 63,
-      "content_type_counts": {
-        "ai_image_prompt": 21,
-        "lightroom": 21,
-        "ai_news": 14
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 9,
-        "experimental_trend": 3,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-07T15:03:31.918381+00:00",
       "member_count": 2972,
@@ -3054,6 +3047,22 @@
         "experimental_trend": 6,
         "quick_tip": 12
       }
+    },
+    {
+      "timestamp": "2026-09-30T12:01:41.185661+00:00",
+      "member_count": 2923,
+      "total_posts_recorded": 152,
+      "content_type_counts": {
+        "ai_image_prompt": 53,
+        "lightroom": 57,
+        "ai_news": 35
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 19,
+        "before_after": 23,
+        "experimental_trend": 6,
+        "quick_tip": 12
+      }
     }
   ],
   "theme_counts": {
@@ -3062,7 +3071,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 2,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 19,
+    "TechCrunch AI": 20,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 9,
@@ -3125,11 +3134,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
     "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
     "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-    "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
+    "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+    "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 53,
     "lightroom": 57,
-    "ai_news": 34
+    "ai_news": 35
   }
 }
