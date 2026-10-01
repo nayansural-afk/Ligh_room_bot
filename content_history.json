@@ -1666,6 +1666,15 @@
       "tip": null,
       "photo_message_id": 1302,
       "document_message_id": 1303
+    },
+    {
+      "timestamp": "2026-10-01T19:57:51.477599+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Google’s new Guided Vision feature can help you read the fine print",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "status": "published",
+      "message_id": 1304
     }
   ],
   "style_counts": {
@@ -1689,22 +1698,6 @@
     "quick_tip": 13
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-08T19:03:20.549394+00:00",
-      "member_count": 2969,
-      "total_posts_recorded": 69,
-      "content_type_counts": {
-        "ai_image_prompt": 22,
-        "lightroom": 25,
-        "ai_news": 15
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 12,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-09T06:15:28.476714+00:00",
       "member_count": 2971,
@@ -3128,6 +3121,22 @@
         "experimental_trend": 7,
         "quick_tip": 13
       }
+    },
+    {
+      "timestamp": "2026-10-01T19:57:51.664954+00:00",
+      "member_count": 2920,
+      "total_posts_recorded": 158,
+      "content_type_counts": {
+        "ai_image_prompt": 53,
+        "lightroom": 62,
+        "ai_news": 36
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 7,
+        "quick_tip": 13
+      }
     }
   ],
   "theme_counts": {
@@ -3139,7 +3148,7 @@
     "TechCrunch AI": 20,
     "ancient Egyptian pharaoh / queen gold and linen": 2,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 9,
+    "The Verge AI": 10,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 1,
@@ -3200,11 +3209,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
     "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
     "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-    "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/"
+    "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+    "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
   ],
   "content_type_counts": {
     "ai_image_prompt": 53,
     "lightroom": 62,
-    "ai_news": 35
+    "ai_news": 36
   }
 }
