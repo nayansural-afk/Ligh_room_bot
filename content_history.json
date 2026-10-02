@@ -1706,6 +1706,15 @@
       "ai_prompt": "Stage Blaze 🎸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed rockstar on stage under dramatic, multicolored stage lights—vivid blues, crimson reds",
       "status": "published",
       "message_id": 1308
+    },
+    {
+      "timestamp": "2026-10-02T19:39:17.205583+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "tropical vacation candid smartphone photo",
+      "title": "Tropical Vacation Candid Smartphone Photo",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, tropical vacation candid smartphone photo, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1309
     }
   ],
   "style_counts": {
@@ -1729,22 +1738,6 @@
     "quick_tip": 14
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-09T19:02:51.493882+00:00",
-      "member_count": 2968,
-      "total_posts_recorded": 72,
-      "content_type_counts": {
-        "ai_image_prompt": 25,
-        "lightroom": 25,
-        "ai_news": 15
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 7,
-        "before_after": 12,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-10T06:16:01.161054+00:00",
       "member_count": 2964,
@@ -3168,6 +3161,22 @@
         "experimental_trend": 7,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-02T19:39:17.401107+00:00",
+      "member_count": 2914,
+      "total_posts_recorded": 162,
+      "content_type_counts": {
+        "ai_image_prompt": 56,
+        "lightroom": 63,
+        "ai_news": 36
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 7,
+        "quick_tip": 14
+      }
     }
   ],
   "theme_counts": {
@@ -3203,7 +3212,7 @@
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 1,
-    "tropical vacation candid smartphone photo": 1
+    "tropical vacation candid smartphone photo": 2
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -3244,7 +3253,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 55,
+    "ai_image_prompt": 56,
     "lightroom": 63,
     "ai_news": 36
   }
