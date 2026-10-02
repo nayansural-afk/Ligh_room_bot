@@ -1715,6 +1715,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, tropical vacation candid smartphone photo, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1309
+    },
+    {
+      "timestamp": "2026-10-02T22:39:44.056177+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "royal Victorian era formal portrait",
+      "title": "Victorian Regal Portrait 👑",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed portrait in a formal Victorian setting. Use a 50mm prime lens simulation for a natural depth of field, capturing sharp details on the face while softly blurring the ornate lace collar and jeweled brooch. Set lighting to a warm, diffused golden hour glow that highlights the subtle creases and fine hair strands, with a gentle rim light to accentuate the profile. Compose the shot with the subject slightly off‑center, head‑and‑shoulders, against a muted velvet backdrop draped with intricate Victorian wallpaper. Keep the aspect ratio 3:4 to emphasize elegance and formality.",
+      "status": "published",
+      "message_id": 1310
     }
   ],
   "style_counts": {
@@ -1738,22 +1747,6 @@
     "quick_tip": 14
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-10T06:16:01.161054+00:00",
-      "member_count": 2964,
-      "total_posts_recorded": 73,
-      "content_type_counts": {
-        "ai_image_prompt": 25,
-        "lightroom": 26,
-        "ai_news": 15
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 8,
-        "before_after": 12,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-10T11:15:16.615153+00:00",
       "member_count": 2964,
@@ -3177,13 +3170,29 @@
         "experimental_trend": 7,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-02T22:39:44.211740+00:00",
+      "member_count": 2914,
+      "total_posts_recorded": 163,
+      "content_type_counts": {
+        "ai_image_prompt": 57,
+        "lightroom": 63,
+        "ai_news": 36
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 7,
+        "quick_tip": 14
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 1,
     "80s retro film look candid": 1,
-    "royal Victorian era formal portrait": 2,
+    "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 20,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
@@ -3253,7 +3262,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 56,
+    "ai_image_prompt": 57,
     "lightroom": 63,
     "ai_news": 36
   }
