@@ -1755,6 +1755,15 @@
       "ai_prompt": "Starlit Stage 🎤\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper-realistic rockstar mid-performance on a dimly",
       "status": "published",
       "message_id": 1314
+    },
+    {
+      "timestamp": "2026-10-03T21:53:35.865394+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Amazon responds to data center backlash, says it no longer uses NDAs",
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "status": "published",
+      "message_id": 1315
     }
   ],
   "style_counts": {
@@ -1778,22 +1787,6 @@
     "quick_tip": 14
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-11T06:14:57.046134+00:00",
-      "member_count": 2963,
-      "total_posts_recorded": 77,
-      "content_type_counts": {
-        "ai_image_prompt": 27,
-        "lightroom": 28,
-        "ai_news": 15
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 13,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-11T11:15:22.450619+00:00",
       "member_count": 2962,
@@ -3217,6 +3210,22 @@
         "experimental_trend": 8,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-03T21:53:36.044174+00:00",
+      "member_count": 2915,
+      "total_posts_recorded": 167,
+      "content_type_counts": {
+        "ai_image_prompt": 58,
+        "lightroom": 64,
+        "ai_news": 38
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 8,
+        "quick_tip": 14
+      }
     }
   ],
   "theme_counts": {
@@ -3225,7 +3234,7 @@
     "80s retro film look candid": 1,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 20,
+    "TechCrunch AI": 21,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 11,
@@ -3291,11 +3300,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
     "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
     "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-    "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
+    "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+    "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 58,
     "lightroom": 64,
-    "ai_news": 37
+    "ai_news": 38
   }
 }
