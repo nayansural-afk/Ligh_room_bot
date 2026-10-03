@@ -1746,6 +1746,15 @@
       "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
       "status": "published",
       "message_id": 1313
+    },
+    {
+      "timestamp": "2026-10-03T18:25:26.523658+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "rockstar stage performance dramatic lights",
+      "title": "Starlit Stage 🎤",
+      "ai_prompt": "Starlit Stage 🎤\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper-realistic rockstar mid-performance on a dimly",
+      "status": "published",
+      "message_id": 1314
     }
   ],
   "style_counts": {
@@ -1769,22 +1778,6 @@
     "quick_tip": 14
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-10T19:02:21.970260+00:00",
-      "member_count": 2965,
-      "total_posts_recorded": 76,
-      "content_type_counts": {
-        "ai_image_prompt": 26,
-        "lightroom": 28,
-        "ai_news": 15
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 13,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-11T06:14:57.046134+00:00",
       "member_count": 2963,
@@ -3208,6 +3201,22 @@
         "experimental_trend": 8,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-03T18:25:26.714670+00:00",
+      "member_count": 2915,
+      "total_posts_recorded": 166,
+      "content_type_counts": {
+        "ai_image_prompt": 58,
+        "lightroom": 64,
+        "ai_news": 37
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 8,
+        "quick_tip": 14
+      }
     }
   ],
   "theme_counts": {
@@ -3222,7 +3231,7 @@
     "The Verge AI": 11,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
-    "rockstar stage performance dramatic lights": 2,
+    "rockstar stage performance dramatic lights": 3,
     "modern high-fashion magazine cover": 1,
     "half-face extreme close-up with hard flash and film grain": 2,
     "black and white film noir detective": 4,
@@ -3285,7 +3294,7 @@
     "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 57,
+    "ai_image_prompt": 58,
     "lightroom": 64,
     "ai_news": 37
   }
