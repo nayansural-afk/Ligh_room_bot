@@ -1737,6 +1737,15 @@
       "tip": null,
       "photo_message_id": 1311,
       "document_message_id": 1312
+    },
+    {
+      "timestamp": "2026-10-03T15:05:57.472660+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 AI Emails Are Killing Conversations, Says Splice CEO",
+      "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "status": "published",
+      "message_id": 1313
     }
   ],
   "style_counts": {
@@ -1760,22 +1769,6 @@
     "quick_tip": 14
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-10T15:03:22.665507+00:00",
-      "member_count": 2965,
-      "total_posts_recorded": 75,
-      "content_type_counts": {
-        "ai_image_prompt": 26,
-        "lightroom": 27,
-        "ai_news": 15
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 12,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-10T19:02:21.970260+00:00",
       "member_count": 2965,
@@ -3199,6 +3192,22 @@
         "experimental_trend": 8,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-03T15:05:57.619999+00:00",
+      "member_count": 2915,
+      "total_posts_recorded": 165,
+      "content_type_counts": {
+        "ai_image_prompt": 57,
+        "lightroom": 64,
+        "ai_news": 37
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 8,
+        "quick_tip": 14
+      }
     }
   ],
   "theme_counts": {
@@ -3210,7 +3219,7 @@
     "TechCrunch AI": 20,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 10,
+    "The Verge AI": 11,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
     "rockstar stage performance dramatic lights": 2,
@@ -3272,11 +3281,12 @@
     "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
     "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
     "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
-    "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+    "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+    "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
   ],
   "content_type_counts": {
     "ai_image_prompt": 57,
     "lightroom": 64,
-    "ai_news": 36
+    "ai_news": 37
   }
 }
