@@ -1773,6 +1773,19 @@
       "ai_prompt": "Retro Candid 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture the subject in a candid 80s retro film scene: a dimly lit street corner at night with flickering neon signs, rain-soaked asphalt reflecting neon pink and blue hues. Use a 35mm lens simulation at f/1.8, shallow depth of field, soft bokeh",
       "status": "published",
       "message_id": 1316
+    },
+    {
+      "timestamp": "2026-10-04T15:43:07.660848+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "vintage polaroid faded look",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "Add a subtle vignette",
+      "photo_message_id": 1317,
+      "document_message_id": 1318
     }
   ],
   "style_counts": {
@@ -1780,7 +1793,7 @@
     "soft pastel tones for portraits": 5,
     "golden hour sunset with rich saturation": 6,
     "high-key fashion with soft contrast": 4,
-    "vintage polaroid faded look": 5,
+    "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 5,
     "cool blue hour cityscape": 5,
     "analog film look with controlled grain and fade": 4,
@@ -1793,25 +1806,9 @@
     "preset_of_the_day": 21,
     "before_after": 24,
     "experimental_trend": 8,
-    "quick_tip": 14
+    "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-11T15:03:13.667438+00:00",
-      "member_count": 2962,
-      "total_posts_recorded": 79,
-      "content_type_counts": {
-        "ai_image_prompt": 27,
-        "lightroom": 28,
-        "ai_news": 17
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 13,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-11T19:02:27.031926+00:00",
       "member_count": 2961,
@@ -3235,6 +3232,22 @@
         "experimental_trend": 8,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-04T15:43:07.835406+00:00",
+      "member_count": 2911,
+      "total_posts_recorded": 169,
+      "content_type_counts": {
+        "ai_image_prompt": 59,
+        "lightroom": 65,
+        "ai_news": 38
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 8,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3314,7 +3327,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 59,
-    "lightroom": 64,
+    "lightroom": 65,
     "ai_news": 38
   }
 }
