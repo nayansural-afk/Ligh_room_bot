@@ -1764,6 +1764,15 @@
       "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
       "status": "published",
       "message_id": 1315
+    },
+    {
+      "timestamp": "2026-10-04T11:52:34.262701+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "80s retro film look candid",
+      "title": "Retro Candid 🎬",
+      "ai_prompt": "Retro Candid 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture the subject in a candid 80s retro film scene: a dimly lit street corner at night with flickering neon signs, rain-soaked asphalt reflecting neon pink and blue hues. Use a 35mm lens simulation at f/1.8, shallow depth of field, soft bokeh",
+      "status": "published",
+      "message_id": 1316
     }
   ],
   "style_counts": {
@@ -1787,22 +1796,6 @@
     "quick_tip": 14
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-11T11:15:22.450619+00:00",
-      "member_count": 2962,
-      "total_posts_recorded": 78,
-      "content_type_counts": {
-        "ai_image_prompt": 27,
-        "lightroom": 28,
-        "ai_news": 16
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 13,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-11T15:03:13.667438+00:00",
       "member_count": 2962,
@@ -3226,12 +3219,28 @@
         "experimental_trend": 8,
         "quick_tip": 14
       }
+    },
+    {
+      "timestamp": "2026-10-04T11:52:34.420865+00:00",
+      "member_count": 2912,
+      "total_posts_recorded": 168,
+      "content_type_counts": {
+        "ai_image_prompt": 59,
+        "lightroom": 64,
+        "ai_news": 38
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 21,
+        "before_after": 24,
+        "experimental_trend": 8,
+        "quick_tip": 14
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 1,
-    "80s retro film look candid": 1,
+    "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 21,
@@ -3304,7 +3313,7 @@
     "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 58,
+    "ai_image_prompt": 59,
     "lightroom": 64,
     "ai_news": 38
   }
