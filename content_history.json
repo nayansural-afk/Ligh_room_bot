@@ -1817,6 +1817,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a candid tropical vacation selfie taken on a sunny beach. Natural sunlight from the golden hour casts warm, soft highlights on the subject’s hair and skin, with subtle rim lighting from a nearby palm canopy. The camera feels like a 35mm DSLR with a 50mm prime lens, capturing a shallow depth of field that keeps the subject in sharp focus while gently blurring turquoise turquoise waters and white sand in the background. The composition follows the rule of thirds, placing the subject slightly left of center, with a relaxed, smiling expression, and a subtle handheld shake giving a natural smartphone look. Aspect ratio 9:16 for vertical portrait.",
       "status": "published",
       "message_id": 1322
+    },
+    {
+      "timestamp": "2026-10-05T21:43:21.337195+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "warm cinematic with high contrast",
+      "preset_name": "Warm Cinematic Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1323,
+      "document_message_id": 1324
     }
   ],
   "style_counts": {
@@ -1831,31 +1844,15 @@
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 5,
     "moody forest with teal shadows": 5,
-    "warm cinematic with high contrast": 5
+    "warm cinematic with high contrast": 6
   },
   "pillar_counts": {
     "preset_of_the_day": 22,
     "before_after": 24,
-    "experimental_trend": 8,
+    "experimental_trend": 9,
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-12T15:03:12.507399+00:00",
-      "member_count": 2961,
-      "total_posts_recorded": 83,
-      "content_type_counts": {
-        "ai_image_prompt": 29,
-        "lightroom": 29,
-        "ai_news": 18
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 14,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-12T19:02:23.803087+00:00",
       "member_count": 2962,
@@ -3279,6 +3276,22 @@
         "experimental_trend": 8,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-05T21:43:21.499335+00:00",
+      "member_count": 2906,
+      "total_posts_recorded": 173,
+      "content_type_counts": {
+        "ai_image_prompt": 61,
+        "lightroom": 67,
+        "ai_news": 38
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 22,
+        "before_after": 24,
+        "experimental_trend": 9,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3358,7 +3371,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 61,
-    "lightroom": 66,
+    "lightroom": 67,
     "ai_news": 38
   }
 }
