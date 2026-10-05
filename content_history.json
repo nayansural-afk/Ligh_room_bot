@@ -1808,6 +1808,15 @@
       "ai_prompt": "Urban Street Vibe 🌆\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic urban street style editorial shot in a bustling alley at dusk. Neon signs cast a soft pink and blue glow, with subtle back‑light from a flickering streetlamp. Capture with a 35mm prime lens, aperture f/1.8 for a dreamy shallow depth of field, ISO 400, 1/125s shutter speed. Compose the subject off‑center, following the rule of thirds, with a low angle that elongates the silhouette. Add a subtle reflection in a puddle and a slight motion blur to the background to convey city energy. Aspect ratio 9:",
       "status": "published",
       "message_id": 1321
+    },
+    {
+      "timestamp": "2026-10-05T13:48:17.550632+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "tropical vacation candid smartphone photo",
+      "title": "Beachside Bliss 📸",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a candid tropical vacation selfie taken on a sunny beach. Natural sunlight from the golden hour casts warm, soft highlights on the subject’s hair and skin, with subtle rim lighting from a nearby palm canopy. The camera feels like a 35mm DSLR with a 50mm prime lens, capturing a shallow depth of field that keeps the subject in sharp focus while gently blurring turquoise turquoise waters and white sand in the background. The composition follows the rule of thirds, placing the subject slightly left of center, with a relaxed, smiling expression, and a subtle handheld shake giving a natural smartphone look. Aspect ratio 9:16 for vertical portrait.",
+      "status": "published",
+      "message_id": 1322
     }
   ],
   "style_counts": {
@@ -1831,22 +1840,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-12T11:13:42.416956+00:00",
-      "member_count": 2961,
-      "total_posts_recorded": 82,
-      "content_type_counts": {
-        "ai_image_prompt": 28,
-        "lightroom": 29,
-        "ai_news": 18
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 14,
-        "experimental_trend": 4,
-        "quick_tip": 5
-      }
-    },
     {
       "timestamp": "2026-09-12T15:03:12.507399+00:00",
       "member_count": 2961,
@@ -3270,6 +3263,22 @@
         "experimental_trend": 8,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-05T13:48:17.693225+00:00",
+      "member_count": 2906,
+      "total_posts_recorded": 172,
+      "content_type_counts": {
+        "ai_image_prompt": 61,
+        "lightroom": 66,
+        "ai_news": 38
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 22,
+        "before_after": 24,
+        "experimental_trend": 8,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3305,7 +3314,7 @@
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 1,
-    "tropical vacation candid smartphone photo": 2
+    "tropical vacation candid smartphone photo": 3
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -3348,7 +3357,7 @@
     "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 60,
+    "ai_image_prompt": 61,
     "lightroom": 66,
     "ai_news": 38
   }
