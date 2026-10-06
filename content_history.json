@@ -1870,6 +1870,19 @@
       "ai_prompt": "Wildflower Lens 🌸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Create a photorealistic low‑angle cinematic portrait of a young woman standing amid a field of tall, vibrant wildflowers with the sky swirling in pastel clouds above. Use a shallow depth of field with a 35mm lens simulation, soft golden hour back‑lighting that highlights the subject’s silhouette, and a subtle rim light to separate her from the flora. Capture the scene from a ground",
       "status": "published",
       "message_id": 1329
+    },
+    {
+      "timestamp": "2026-10-06T22:49:50.132630+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "analog film look with controlled grain and fade",
+      "preset_name": "Soft Haze",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1330,
+      "document_message_id": 1331
     }
   ],
   "style_counts": {
@@ -1880,7 +1893,7 @@
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 5,
     "cool blue hour cityscape": 6,
-    "analog film look with controlled grain and fade": 4,
+    "analog film look with controlled grain and fade": 5,
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 5,
     "moody forest with teal shadows": 5,
@@ -1888,27 +1901,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 22,
-    "before_after": 25,
+    "before_after": 26,
     "experimental_trend": 9,
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-13T19:02:12.402252+00:00",
-      "member_count": 2961,
-      "total_posts_recorded": 88,
-      "content_type_counts": {
-        "ai_image_prompt": 31,
-        "lightroom": 32,
-        "ai_news": 18
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 10,
-        "before_after": 15,
-        "experimental_trend": 4,
-        "quick_tip": 6
-      }
-    },
     {
       "timestamp": "2026-09-14T06:17:05.995089+00:00",
       "member_count": 2961,
@@ -3332,6 +3329,22 @@
         "experimental_trend": 9,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-06T22:49:50.298787+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 178,
+      "content_type_counts": {
+        "ai_image_prompt": 63,
+        "lightroom": 69,
+        "ai_news": 39
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 22,
+        "before_after": 26,
+        "experimental_trend": 9,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3412,7 +3425,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 63,
-    "lightroom": 68,
+    "lightroom": 69,
     "ai_news": 39
   }
 }
