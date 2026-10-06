@@ -1861,6 +1861,15 @@
       "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
       "status": "published",
       "message_id": 1328
+    },
+    {
+      "timestamp": "2026-10-06T19:54:01.577328+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cinematic low-angle outdoor portrait with wildflowers and sky",
+      "title": "Wildflower Lens 🌸",
+      "ai_prompt": "Wildflower Lens 🌸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Create a photorealistic low‑angle cinematic portrait of a young woman standing amid a field of tall, vibrant wildflowers with the sky swirling in pastel clouds above. Use a shallow depth of field with a 35mm lens simulation, soft golden hour back‑lighting that highlights the subject’s silhouette, and a subtle rim light to separate her from the flora. Capture the scene from a ground",
+      "status": "published",
+      "message_id": 1329
     }
   ],
   "style_counts": {
@@ -1884,22 +1893,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-13T15:03:19.988822+00:00",
-      "member_count": 2960,
-      "total_posts_recorded": 87,
-      "content_type_counts": {
-        "ai_image_prompt": 30,
-        "lightroom": 32,
-        "ai_news": 18
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 10,
-        "before_after": 15,
-        "experimental_trend": 4,
-        "quick_tip": 6
-      }
-    },
     {
       "timestamp": "2026-09-13T19:02:12.402252+00:00",
       "member_count": 2961,
@@ -3323,6 +3316,22 @@
         "experimental_trend": 9,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-06T19:54:01.721506+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 177,
+      "content_type_counts": {
+        "ai_image_prompt": 63,
+        "lightroom": 68,
+        "ai_news": 39
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 22,
+        "before_after": 25,
+        "experimental_trend": 9,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3336,7 +3345,7 @@
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 11,
     "Studio Ghibli anime version of the person": 2,
-    "cinematic low-angle outdoor portrait with wildflowers and sky": 1,
+    "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
     "rockstar stage performance dramatic lights": 3,
     "modern high-fashion magazine cover": 1,
     "half-face extreme close-up with hard flash and film grain": 2,
@@ -3402,7 +3411,7 @@
     "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 62,
+    "ai_image_prompt": 63,
     "lightroom": 68,
     "ai_news": 39
   }
