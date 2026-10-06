@@ -1843,6 +1843,15 @@
       "tip": null,
       "photo_message_id": 1325,
       "document_message_id": 1326
+    },
+    {
+      "timestamp": "2026-10-06T12:52:56.781271+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "playful bubblegum bubble shot with crimson backdrop and flash",
+      "title": "Playful Bubblegum Bubble Shot With Crimson Backdrop And Flas",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, playful bubblegum bubble shot with crimson backdrop and flash, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1327
     }
   ],
   "style_counts": {
@@ -1866,22 +1875,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-13T06:18:55.722406+00:00",
-      "member_count": 2960,
-      "total_posts_recorded": 85,
-      "content_type_counts": {
-        "ai_image_prompt": 29,
-        "lightroom": 31,
-        "ai_news": 18
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 9,
-        "before_after": 15,
-        "experimental_trend": 4,
-        "quick_tip": 6
-      }
-    },
     {
       "timestamp": "2026-09-13T11:14:21.230383+00:00",
       "member_count": 2960,
@@ -3305,6 +3298,22 @@
         "experimental_trend": 9,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-06T12:52:56.961194+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 175,
+      "content_type_counts": {
+        "ai_image_prompt": 62,
+        "lightroom": 68,
+        "ai_news": 38
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 22,
+        "before_after": 25,
+        "experimental_trend": 9,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3334,7 +3343,7 @@
     "noir detective rainy street black and white": 2,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 2,
-    "playful bubblegum bubble shot with crimson backdrop and flash": 1,
+    "playful bubblegum bubble shot with crimson backdrop and flash": 2,
     "Hugging Face": 1,
     "Disney Pixar 3D stylized character": 2,
     "medieval knight armor photorealistic portrait": 1,
@@ -3383,7 +3392,7 @@
     "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 61,
+    "ai_image_prompt": 62,
     "lightroom": 68,
     "ai_news": 38
   }
