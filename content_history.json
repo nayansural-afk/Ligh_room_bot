@@ -1883,6 +1883,15 @@
       "tip": null,
       "photo_message_id": 1330,
       "document_message_id": 1331
+    },
+    {
+      "timestamp": "2026-10-07T12:46:54.256303+00:00",
+      "content_type": "ai_news",
+      "theme": "Hugging Face",
+      "title": "🚀 Nemotron Wins Gold at IOI & IMO",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "status": "published",
+      "message_id": 1332
     }
   ],
   "style_counts": {
@@ -1906,22 +1915,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-14T06:17:05.995089+00:00",
-      "member_count": 2961,
-      "total_posts_recorded": 89,
-      "content_type_counts": {
-        "ai_image_prompt": 32,
-        "lightroom": 32,
-        "ai_news": 18
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 10,
-        "before_after": 15,
-        "experimental_trend": 4,
-        "quick_tip": 6
-      }
-    },
     {
       "timestamp": "2026-09-14T11:16:12.756243+00:00",
       "member_count": 2962,
@@ -3345,6 +3338,22 @@
         "experimental_trend": 9,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-07T12:46:54.459579+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 179,
+      "content_type_counts": {
+        "ai_image_prompt": 63,
+        "lightroom": 69,
+        "ai_news": 40
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 22,
+        "before_after": 26,
+        "experimental_trend": 9,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3375,7 +3384,7 @@
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 2,
     "playful bubblegum bubble shot with crimson backdrop and flash": 2,
-    "Hugging Face": 1,
+    "Hugging Face": 2,
     "Disney Pixar 3D stylized character": 2,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
@@ -3421,11 +3430,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
     "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
     "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-    "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/"
+    "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+    "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
   ],
   "content_type_counts": {
     "ai_image_prompt": 63,
     "lightroom": 69,
-    "ai_news": 39
+    "ai_news": 40
   }
 }
