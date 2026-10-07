@@ -1914,6 +1914,15 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
       "status": "published",
       "message_id": 1335
+    },
+    {
+      "timestamp": "2026-10-07T23:22:40.233976+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "luxury fashion editorial on sport motorcycle studio shot",
+      "title": "Moto Couture 💎",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a high‑end luxury fashion editorial in a sleek sport motorcycle studio, cinematic LED backlight with dramatic rim lights, soft diffused spotlight on the model, capturing the glossy chrome and satin leather textures. Use a 35mm lens simulation, shallow depth of field, 1/125s shutter, f/1.8 aperture, with a 3:4 aspect ratio. Composition: model in a dynamic riding pose, slightly off‑center, the motorcycle as a powerful backdrop, a subtle golden hour glow. Emphasize crisp details, reflective surfaces, and a polished studio atmosphere for a photorealistic editorial look.",
+      "status": "published",
+      "message_id": 1336
     }
   ],
   "style_counts": {
@@ -1937,22 +1946,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-15T06:15:48.994700+00:00",
-      "member_count": 2961,
-      "total_posts_recorded": 92,
-      "content_type_counts": {
-        "ai_image_prompt": 32,
-        "lightroom": 33,
-        "ai_news": 20
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 10,
-        "before_after": 15,
-        "experimental_trend": 4,
-        "quick_tip": 7
-      }
-    },
     {
       "timestamp": "2026-09-15T11:15:43.435636+00:00",
       "member_count": 2960,
@@ -3376,6 +3369,22 @@
         "experimental_trend": 9,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-07T23:22:40.411159+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 182,
+      "content_type_counts": {
+        "ai_image_prompt": 64,
+        "lightroom": 70,
+        "ai_news": 41
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 26,
+        "experimental_trend": 9,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3401,7 +3410,7 @@
     "OpenAI": 3,
     "underwater mermaid / merman fantasy": 4,
     "vampire gothic elegance candlelight": 3,
-    "luxury fashion editorial on sport motorcycle studio shot": 2,
+    "luxury fashion editorial on sport motorcycle studio shot": 3,
     "noir detective rainy street black and white": 2,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 2,
@@ -3457,7 +3466,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 63,
+    "ai_image_prompt": 64,
     "lightroom": 70,
     "ai_news": 41
   }
