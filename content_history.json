@@ -1923,6 +1923,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a high‑end luxury fashion editorial in a sleek sport motorcycle studio, cinematic LED backlight with dramatic rim lights, soft diffused spotlight on the model, capturing the glossy chrome and satin leather textures. Use a 35mm lens simulation, shallow depth of field, 1/125s shutter, f/1.8 aperture, with a 3:4 aspect ratio. Composition: model in a dynamic riding pose, slightly off‑center, the motorcycle as a powerful backdrop, a subtle golden hour glow. Emphasize crisp details, reflective surfaces, and a polished studio atmosphere for a photorealistic editorial look.",
       "status": "published",
       "message_id": 1336
+    },
+    {
+      "timestamp": "2026-10-08T12:55:58.872573+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "dark street style with subtle green tint",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1337,
+      "document_message_id": 1338
     }
   ],
   "style_counts": {
@@ -1931,7 +1944,7 @@
     "golden hour sunset with rich saturation": 7,
     "high-key fashion with soft contrast": 4,
     "vintage polaroid faded look": 6,
-    "dark street style with subtle green tint": 5,
+    "dark street style with subtle green tint": 6,
     "cool blue hour cityscape": 6,
     "analog film look with controlled grain and fade": 5,
     "lush green nature tones for landscapes": 8,
@@ -1942,26 +1955,10 @@
   "pillar_counts": {
     "preset_of_the_day": 23,
     "before_after": 26,
-    "experimental_trend": 9,
+    "experimental_trend": 10,
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-15T11:15:43.435636+00:00",
-      "member_count": 2960,
-      "total_posts_recorded": 93,
-      "content_type_counts": {
-        "ai_image_prompt": 32,
-        "lightroom": 34,
-        "ai_news": 20
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 10,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 7
-      }
-    },
     {
       "timestamp": "2026-09-15T15:03:55.385883+00:00",
       "member_count": 2959,
@@ -3385,6 +3382,22 @@
         "experimental_trend": 9,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-08T12:55:59.113824+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 183,
+      "content_type_counts": {
+        "ai_image_prompt": 64,
+        "lightroom": 71,
+        "ai_news": 41
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 26,
+        "experimental_trend": 10,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3467,7 +3480,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 64,
-    "lightroom": 70,
+    "lightroom": 71,
     "ai_news": 41
   }
 }
