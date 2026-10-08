@@ -1954,6 +1954,15 @@
       "ai_prompt": "Steampunk Workshop ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. In a cluttered steampunk inventor workshop, the subject stands beside a brass workbench littered with gears, copper pipes, and glowing alchemical instruments. Warm amber lighting filters through stained glass, casting dramatic shadows. The camera is a 50mm lens at f/1.8, with a shallow depth of field that softly blurs the background gears, keeping the subject sharply focused. Composition follows the rule of thirds, with the",
       "status": "published",
       "message_id": 1340
+    },
+    {
+      "timestamp": "2026-10-08T23:35:47.085174+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "Disney Pixar 3D stylized character",
+      "title": "Disney Pixar 3D Stylized Character",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Disney Pixar 3D stylized character, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1341
     }
   ],
   "style_counts": {
@@ -1977,22 +1986,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-16T06:15:27.049332+00:00",
-      "member_count": 2958,
-      "total_posts_recorded": 96,
-      "content_type_counts": {
-        "ai_image_prompt": 32,
-        "lightroom": 36,
-        "ai_news": 21
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-16T11:16:04.715130+00:00",
       "member_count": 2958,
@@ -3416,6 +3409,22 @@
         "experimental_trend": 10,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-08T23:35:47.331471+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 186,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 71,
+        "ai_news": 41
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 26,
+        "experimental_trend": 10,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3447,7 +3456,7 @@
     "wild west cowboy desert sunset": 2,
     "playful bubblegum bubble shot with crimson backdrop and flash": 2,
     "Hugging Face": 2,
-    "Disney Pixar 3D stylized character": 2,
+    "Disney Pixar 3D stylized character": 3,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 1,
@@ -3498,7 +3507,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 66,
+    "ai_image_prompt": 67,
     "lightroom": 71,
     "ai_news": 41
   }
