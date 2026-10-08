@@ -1936,6 +1936,15 @@
       "tip": null,
       "photo_message_id": 1337,
       "document_message_id": 1338
+    },
+    {
+      "timestamp": "2026-10-08T17:47:54.040298+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "1920s Hollywood glamour studio portrait",
+      "title": "1920S Hollywood Glamour Studio Portrait",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, 1920s Hollywood glamour studio portrait, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1339
     }
   ],
   "style_counts": {
@@ -1959,22 +1968,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-15T15:03:55.385883+00:00",
-      "member_count": 2959,
-      "total_posts_recorded": 94,
-      "content_type_counts": {
-        "ai_image_prompt": 32,
-        "lightroom": 34,
-        "ai_news": 21
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 10,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 7
-      }
-    },
     {
       "timestamp": "2026-09-15T19:02:25.918508+00:00",
       "member_count": 2958,
@@ -3398,6 +3391,22 @@
         "experimental_trend": 10,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-08T17:47:54.259367+00:00",
+      "member_count": 2902,
+      "total_posts_recorded": 184,
+      "content_type_counts": {
+        "ai_image_prompt": 65,
+        "lightroom": 71,
+        "ai_news": 41
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 26,
+        "experimental_trend": 10,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3417,7 +3426,7 @@
     "half-face extreme close-up with hard flash and film grain": 2,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
-    "1920s Hollywood glamour studio portrait": 2,
+    "1920s Hollywood glamour studio portrait": 3,
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 3,
     "OpenAI": 3,
@@ -3479,7 +3488,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 64,
+    "ai_image_prompt": 65,
     "lightroom": 71,
     "ai_news": 41
   }
