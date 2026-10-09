@@ -1998,12 +1998,25 @@
       "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
       "status": "published",
       "message_id": 1346
+    },
+    {
+      "timestamp": "2026-10-09T22:57:38.507335+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "golden hour sunset with rich saturation",
+      "preset_name": "Soft Haze",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1347,
+      "document_message_id": 1348
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
     "soft pastel tones for portraits": 6,
-    "golden hour sunset with rich saturation": 7,
+    "golden hour sunset with rich saturation": 8,
     "high-key fashion with soft contrast": 5,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 6,
@@ -2018,25 +2031,9 @@
     "preset_of_the_day": 23,
     "before_after": 28,
     "experimental_trend": 10,
-    "quick_tip": 15
+    "quick_tip": 16
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-17T06:15:29.597307+00:00",
-      "member_count": 2955,
-      "total_posts_recorded": 100,
-      "content_type_counts": {
-        "ai_image_prompt": 35,
-        "lightroom": 36,
-        "ai_news": 22
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-17T11:15:31.468468+00:00",
       "member_count": 2955,
@@ -3460,6 +3457,22 @@
         "experimental_trend": 10,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-09T22:57:38.660582+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 190,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 74,
+        "ai_news": 42
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 16
+      }
     }
   ],
   "theme_counts": {
@@ -3544,7 +3557,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 67,
-    "lightroom": 73,
+    "lightroom": 74,
     "ai_news": 42
   }
 }
