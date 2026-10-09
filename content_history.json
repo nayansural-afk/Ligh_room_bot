@@ -1963,11 +1963,24 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Disney Pixar 3D stylized character, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1341
+    },
+    {
+      "timestamp": "2026-10-09T12:41:53.834072+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "soft pastel tones for portraits",
+      "preset_name": "Pastel Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1342,
+      "document_message_id": 1343
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
-    "soft pastel tones for portraits": 5,
+    "soft pastel tones for portraits": 6,
     "golden hour sunset with rich saturation": 7,
     "high-key fashion with soft contrast": 4,
     "vintage polaroid faded look": 6,
@@ -1981,27 +1994,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 23,
-    "before_after": 26,
+    "before_after": 27,
     "experimental_trend": 10,
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-16T11:16:04.715130+00:00",
-      "member_count": 2958,
-      "total_posts_recorded": 97,
-      "content_type_counts": {
-        "ai_image_prompt": 33,
-        "lightroom": 36,
-        "ai_news": 21
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-16T15:04:05.158973+00:00",
       "member_count": 2957,
@@ -3425,6 +3422,22 @@
         "experimental_trend": 10,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-09T12:41:54.007190+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 187,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 72,
+        "ai_news": 41
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 27,
+        "experimental_trend": 10,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3508,7 +3521,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 67,
-    "lightroom": 71,
+    "lightroom": 72,
     "ai_news": 41
   }
 }
