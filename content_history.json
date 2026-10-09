@@ -1976,13 +1976,26 @@
       "tip": null,
       "photo_message_id": 1342,
       "document_message_id": 1343
+    },
+    {
+      "timestamp": "2026-10-09T17:23:33.860791+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Teal Mood",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1344,
+      "document_message_id": 1345
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
     "soft pastel tones for portraits": 6,
     "golden hour sunset with rich saturation": 7,
-    "high-key fashion with soft contrast": 4,
+    "high-key fashion with soft contrast": 5,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 6,
     "cool blue hour cityscape": 6,
@@ -1994,27 +2007,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 23,
-    "before_after": 27,
+    "before_after": 28,
     "experimental_trend": 10,
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-16T15:04:05.158973+00:00",
-      "member_count": 2957,
-      "total_posts_recorded": 98,
-      "content_type_counts": {
-        "ai_image_prompt": 33,
-        "lightroom": 36,
-        "ai_news": 22
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-16T19:02:37.130390+00:00",
       "member_count": 2955,
@@ -3438,6 +3435,22 @@
         "experimental_trend": 10,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-09T17:23:34.035861+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 188,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 73,
+        "ai_news": 41
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3521,7 +3534,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 67,
-    "lightroom": 72,
+    "lightroom": 73,
     "ai_news": 41
   }
 }
