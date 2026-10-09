@@ -1989,6 +1989,15 @@
       "tip": null,
       "photo_message_id": 1344,
       "document_message_id": 1345
+    },
+    {
+      "timestamp": "2026-10-09T19:53:15.278666+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚨 Anthropic AI Sends False Homicide Tip",
+      "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "status": "published",
+      "message_id": 1346
     }
   ],
   "style_counts": {
@@ -2012,22 +2021,6 @@
     "quick_tip": 15
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-16T19:02:37.130390+00:00",
-      "member_count": 2955,
-      "total_posts_recorded": 99,
-      "content_type_counts": {
-        "ai_image_prompt": 34,
-        "lightroom": 36,
-        "ai_news": 22
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-17T06:15:29.597307+00:00",
       "member_count": 2955,
@@ -3451,6 +3444,22 @@
         "experimental_trend": 10,
         "quick_tip": 15
       }
+    },
+    {
+      "timestamp": "2026-10-09T19:53:15.528998+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 189,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 73,
+        "ai_news": 42
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 15
+      }
     }
   ],
   "theme_counts": {
@@ -3459,7 +3468,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 22,
+    "TechCrunch AI": 23,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 12,
@@ -3530,11 +3539,12 @@
     "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
     "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
     "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-    "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+    "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+    "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 67,
     "lightroom": 73,
-    "ai_news": 41
+    "ai_news": 42
   }
 }
