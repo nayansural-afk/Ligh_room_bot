@@ -2042,6 +2042,19 @@
       "ai_prompt": "Neon Android Glow 🌌\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic scene of a sleek, soft neon‑lit android standing in a rain‑slick city alley, holographic signage flickering. Use a 85mm lens simulation, shallow depth of field, 2.8 aperture, cinematic rim lighting with a subtle backlight halo, and a slight color grading that emphasizes magenta and teal",
       "status": "published",
       "message_id": 1352
+    },
+    {
+      "timestamp": "2026-10-10T22:05:21.886802+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "analog film look with controlled grain and fade",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1353,
+      "document_message_id": 1354
     }
   ],
   "style_counts": {
@@ -2052,35 +2065,19 @@
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 6,
     "cool blue hour cityscape": 6,
-    "analog film look with controlled grain and fade": 5,
+    "analog film look with controlled grain and fade": 6,
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 5,
     "moody forest with teal shadows": 5,
     "warm cinematic with high contrast": 6
   },
   "pillar_counts": {
-    "preset_of_the_day": 23,
+    "preset_of_the_day": 24,
     "before_after": 28,
     "experimental_trend": 10,
     "quick_tip": 17
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-18T06:14:55.946620+00:00",
-      "member_count": 2953,
-      "total_posts_recorded": 104,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 37,
-        "ai_news": 23
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 5,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-18T11:14:43.229640+00:00",
       "member_count": 2951,
@@ -3504,6 +3501,22 @@
         "experimental_trend": 10,
         "quick_tip": 17
       }
+    },
+    {
+      "timestamp": "2026-10-10T22:05:22.026245+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 194,
+      "content_type_counts": {
+        "ai_image_prompt": 68,
+        "lightroom": 76,
+        "ai_news": 43
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 17
+      }
     }
   ],
   "theme_counts": {
@@ -3589,7 +3602,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 68,
-    "lightroom": 75,
+    "lightroom": 76,
     "ai_news": 43
   }
 }
