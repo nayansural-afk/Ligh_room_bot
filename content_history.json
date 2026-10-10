@@ -2011,6 +2011,15 @@
       "tip": "",
       "photo_message_id": 1347,
       "document_message_id": 1348
+    },
+    {
+      "timestamp": "2026-10-10T12:00:59.536490+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Anthropic can’t reliably control its AI agents. It’s cutting off its internal ev",
+      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "status": "published",
+      "message_id": 1349
     }
   ],
   "style_counts": {
@@ -2034,22 +2043,6 @@
     "quick_tip": 16
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-17T11:15:31.468468+00:00",
-      "member_count": 2955,
-      "total_posts_recorded": 101,
-      "content_type_counts": {
-        "ai_image_prompt": 36,
-        "lightroom": 36,
-        "ai_news": 22
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-17T15:04:00.510844+00:00",
       "member_count": 2954,
@@ -3473,6 +3466,22 @@
         "experimental_trend": 10,
         "quick_tip": 16
       }
+    },
+    {
+      "timestamp": "2026-10-10T12:00:59.719034+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 191,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 74,
+        "ai_news": 43
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 16
+      }
     }
   ],
   "theme_counts": {
@@ -3481,7 +3490,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 23,
+    "TechCrunch AI": 24,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 12,
@@ -3553,11 +3562,12 @@
     "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
     "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
     "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-    "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
+    "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+    "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 67,
     "lightroom": 74,
-    "ai_news": 42
+    "ai_news": 43
   }
 }
