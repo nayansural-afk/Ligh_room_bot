@@ -2020,12 +2020,25 @@
       "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "status": "published",
       "message_id": 1349
+    },
+    {
+      "timestamp": "2026-10-10T16:09:11.584876+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "golden hour sunset with rich saturation",
+      "preset_name": "Golden Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1350,
+      "document_message_id": 1351
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
     "soft pastel tones for portraits": 6,
-    "golden hour sunset with rich saturation": 8,
+    "golden hour sunset with rich saturation": 9,
     "high-key fashion with soft contrast": 5,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 6,
@@ -2040,25 +2053,9 @@
     "preset_of_the_day": 23,
     "before_after": 28,
     "experimental_trend": 10,
-    "quick_tip": 16
+    "quick_tip": 17
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-17T15:04:00.510844+00:00",
-      "member_count": 2954,
-      "total_posts_recorded": 102,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 36,
-        "ai_news": 22
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 4,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-17T19:02:32.640831+00:00",
       "member_count": 2954,
@@ -3482,6 +3479,22 @@
         "experimental_trend": 10,
         "quick_tip": 16
       }
+    },
+    {
+      "timestamp": "2026-10-10T16:09:11.740720+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 192,
+      "content_type_counts": {
+        "ai_image_prompt": 67,
+        "lightroom": 75,
+        "ai_news": 43
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 17
+      }
     }
   ],
   "theme_counts": {
@@ -3567,7 +3580,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 67,
-    "lightroom": 74,
+    "lightroom": 75,
     "ai_news": 43
   }
 }
