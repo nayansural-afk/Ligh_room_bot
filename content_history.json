@@ -2033,6 +2033,15 @@
       "tip": "",
       "photo_message_id": 1350,
       "document_message_id": 1351
+    },
+    {
+      "timestamp": "2026-10-10T19:03:05.525750+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "futuristic android soft neon",
+      "title": "Neon Android Glow 🌌",
+      "ai_prompt": "Neon Android Glow 🌌\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic scene of a sleek, soft neon‑lit android standing in a rain‑slick city alley, holographic signage flickering. Use a 85mm lens simulation, shallow depth of field, 2.8 aperture, cinematic rim lighting with a subtle backlight halo, and a slight color grading that emphasizes magenta and teal",
+      "status": "published",
+      "message_id": 1352
     }
   ],
   "style_counts": {
@@ -2056,22 +2065,6 @@
     "quick_tip": 17
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-17T19:02:32.640831+00:00",
-      "member_count": 2954,
-      "total_posts_recorded": 103,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 37,
-        "ai_news": 22
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 11,
-        "before_after": 16,
-        "experimental_trend": 5,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-18T06:14:55.946620+00:00",
       "member_count": 2953,
@@ -3495,11 +3488,27 @@
         "experimental_trend": 10,
         "quick_tip": 17
       }
+    },
+    {
+      "timestamp": "2026-10-10T19:03:05.753650+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 193,
+      "content_type_counts": {
+        "ai_image_prompt": 68,
+        "lightroom": 75,
+        "ai_news": 43
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 23,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 17
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
-    "futuristic android soft neon": 1,
+    "futuristic android soft neon": 2,
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
@@ -3579,7 +3588,7 @@
     "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 67,
+    "ai_image_prompt": 68,
     "lightroom": 75,
     "ai_news": 43
   }
