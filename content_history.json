@@ -2086,6 +2086,19 @@
       "ai_prompt": "Mage Glow ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed portrait of a fantasy mage with swirling luminous magic swirling around their hands and forehead. Use dramatic backlit studio lighting with a soft rim glow that highlights the contours of the face, casting a subtle halo effect. Capture with an 85mm prime lens, f/1.4, to blur the background",
       "status": "published",
       "message_id": 1358
+    },
+    {
+      "timestamp": "2026-10-11T22:33:58.910360+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "cool blue hour cityscape",
+      "preset_name": "Golden Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1359,
+      "document_message_id": 1360
     }
   ],
   "style_counts": {
@@ -2095,7 +2108,7 @@
     "high-key fashion with soft contrast": 5,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 7,
-    "cool blue hour cityscape": 6,
+    "cool blue hour cityscape": 7,
     "analog film look with controlled grain and fade": 6,
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 5,
@@ -2105,26 +2118,10 @@
   "pillar_counts": {
     "preset_of_the_day": 24,
     "before_after": 28,
-    "experimental_trend": 10,
+    "experimental_trend": 11,
     "quick_tip": 18
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-19T10:25:51.698024+00:00",
-      "member_count": 2950,
-      "total_posts_recorded": 108,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 40,
-        "ai_news": 24
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 17,
-        "experimental_trend": 5,
-        "quick_tip": 9
-      }
-    },
     {
       "timestamp": "2026-09-19T14:16:36.008559+00:00",
       "member_count": 2950,
@@ -3548,6 +3545,22 @@
         "experimental_trend": 10,
         "quick_tip": 18
       }
+    },
+    {
+      "timestamp": "2026-10-11T22:33:59.067855+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 198,
+      "content_type_counts": {
+        "ai_image_prompt": 70,
+        "lightroom": 78,
+        "ai_news": 43
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 28,
+        "experimental_trend": 11,
+        "quick_tip": 18
+      }
     }
   ],
   "theme_counts": {
@@ -3634,7 +3647,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 70,
-    "lightroom": 77,
+    "lightroom": 78,
     "ai_news": 43
   }
 }
