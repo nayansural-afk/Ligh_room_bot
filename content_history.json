@@ -2068,6 +2068,15 @@
       "tip": "",
       "photo_message_id": 1355,
       "document_message_id": 1356
+    },
+    {
+      "timestamp": "2026-10-11T16:36:08.136123+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "tropical vacation candid smartphone photo",
+      "title": "Tropical Vacation Candid Smartphone Photo",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, tropical vacation candid smartphone photo, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1357
     }
   ],
   "style_counts": {
@@ -2091,22 +2100,6 @@
     "quick_tip": 18
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-18T15:03:27.876149+00:00",
-      "member_count": 2951,
-      "total_posts_recorded": 106,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 39,
-        "ai_news": 23
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 17,
-        "experimental_trend": 5,
-        "quick_tip": 8
-      }
-    },
     {
       "timestamp": "2026-09-18T19:03:28.607909+00:00",
       "member_count": 2953,
@@ -3530,6 +3523,22 @@
         "experimental_trend": 10,
         "quick_tip": 18
       }
+    },
+    {
+      "timestamp": "2026-10-11T16:36:08.433939+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 196,
+      "content_type_counts": {
+        "ai_image_prompt": 69,
+        "lightroom": 77,
+        "ai_news": 43
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 28,
+        "experimental_trend": 10,
+        "quick_tip": 18
+      }
     }
   ],
   "theme_counts": {
@@ -3565,7 +3574,7 @@
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 1,
-    "tropical vacation candid smartphone photo": 3,
+    "tropical vacation candid smartphone photo": 4,
     "steampunk inventor workshop": 1
   },
   "used_news_links": [
@@ -3614,7 +3623,7 @@
     "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 68,
+    "ai_image_prompt": 69,
     "lightroom": 77,
     "ai_news": 43
   }
