@@ -2099,6 +2099,15 @@
       "tip": null,
       "photo_message_id": 1359,
       "document_message_id": 1360
+    },
+    {
+      "timestamp": "2026-10-12T14:36:42.852415+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚀 TechCrunch Disrupt 2026 Starts Tomorrow – Grab $100 Ticket Savings",
+      "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "status": "published",
+      "message_id": 1362
     }
   ],
   "style_counts": {
@@ -2122,22 +2131,6 @@
     "quick_tip": 18
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-19T14:16:36.008559+00:00",
-      "member_count": 2950,
-      "total_posts_recorded": 109,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 41,
-        "ai_news": 24
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 17,
-        "experimental_trend": 5,
-        "quick_tip": 10
-      }
-    },
     {
       "timestamp": "2026-09-19T17:35:12.025047+00:00",
       "member_count": 2951,
@@ -3561,6 +3554,22 @@
         "experimental_trend": 11,
         "quick_tip": 18
       }
+    },
+    {
+      "timestamp": "2026-10-12T14:36:43.020240+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 199,
+      "content_type_counts": {
+        "ai_image_prompt": 70,
+        "lightroom": 78,
+        "ai_news": 44
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 28,
+        "experimental_trend": 11,
+        "quick_tip": 18
+      }
     }
   ],
   "theme_counts": {
@@ -3569,7 +3578,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 24,
+    "TechCrunch AI": 25,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 12,
@@ -3643,11 +3652,12 @@
     "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
     "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
     "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-    "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+    "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+    "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 70,
     "lightroom": 78,
-    "ai_news": 43
+    "ai_news": 44
   }
 }
