@@ -2108,6 +2108,15 @@
       "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
       "status": "published",
       "message_id": 1362
+    },
+    {
+      "timestamp": "2026-10-12T20:11:54.893646+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "luxury fashion editorial on sport motorcycle studio shot",
+      "title": "Moto Luxe 🚀",
+      "ai_prompt": "Moto Luxe 🚀\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. A high‑contrast studio shot of a sleek sport motorcycle, with a glamorous model in a tailored leather jacket, glossy metallic bike, dramatic rim lighting, shallow depth of field, 85mm lens, 35mm f/1.4, 9:16 aspect ratio",
+      "status": "published",
+      "message_id": 1363
     }
   ],
   "style_counts": {
@@ -2131,22 +2140,6 @@
     "quick_tip": 18
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-19T17:35:12.025047+00:00",
-      "member_count": 2951,
-      "total_posts_recorded": 110,
-      "content_type_counts": {
-        "ai_image_prompt": 37,
-        "lightroom": 42,
-        "ai_news": 24
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 18,
-        "experimental_trend": 5,
-        "quick_tip": 10
-      }
-    },
     {
       "timestamp": "2026-09-19T21:09:54.771348+00:00",
       "member_count": 2950,
@@ -3570,6 +3563,22 @@
         "experimental_trend": 11,
         "quick_tip": 18
       }
+    },
+    {
+      "timestamp": "2026-10-12T20:11:55.135323+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 200,
+      "content_type_counts": {
+        "ai_image_prompt": 71,
+        "lightroom": 78,
+        "ai_news": 44
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 28,
+        "experimental_trend": 11,
+        "quick_tip": 18
+      }
     }
   ],
   "theme_counts": {
@@ -3595,7 +3604,7 @@
     "OpenAI": 3,
     "underwater mermaid / merman fantasy": 4,
     "vampire gothic elegance candlelight": 3,
-    "luxury fashion editorial on sport motorcycle studio shot": 3,
+    "luxury fashion editorial on sport motorcycle studio shot": 4,
     "noir detective rainy street black and white": 2,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 2,
@@ -3656,7 +3665,7 @@
     "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 70,
+    "ai_image_prompt": 71,
     "lightroom": 78,
     "ai_news": 44
   }
