@@ -2161,6 +2161,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, tropical vacation candid smartphone photo, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1369
+    },
+    {
+      "timestamp": "2026-10-13T20:26:00.447151+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🚀 Shopify Lets AI Agents Buy From Its Catalog",
+      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "status": "published",
+      "message_id": 1370
     }
   ],
   "style_counts": {
@@ -2184,22 +2193,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-20T21:06:55.067156+00:00",
-      "member_count": 2949,
-      "total_posts_recorded": 115,
-      "content_type_counts": {
-        "ai_image_prompt": 39,
-        "lightroom": 44,
-        "ai_news": 25
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 19,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-21T12:10:27.355654+00:00",
       "member_count": 2949,
@@ -3623,6 +3616,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-13T20:26:00.589858+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 205,
+      "content_type_counts": {
+        "ai_image_prompt": 73,
+        "lightroom": 80,
+        "ai_news": 45
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 29,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3634,7 +3643,7 @@
     "TechCrunch AI": 25,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 12,
+    "The Verge AI": 13,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
     "rockstar stage performance dramatic lights": 3,
@@ -3706,11 +3715,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
     "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
     "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-    "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/"
+    "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+    "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
   ],
   "content_type_counts": {
     "ai_image_prompt": 73,
     "lightroom": 80,
-    "ai_news": 44
+    "ai_news": 45
   }
 }
