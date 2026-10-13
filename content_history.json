@@ -2130,6 +2130,15 @@
       "tip": null,
       "photo_message_id": 1364,
       "document_message_id": 1365
+    },
+    {
+      "timestamp": "2026-10-13T01:01:04.666911+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "playful bubblegum bubble shot with crimson backdrop and flash",
+      "title": "Playful Bubblegum Bubble Shot With Crimson Backdrop And Flas",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, playful bubblegum bubble shot with crimson backdrop and flash, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1366
     }
   ],
   "style_counts": {
@@ -2153,22 +2162,6 @@
     "quick_tip": 18
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-20T10:45:54.630355+00:00",
-      "member_count": 2952,
-      "total_posts_recorded": 112,
-      "content_type_counts": {
-        "ai_image_prompt": 38,
-        "lightroom": 43,
-        "ai_news": 24
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 19,
-        "experimental_trend": 5,
-        "quick_tip": 10
-      }
-    },
     {
       "timestamp": "2026-09-20T14:37:56.636309+00:00",
       "member_count": 2950,
@@ -3592,6 +3585,22 @@
         "experimental_trend": 11,
         "quick_tip": 18
       }
+    },
+    {
+      "timestamp": "2026-10-13T01:01:04.829303+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 202,
+      "content_type_counts": {
+        "ai_image_prompt": 72,
+        "lightroom": 79,
+        "ai_news": 44
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 29,
+        "experimental_trend": 11,
+        "quick_tip": 18
+      }
     }
   ],
   "theme_counts": {
@@ -3621,7 +3630,7 @@
     "noir detective rainy street black and white": 2,
     "golden hour beach portrait soft rim light": 1,
     "wild west cowboy desert sunset": 2,
-    "playful bubblegum bubble shot with crimson backdrop and flash": 2,
+    "playful bubblegum bubble shot with crimson backdrop and flash": 3,
     "Hugging Face": 2,
     "Disney Pixar 3D stylized character": 3,
     "medieval knight armor photorealistic portrait": 1,
@@ -3678,7 +3687,7 @@
     "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 71,
+    "ai_image_prompt": 72,
     "lightroom": 79,
     "ai_news": 44
   }
