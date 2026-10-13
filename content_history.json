@@ -2152,6 +2152,15 @@
       "tip": "",
       "photo_message_id": 1367,
       "document_message_id": 1368
+    },
+    {
+      "timestamp": "2026-10-13T18:04:12.230343+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "tropical vacation candid smartphone photo",
+      "title": "Tropical Vacation Candid Smartphone Photo",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, tropical vacation candid smartphone photo, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1369
     }
   ],
   "style_counts": {
@@ -2175,22 +2184,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-20T17:47:20.588656+00:00",
-      "member_count": 2950,
-      "total_posts_recorded": 114,
-      "content_type_counts": {
-        "ai_image_prompt": 39,
-        "lightroom": 43,
-        "ai_news": 25
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 19,
-        "experimental_trend": 5,
-        "quick_tip": 10
-      }
-    },
     {
       "timestamp": "2026-09-20T21:06:55.067156+00:00",
       "member_count": 2949,
@@ -3614,6 +3607,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-13T18:04:12.419578+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 204,
+      "content_type_counts": {
+        "ai_image_prompt": 73,
+        "lightroom": 80,
+        "ai_news": 44
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 29,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3649,7 +3658,7 @@
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 1,
-    "tropical vacation candid smartphone photo": 4,
+    "tropical vacation candid smartphone photo": 5,
     "steampunk inventor workshop": 1,
     "fantasy mage glowing magic portrait": 1
   },
@@ -3700,7 +3709,7 @@
     "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 72,
+    "ai_image_prompt": 73,
     "lightroom": 80,
     "ai_news": 44
   }
