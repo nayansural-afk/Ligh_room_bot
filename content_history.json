@@ -2179,13 +2179,26 @@
       "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
       "status": "published",
       "message_id": 1371
+    },
+    {
+      "timestamp": "2026-10-14T11:20:31.818228+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1372,
+      "document_message_id": 1373
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
     "soft pastel tones for portraits": 6,
     "golden hour sunset with rich saturation": 9,
-    "high-key fashion with soft contrast": 5,
+    "high-key fashion with soft contrast": 6,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 7,
     "cool blue hour cityscape": 7,
@@ -2197,27 +2210,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 24,
-    "before_after": 29,
+    "before_after": 30,
     "experimental_trend": 11,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-21T16:55:37.941179+00:00",
-      "member_count": 2951,
-      "total_posts_recorded": 117,
-      "content_type_counts": {
-        "ai_image_prompt": 40,
-        "lightroom": 44,
-        "ai_news": 26
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 12,
-        "before_after": 19,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-21T19:48:29.828622+00:00",
       "member_count": 2951,
@@ -3641,6 +3638,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-14T11:20:32.023733+00:00",
+      "member_count": 2896,
+      "total_posts_recorded": 207,
+      "content_type_counts": {
+        "ai_image_prompt": 73,
+        "lightroom": 81,
+        "ai_news": 46
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 30,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3730,7 +3743,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 73,
-    "lightroom": 80,
+    "lightroom": 81,
     "ai_news": 46
   }
 }
