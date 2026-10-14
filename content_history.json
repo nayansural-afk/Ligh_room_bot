@@ -2214,6 +2214,15 @@
       "tip": null,
       "photo_message_id": 1375,
       "document_message_id": 1376
+    },
+    {
+      "timestamp": "2026-10-14T21:58:51.121373+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "samurai warrior traditional armor",
+      "title": "Samurai Sentinel ⚔️",
+      "ai_prompt": "Samurai Sentinel ⚔️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic samurai in full traditional armor, detailed lacquered plates, silver pauldrons, and a crimson hakama, with a subtle dust cloud swirling in the wind. Use a 35 mm lens, f/1.8, ISO 200, with soft back‑lighting from a golden hour sun, creating rim light on the armor edges. Position the warrior in a slightly angled pose, head turned toward the camera, chest forward, hands gripping a katana hilt. Capture the scene in a 9:16",
+      "status": "published",
+      "message_id": 1377
     }
   ],
   "style_counts": {
@@ -2237,22 +2246,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-22T11:04:56.625035+00:00",
-      "member_count": 2949,
-      "total_posts_recorded": 120,
-      "content_type_counts": {
-        "ai_image_prompt": 40,
-        "lightroom": 46,
-        "ai_news": 27
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 13,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-22T15:28:14.863788+00:00",
       "member_count": 2949,
@@ -3676,6 +3669,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-14T21:58:51.318159+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 210,
+      "content_type_counts": {
+        "ai_image_prompt": 75,
+        "lightroom": 82,
+        "ai_news": 46
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 31,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3710,7 +3719,7 @@
     "Disney Pixar 3D stylized character": 4,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
-    "samurai warrior traditional armor": 1,
+    "samurai warrior traditional armor": 2,
     "tropical vacation candid smartphone photo": 5,
     "steampunk inventor workshop": 1,
     "fantasy mage glowing magic portrait": 1
@@ -3764,7 +3773,7 @@
     "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 74,
+    "ai_image_prompt": 75,
     "lightroom": 82,
     "ai_news": 46
   }
