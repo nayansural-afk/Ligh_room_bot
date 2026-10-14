@@ -2201,6 +2201,19 @@
       "ai_prompt": "Pixar‑Ready Portrait 🌟\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Transform the subject into a vibrant Disney Pixar 3D stylized character, maintaining the realistic skin texture",
       "status": "published",
       "message_id": 1374
+    },
+    {
+      "timestamp": "2026-10-14T19:02:32.971871+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "dramatic black and white with heavy contrast",
+      "preset_name": "Soft Haze",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1375,
+      "document_message_id": 1376
     }
   ],
   "style_counts": {
@@ -2213,33 +2226,17 @@
     "cool blue hour cityscape": 7,
     "analog film look with controlled grain and fade": 6,
     "lush green nature tones for landscapes": 8,
-    "dramatic black and white with heavy contrast": 5,
+    "dramatic black and white with heavy contrast": 6,
     "moody forest with teal shadows": 7,
     "warm cinematic with high contrast": 6
   },
   "pillar_counts": {
     "preset_of_the_day": 24,
-    "before_after": 30,
+    "before_after": 31,
     "experimental_trend": 11,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-21T22:22:08.126096+00:00",
-      "member_count": 2949,
-      "total_posts_recorded": 119,
-      "content_type_counts": {
-        "ai_image_prompt": 40,
-        "lightroom": 46,
-        "ai_news": 26
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 13,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-22T11:04:56.625035+00:00",
       "member_count": 2949,
@@ -3663,6 +3660,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-14T19:02:33.210791+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 209,
+      "content_type_counts": {
+        "ai_image_prompt": 74,
+        "lightroom": 82,
+        "ai_news": 46
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 31,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3752,7 +3765,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 74,
-    "lightroom": 81,
+    "lightroom": 82,
     "ai_news": 46
   }
 }
