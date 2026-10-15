@@ -2232,6 +2232,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, steampunk inventor workshop, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1378
+    },
+    {
+      "timestamp": "2026-10-15T15:32:37.272588+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚗 Rivian to Add AI Agents to Cars",
+      "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "status": "published",
+      "message_id": 1380
     }
   ],
   "style_counts": {
@@ -2255,22 +2264,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-22T18:24:28.181791+00:00",
-      "member_count": 2949,
-      "total_posts_recorded": 122,
-      "content_type_counts": {
-        "ai_image_prompt": 40,
-        "lightroom": 47,
-        "ai_news": 28
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 14,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-22T21:43:07.040065+00:00",
       "member_count": 2949,
@@ -3694,6 +3687,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-15T15:32:37.413126+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 212,
+      "content_type_counts": {
+        "ai_image_prompt": 76,
+        "lightroom": 82,
+        "ai_news": 47
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 31,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3702,7 +3711,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 26,
+    "TechCrunch AI": 27,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 13,
@@ -3779,11 +3788,12 @@
     "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
     "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
     "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-    "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
+    "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+    "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 76,
     "lightroom": 82,
-    "ai_news": 46
+    "ai_news": 47
   }
 }
