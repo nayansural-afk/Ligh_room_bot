@@ -2250,6 +2250,15 @@
       "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
       "status": "published",
       "message_id": 1382
+    },
+    {
+      "timestamp": "2026-10-15T21:51:34.819718+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "rockstar stage performance dramatic lights",
+      "title": "Stage Blaze 🎸",
+      "ai_prompt": "Stage Blaze 🎸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a live rockstar on a colossal stage with a blazing LED backdrop, dynamic spotlights cutting through smoky haze. Use a 24‑mm lens simulation, shallow depth of field, vivid color saturation, and a slight fisheye tilt to emphasize the grandeur. Position the singer centered, slightly off‑center to the left, with a powerful pose: one hand gripping a vintage electric guitar, the other waving to the crowd. Frame the shot with a dramatic low‑angle shot, capturing the towering stage rig and soaring crowd silhouette in the background. Use 9:16",
+      "status": "published",
+      "message_id": 1383
     }
   ],
   "style_counts": {
@@ -2273,22 +2282,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-23T10:54:41.727171+00:00",
-      "member_count": 2948,
-      "total_posts_recorded": 124,
-      "content_type_counts": {
-        "ai_image_prompt": 41,
-        "lightroom": 48,
-        "ai_news": 28
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 15,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-23T15:23:00.052255+00:00",
       "member_count": 2947,
@@ -3712,6 +3705,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-15T21:51:34.976984+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 214,
+      "content_type_counts": {
+        "ai_image_prompt": 77,
+        "lightroom": 82,
+        "ai_news": 48
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 31,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3726,7 +3735,7 @@
     "The Verge AI": 14,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
-    "rockstar stage performance dramatic lights": 3,
+    "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 1,
     "half-face extreme close-up with hard flash and film grain": 2,
     "black and white film noir detective": 4,
@@ -3802,7 +3811,7 @@
     "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 76,
+    "ai_image_prompt": 77,
     "lightroom": 82,
     "ai_news": 48
   }
