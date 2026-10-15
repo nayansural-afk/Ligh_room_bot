@@ -2223,6 +2223,15 @@
       "ai_prompt": "Samurai Sentinel ⚔️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic samurai in full traditional armor, detailed lacquered plates, silver pauldrons, and a crimson hakama, with a subtle dust cloud swirling in the wind. Use a 35 mm lens, f/1.8, ISO 200, with soft back‑lighting from a golden hour sun, creating rim light on the armor edges. Position the warrior in a slightly angled pose, head turned toward the camera, chest forward, hands gripping a katana hilt. Capture the scene in a 9:16",
       "status": "published",
       "message_id": 1377
+    },
+    {
+      "timestamp": "2026-10-15T10:57:39.505225+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "steampunk inventor workshop",
+      "title": "Steampunk Inventor Workshop",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, steampunk inventor workshop, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1378
     }
   ],
   "style_counts": {
@@ -2246,22 +2255,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-22T15:28:14.863788+00:00",
-      "member_count": 2949,
-      "total_posts_recorded": 121,
-      "content_type_counts": {
-        "ai_image_prompt": 40,
-        "lightroom": 47,
-        "ai_news": 27
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 14,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-22T18:24:28.181791+00:00",
       "member_count": 2949,
@@ -3685,6 +3678,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-15T10:57:39.725443+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 211,
+      "content_type_counts": {
+        "ai_image_prompt": 76,
+        "lightroom": 82,
+        "ai_news": 46
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 31,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3721,7 +3730,7 @@
     "MIT Tech Review AI": 2,
     "samurai warrior traditional armor": 2,
     "tropical vacation candid smartphone photo": 5,
-    "steampunk inventor workshop": 1,
+    "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 1
   },
   "used_news_links": [
@@ -3773,7 +3782,7 @@
     "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 75,
+    "ai_image_prompt": 76,
     "lightroom": 82,
     "ai_news": 46
   }
