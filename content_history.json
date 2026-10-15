@@ -2241,6 +2241,15 @@
       "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
       "status": "published",
       "message_id": 1380
+    },
+    {
+      "timestamp": "2026-10-15T18:45:51.858952+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Meta & Apple Boost Muse AI on Macs",
+      "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+      "status": "published",
+      "message_id": 1382
     }
   ],
   "style_counts": {
@@ -2264,22 +2273,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-22T21:43:07.040065+00:00",
-      "member_count": 2949,
-      "total_posts_recorded": 123,
-      "content_type_counts": {
-        "ai_image_prompt": 41,
-        "lightroom": 47,
-        "ai_news": 28
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 14,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-23T10:54:41.727171+00:00",
       "member_count": 2948,
@@ -3703,6 +3696,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-15T18:45:52.007759+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 213,
+      "content_type_counts": {
+        "ai_image_prompt": 76,
+        "lightroom": 82,
+        "ai_news": 48
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 31,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3714,7 +3723,7 @@
     "TechCrunch AI": 27,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 13,
+    "The Verge AI": 14,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
     "rockstar stage performance dramatic lights": 3,
@@ -3789,11 +3798,12 @@
     "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
     "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
     "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-    "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
+    "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+    "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
   ],
   "content_type_counts": {
     "ai_image_prompt": 76,
     "lightroom": 82,
-    "ai_news": 47
+    "ai_news": 48
   }
 }
