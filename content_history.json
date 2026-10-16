@@ -2285,6 +2285,19 @@
       "tip": null,
       "photo_message_id": 1386,
       "document_message_id": 1387
+    },
+    {
+      "timestamp": "2026-10-16T18:30:58.813566+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "warm cinematic with high contrast",
+      "preset_name": "Amber Drift",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1388,
+      "document_message_id": 1389
     }
   ],
   "style_counts": {
@@ -2299,31 +2312,15 @@
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 6,
     "moody forest with teal shadows": 7,
-    "warm cinematic with high contrast": 7
+    "warm cinematic with high contrast": 8
   },
   "pillar_counts": {
     "preset_of_the_day": 24,
-    "before_after": 33,
+    "before_after": 34,
     "experimental_trend": 11,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-23T21:53:00.457095+00:00",
-      "member_count": 2947,
-      "total_posts_recorded": 127,
-      "content_type_counts": {
-        "ai_image_prompt": 42,
-        "lightroom": 49,
-        "ai_news": 29
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 15,
-        "before_after": 21,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-24T11:13:53.996627+00:00",
       "member_count": 2947,
@@ -3747,6 +3744,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-16T18:30:59.103279+00:00",
+      "member_count": 2895,
+      "total_posts_recorded": 217,
+      "content_type_counts": {
+        "ai_image_prompt": 77,
+        "lightroom": 85,
+        "ai_news": 48
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 34,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3838,7 +3851,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 77,
-    "lightroom": 84,
+    "lightroom": 85,
     "ai_news": 48
   }
 }
