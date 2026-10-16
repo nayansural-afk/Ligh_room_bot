@@ -2259,13 +2259,26 @@
       "ai_prompt": "Stage Blaze 🎸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a live rockstar on a colossal stage with a blazing LED backdrop, dynamic spotlights cutting through smoky haze. Use a 24‑mm lens simulation, shallow depth of field, vivid color saturation, and a slight fisheye tilt to emphasize the grandeur. Position the singer centered, slightly off‑center to the left, with a powerful pose: one hand gripping a vintage electric guitar, the other waving to the crowd. Frame the shot with a dramatic low‑angle shot, capturing the towering stage rig and soaring crowd silhouette in the background. Use 9:16",
       "status": "published",
       "message_id": 1383
+    },
+    {
+      "timestamp": "2026-10-16T10:51:11.679781+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1384,
+      "document_message_id": 1385
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
     "soft pastel tones for portraits": 6,
     "golden hour sunset with rich saturation": 9,
-    "high-key fashion with soft contrast": 6,
+    "high-key fashion with soft contrast": 7,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 7,
     "cool blue hour cityscape": 7,
@@ -2277,27 +2290,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 24,
-    "before_after": 31,
+    "before_after": 32,
     "experimental_trend": 11,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-23T15:23:00.052255+00:00",
-      "member_count": 2947,
-      "total_posts_recorded": 125,
-      "content_type_counts": {
-        "ai_image_prompt": 41,
-        "lightroom": 48,
-        "ai_news": 29
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 15,
-        "before_after": 20,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-23T18:43:46.124069+00:00",
       "member_count": 2947,
@@ -3721,6 +3718,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-16T10:51:11.868268+00:00",
+      "member_count": 2894,
+      "total_posts_recorded": 215,
+      "content_type_counts": {
+        "ai_image_prompt": 77,
+        "lightroom": 83,
+        "ai_news": 48
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 32,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3812,7 +3825,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 77,
-    "lightroom": 82,
+    "lightroom": 83,
     "ai_news": 48
   }
 }
