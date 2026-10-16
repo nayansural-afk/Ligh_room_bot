@@ -2298,6 +2298,15 @@
       "tip": null,
       "photo_message_id": 1388,
       "document_message_id": 1389
+    },
+    {
+      "timestamp": "2026-10-16T21:48:50.022531+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Replit is no longer working with Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "status": "published",
+      "message_id": 1390
     }
   ],
   "style_counts": {
@@ -2321,22 +2330,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-24T11:13:53.996627+00:00",
-      "member_count": 2947,
-      "total_posts_recorded": 128,
-      "content_type_counts": {
-        "ai_image_prompt": 43,
-        "lightroom": 49,
-        "ai_news": 29
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 15,
-        "before_after": 21,
-        "experimental_trend": 5,
-        "quick_tip": 11
-      }
-    },
     {
       "timestamp": "2026-09-24T15:46:11.891384+00:00",
       "member_count": 2947,
@@ -3760,6 +3753,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-16T21:48:50.199093+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 218,
+      "content_type_counts": {
+        "ai_image_prompt": 77,
+        "lightroom": 85,
+        "ai_news": 49
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 24,
+        "before_after": 34,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3768,7 +3777,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 27,
+    "TechCrunch AI": 28,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 14,
@@ -3847,11 +3856,12 @@
     "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
     "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
     "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-    "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+    "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+    "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 77,
     "lightroom": 85,
-    "ai_news": 48
+    "ai_news": 49
   }
 }
