@@ -2351,6 +2351,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, oil painting classical museum portrait style, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1396
+    },
+    {
+      "timestamp": "2026-10-18T10:30:33.991560+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Meta removes language that raised scraping and AI training concerns",
+      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "status": "published",
+      "message_id": 1398
     }
   ],
   "style_counts": {
@@ -2374,22 +2383,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-25T15:46:22.435538+00:00",
-      "member_count": 2945,
-      "total_posts_recorded": 133,
-      "content_type_counts": {
-        "ai_image_prompt": 45,
-        "lightroom": 51,
-        "ai_news": 30
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 15,
-        "before_after": 21,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-25T19:01:23.499202+00:00",
       "member_count": 2945,
@@ -3813,6 +3806,22 @@
         "experimental_trend": 11,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-18T10:30:34.126284+00:00",
+      "member_count": 2893,
+      "total_posts_recorded": 223,
+      "content_type_counts": {
+        "ai_image_prompt": 79,
+        "lightroom": 87,
+        "ai_news": 50
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 26,
+        "before_after": 34,
+        "experimental_trend": 11,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3821,7 +3830,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 28,
+    "TechCrunch AI": 29,
     "ancient Egyptian pharaoh / queen gold and linen": 3,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 14,
@@ -3902,11 +3911,12 @@
     "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
     "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
     "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-    "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+    "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 79,
     "lightroom": 87,
-    "ai_news": 49
+    "ai_news": 50
   }
 }
