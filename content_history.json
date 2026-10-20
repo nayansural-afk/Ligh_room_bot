@@ -2470,6 +2470,15 @@
       "tip": null,
       "photo_message_id": 1412,
       "document_message_id": 1413
+    },
+    {
+      "timestamp": "2026-10-20T21:59:00.841373+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "ancient Egyptian pharaoh / queen gold and linen",
+      "title": "Ancient Egyptian Pharaoh / Queen Gold And Linen",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, ancient Egyptian pharaoh / queen gold and linen, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1414
     }
   ],
   "style_counts": {
@@ -2493,22 +2502,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-28T13:06:05.391874+00:00",
-      "member_count": 2935,
-      "total_posts_recorded": 144,
-      "content_type_counts": {
-        "ai_image_prompt": 49,
-        "lightroom": 56,
-        "ai_news": 32
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 18,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-28T18:33:10.174448+00:00",
       "member_count": 2934,
@@ -3932,6 +3925,22 @@
         "experimental_trend": 13,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-20T21:59:01.003017+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 234,
+      "content_type_counts": {
+        "ai_image_prompt": 84,
+        "lightroom": 92,
+        "ai_news": 51
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 35,
+        "experimental_trend": 13,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3941,7 +3950,7 @@
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 29,
-    "ancient Egyptian pharaoh / queen gold and linen": 3,
+    "ancient Egyptian pharaoh / queen gold and linen": 4,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 15,
     "Studio Ghibli anime version of the person": 2,
@@ -4026,7 +4035,7 @@
     "https://www.theverge.com/policy/1013113/democrats-ai-midterms"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 83,
+    "ai_image_prompt": 84,
     "lightroom": 92,
     "ai_news": 51
   }
