@@ -2439,6 +2439,15 @@
       "tip": null,
       "photo_message_id": 1408,
       "document_message_id": 1409
+    },
+    {
+      "timestamp": "2026-10-20T11:00:44.575456+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "samurai warrior traditional armor",
+      "title": "Samurai Shadow 🗡️",
+      "ai_prompt": "Samurai Shadow 🗡️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a samurai warrior in full traditional armor, standing in a misty bamboo grove at dawn. Use a 50mm prime lens simulation, 85mm focal length, f/1.4 aperture for soft bokeh background, with backlighting to create a rim glow around the armor. Highlight intricate lacquer patterns, polished steel pauldrons, and a crimson hakama. Compose with a slight low angle",
+      "status": "published",
+      "message_id": 1410
     }
   ],
   "style_counts": {
@@ -2462,22 +2471,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-27T15:34:46.453221+00:00",
-      "member_count": 2940,
-      "total_posts_recorded": 141,
-      "content_type_counts": {
-        "ai_image_prompt": 49,
-        "lightroom": 54,
-        "ai_news": 31
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 16,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-27T18:45:31.297522+00:00",
       "member_count": 2940,
@@ -3901,6 +3894,22 @@
         "experimental_trend": 12,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-20T11:00:44.762841+00:00",
+      "member_count": 2889,
+      "total_posts_recorded": 231,
+      "content_type_counts": {
+        "ai_image_prompt": 82,
+        "lightroom": 91,
+        "ai_news": 51
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 35,
+        "experimental_trend": 12,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -3935,7 +3944,7 @@
     "Disney Pixar 3D stylized character": 4,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
-    "samurai warrior traditional armor": 2,
+    "samurai warrior traditional armor": 3,
     "tropical vacation candid smartphone photo": 5,
     "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 1,
@@ -3995,7 +4004,7 @@
     "https://www.theverge.com/policy/1013113/democrats-ai-midterms"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 81,
+    "ai_image_prompt": 82,
     "lightroom": 91,
     "ai_news": 51
   }
