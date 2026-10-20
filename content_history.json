@@ -2457,6 +2457,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. A photorealistic close-up of a winter scene, the subject wearing an oversized white faux-fur hood that drapes around their shoulders. Soft, diffused winter light from a low angle creates gentle rim lighting, highlighting the plush texture and subtle sheen of the fur. The background is a muted snowy landscape with a slight bokeh of distant pine trees. Use a 85mm lens feel with shallow depth of field, keeping the face sharp while the hood and background blur softly. Composition frames the face in the upper third, with the hood’s fluffy edges framing the head. Aspect ratio 9:16.",
       "status": "published",
       "message_id": 1411
+    },
+    {
+      "timestamp": "2026-10-20T18:49:20.808710+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "analog film look with controlled grain and fade",
+      "preset_name": "Quiet Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1412,
+      "document_message_id": 1413
     }
   ],
   "style_counts": {
@@ -2467,7 +2480,7 @@
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 9,
     "cool blue hour cityscape": 8,
-    "analog film look with controlled grain and fade": 6,
+    "analog film look with controlled grain and fade": 7,
     "lush green nature tones for landscapes": 8,
     "dramatic black and white with heavy contrast": 7,
     "moody forest with teal shadows": 7,
@@ -2476,26 +2489,10 @@
   "pillar_counts": {
     "preset_of_the_day": 28,
     "before_after": 35,
-    "experimental_trend": 12,
+    "experimental_trend": 13,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-27T21:43:37.623542+00:00",
-      "member_count": 2939,
-      "total_posts_recorded": 143,
-      "content_type_counts": {
-        "ai_image_prompt": 49,
-        "lightroom": 55,
-        "ai_news": 32
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 17,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-28T13:06:05.391874+00:00",
       "member_count": 2935,
@@ -3919,6 +3916,22 @@
         "experimental_trend": 12,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-20T18:49:21.104160+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 233,
+      "content_type_counts": {
+        "ai_image_prompt": 83,
+        "lightroom": 92,
+        "ai_news": 51
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 35,
+        "experimental_trend": 13,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -4014,7 +4027,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 83,
-    "lightroom": 91,
+    "lightroom": 92,
     "ai_news": 51
   }
 }
