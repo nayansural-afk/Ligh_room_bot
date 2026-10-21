@@ -2488,13 +2488,26 @@
       "link": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
       "status": "published",
       "message_id": 1415
+    },
+    {
+      "timestamp": "2026-10-21T15:53:32.463915+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Soft Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1416,
+      "document_message_id": 1417
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
     "soft pastel tones for portraits": 6,
     "golden hour sunset with rich saturation": 9,
-    "high-key fashion with soft contrast": 8,
+    "high-key fashion with soft contrast": 9,
     "vintage polaroid faded look": 6,
     "dark street style with subtle green tint": 9,
     "cool blue hour cityscape": 8,
@@ -2506,27 +2519,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 28,
-    "before_after": 35,
+    "before_after": 36,
     "experimental_trend": 13,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-28T20:55:25.329709+00:00",
-      "member_count": 2933,
-      "total_posts_recorded": 146,
-      "content_type_counts": {
-        "ai_image_prompt": 50,
-        "lightroom": 57,
-        "ai_news": 32
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-28T23:35:38.499007+00:00",
       "member_count": 2933,
@@ -3950,6 +3947,22 @@
         "experimental_trend": 13,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-21T15:53:32.700521+00:00",
+      "member_count": 2885,
+      "total_posts_recorded": 236,
+      "content_type_counts": {
+        "ai_image_prompt": 84,
+        "lightroom": 93,
+        "ai_news": 52
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 36,
+        "experimental_trend": 13,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -4046,7 +4059,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 84,
-    "lightroom": 92,
+    "lightroom": 93,
     "ai_news": 52
   }
 }
