@@ -2545,6 +2545,19 @@
       "ai_prompt": "Aqua Siren 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic underwater portrait of a mermaid/merman fantasy, shimmering scales, translucent tail, gentle currents",
       "status": "published",
       "message_id": 1423
+    },
+    {
+      "timestamp": "2026-10-22T18:57:31.103748+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "vintage polaroid faded look",
+      "preset_name": "Vintage Polaroid Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1424,
+      "document_message_id": 1425
     }
   ],
   "style_counts": {
@@ -2552,7 +2565,7 @@
     "soft pastel tones for portraits": 7,
     "golden hour sunset with rich saturation": 9,
     "high-key fashion with soft contrast": 9,
-    "vintage polaroid faded look": 6,
+    "vintage polaroid faded look": 7,
     "dark street style with subtle green tint": 9,
     "cool blue hour cityscape": 8,
     "analog film look with controlled grain and fade": 7,
@@ -2565,25 +2578,9 @@
     "preset_of_the_day": 28,
     "before_after": 38,
     "experimental_trend": 13,
-    "quick_tip": 19
+    "quick_tip": 20
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-29T22:44:53.487590+00:00",
-      "member_count": 2926,
-      "total_posts_recorded": 151,
-      "content_type_counts": {
-        "ai_image_prompt": 53,
-        "lightroom": 57,
-        "ai_news": 34
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-30T12:01:41.185661+00:00",
       "member_count": 2923,
@@ -4007,6 +4004,22 @@
         "experimental_trend": 13,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-22T18:57:31.333666+00:00",
+      "member_count": 2885,
+      "total_posts_recorded": 241,
+      "content_type_counts": {
+        "ai_image_prompt": 85,
+        "lightroom": 96,
+        "ai_news": 53
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 13,
+        "quick_tip": 20
+      }
     }
   ],
   "theme_counts": {
@@ -4104,7 +4117,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 85,
-    "lightroom": 95,
+    "lightroom": 96,
     "ai_news": 53
   }
 }
