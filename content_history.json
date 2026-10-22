@@ -2558,10 +2558,23 @@
       "tip": "",
       "photo_message_id": 1424,
       "document_message_id": 1425
+    },
+    {
+      "timestamp": "2026-10-22T21:58:53.208548+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "bright minimal with neutral tones",
+      "preset_name": "Bright Minimalist",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1426,
+      "document_message_id": 1427
     }
   ],
   "style_counts": {
-    "bright minimal with neutral tones": 9,
+    "bright minimal with neutral tones": 10,
     "soft pastel tones for portraits": 7,
     "golden hour sunset with rich saturation": 9,
     "high-key fashion with soft contrast": 9,
@@ -2578,25 +2591,9 @@
     "preset_of_the_day": 28,
     "before_after": 38,
     "experimental_trend": 13,
-    "quick_tip": 20
+    "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-30T12:01:41.185661+00:00",
-      "member_count": 2923,
-      "total_posts_recorded": 152,
-      "content_type_counts": {
-        "ai_image_prompt": 53,
-        "lightroom": 57,
-        "ai_news": 35
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-30T16:45:19.862926+00:00",
       "member_count": 2923,
@@ -4020,6 +4017,22 @@
         "experimental_trend": 13,
         "quick_tip": 20
       }
+    },
+    {
+      "timestamp": "2026-10-22T21:58:53.375108+00:00",
+      "member_count": 2886,
+      "total_posts_recorded": 242,
+      "content_type_counts": {
+        "ai_image_prompt": 85,
+        "lightroom": 97,
+        "ai_news": 53
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 13,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4117,7 +4130,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 85,
-    "lightroom": 96,
+    "lightroom": 97,
     "ai_news": 53
   }
 }
