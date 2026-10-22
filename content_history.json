@@ -2536,6 +2536,15 @@
       "tip": null,
       "photo_message_id": 1421,
       "document_message_id": 1422
+    },
+    {
+      "timestamp": "2026-10-22T15:50:22.881456+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "underwater mermaid / merman fantasy",
+      "title": "Aqua Siren 🌊",
+      "ai_prompt": "Aqua Siren 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic underwater portrait of a mermaid/merman fantasy, shimmering scales, translucent tail, gentle currents",
+      "status": "published",
+      "message_id": 1423
     }
   ],
   "style_counts": {
@@ -2559,22 +2568,6 @@
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-29T19:42:27.076793+00:00",
-      "member_count": 2926,
-      "total_posts_recorded": 150,
-      "content_type_counts": {
-        "ai_image_prompt": 52,
-        "lightroom": 57,
-        "ai_news": 34
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-29T22:44:53.487590+00:00",
       "member_count": 2926,
@@ -3998,6 +3991,22 @@
         "experimental_trend": 13,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-22T15:50:23.144463+00:00",
+      "member_count": 2885,
+      "total_posts_recorded": 240,
+      "content_type_counts": {
+        "ai_image_prompt": 85,
+        "lightroom": 95,
+        "ai_news": 53
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 13,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -4021,7 +4030,7 @@
     "cyberpunk neon city night portrait": 1,
     "cozy winter close-up with oversized white faux-fur hood": 4,
     "OpenAI": 3,
-    "underwater mermaid / merman fantasy": 4,
+    "underwater mermaid / merman fantasy": 5,
     "vampire gothic elegance candlelight": 3,
     "luxury fashion editorial on sport motorcycle studio shot": 4,
     "noir detective rainy street black and white": 2,
@@ -4094,7 +4103,7 @@
     "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 84,
+    "ai_image_prompt": 85,
     "lightroom": 95,
     "ai_news": 53
   }
