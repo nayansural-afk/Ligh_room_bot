@@ -2523,11 +2523,24 @@
       "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
       "status": "published",
       "message_id": 1420
+    },
+    {
+      "timestamp": "2026-10-22T11:16:50.313411+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "soft pastel tones for portraits",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1421,
+      "document_message_id": 1422
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 9,
-    "soft pastel tones for portraits": 6,
+    "soft pastel tones for portraits": 7,
     "golden hour sunset with rich saturation": 9,
     "high-key fashion with soft contrast": 9,
     "vintage polaroid faded look": 6,
@@ -2541,27 +2554,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 28,
-    "before_after": 37,
+    "before_after": 38,
     "experimental_trend": 13,
     "quick_tip": 19
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-29T16:50:49.007069+00:00",
-      "member_count": 2928,
-      "total_posts_recorded": 149,
-      "content_type_counts": {
-        "ai_image_prompt": 51,
-        "lightroom": 57,
-        "ai_news": 34
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 23,
-        "experimental_trend": 6,
-        "quick_tip": 12
-      }
-    },
     {
       "timestamp": "2026-09-29T19:42:27.076793+00:00",
       "member_count": 2926,
@@ -3985,6 +3982,22 @@
         "experimental_trend": 13,
         "quick_tip": 19
       }
+    },
+    {
+      "timestamp": "2026-10-22T11:16:50.576107+00:00",
+      "member_count": 2886,
+      "total_posts_recorded": 239,
+      "content_type_counts": {
+        "ai_image_prompt": 84,
+        "lightroom": 95,
+        "ai_news": 53
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 13,
+        "quick_tip": 19
+      }
     }
   ],
   "theme_counts": {
@@ -4082,7 +4095,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 84,
-    "lightroom": 94,
+    "lightroom": 95,
     "ai_news": 53
   }
 }
