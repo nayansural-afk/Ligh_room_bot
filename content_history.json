@@ -2602,6 +2602,15 @@
       "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
       "status": "published",
       "message_id": 1439
+    },
+    {
+      "timestamp": "2026-10-23T21:44:27.845682+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "wild west cowboy desert sunset",
+      "title": "Desert Sunset Cowboy 🌵",
+      "ai_prompt": "Desert Sunset Cowboy 🌵\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic wild west cowboy standing on a dusty desert ridge at sunset, his silhouette framed by a blazing orange sky. Use cinematic golden hour lighting with rim lights highlighting the edges of his worn leather hat and weathered face. Apply a shallow depth-of-field with a 50mm lens effect, blurring the distant canyon walls while keeping the cowboy sharply focused. Compose in a vertical 9:16 aspect ratio, placing the subject in the",
+      "status": "published",
+      "message_id": 1440
     }
   ],
   "style_counts": {
@@ -2625,22 +2634,6 @@
     "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-01T12:34:39.794158+00:00",
-      "member_count": 2923,
-      "total_posts_recorded": 156,
-      "content_type_counts": {
-        "ai_image_prompt": 53,
-        "lightroom": 61,
-        "ai_news": 35
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 20,
-        "before_after": 24,
-        "experimental_trend": 7,
-        "quick_tip": 13
-      }
-    },
     {
       "timestamp": "2026-10-01T17:19:25.400110+00:00",
       "member_count": 2921,
@@ -4064,6 +4057,22 @@
         "experimental_trend": 14,
         "quick_tip": 21
       }
+    },
+    {
+      "timestamp": "2026-10-23T21:44:28.012640+00:00",
+      "member_count": 2887,
+      "total_posts_recorded": 246,
+      "content_type_counts": {
+        "ai_image_prompt": 87,
+        "lightroom": 98,
+        "ai_news": 54
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 14,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4092,7 +4101,7 @@
     "luxury fashion editorial on sport motorcycle studio shot": 4,
     "noir detective rainy street black and white": 2,
     "golden hour beach portrait soft rim light": 2,
-    "wild west cowboy desert sunset": 4,
+    "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
     "Hugging Face": 3,
     "Disney Pixar 3D stylized character": 5,
@@ -4161,7 +4170,7 @@
     "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 86,
+    "ai_image_prompt": 87,
     "lightroom": 98,
     "ai_news": 54
   }
