@@ -2580,6 +2580,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Disney Pixar 3D stylized character, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1436
+    },
+    {
+      "timestamp": "2026-10-23T15:41:09.931528+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "dramatic black and white with heavy contrast",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1437,
+      "document_message_id": 1438
     }
   ],
   "style_counts": {
@@ -2592,33 +2605,17 @@
     "cool blue hour cityscape": 8,
     "analog film look with controlled grain and fade": 7,
     "lush green nature tones for landscapes": 9,
-    "dramatic black and white with heavy contrast": 7,
+    "dramatic black and white with heavy contrast": 8,
     "moody forest with teal shadows": 7,
     "warm cinematic with high contrast": 9
   },
   "pillar_counts": {
     "preset_of_the_day": 28,
     "before_after": 38,
-    "experimental_trend": 13,
+    "experimental_trend": 14,
     "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-30T19:43:48.456133+00:00",
-      "member_count": 2923,
-      "total_posts_recorded": 154,
-      "content_type_counts": {
-        "ai_image_prompt": 53,
-        "lightroom": 59,
-        "ai_news": 35
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 24,
-        "experimental_trend": 6,
-        "quick_tip": 13
-      }
-    },
     {
       "timestamp": "2026-09-30T22:42:23.805161+00:00",
       "member_count": 2922,
@@ -4042,6 +4039,22 @@
         "experimental_trend": 13,
         "quick_tip": 21
       }
+    },
+    {
+      "timestamp": "2026-10-23T15:41:10.147955+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 244,
+      "content_type_counts": {
+        "ai_image_prompt": 86,
+        "lightroom": 98,
+        "ai_news": 53
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 14,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4139,7 +4152,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 86,
-    "lightroom": 97,
+    "lightroom": 98,
     "ai_news": 53
   }
 }
