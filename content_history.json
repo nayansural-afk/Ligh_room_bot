@@ -2593,6 +2593,15 @@
       "tip": null,
       "photo_message_id": 1437,
       "document_message_id": 1438
+    },
+    {
+      "timestamp": "2026-10-23T18:47:24.067386+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 The iPhone Duo should have been an iPad",
+      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "status": "published",
+      "message_id": 1439
     }
   ],
   "style_counts": {
@@ -2616,22 +2625,6 @@
     "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-09-30T22:42:23.805161+00:00",
-      "member_count": 2922,
-      "total_posts_recorded": 155,
-      "content_type_counts": {
-        "ai_image_prompt": 53,
-        "lightroom": 60,
-        "ai_news": 35
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 19,
-        "before_after": 24,
-        "experimental_trend": 7,
-        "quick_tip": 13
-      }
-    },
     {
       "timestamp": "2026-10-01T12:34:39.794158+00:00",
       "member_count": 2923,
@@ -4055,6 +4048,22 @@
         "experimental_trend": 14,
         "quick_tip": 21
       }
+    },
+    {
+      "timestamp": "2026-10-23T18:47:24.225719+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 245,
+      "content_type_counts": {
+        "ai_image_prompt": 86,
+        "lightroom": 98,
+        "ai_news": 54
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 14,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4066,7 +4075,7 @@
     "TechCrunch AI": 29,
     "ancient Egyptian pharaoh / queen gold and linen": 4,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 16,
+    "The Verge AI": 17,
     "Studio Ghibli anime version of the person": 2,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
     "rockstar stage performance dramatic lights": 4,
@@ -4148,11 +4157,12 @@
     "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
     "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
     "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-    "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+    "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+    "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
   ],
   "content_type_counts": {
     "ai_image_prompt": 86,
     "lightroom": 98,
-    "ai_news": 53
+    "ai_news": 54
   }
 }
