@@ -2620,6 +2620,15 @@
       "ai_prompt": "Neon Noir Portrait 🌆\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render the subject in a hyperrealistic cyberpunk cityscape at night, neon-lit streets reflecting on wet pavement. Use a shallow depth-of-field with a 50mm prime lens effect, crisp focus on the eyes and subtle motion blur on background cars. The composition is a tight headshot with the city skyline in the lower third, towering holographic billboards casting colorful glows. Add dynamic lighting: cool blue and magenta neon highlights, rim lighting from",
       "status": "published",
       "message_id": 1441
+    },
+    {
+      "timestamp": "2026-10-24T14:23:30.566345+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 OpenAI says it will no longer train its AI models on the live internet, citing “",
+      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "status": "published",
+      "message_id": 1442
     }
   ],
   "style_counts": {
@@ -2643,22 +2652,6 @@
     "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-01T19:57:51.664954+00:00",
-      "member_count": 2920,
-      "total_posts_recorded": 158,
-      "content_type_counts": {
-        "ai_image_prompt": 53,
-        "lightroom": 62,
-        "ai_news": 36
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 21,
-        "before_after": 24,
-        "experimental_trend": 7,
-        "quick_tip": 13
-      }
-    },
     {
       "timestamp": "2026-10-01T22:56:52.746297+00:00",
       "member_count": 2919,
@@ -4082,6 +4075,22 @@
         "experimental_trend": 14,
         "quick_tip": 21
       }
+    },
+    {
+      "timestamp": "2026-10-24T14:23:30.766340+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 248,
+      "content_type_counts": {
+        "ai_image_prompt": 88,
+        "lightroom": 98,
+        "ai_news": 55
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 38,
+        "experimental_trend": 14,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4090,7 +4099,7 @@
     "80s retro film look candid": 2,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 29,
+    "TechCrunch AI": 30,
     "ancient Egyptian pharaoh / queen gold and linen": 4,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 17,
@@ -4176,11 +4185,12 @@
     "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
     "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
     "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-    "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
+    "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+    "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 88,
     "lightroom": 98,
-    "ai_news": 54
+    "ai_news": 55
   }
 }
