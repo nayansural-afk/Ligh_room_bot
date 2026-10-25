@@ -2655,6 +2655,15 @@
       "tip": null,
       "photo_message_id": 1445,
       "document_message_id": 1446
+    },
+    {
+      "timestamp": "2026-10-25T10:52:03.361249+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "samurai warrior traditional armor",
+      "title": "Samurai Warrior Traditional Armor",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, samurai warrior traditional armor, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1447
     }
   ],
   "style_counts": {
@@ -2678,22 +2687,6 @@
     "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-02T16:34:29.521513+00:00",
-      "member_count": 2914,
-      "total_posts_recorded": 161,
-      "content_type_counts": {
-        "ai_image_prompt": 55,
-        "lightroom": 63,
-        "ai_news": 36
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 21,
-        "before_after": 24,
-        "experimental_trend": 7,
-        "quick_tip": 14
-      }
-    },
     {
       "timestamp": "2026-10-02T19:39:17.401107+00:00",
       "member_count": 2914,
@@ -4117,6 +4110,22 @@
         "experimental_trend": 14,
         "quick_tip": 21
       }
+    },
+    {
+      "timestamp": "2026-10-25T10:52:03.497907+00:00",
+      "member_count": 2889,
+      "total_posts_recorded": 251,
+      "content_type_counts": {
+        "ai_image_prompt": 89,
+        "lightroom": 100,
+        "ai_news": 55
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 40,
+        "experimental_trend": 14,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4151,7 +4160,7 @@
     "Disney Pixar 3D stylized character": 5,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 2,
-    "samurai warrior traditional armor": 3,
+    "samurai warrior traditional armor": 4,
     "tropical vacation candid smartphone photo": 5,
     "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 1,
@@ -4215,7 +4224,7 @@
     "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 88,
+    "ai_image_prompt": 89,
     "lightroom": 100,
     "ai_news": 55
   }
