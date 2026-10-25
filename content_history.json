@@ -2682,6 +2682,15 @@
       "ai_prompt": "Midnight Case 🌧️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Place the detective in a rain‑slick cobblestone alley, neon reflections glistening off wet pavement. Use a 35mm lens simulation, shallow depth of field, soft rim lighting from a lone streetlamp, with high contrast black‑and‑white grainy texture. Capture a dramatic 3:4 aspect ratio, framing the subject in a low‑angle shot, eyes focused, hand holding a cigarette, a subtle splash of rain on the cheek. Photorealistic detail, chiaroscuro lighting, cinematic",
       "status": "published",
       "message_id": 1449
+    },
+    {
+      "timestamp": "2026-10-25T21:18:06.575309+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "Studio Ghibli anime version of the person",
+      "title": "Studio Ghibli Anime Version Of The Person",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Studio Ghibli anime version of the person, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1450
     }
   ],
   "style_counts": {
@@ -2705,22 +2714,6 @@
     "quick_tip": 21
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-03T11:12:52.567824+00:00",
-      "member_count": 2916,
-      "total_posts_recorded": 164,
-      "content_type_counts": {
-        "ai_image_prompt": 57,
-        "lightroom": 64,
-        "ai_news": 36
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 21,
-        "before_after": 24,
-        "experimental_trend": 8,
-        "quick_tip": 14
-      }
-    },
     {
       "timestamp": "2026-10-03T15:05:57.619999+00:00",
       "member_count": 2915,
@@ -4144,6 +4137,22 @@
         "experimental_trend": 14,
         "quick_tip": 21
       }
+    },
+    {
+      "timestamp": "2026-10-25T21:18:06.841275+00:00",
+      "member_count": 2887,
+      "total_posts_recorded": 254,
+      "content_type_counts": {
+        "ai_image_prompt": 91,
+        "lightroom": 100,
+        "ai_news": 56
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 28,
+        "before_after": 40,
+        "experimental_trend": 14,
+        "quick_tip": 21
+      }
     }
   ],
   "theme_counts": {
@@ -4156,7 +4165,7 @@
     "ancient Egyptian pharaoh / queen gold and linen": 4,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 17,
-    "Studio Ghibli anime version of the person": 2,
+    "Studio Ghibli anime version of the person": 3,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 1,
@@ -4243,7 +4252,7 @@
     "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 90,
+    "ai_image_prompt": 91,
     "lightroom": 100,
     "ai_news": 56
   }
