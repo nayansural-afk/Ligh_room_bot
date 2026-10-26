@@ -2717,6 +2717,15 @@
       "tip": null,
       "photo_message_id": 1453,
       "document_message_id": 1454
+    },
+    {
+      "timestamp": "2026-10-26T20:12:57.364053+00:00",
+      "content_type": "ai_news",
+      "theme": "MIT Tech Review AI",
+      "title": "📈 Anthropic Goes Public: IPO Prospectus Released",
+      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "status": "published",
+      "message_id": 1455
     }
   ],
   "style_counts": {
@@ -2740,22 +2749,6 @@
     "quick_tip": 22
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-03T21:53:36.044174+00:00",
-      "member_count": 2915,
-      "total_posts_recorded": 167,
-      "content_type_counts": {
-        "ai_image_prompt": 58,
-        "lightroom": 64,
-        "ai_news": 38
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 21,
-        "before_after": 24,
-        "experimental_trend": 8,
-        "quick_tip": 14
-      }
-    },
     {
       "timestamp": "2026-10-04T11:52:34.420865+00:00",
       "member_count": 2912,
@@ -4179,6 +4172,22 @@
         "experimental_trend": 14,
         "quick_tip": 22
       }
+    },
+    {
+      "timestamp": "2026-10-26T20:12:57.581887+00:00",
+      "member_count": 2887,
+      "total_posts_recorded": 257,
+      "content_type_counts": {
+        "ai_image_prompt": 91,
+        "lightroom": 102,
+        "ai_news": 57
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 29,
+        "before_after": 40,
+        "experimental_trend": 14,
+        "quick_tip": 22
+      }
     }
   ],
   "theme_counts": {
@@ -4212,7 +4221,7 @@
     "Hugging Face": 3,
     "Disney Pixar 3D stylized character": 5,
     "medieval knight armor photorealistic portrait": 1,
-    "MIT Tech Review AI": 2,
+    "MIT Tech Review AI": 3,
     "samurai warrior traditional armor": 4,
     "tropical vacation candid smartphone photo": 5,
     "steampunk inventor workshop": 2,
@@ -4275,11 +4284,12 @@
     "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
     "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
     "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-    "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
+    "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+    "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 91,
     "lightroom": 102,
-    "ai_news": 56
+    "ai_news": 57
   }
 }
