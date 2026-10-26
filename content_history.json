@@ -2726,6 +2726,15 @@
       "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
       "status": "published",
       "message_id": 1455
+    },
+    {
+      "timestamp": "2026-10-26T22:56:00.351775+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cinematic low-angle outdoor portrait with wildflowers and sky",
+      "title": "Blooming Lens 🌸",
+      "ai_prompt": "Blooming Lens 🌸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Cinematic low‑angle outdoor portrait shot at golden hour, with a clear blue sky above and wildflowers in the foreground. Soft rim lighting highlights the subject",
+      "status": "published",
+      "message_id": 1456
     }
   ],
   "style_counts": {
@@ -2749,22 +2758,6 @@
     "quick_tip": 22
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-04T11:52:34.420865+00:00",
-      "member_count": 2912,
-      "total_posts_recorded": 168,
-      "content_type_counts": {
-        "ai_image_prompt": 59,
-        "lightroom": 64,
-        "ai_news": 38
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 21,
-        "before_after": 24,
-        "experimental_trend": 8,
-        "quick_tip": 14
-      }
-    },
     {
       "timestamp": "2026-10-04T15:43:07.835406+00:00",
       "member_count": 2911,
@@ -4188,6 +4181,22 @@
         "experimental_trend": 14,
         "quick_tip": 22
       }
+    },
+    {
+      "timestamp": "2026-10-26T22:56:00.487981+00:00",
+      "member_count": 2886,
+      "total_posts_recorded": 258,
+      "content_type_counts": {
+        "ai_image_prompt": 92,
+        "lightroom": 102,
+        "ai_news": 57
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 29,
+        "before_after": 40,
+        "experimental_trend": 14,
+        "quick_tip": 22
+      }
     }
   ],
   "theme_counts": {
@@ -4201,7 +4210,7 @@
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 17,
     "Studio Ghibli anime version of the person": 3,
-    "cinematic low-angle outdoor portrait with wildflowers and sky": 2,
+    "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 1,
     "half-face extreme close-up with hard flash and film grain": 2,
@@ -4288,7 +4297,7 @@
     "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 91,
+    "ai_image_prompt": 92,
     "lightroom": 102,
     "ai_news": 57
   }
