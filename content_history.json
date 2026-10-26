@@ -2704,6 +2704,19 @@
       "tip": "Boost the Whites to +25 and Blacks to -",
       "photo_message_id": 1451,
       "document_message_id": 1452
+    },
+    {
+      "timestamp": "2026-10-26T17:13:59.608066+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "vintage polaroid faded look",
+      "preset_name": "Faded Polaroid Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1453,
+      "document_message_id": 1454
     }
   ],
   "style_counts": {
@@ -2711,7 +2724,7 @@
     "soft pastel tones for portraits": 8,
     "golden hour sunset with rich saturation": 9,
     "high-key fashion with soft contrast": 9,
-    "vintage polaroid faded look": 7,
+    "vintage polaroid faded look": 8,
     "dark street style with subtle green tint": 9,
     "cool blue hour cityscape": 8,
     "analog film look with controlled grain and fade": 7,
@@ -2721,28 +2734,12 @@
     "warm cinematic with high contrast": 10
   },
   "pillar_counts": {
-    "preset_of_the_day": 28,
+    "preset_of_the_day": 29,
     "before_after": 40,
     "experimental_trend": 14,
     "quick_tip": 22
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-03T18:25:26.714670+00:00",
-      "member_count": 2915,
-      "total_posts_recorded": 166,
-      "content_type_counts": {
-        "ai_image_prompt": 58,
-        "lightroom": 64,
-        "ai_news": 37
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 21,
-        "before_after": 24,
-        "experimental_trend": 8,
-        "quick_tip": 14
-      }
-    },
     {
       "timestamp": "2026-10-03T21:53:36.044174+00:00",
       "member_count": 2915,
@@ -4166,6 +4163,22 @@
         "experimental_trend": 14,
         "quick_tip": 22
       }
+    },
+    {
+      "timestamp": "2026-10-26T17:13:59.743702+00:00",
+      "member_count": 2887,
+      "total_posts_recorded": 256,
+      "content_type_counts": {
+        "ai_image_prompt": 91,
+        "lightroom": 102,
+        "ai_news": 56
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 29,
+        "before_after": 40,
+        "experimental_trend": 14,
+        "quick_tip": 22
+      }
     }
   ],
   "theme_counts": {
@@ -4266,7 +4279,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 91,
-    "lightroom": 101,
+    "lightroom": 102,
     "ai_news": 56
   }
 }
