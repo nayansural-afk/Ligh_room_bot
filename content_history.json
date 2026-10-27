@@ -2748,6 +2748,15 @@
       "tip": "Increase the Whites and Blacks sliders to push contrast, then add a Warm color tone in the Color Grading panel and lift the Shadows slightly to keep detail.",
       "photo_message_id": 1457,
       "document_message_id": 1458
+    },
+    {
+      "timestamp": "2026-10-27T16:19:32.945612+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "80s retro film look candid",
+      "title": "80S Retro Film Look Candid",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, 80s retro film look candid, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1459
     }
   ],
   "style_counts": {
@@ -2771,22 +2780,6 @@
     "quick_tip": 23
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-04T18:27:29.901654+00:00",
-      "member_count": 2909,
-      "total_posts_recorded": 170,
-      "content_type_counts": {
-        "ai_image_prompt": 59,
-        "lightroom": 66,
-        "ai_news": 38
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 22,
-        "before_after": 24,
-        "experimental_trend": 8,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-04T22:04:23.430955+00:00",
       "member_count": 2908,
@@ -4210,12 +4203,28 @@
         "experimental_trend": 14,
         "quick_tip": 23
       }
+    },
+    {
+      "timestamp": "2026-10-27T16:19:33.099387+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 260,
+      "content_type_counts": {
+        "ai_image_prompt": 93,
+        "lightroom": 103,
+        "ai_news": 57
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 29,
+        "before_after": 40,
+        "experimental_trend": 14,
+        "quick_tip": 23
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 2,
-    "80s retro film look candid": 2,
+    "80s retro film look candid": 3,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 31,
@@ -4310,7 +4319,7 @@
     "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 92,
+    "ai_image_prompt": 93,
     "lightroom": 103,
     "ai_news": 57
   }
