@@ -2757,6 +2757,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, 80s retro film look candid, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1459
+    },
+    {
+      "timestamp": "2026-10-27T19:44:54.842029+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "warm cinematic with high contrast",
+      "preset_name": "Street Ember",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1460,
+      "document_message_id": 1461
     }
   ],
   "style_counts": {
@@ -2771,31 +2784,15 @@
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 9,
     "moody forest with teal shadows": 7,
-    "warm cinematic with high contrast": 11
+    "warm cinematic with high contrast": 12
   },
   "pillar_counts": {
     "preset_of_the_day": 29,
     "before_after": 40,
-    "experimental_trend": 14,
+    "experimental_trend": 15,
     "quick_tip": 23
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-04T22:04:23.430955+00:00",
-      "member_count": 2908,
-      "total_posts_recorded": 171,
-      "content_type_counts": {
-        "ai_image_prompt": 60,
-        "lightroom": 66,
-        "ai_news": 38
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 22,
-        "before_after": 24,
-        "experimental_trend": 8,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-05T13:48:17.693225+00:00",
       "member_count": 2906,
@@ -4219,6 +4216,22 @@
         "experimental_trend": 14,
         "quick_tip": 23
       }
+    },
+    {
+      "timestamp": "2026-10-27T19:44:54.997809+00:00",
+      "member_count": 2890,
+      "total_posts_recorded": 261,
+      "content_type_counts": {
+        "ai_image_prompt": 93,
+        "lightroom": 104,
+        "ai_news": 57
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 29,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 23
+      }
     }
   ],
   "theme_counts": {
@@ -4320,7 +4333,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 93,
-    "lightroom": 103,
+    "lightroom": 104,
     "ai_news": 57
   }
 }
