@@ -2801,6 +2801,15 @@
       "ai_prompt": "Neon Android Glow 🌃\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic futuristic android portrait with soft neon lighting. The subject is framed in a close‑up, 4:5 aspect ratio, with a shallow depth‑of‑field lens (50mm f/1.8) to blur the background into glowing city lights. Use a cinematic 3:4 composition with a subtle rim light behind the subject to highlight chrome accents and holographic reflections on the skin. The color palette emphasizes electric blue, magenta, and cyan against a midnight backdrop. Add a subtle lens flare and volumetric light shafts for a cyber",
       "status": "published",
       "message_id": 1465
+    },
+    {
+      "timestamp": "2026-10-28T19:58:19.403216+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "modern high-fashion magazine cover",
+      "title": "Glamour Unleashed ✨",
+      "ai_prompt": "Glamour Unleashed ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic high-fashion magazine cover style: dramatic, cinematic lighting with a warm golden rim, subtle backlight to create halo, soft diffused studio light. Use an 85mm prime lens with f/1.4 for silky background blur. Position subject slightly off-center, looking over shoulder with confident gaze. Incorporate sleek, minimalist backdrop in muted charcoal, with a splash of metallic silver accents. Add sharp focus on eyes, gentle contrast, and a hint of glossy finish to emulate glossy magazine print. Composition should be portrait-oriented 4:5, high resolution, with subtle vignette and elegant typography placeholder.",
+      "status": "published",
+      "message_id": 1466
     }
   ],
   "style_counts": {
@@ -2824,22 +2833,6 @@
     "quick_tip": 23
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-06T12:52:56.961194+00:00",
-      "member_count": 2901,
-      "total_posts_recorded": 175,
-      "content_type_counts": {
-        "ai_image_prompt": 62,
-        "lightroom": 68,
-        "ai_news": 38
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 22,
-        "before_after": 25,
-        "experimental_trend": 9,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-06T17:06:32.751280+00:00",
       "member_count": 2900,
@@ -4263,6 +4256,22 @@
         "experimental_trend": 15,
         "quick_tip": 23
       }
+    },
+    {
+      "timestamp": "2026-10-28T19:58:19.547305+00:00",
+      "member_count": 2890,
+      "total_posts_recorded": 265,
+      "content_type_counts": {
+        "ai_image_prompt": 95,
+        "lightroom": 105,
+        "ai_news": 58
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 30,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 23
+      }
     }
   ],
   "theme_counts": {
@@ -4278,7 +4287,7 @@
     "Studio Ghibli anime version of the person": 3,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
     "rockstar stage performance dramatic lights": 4,
-    "modern high-fashion magazine cover": 1,
+    "modern high-fashion magazine cover": 2,
     "half-face extreme close-up with hard flash and film grain": 2,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
@@ -4364,7 +4373,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 94,
+    "ai_image_prompt": 95,
     "lightroom": 105,
     "ai_news": 58
   }
