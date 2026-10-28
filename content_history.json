@@ -2783,6 +2783,15 @@
       "tip": null,
       "photo_message_id": 1462,
       "document_message_id": 1463
+    },
+    {
+      "timestamp": "2026-10-28T12:14:40.143443+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🚀 Meta Unveils AI Pet Journal App",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "status": "published",
+      "message_id": 1464
     }
   ],
   "style_counts": {
@@ -2806,22 +2815,6 @@
     "quick_tip": 23
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-05T21:43:21.499335+00:00",
-      "member_count": 2906,
-      "total_posts_recorded": 173,
-      "content_type_counts": {
-        "ai_image_prompt": 61,
-        "lightroom": 67,
-        "ai_news": 38
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 22,
-        "before_after": 24,
-        "experimental_trend": 9,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-06T00:27:35.129150+00:00",
       "member_count": 2904,
@@ -4245,6 +4238,22 @@
         "experimental_trend": 15,
         "quick_tip": 23
       }
+    },
+    {
+      "timestamp": "2026-10-28T12:14:40.339466+00:00",
+      "member_count": 2889,
+      "total_posts_recorded": 263,
+      "content_type_counts": {
+        "ai_image_prompt": 93,
+        "lightroom": 105,
+        "ai_news": 58
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 30,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 23
+      }
     }
   ],
   "theme_counts": {
@@ -4256,7 +4265,7 @@
     "TechCrunch AI": 31,
     "ancient Egyptian pharaoh / queen gold and linen": 4,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 17,
+    "The Verge AI": 18,
     "Studio Ghibli anime version of the person": 3,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
     "rockstar stage performance dramatic lights": 4,
@@ -4342,11 +4351,12 @@
     "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
     "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
     "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-    "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+    "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+    "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
   ],
   "content_type_counts": {
     "ai_image_prompt": 93,
     "lightroom": 105,
-    "ai_news": 57
+    "ai_news": 58
   }
 }
