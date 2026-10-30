@@ -2898,6 +2898,15 @@
       "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
       "status": "published",
       "message_id": 1479
+    },
+    {
+      "timestamp": "2026-10-30T22:42:48.539462+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "ancient Egyptian pharaoh / queen gold and linen",
+      "title": "Pharaoh's Golden Veil 🏺",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a regal ancient Egyptian queen in photorealistic detail, golden linen draped over a marble throne, warm golden hour lighting highlighting the texture of gold jewelry and linen fabric. Use a 50mm prime lens effect with shallow depth of field, backlit halo, subtle rim light. Composition: head and upper torso centered, slight 30° angle, background of hieroglyphic stone wall blurred. 3:4 aspect ratio, cinematic, high dynamic range, 8k resolution, subtle lens flare, realistic skin pores.",
+      "status": "published",
+      "message_id": 1480
     }
   ],
   "style_counts": {
@@ -2921,22 +2930,6 @@
     "quick_tip": 24
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-08T17:47:54.259367+00:00",
-      "member_count": 2902,
-      "total_posts_recorded": 184,
-      "content_type_counts": {
-        "ai_image_prompt": 65,
-        "lightroom": 71,
-        "ai_news": 41
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 26,
-        "experimental_trend": 10,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-08T20:20:13.544916+00:00",
       "member_count": 2900,
@@ -4360,6 +4353,22 @@
         "experimental_trend": 15,
         "quick_tip": 24
       }
+    },
+    {
+      "timestamp": "2026-10-30T22:42:48.726776+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 274,
+      "content_type_counts": {
+        "ai_image_prompt": 98,
+        "lightroom": 109,
+        "ai_news": 60
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 24
+      }
     }
   ],
   "theme_counts": {
@@ -4369,7 +4378,7 @@
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 31,
-    "ancient Egyptian pharaoh / queen gold and linen": 4,
+    "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 19,
     "Studio Ghibli anime version of the person": 4,
@@ -4463,7 +4472,7 @@
     "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 97,
+    "ai_image_prompt": 98,
     "lightroom": 109,
     "ai_news": 60
   }
