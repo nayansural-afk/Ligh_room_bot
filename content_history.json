@@ -2867,6 +2867,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Studio Ghibli anime version of the person, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1475
+    },
+    {
+      "timestamp": "2026-10-30T12:15:59.497435+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "luxury fashion editorial on sport motorcycle studio shot",
+      "title": "Rider Glam 🌟",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic luxury fashion editorial shot of a model in avant‑garde couture on a sleek sport motorcycle, studio lighting with high‑contrast rim glow, soft backlight from a single key lamp at 45°, depth of field shallow to emphasize the rider's silhouette. Use a 24‑mm prime lens emulation, 85mm focal length feel, 0.8 f‑stop for silky background. Compose with the rider centered, slightly angled, motorcycle in dynamic pose, dramatic shadows. Aspect ratio 9:16, cinematic HDR, ultra‑high detail, 8K resolution, subtle color grading for gold and black tones.",
+      "status": "published",
+      "message_id": 1476
     }
   ],
   "style_counts": {
@@ -2890,22 +2899,6 @@
     "quick_tip": 24
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-07T20:18:31.660937+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 181,
-      "content_type_counts": {
-        "ai_image_prompt": 63,
-        "lightroom": 70,
-        "ai_news": 41
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 26,
-        "experimental_trend": 9,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-07T23:22:40.411159+00:00",
       "member_count": 2898,
@@ -4329,6 +4322,22 @@
         "experimental_trend": 15,
         "quick_tip": 24
       }
+    },
+    {
+      "timestamp": "2026-10-30T12:15:59.706090+00:00",
+      "member_count": 2893,
+      "total_posts_recorded": 271,
+      "content_type_counts": {
+        "ai_image_prompt": 97,
+        "lightroom": 108,
+        "ai_news": 59
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 32,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 24
+      }
     }
   ],
   "theme_counts": {
@@ -4354,7 +4363,7 @@
     "OpenAI": 3,
     "underwater mermaid / merman fantasy": 5,
     "vampire gothic elegance candlelight": 3,
-    "luxury fashion editorial on sport motorcycle studio shot": 4,
+    "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 3,
     "golden hour beach portrait soft rim light": 2,
     "wild west cowboy desert sunset": 5,
@@ -4431,7 +4440,7 @@
     "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 96,
+    "ai_image_prompt": 97,
     "lightroom": 108,
     "ai_news": 59
   }
