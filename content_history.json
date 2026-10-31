@@ -2907,6 +2907,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a regal ancient Egyptian queen in photorealistic detail, golden linen draped over a marble throne, warm golden hour lighting highlighting the texture of gold jewelry and linen fabric. Use a 50mm prime lens effect with shallow depth of field, backlit halo, subtle rim light. Composition: head and upper torso centered, slight 30° angle, background of hieroglyphic stone wall blurred. 3:4 aspect ratio, cinematic, high dynamic range, 8k resolution, subtle lens flare, realistic skin pores.",
       "status": "published",
       "message_id": 1480
+    },
+    {
+      "timestamp": "2026-10-31T11:47:33.121154+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "samurai warrior traditional armor",
+      "title": "Samurai Sentinel ⚔️",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a towering samurai warrior in traditional armor, standing on a misty mountain ridge at dawn. Use cinematic backlighting with a warm golden hour glow, creating sharp rim lighting on the pauldrons and a subtle halo on the helmet. Capture the scene with a 50mm lens, shallow depth of field, focusing on the warrior's determined expression while softly blurring the distant clouds. The composition follows the rule of thirds, placing the samurai slightly off-center, his katana pointing toward the viewer, symbolizing readiness. Render in photorealistic detail with intricate metalwork, lacquered surfaces, and textured armor. Aspect ratio 9:16.",
+      "status": "published",
+      "message_id": 1481
     }
   ],
   "style_counts": {
@@ -2930,22 +2939,6 @@
     "quick_tip": 24
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-08T20:20:13.544916+00:00",
-      "member_count": 2900,
-      "total_posts_recorded": 185,
-      "content_type_counts": {
-        "ai_image_prompt": 66,
-        "lightroom": 71,
-        "ai_news": 41
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 26,
-        "experimental_trend": 10,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-08T23:35:47.331471+00:00",
       "member_count": 2899,
@@ -4369,6 +4362,22 @@
         "experimental_trend": 15,
         "quick_tip": 24
       }
+    },
+    {
+      "timestamp": "2026-10-31T11:47:33.251537+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 275,
+      "content_type_counts": {
+        "ai_image_prompt": 99,
+        "lightroom": 109,
+        "ai_news": 60
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 24
+      }
     }
   ],
   "theme_counts": {
@@ -4403,7 +4412,7 @@
     "Disney Pixar 3D stylized character": 5,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 4,
-    "samurai warrior traditional armor": 4,
+    "samurai warrior traditional armor": 5,
     "tropical vacation candid smartphone photo": 5,
     "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 1,
@@ -4472,7 +4481,7 @@
     "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 98,
+    "ai_image_prompt": 99,
     "lightroom": 109,
     "ai_news": 60
   }
