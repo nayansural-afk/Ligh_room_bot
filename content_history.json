@@ -2925,6 +2925,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, tropical vacation candid smartphone photo, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1482
+    },
+    {
+      "timestamp": "2026-10-31T18:54:33.929260+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 OpenAI reportedly lowers funding target for new round",
+      "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "status": "published",
+      "message_id": 1483
     }
   ],
   "style_counts": {
@@ -2948,22 +2957,6 @@
     "quick_tip": 24
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-09T12:41:54.007190+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 187,
-      "content_type_counts": {
-        "ai_image_prompt": 67,
-        "lightroom": 72,
-        "ai_news": 41
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 27,
-        "experimental_trend": 10,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-09T17:23:34.035861+00:00",
       "member_count": 2898,
@@ -4387,6 +4380,22 @@
         "experimental_trend": 15,
         "quick_tip": 24
       }
+    },
+    {
+      "timestamp": "2026-10-31T18:54:34.118256+00:00",
+      "member_count": 2896,
+      "total_posts_recorded": 277,
+      "content_type_counts": {
+        "ai_image_prompt": 100,
+        "lightroom": 109,
+        "ai_news": 61
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 40,
+        "experimental_trend": 15,
+        "quick_tip": 24
+      }
     }
   ],
   "theme_counts": {
@@ -4395,7 +4404,7 @@
     "80s retro film look candid": 3,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 31,
+    "TechCrunch AI": 32,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 19,
@@ -4487,11 +4496,12 @@
     "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
     "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
     "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-    "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+    "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+    "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 100,
     "lightroom": 109,
-    "ai_news": 60
+    "ai_news": 61
   }
 }
