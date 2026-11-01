@@ -2978,13 +2978,26 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, half-face extreme close-up with hard flash and film grain, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1489
+    },
+    {
+      "timestamp": "2026-11-01T22:30:57.027699+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Quiet Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1490,
+      "document_message_id": 1491
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 10,
     "soft pastel tones for portraits": 8,
     "golden hour sunset with rich saturation": 10,
-    "high-key fashion with soft contrast": 11,
+    "high-key fashion with soft contrast": 12,
     "vintage polaroid faded look": 8,
     "dark street style with subtle green tint": 10,
     "cool blue hour cityscape": 8,
@@ -2996,27 +3009,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 33,
-    "before_after": 41,
+    "before_after": 42,
     "experimental_trend": 15,
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-10T16:09:11.740720+00:00",
-      "member_count": 2900,
-      "total_posts_recorded": 192,
-      "content_type_counts": {
-        "ai_image_prompt": 67,
-        "lightroom": 75,
-        "ai_news": 43
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 28,
-        "experimental_trend": 10,
-        "quick_tip": 17
-      }
-    },
     {
       "timestamp": "2026-10-10T19:03:05.753650+00:00",
       "member_count": 2900,
@@ -4440,6 +4437,22 @@
         "experimental_trend": 15,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-01T22:30:57.200511+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 282,
+      "content_type_counts": {
+        "ai_image_prompt": 102,
+        "lightroom": 112,
+        "ai_news": 61
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 42,
+        "experimental_trend": 15,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4545,7 +4558,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 102,
-    "lightroom": 111,
+    "lightroom": 112,
     "ai_news": 61
   }
 }
