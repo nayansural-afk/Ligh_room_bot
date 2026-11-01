@@ -2969,6 +2969,15 @@
       "tip": "",
       "photo_message_id": 1487,
       "document_message_id": 1488
+    },
+    {
+      "timestamp": "2026-11-01T19:16:14.031959+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "half-face extreme close-up with hard flash and film grain",
+      "title": "Half-Face Extreme Close-Up With Hard Flash And Film Grain",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, half-face extreme close-up with hard flash and film grain, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1489
     }
   ],
   "style_counts": {
@@ -2992,22 +3001,6 @@
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-10T12:00:59.719034+00:00",
-      "member_count": 2901,
-      "total_posts_recorded": 191,
-      "content_type_counts": {
-        "ai_image_prompt": 67,
-        "lightroom": 74,
-        "ai_news": 43
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 28,
-        "experimental_trend": 10,
-        "quick_tip": 16
-      }
-    },
     {
       "timestamp": "2026-10-10T16:09:11.740720+00:00",
       "member_count": 2900,
@@ -4431,6 +4424,22 @@
         "experimental_trend": 15,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-01T19:16:14.213483+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 281,
+      "content_type_counts": {
+        "ai_image_prompt": 102,
+        "lightroom": 111,
+        "ai_news": 61
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 41,
+        "experimental_trend": 15,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4447,7 +4456,7 @@
     "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 2,
-    "half-face extreme close-up with hard flash and film grain": 2,
+    "half-face extreme close-up with hard flash and film grain": 3,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
     "1920s Hollywood glamour studio portrait": 3,
@@ -4535,7 +4544,7 @@
     "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 101,
+    "ai_image_prompt": 102,
     "lightroom": 111,
     "ai_news": 61
   }
