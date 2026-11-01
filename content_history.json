@@ -2956,6 +2956,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, samurai warrior traditional armor, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1486
+    },
+    {
+      "timestamp": "2026-11-01T17:03:41.315549+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "analog film look with controlled grain and fade",
+      "preset_name": "Retro Grain Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1487,
+      "document_message_id": 1488
     }
   ],
   "style_counts": {
@@ -2966,7 +2979,7 @@
     "vintage polaroid faded look": 8,
     "dark street style with subtle green tint": 10,
     "cool blue hour cityscape": 8,
-    "analog film look with controlled grain and fade": 7,
+    "analog film look with controlled grain and fade": 8,
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 9,
     "moody forest with teal shadows": 8,
@@ -2976,25 +2989,9 @@
     "preset_of_the_day": 33,
     "before_after": 41,
     "experimental_trend": 15,
-    "quick_tip": 24
+    "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-09T22:57:38.660582+00:00",
-      "member_count": 2900,
-      "total_posts_recorded": 190,
-      "content_type_counts": {
-        "ai_image_prompt": 67,
-        "lightroom": 74,
-        "ai_news": 42
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 28,
-        "experimental_trend": 10,
-        "quick_tip": 16
-      }
-    },
     {
       "timestamp": "2026-10-10T12:00:59.719034+00:00",
       "member_count": 2901,
@@ -4418,6 +4415,22 @@
         "experimental_trend": 15,
         "quick_tip": 24
       }
+    },
+    {
+      "timestamp": "2026-11-01T17:03:41.488609+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 280,
+      "content_type_counts": {
+        "ai_image_prompt": 101,
+        "lightroom": 111,
+        "ai_news": 61
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 41,
+        "experimental_trend": 15,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4523,7 +4536,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 101,
-    "lightroom": 110,
+    "lightroom": 111,
     "ai_news": 61
   }
 }
