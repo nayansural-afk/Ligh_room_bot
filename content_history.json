@@ -2947,6 +2947,15 @@
       "tip": null,
       "photo_message_id": 1484,
       "document_message_id": 1485
+    },
+    {
+      "timestamp": "2026-11-01T12:46:27.846721+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "samurai warrior traditional armor",
+      "title": "Samurai Warrior Traditional Armor",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, samurai warrior traditional armor, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1486
     }
   ],
   "style_counts": {
@@ -2970,22 +2979,6 @@
     "quick_tip": 24
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-09T19:53:15.528998+00:00",
-      "member_count": 2899,
-      "total_posts_recorded": 189,
-      "content_type_counts": {
-        "ai_image_prompt": 67,
-        "lightroom": 73,
-        "ai_news": 42
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 23,
-        "before_after": 28,
-        "experimental_trend": 10,
-        "quick_tip": 15
-      }
-    },
     {
       "timestamp": "2026-10-09T22:57:38.660582+00:00",
       "member_count": 2900,
@@ -4409,6 +4402,22 @@
         "experimental_trend": 15,
         "quick_tip": 24
       }
+    },
+    {
+      "timestamp": "2026-11-01T12:46:28.051275+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 279,
+      "content_type_counts": {
+        "ai_image_prompt": 101,
+        "lightroom": 110,
+        "ai_news": 61
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 33,
+        "before_after": 41,
+        "experimental_trend": 15,
+        "quick_tip": 24
+      }
     }
   ],
   "theme_counts": {
@@ -4443,7 +4452,7 @@
     "Disney Pixar 3D stylized character": 5,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 4,
-    "samurai warrior traditional armor": 5,
+    "samurai warrior traditional armor": 6,
     "tropical vacation candid smartphone photo": 6,
     "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 1,
@@ -4513,7 +4522,7 @@
     "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 100,
+    "ai_image_prompt": 101,
     "lightroom": 110,
     "ai_news": 61
   }
