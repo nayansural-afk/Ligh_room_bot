@@ -3066,6 +3066,15 @@
       "tip": null,
       "photo_message_id": 1500,
       "document_message_id": 1501
+    },
+    {
+      "timestamp": "2026-11-03T23:45:40.345537+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "📈 AI Bubble: Experts Say It's Unpredictable",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "status": "published",
+      "message_id": 1502
     }
   ],
   "style_counts": {
@@ -3089,22 +3098,6 @@
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-12T20:11:55.135323+00:00",
-      "member_count": 2900,
-      "total_posts_recorded": 200,
-      "content_type_counts": {
-        "ai_image_prompt": 71,
-        "lightroom": 78,
-        "ai_news": 44
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 28,
-        "experimental_trend": 11,
-        "quick_tip": 18
-      }
-    },
     {
       "timestamp": "2026-10-12T22:18:29.101119+00:00",
       "member_count": 2900,
@@ -4528,6 +4521,22 @@
         "experimental_trend": 16,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-03T23:45:40.477742+00:00",
+      "member_count": 2905,
+      "total_posts_recorded": 290,
+      "content_type_counts": {
+        "ai_image_prompt": 105,
+        "lightroom": 115,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4539,7 +4548,7 @@
     "TechCrunch AI": 32,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 19,
+    "The Verge AI": 20,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
     "rockstar stage performance dramatic lights": 4,
@@ -4630,11 +4639,12 @@
     "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
     "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
     "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-    "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
+    "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+    "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
   ],
   "content_type_counts": {
     "ai_image_prompt": 105,
     "lightroom": 115,
-    "ai_news": 62
+    "ai_news": 63
   }
 }
