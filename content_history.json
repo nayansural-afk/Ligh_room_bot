@@ -3035,6 +3035,15 @@
       "ai_prompt": "Retro Night Snap 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed 80s retro film look candid shot. The scene is a dimly lit neon alley at night, with subtle amber streetlight casting warm glows, cinematic grain, and a shallow depth of field from a 50mm prime lens. The subject is captured from a slightly low angle, as if the photographer was in the moment, hands in pockets,",
       "status": "published",
       "message_id": 1497
+    },
+    {
+      "timestamp": "2026-11-03T13:43:59.128723+00:00",
+      "content_type": "ai_news",
+      "theme": "MIT Tech Review AI",
+      "title": "🤖 Reverse Game Theory Keeps AI in Check",
+      "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "status": "published",
+      "message_id": 1498
     }
   ],
   "style_counts": {
@@ -3058,22 +3067,6 @@
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-11T19:15:58.927078+00:00",
-      "member_count": 2900,
-      "total_posts_recorded": 197,
-      "content_type_counts": {
-        "ai_image_prompt": 70,
-        "lightroom": 77,
-        "ai_news": 43
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 28,
-        "experimental_trend": 10,
-        "quick_tip": 18
-      }
-    },
     {
       "timestamp": "2026-10-11T22:33:59.067855+00:00",
       "member_count": 2900,
@@ -4497,6 +4490,22 @@
         "experimental_trend": 15,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-03T13:43:59.293897+00:00",
+      "member_count": 2905,
+      "total_posts_recorded": 287,
+      "content_type_counts": {
+        "ai_image_prompt": 104,
+        "lightroom": 114,
+        "ai_news": 62
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 15,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4530,7 +4539,7 @@
     "Hugging Face": 3,
     "Disney Pixar 3D stylized character": 6,
     "medieval knight armor photorealistic portrait": 1,
-    "MIT Tech Review AI": 4,
+    "MIT Tech Review AI": 5,
     "samurai warrior traditional armor": 6,
     "tropical vacation candid smartphone photo": 6,
     "steampunk inventor workshop": 2,
@@ -4598,11 +4607,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
     "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
     "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-    "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+    "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 104,
     "lightroom": 114,
-    "ai_news": 61
+    "ai_news": 62
   }
 }
