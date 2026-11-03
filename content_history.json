@@ -3026,6 +3026,15 @@
       "ai_prompt": "Pixar‑Pals Portrait 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed Disney Pixar‑style 3D character, exaggerating expressive eyes and soft rounded features, while preserving the reference’s realistic skin texture. Use warm cinematic lighting with a gentle rim glow, soft backlight to separate the subject from a subtle pastel gradient background. Set the scene on",
       "status": "published",
       "message_id": 1496
+    },
+    {
+      "timestamp": "2026-11-03T01:24:03.606330+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "80s retro film look candid",
+      "title": "Retro Night Snap 🎬",
+      "ai_prompt": "Retro Night Snap 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, highly detailed 80s retro film look candid shot. The scene is a dimly lit neon alley at night, with subtle amber streetlight casting warm glows, cinematic grain, and a shallow depth of field from a 50mm prime lens. The subject is captured from a slightly low angle, as if the photographer was in the moment, hands in pockets,",
+      "status": "published",
+      "message_id": 1497
     }
   ],
   "style_counts": {
@@ -3049,22 +3058,6 @@
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-11T16:36:08.433939+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 196,
-      "content_type_counts": {
-        "ai_image_prompt": 69,
-        "lightroom": 77,
-        "ai_news": 43
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 28,
-        "experimental_trend": 10,
-        "quick_tip": 18
-      }
-    },
     {
       "timestamp": "2026-10-11T19:15:58.927078+00:00",
       "member_count": 2900,
@@ -4488,12 +4481,28 @@
         "experimental_trend": 15,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-03T01:24:03.790875+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 286,
+      "content_type_counts": {
+        "ai_image_prompt": 104,
+        "lightroom": 114,
+        "ai_news": 61
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 15,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 3,
-    "80s retro film look candid": 3,
+    "80s retro film look candid": 4,
     "royal Victorian era formal portrait": 3,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 32,
@@ -4592,7 +4601,7 @@
     "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 103,
+    "ai_image_prompt": 104,
     "lightroom": 114,
     "ai_news": 61
   }
