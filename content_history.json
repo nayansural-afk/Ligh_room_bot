@@ -3084,6 +3084,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, vampire gothic elegance candlelight, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1503
+    },
+    {
+      "timestamp": "2026-11-04T18:32:19.668671+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "1920s Hollywood glamour studio portrait",
+      "title": "1920S Hollywood Glamour Studio Portrait",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, 1920s Hollywood glamour studio portrait, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1504
     }
   ],
   "style_counts": {
@@ -3107,22 +3116,6 @@
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-13T01:01:04.829303+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 202,
-      "content_type_counts": {
-        "ai_image_prompt": 72,
-        "lightroom": 79,
-        "ai_news": 44
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 29,
-        "experimental_trend": 11,
-        "quick_tip": 18
-      }
-    },
     {
       "timestamp": "2026-10-13T13:41:41.279555+00:00",
       "member_count": 2899,
@@ -4546,6 +4539,22 @@
         "experimental_trend": 16,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-04T18:32:19.887624+00:00",
+      "member_count": 2904,
+      "total_posts_recorded": 292,
+      "content_type_counts": {
+        "ai_image_prompt": 107,
+        "lightroom": 115,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4565,7 +4574,7 @@
     "half-face extreme close-up with hard flash and film grain": 3,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
-    "1920s Hollywood glamour studio portrait": 3,
+    "1920s Hollywood glamour studio portrait": 4,
     "cyberpunk neon city night portrait": 2,
     "cozy winter close-up with oversized white faux-fur hood": 4,
     "OpenAI": 3,
@@ -4652,7 +4661,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 106,
+    "ai_image_prompt": 107,
     "lightroom": 115,
     "ai_news": 63
   }
