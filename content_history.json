@@ -3075,6 +3075,15 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
       "status": "published",
       "message_id": 1502
+    },
+    {
+      "timestamp": "2026-11-04T13:52:39.320866+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "vampire gothic elegance candlelight",
+      "title": "Vampire Gothic Elegance Candlelight",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, vampire gothic elegance candlelight, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1503
     }
   ],
   "style_counts": {
@@ -3098,22 +3107,6 @@
     "quick_tip": 25
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-12T22:18:29.101119+00:00",
-      "member_count": 2900,
-      "total_posts_recorded": 201,
-      "content_type_counts": {
-        "ai_image_prompt": 71,
-        "lightroom": 79,
-        "ai_news": 44
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 29,
-        "experimental_trend": 11,
-        "quick_tip": 18
-      }
-    },
     {
       "timestamp": "2026-10-13T01:01:04.829303+00:00",
       "member_count": 2898,
@@ -4537,6 +4530,22 @@
         "experimental_trend": 16,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-04T13:52:39.477085+00:00",
+      "member_count": 2904,
+      "total_posts_recorded": 291,
+      "content_type_counts": {
+        "ai_image_prompt": 106,
+        "lightroom": 115,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 25
+      }
     }
   ],
   "theme_counts": {
@@ -4561,7 +4570,7 @@
     "cozy winter close-up with oversized white faux-fur hood": 4,
     "OpenAI": 3,
     "underwater mermaid / merman fantasy": 5,
-    "vampire gothic elegance candlelight": 3,
+    "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 3,
     "golden hour beach portrait soft rim light": 2,
@@ -4643,7 +4652,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 105,
+    "ai_image_prompt": 106,
     "lightroom": 115,
     "ai_news": 63
   }
