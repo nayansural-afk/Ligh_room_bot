@@ -3093,13 +3093,26 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, 1920s Hollywood glamour studio portrait, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1504
+    },
+    {
+      "timestamp": "2026-11-04T20:59:08.661112+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "high-key fashion with soft contrast",
+      "preset_name": "Teal Mood",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1505,
+      "document_message_id": 1506
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 11,
     "soft pastel tones for portraits": 8,
     "golden hour sunset with rich saturation": 10,
-    "high-key fashion with soft contrast": 12,
+    "high-key fashion with soft contrast": 13,
     "vintage polaroid faded look": 8,
     "dark street style with subtle green tint": 10,
     "cool blue hour cityscape": 8,
@@ -3113,25 +3126,9 @@
     "preset_of_the_day": 34,
     "before_after": 43,
     "experimental_trend": 16,
-    "quick_tip": 25
+    "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-13T13:41:41.279555+00:00",
-      "member_count": 2899,
-      "total_posts_recorded": 203,
-      "content_type_counts": {
-        "ai_image_prompt": 72,
-        "lightroom": 80,
-        "ai_news": 44
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 29,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-13T18:04:12.419578+00:00",
       "member_count": 2899,
@@ -4555,6 +4552,22 @@
         "experimental_trend": 16,
         "quick_tip": 25
       }
+    },
+    {
+      "timestamp": "2026-11-04T20:59:08.971442+00:00",
+      "member_count": 2904,
+      "total_posts_recorded": 293,
+      "content_type_counts": {
+        "ai_image_prompt": 107,
+        "lightroom": 116,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4662,7 +4675,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 107,
-    "lightroom": 115,
+    "lightroom": 116,
     "ai_news": 63
   }
 }
