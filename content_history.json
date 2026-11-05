@@ -3137,6 +3137,15 @@
       "ai_prompt": "Victorian Royal Portrait 🎩\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic Victorian-era royal portrait, 85mm lens simulation, 50mm equivalent, with soft diffused studio lighting from a single large softbox positioned at 45° to create subtle golden rim lighting on the subject's hair and a",
       "status": "published",
       "message_id": 1511
+    },
+    {
+      "timestamp": "2026-11-05T21:16:14.628609+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cozy winter close-up with oversized white faux-fur hood",
+      "title": "Frosty Fur Fantasy ❄️",
+      "ai_prompt": "Frosty Fur Fantasy ❄️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic close‑up of a person wearing an oversized white faux‑fur hood. The hood should look plush and slightly",
+      "status": "published",
+      "message_id": 1512
     }
   ],
   "style_counts": {
@@ -3160,22 +3169,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-14T11:20:32.023733+00:00",
-      "member_count": 2896,
-      "total_posts_recorded": 207,
-      "content_type_counts": {
-        "ai_image_prompt": 73,
-        "lightroom": 81,
-        "ai_news": 46
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 30,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-14T15:45:47.033786+00:00",
       "member_count": 2897,
@@ -4599,6 +4592,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-05T21:16:14.782726+00:00",
+      "member_count": 2902,
+      "total_posts_recorded": 297,
+      "content_type_counts": {
+        "ai_image_prompt": 110,
+        "lightroom": 117,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 35,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4620,7 +4629,7 @@
     "street style urban fashion editorial": 3,
     "1920s Hollywood glamour studio portrait": 4,
     "cyberpunk neon city night portrait": 2,
-    "cozy winter close-up with oversized white faux-fur hood": 4,
+    "cozy winter close-up with oversized white faux-fur hood": 5,
     "OpenAI": 3,
     "underwater mermaid / merman fantasy": 5,
     "vampire gothic elegance candlelight": 4,
@@ -4705,7 +4714,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 109,
+    "ai_image_prompt": 110,
     "lightroom": 117,
     "ai_news": 63
   }
