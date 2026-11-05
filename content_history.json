@@ -3146,6 +3146,15 @@
       "ai_prompt": "Frosty Fur Fantasy ❄️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic close‑up of a person wearing an oversized white faux‑fur hood. The hood should look plush and slightly",
       "status": "published",
       "message_id": 1512
+    },
+    {
+      "timestamp": "2026-11-05T23:52:46.036617+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "status": "published",
+      "message_id": 1513
     }
   ],
   "style_counts": {
@@ -3169,22 +3178,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-14T15:45:47.033786+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 208,
-      "content_type_counts": {
-        "ai_image_prompt": 74,
-        "lightroom": 81,
-        "ai_news": 46
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 30,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-14T19:02:33.210791+00:00",
       "member_count": 2897,
@@ -4608,6 +4601,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-05T23:52:46.185912+00:00",
+      "member_count": 2902,
+      "total_posts_recorded": 298,
+      "content_type_counts": {
+        "ai_image_prompt": 110,
+        "lightroom": 117,
+        "ai_news": 64
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 35,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4616,7 +4625,7 @@
     "80s retro film look candid": 4,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 32,
+    "TechCrunch AI": 33,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 20,
@@ -4711,11 +4720,12 @@
     "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
     "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-    "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
+    "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+    "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 110,
     "lightroom": 117,
-    "ai_news": 63
+    "ai_news": 64
   }
 }
