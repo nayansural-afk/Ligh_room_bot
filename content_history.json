@@ -3128,6 +3128,15 @@
       "tip": null,
       "photo_message_id": 1509,
       "document_message_id": 1510
+    },
+    {
+      "timestamp": "2026-11-05T18:37:53.830179+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "royal Victorian era formal portrait",
+      "title": "Victorian Royal Portrait 🎩",
+      "ai_prompt": "Victorian Royal Portrait 🎩\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic Victorian-era royal portrait, 85mm lens simulation, 50mm equivalent, with soft diffused studio lighting from a single large softbox positioned at 45° to create subtle golden rim lighting on the subject's hair and a",
+      "status": "published",
+      "message_id": 1511
     }
   ],
   "style_counts": {
@@ -3151,22 +3160,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-13T23:09:16.089263+00:00",
-      "member_count": 2899,
-      "total_posts_recorded": 206,
-      "content_type_counts": {
-        "ai_image_prompt": 73,
-        "lightroom": 80,
-        "ai_news": 46
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 29,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-14T11:20:32.023733+00:00",
       "member_count": 2896,
@@ -4590,13 +4583,29 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-05T18:37:53.997466+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 296,
+      "content_type_counts": {
+        "ai_image_prompt": 109,
+        "lightroom": 117,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 35,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 3,
     "80s retro film look candid": 4,
-    "royal Victorian era formal portrait": 3,
+    "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 32,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
@@ -4696,7 +4705,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 108,
+    "ai_image_prompt": 109,
     "lightroom": 117,
     "ai_news": 63
   }
