@@ -3106,6 +3106,15 @@
       "tip": "",
       "photo_message_id": 1505,
       "document_message_id": 1506
+    },
+    {
+      "timestamp": "2026-11-05T00:02:02.009333+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "tropical vacation candid smartphone photo",
+      "title": "Tropical Bliss 📸",
+      "ai_prompt": "Tropical Bliss 📸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic candid smartphone capture of a beach vacation: bright midday sun with gentle golden hour glow, soft rim lighting from palm fronds, natural bokeh background of turquoise waves. Shot with a 35mm equivalent lens at f/1.8, depth of field shallow, capturing a relaxed pose on a sun‑tanned deck chair. Composition follows the rule of thirds, foreground palm leaves leading to the subject, subtle reflection on wet sand. 9:16 aspect ratio for vertical smartphone frame, high dynamic range,",
+      "status": "published",
+      "message_id": 1507
     }
   ],
   "style_counts": {
@@ -3129,22 +3138,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-13T18:04:12.419578+00:00",
-      "member_count": 2899,
-      "total_posts_recorded": 204,
-      "content_type_counts": {
-        "ai_image_prompt": 73,
-        "lightroom": 80,
-        "ai_news": 44
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 29,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-13T20:26:00.589858+00:00",
       "member_count": 2899,
@@ -4568,6 +4561,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-05T00:02:02.159180+00:00",
+      "member_count": 2904,
+      "total_posts_recorded": 294,
+      "content_type_counts": {
+        "ai_image_prompt": 108,
+        "lightroom": 116,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 34,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4603,7 +4612,7 @@
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 5,
     "samurai warrior traditional armor": 6,
-    "tropical vacation candid smartphone photo": 6,
+    "tropical vacation candid smartphone photo": 7,
     "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 2,
     "oil painting classical museum portrait style": 1
@@ -4674,7 +4683,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 107,
+    "ai_image_prompt": 108,
     "lightroom": 116,
     "ai_news": 63
   }
