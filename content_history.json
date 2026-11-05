@@ -3115,6 +3115,19 @@
       "ai_prompt": "Tropical Bliss 📸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic candid smartphone capture of a beach vacation: bright midday sun with gentle golden hour glow, soft rim lighting from palm fronds, natural bokeh background of turquoise waves. Shot with a 35mm equivalent lens at f/1.8, depth of field shallow, capturing a relaxed pose on a sun‑tanned deck chair. Composition follows the rule of thirds, foreground palm leaves leading to the subject, subtle reflection on wet sand. 9:16 aspect ratio for vertical smartphone frame, high dynamic range,",
       "status": "published",
       "message_id": 1507
+    },
+    {
+      "timestamp": "2026-11-05T14:07:15.813833+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "dramatic black and white with heavy contrast",
+      "preset_name": "Street Ember",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1509,
+      "document_message_id": 1510
     }
   ],
   "style_counts": {
@@ -3127,33 +3140,17 @@
     "cool blue hour cityscape": 8,
     "analog film look with controlled grain and fade": 9,
     "lush green nature tones for landscapes": 9,
-    "dramatic black and white with heavy contrast": 10,
+    "dramatic black and white with heavy contrast": 11,
     "moody forest with teal shadows": 8,
     "warm cinematic with high contrast": 13
   },
   "pillar_counts": {
-    "preset_of_the_day": 34,
+    "preset_of_the_day": 35,
     "before_after": 43,
     "experimental_trend": 16,
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-13T20:26:00.589858+00:00",
-      "member_count": 2899,
-      "total_posts_recorded": 205,
-      "content_type_counts": {
-        "ai_image_prompt": 73,
-        "lightroom": 80,
-        "ai_news": 45
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 29,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-13T23:09:16.089263+00:00",
       "member_count": 2899,
@@ -4577,6 +4574,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-05T14:07:15.978573+00:00",
+      "member_count": 2904,
+      "total_posts_recorded": 295,
+      "content_type_counts": {
+        "ai_image_prompt": 108,
+        "lightroom": 117,
+        "ai_news": 63
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 35,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4684,7 +4697,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 108,
-    "lightroom": 116,
+    "lightroom": 117,
     "ai_news": 63
   }
 }
