@@ -3168,6 +3168,15 @@
       "tip": null,
       "photo_message_id": 1514,
       "document_message_id": 1515
+    },
+    {
+      "timestamp": "2026-11-06T17:52:08.786173+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 After the midterms, is the AI industry in for a rough two years?",
+      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "status": "published",
+      "message_id": 1516
     }
   ],
   "style_counts": {
@@ -3191,22 +3200,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-14T21:58:51.318159+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 210,
-      "content_type_counts": {
-        "ai_image_prompt": 75,
-        "lightroom": 82,
-        "ai_news": 46
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 31,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-15T10:57:39.725443+00:00",
       "member_count": 2898,
@@ -4630,6 +4623,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-06T17:52:08.964175+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 110,
+        "lightroom": 118,
+        "ai_news": 65
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4638,7 +4647,7 @@
     "80s retro film look candid": 4,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 33,
+    "TechCrunch AI": 34,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 20,
@@ -4734,11 +4743,12 @@
     "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-    "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
+    "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+    "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 110,
     "lightroom": 118,
-    "ai_news": 64
+    "ai_news": 65
   }
 }
