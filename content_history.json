@@ -3155,6 +3155,19 @@
       "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
       "status": "published",
       "message_id": 1513
+    },
+    {
+      "timestamp": "2026-11-06T13:50:09.889860+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "vintage polaroid faded look",
+      "preset_name": "Street Ember",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1514,
+      "document_message_id": 1515
     }
   ],
   "style_counts": {
@@ -3162,7 +3175,7 @@
     "soft pastel tones for portraits": 8,
     "golden hour sunset with rich saturation": 10,
     "high-key fashion with soft contrast": 13,
-    "vintage polaroid faded look": 8,
+    "vintage polaroid faded look": 9,
     "dark street style with subtle green tint": 10,
     "cool blue hour cityscape": 8,
     "analog film look with controlled grain and fade": 9,
@@ -3172,28 +3185,12 @@
     "warm cinematic with high contrast": 13
   },
   "pillar_counts": {
-    "preset_of_the_day": 35,
+    "preset_of_the_day": 36,
     "before_after": 43,
     "experimental_trend": 16,
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-14T19:02:33.210791+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 209,
-      "content_type_counts": {
-        "ai_image_prompt": 74,
-        "lightroom": 82,
-        "ai_news": 46
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 31,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-14T21:58:51.318159+00:00",
       "member_count": 2898,
@@ -4617,6 +4614,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-06T13:50:10.076671+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 299,
+      "content_type_counts": {
+        "ai_image_prompt": 110,
+        "lightroom": 118,
+        "ai_news": 64
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4725,7 +4738,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 110,
-    "lightroom": 117,
+    "lightroom": 118,
     "ai_news": 64
   }
 }
