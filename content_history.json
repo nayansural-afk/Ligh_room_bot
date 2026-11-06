@@ -1,16 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:21:00+00:00",
-      "pillar": "preset_of_the_day",
-      "style": "(from run)",
-      "preset_name": "Retro Fade",
-      "status": "published",
-      "has_before_after": true,
-      "tip": null,
-      "source": "workflow_run_32257543845"
-    },
-    {
       "timestamp": "2026-08-19T13:21:05+00:00",
       "pillar": "preset_of_the_day",
       "style": "(from run)",
@@ -3177,6 +3167,15 @@
       "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
       "status": "published",
       "message_id": 1516
+    },
+    {
+      "timestamp": "2026-11-06T20:38:56.740436+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 All the latest updates on AI data centers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "status": "published",
+      "message_id": 1517
     }
   ],
   "style_counts": {
@@ -3200,22 +3199,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-15T10:57:39.725443+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 211,
-      "content_type_counts": {
-        "ai_image_prompt": 76,
-        "lightroom": 82,
-        "ai_news": 46
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 31,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-15T15:32:37.413126+00:00",
       "member_count": 2897,
@@ -4639,6 +4622,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-06T20:38:56.899369+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 110,
+        "lightroom": 118,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4650,7 +4649,7 @@
     "TechCrunch AI": 34,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 20,
+    "The Verge AI": 21,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
     "rockstar stage performance dramatic lights": 4,
@@ -4744,11 +4743,12 @@
     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
     "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-    "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
+    "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+    "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
   ],
   "content_type_counts": {
     "ai_image_prompt": 110,
     "lightroom": 118,
-    "ai_news": 65
+    "ai_news": 66
   }
 }
