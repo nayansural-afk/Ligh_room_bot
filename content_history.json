@@ -1,16 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:21:05+00:00",
-      "pillar": "preset_of_the_day",
-      "style": "(from run)",
-      "preset_name": "Warm Edge",
-      "status": "published",
-      "has_before_after": true,
-      "tip": null,
-      "source": "workflow_run_32257543845"
-    },
-    {
       "timestamp": "2026-08-19T13:30:20.041434+00:00",
       "pillar": "before_after",
       "style": "bright minimal with neutral tones",
@@ -3176,6 +3166,15 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
       "status": "published",
       "message_id": 1517
+    },
+    {
+      "timestamp": "2026-11-06T23:34:59.448817+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "golden hour beach portrait soft rim light",
+      "title": "Golden Sand Glow 🌅",
+      "ai_prompt": "Golden Sand Glow 🌅\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic beach portrait in golden hour, soft rim lighting framing the subject from behind with warm amber glow. Use a 50mm prime lens at f/1.4, shallow depth of field to blur the turquoise waves, while keeping the eyes sharp. Capture the subject front‑on, slight head tilt, shoulders relaxed, hair catching the rim light. Compose in a vertical 9:16 frame with the horizon line low, creating a dramatic sky gradient. Emphasize high detail: sun‑kissed skin, subtle freckles, sparkling wet sand, and a gentle breeze ripple",
+      "status": "published",
+      "message_id": 1518
     }
   ],
   "style_counts": {
@@ -3199,22 +3198,6 @@
     "quick_tip": 26
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-15T15:32:37.413126+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 212,
-      "content_type_counts": {
-        "ai_image_prompt": 76,
-        "lightroom": 82,
-        "ai_news": 47
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 31,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-15T18:45:52.007759+00:00",
       "member_count": 2897,
@@ -4638,6 +4621,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-06T23:34:59.596608+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 111,
+        "lightroom": 118,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 26
+      }
     }
   ],
   "theme_counts": {
@@ -4665,7 +4664,7 @@
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 3,
-    "golden hour beach portrait soft rim light": 2,
+    "golden hour beach portrait soft rim light": 3,
     "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
     "Hugging Face": 3,
@@ -4747,7 +4746,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 110,
+    "ai_image_prompt": 111,
     "lightroom": 118,
     "ai_news": 66
   }
