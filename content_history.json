@@ -1,16 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:46:21.121290+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "medieval knight in armor",
-      "title": "Medieval Knight In Armor",
-      "hook": "Send your photo → medieval knight in armor",
-      "ai_prompt": "",
-      "status": "published",
-      "message_id": 1059
-    },
-    {
       "timestamp": "2026-08-19T13:53:26.329482+00:00",
       "content_type": "ai_news",
       "theme": "AI agent or tool breakthrough",
@@ -3176,6 +3166,15 @@
       "tip": "",
       "photo_message_id": 1519,
       "document_message_id": 1520
+    },
+    {
+      "timestamp": "2026-11-07T16:47:12.164903+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cinematic low-angle outdoor portrait with wildflowers and sky",
+      "title": "Blooming Horizon 🌄",
+      "ai_prompt": "Blooming Horizon 🌄\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cinematic low‑angle portrait, the subject gazing upward as a field of vibrant wildflowers sways in a gentle breeze beneath a dramatic sky. Use a 35mm lens simulation with shallow depth of field (f/1.8) to blur the background softly while keeping the subject sharply focused. Emphasize warm, golden hour lighting with a subtle rim light to accentuate the hair and shoulders. Frame the image in a 4:5 aspect ratio, placing the subject slightly off‑center to allow the wildflower foreground to lead the eye toward the expansive sky.",
+      "status": "published",
+      "message_id": 1521
     }
   ],
   "style_counts": {
@@ -3199,22 +3198,6 @@
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-15T21:51:34.976984+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 214,
-      "content_type_counts": {
-        "ai_image_prompt": 77,
-        "lightroom": 82,
-        "ai_news": 48
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 31,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-16T10:51:11.868268+00:00",
       "member_count": 2894,
@@ -4638,6 +4621,22 @@
         "experimental_trend": 16,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-07T16:47:12.349262+00:00",
+      "member_count": 2906,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 112,
+        "lightroom": 119,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4651,7 +4650,7 @@
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 21,
     "Studio Ghibli anime version of the person": 4,
-    "cinematic low-angle outdoor portrait with wildflowers and sky": 3,
+    "cinematic low-angle outdoor portrait with wildflowers and sky": 4,
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 2,
     "half-face extreme close-up with hard flash and film grain": 3,
@@ -4747,7 +4746,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 111,
+    "ai_image_prompt": 112,
     "lightroom": 119,
     "ai_news": 66
   }
