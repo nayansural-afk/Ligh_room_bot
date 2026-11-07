@@ -1,18 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:30:20.041434+00:00",
-      "pillar": "before_after",
-      "style": "bright minimal with neutral tones",
-      "preset_name": "Bright Minimal",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1057,
-      "document_message_id": 1058
-    },
-    {
       "timestamp": "2026-08-19T13:46:21.121290+00:00",
       "content_type": "ai_image_prompt",
       "theme": "medieval knight in armor",
@@ -3175,6 +3163,19 @@
       "ai_prompt": "Golden Sand Glow 🌅\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic beach portrait in golden hour, soft rim lighting framing the subject from behind with warm amber glow. Use a 50mm prime lens at f/1.4, shallow depth of field to blur the turquoise waves, while keeping the eyes sharp. Capture the subject front‑on, slight head tilt, shoulders relaxed, hair catching the rim light. Compose in a vertical 9:16 frame with the horizon line low, creating a dramatic sky gradient. Emphasize high detail: sun‑kissed skin, subtle freckles, sparkling wet sand, and a gentle breeze ripple",
       "status": "published",
       "message_id": 1518
+    },
+    {
+      "timestamp": "2026-11-07T12:34:23.372008+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "warm cinematic with high contrast",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1519,
+      "document_message_id": 1520
     }
   ],
   "style_counts": {
@@ -3189,31 +3190,15 @@
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 11,
     "moody forest with teal shadows": 8,
-    "warm cinematic with high contrast": 13
+    "warm cinematic with high contrast": 14
   },
   "pillar_counts": {
     "preset_of_the_day": 36,
     "before_after": 43,
     "experimental_trend": 16,
-    "quick_tip": 26
+    "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-15T18:45:52.007759+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 213,
-      "content_type_counts": {
-        "ai_image_prompt": 76,
-        "lightroom": 82,
-        "ai_news": 48
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 31,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-15T21:51:34.976984+00:00",
       "member_count": 2897,
@@ -4637,6 +4622,22 @@
         "experimental_trend": 16,
         "quick_tip": 26
       }
+    },
+    {
+      "timestamp": "2026-11-07T12:34:23.557002+00:00",
+      "member_count": 2906,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 111,
+        "lightroom": 119,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 43,
+        "experimental_trend": 16,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4747,7 +4748,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 111,
-    "lightroom": 118,
+    "lightroom": 119,
     "ai_news": 66
   }
 }
