@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:56:18.122781+00:00",
-      "content_type": "ai_news",
-      "theme": "image generation model upgrade",
-      "title": "🤖 AI update",
-      "ai_prompt": "",
-      "status": "published",
-      "message_id": 1061
-    },
-    {
       "timestamp": "2026-08-19T13:57:11.580691+00:00",
       "content_type": "ai_image_prompt",
       "theme": "futuristic android soft neon",
@@ -3179,6 +3170,15 @@
       "tip": null,
       "photo_message_id": 1522,
       "document_message_id": 1523
+    },
+    {
+      "timestamp": "2026-11-07T22:24:53.409439+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "golden hour beach portrait soft rim light",
+      "title": "Golden Beach Glow 🌞",
+      "ai_prompt": "Golden Beach Glow 🌞\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic beach portrait during golden hour with a warm, soft rim light framing the subject from the left side, highlighting the contour of the face and the gentle waves. Use a 50mm prime lens simulation, 1.8 aperture for silky background blur, and a subtle high dynamic range to preserve detail in skin",
+      "status": "published",
+      "message_id": 1526
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-16T15:19:03.481057+00:00",
-      "member_count": 2895,
-      "total_posts_recorded": 216,
-      "content_type_counts": {
-        "ai_image_prompt": 77,
-        "lightroom": 84,
-        "ai_news": 48
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 33,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-16T18:30:59.103279+00:00",
       "member_count": 2895,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 16,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-07T22:24:53.611193+00:00",
+      "member_count": 2905,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 113,
+        "lightroom": 120,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 16,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4668,7 +4668,7 @@
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 3,
-    "golden hour beach portrait soft rim light": 3,
+    "golden hour beach portrait soft rim light": 4,
     "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
     "Hugging Face": 3,
@@ -4750,7 +4750,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 112,
+    "ai_image_prompt": 113,
     "lightroom": 120,
     "ai_news": 66
   }
