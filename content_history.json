@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:53:26.329482+00:00",
-      "content_type": "ai_news",
-      "theme": "AI agent or tool breakthrough",
-      "title": "🤖 AI update",
-      "ai_prompt": "",
-      "status": "published",
-      "message_id": 1060
-    },
-    {
       "timestamp": "2026-08-19T13:56:18.122781+00:00",
       "content_type": "ai_news",
       "theme": "image generation model upgrade",
@@ -3175,6 +3166,19 @@
       "ai_prompt": "Blooming Horizon 🌄\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cinematic low‑angle portrait, the subject gazing upward as a field of vibrant wildflowers sways in a gentle breeze beneath a dramatic sky. Use a 35mm lens simulation with shallow depth of field (f/1.8) to blur the background softly while keeping the subject sharply focused. Emphasize warm, golden hour lighting with a subtle rim light to accentuate the hair and shoulders. Frame the image in a 4:5 aspect ratio, placing the subject slightly off‑center to allow the wildflower foreground to lead the eye toward the expansive sky.",
       "status": "published",
       "message_id": 1521
+    },
+    {
+      "timestamp": "2026-11-07T19:11:19.029359+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "cool blue hour cityscape",
+      "preset_name": "Golden Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1522,
+      "document_message_id": 1523
     }
   ],
   "style_counts": {
@@ -3184,7 +3188,7 @@
     "high-key fashion with soft contrast": 13,
     "vintage polaroid faded look": 9,
     "dark street style with subtle green tint": 10,
-    "cool blue hour cityscape": 8,
+    "cool blue hour cityscape": 9,
     "analog film look with controlled grain and fade": 9,
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 11,
@@ -3193,27 +3197,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 36,
-    "before_after": 43,
+    "before_after": 44,
     "experimental_trend": 16,
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-16T10:51:11.868268+00:00",
-      "member_count": 2894,
-      "total_posts_recorded": 215,
-      "content_type_counts": {
-        "ai_image_prompt": 77,
-        "lightroom": 83,
-        "ai_news": 48
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 32,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-16T15:19:03.481057+00:00",
       "member_count": 2895,
@@ -4637,6 +4625,22 @@
         "experimental_trend": 16,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-07T19:11:19.169338+00:00",
+      "member_count": 2906,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 112,
+        "lightroom": 120,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 16,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4747,7 +4751,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 112,
-    "lightroom": 119,
+    "lightroom": 120,
     "ai_news": 66
   }
 }
