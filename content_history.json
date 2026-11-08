@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-21T06:03:11.094270+00:00",
-      "content_type": "lightroom",
-      "pillar": "experimental_trend",
-      "style": "soft pastel tones for portraits",
-      "preset_name": "Pastel Glow",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1066,
-      "document_message_id": 1067
-    },
-    {
       "timestamp": "2026-08-21T19:15:58.312049+00:00",
       "content_type": "ai_image_prompt",
       "theme": "astronaut space suit helmet open",
@@ -3183,6 +3170,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic oil painting portrait in the style of a classical museum exhibit. Use a dramatic chiaroscuro lighting set at 45° to the subject, with a soft golden rim that accentuates the contours of the face and the subtle folds of a silk gown. Simulate an 85mm prime lens with shallow depth of field, blurring a muted Renaissance‑style backdrop into gentle, textured brushstrokes. Compose the subject centered, slightly turned 30° to the left, head tilted just enough to reveal a gentle smile. The frame should be a 3:4 aspect ratio, perfect for vertical display, with a slight vignette to focus attention on the eyes. This detailed, photorealistic oil portrait should feel as if it were hanging in a grand gallery, inviting viewers into a timeless moment.",
       "status": "published",
       "message_id": 1531
+    },
+    {
+      "timestamp": "2026-11-08T22:34:34.238469+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🚨 Nvidia CEO Huang Under Investigation for Possible Spy Ties",
+      "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "status": "published",
+      "message_id": 1533
     }
   ],
   "style_counts": {
@@ -3206,22 +3202,6 @@
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-17T14:08:00.136340+00:00",
-      "member_count": 2892,
-      "total_posts_recorded": 220,
-      "content_type_counts": {
-        "ai_image_prompt": 77,
-        "lightroom": 87,
-        "ai_news": 49
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 26,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-17T17:37:05.137825+00:00",
       "member_count": 2892,
@@ -4645,6 +4625,22 @@
         "experimental_trend": 17,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-08T22:34:34.443029+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 115,
+        "lightroom": 121,
+        "ai_news": 67
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 17,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4653,7 +4649,7 @@
     "80s retro film look candid": 4,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 34,
+    "TechCrunch AI": 35,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 21,
@@ -4751,11 +4747,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
     "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
     "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-    "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
+    "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+    "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 115,
     "lightroom": 121,
-    "ai_news": 66
+    "ai_news": 67
   }
 }
