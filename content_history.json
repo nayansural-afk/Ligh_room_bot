@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T13:57:11.580691+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "futuristic android soft neon",
-      "title": "Neon Android Glow 🚀",
-      "ai_prompt": "Neon Android Glow 🚀\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic futuristic android with soft neon accents, subtle blue and magenta glows outlining the limbs and circuitry. Set against a bustling neon cityscape at night, with rain-slicked streets reflecting holographic advertisements. Use an 85mm prime lens, f/1.8 aperture for cinematic shallow depth, capturing crisp details on the android's textured metal skin. Lighting: backlit by distant neon signs, rim",
-      "status": "published",
-      "message_id": 1062
-    },
-    {
       "timestamp": "2026-08-19T19:11:59.317659+00:00",
       "content_type": "ai_image_prompt",
       "theme": "80s retro film look candid",
@@ -3179,6 +3170,19 @@
       "ai_prompt": "Golden Beach Glow 🌞\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic beach portrait during golden hour with a warm, soft rim light framing the subject from the left side, highlighting the contour of the face and the gentle waves. Use a 50mm prime lens simulation, 1.8 aperture for silky background blur, and a subtle high dynamic range to preserve detail in skin",
       "status": "published",
       "message_id": 1526
+    },
+    {
+      "timestamp": "2026-11-08T12:51:52.027174+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "vintage polaroid faded look",
+      "preset_name": "Golden Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1527,
+      "document_message_id": 1528
     }
   ],
   "style_counts": {
@@ -3186,7 +3190,7 @@
     "soft pastel tones for portraits": 8,
     "golden hour sunset with rich saturation": 10,
     "high-key fashion with soft contrast": 13,
-    "vintage polaroid faded look": 9,
+    "vintage polaroid faded look": 10,
     "dark street style with subtle green tint": 10,
     "cool blue hour cityscape": 9,
     "analog film look with controlled grain and fade": 9,
@@ -3198,26 +3202,10 @@
   "pillar_counts": {
     "preset_of_the_day": 36,
     "before_after": 44,
-    "experimental_trend": 16,
+    "experimental_trend": 17,
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-16T18:30:59.103279+00:00",
-      "member_count": 2895,
-      "total_posts_recorded": 217,
-      "content_type_counts": {
-        "ai_image_prompt": 77,
-        "lightroom": 85,
-        "ai_news": 48
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-16T21:48:50.199093+00:00",
       "member_count": 2892,
@@ -4641,6 +4629,22 @@
         "experimental_trend": 16,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-08T12:51:52.201566+00:00",
+      "member_count": 2904,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 113,
+        "lightroom": 121,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 17,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4751,7 +4755,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 113,
-    "lightroom": 120,
+    "lightroom": 121,
     "ai_news": 66
   }
 }
