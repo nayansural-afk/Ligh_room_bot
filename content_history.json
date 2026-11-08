@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-19T19:11:59.317659+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "80s retro film look candid",
-      "title": "Retro Night 🎬",
-      "ai_prompt": "Retro Night 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture the subject in an 80s retro film style candid shot, standing in a bustling neon‑lit street at dusk. Use a 35mm lens feel with shallow depth of field, soft rim lighting from passing streetlights, subtle film grain and a warm orange‑tinted color grading. The composition is a slight low angle, framing the",
-      "status": "published",
-      "message_id": 1063
-    },
-    {
       "timestamp": "2026-08-20T06:00:38.837851+00:00",
       "content_type": "ai_image_prompt",
       "theme": "royal Victorian era formal portrait",
@@ -3183,6 +3174,15 @@
       "tip": null,
       "photo_message_id": 1527,
       "document_message_id": 1528
+    },
+    {
+      "timestamp": "2026-11-08T16:58:33.273291+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "1920s Hollywood glamour studio portrait",
+      "title": "Glamour Reboot 🎬",
+      "ai_prompt": "Glamour Reboot 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Classic 1920s Hollywood studio portrait with high contrast chiaroscuro lighting, soft diffused spotlight from a 50mm prime lens at",
+      "status": "published",
+      "message_id": 1529
     }
   ],
   "style_counts": {
@@ -3206,22 +3206,6 @@
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-16T21:48:50.199093+00:00",
-      "member_count": 2892,
-      "total_posts_recorded": 218,
-      "content_type_counts": {
-        "ai_image_prompt": 77,
-        "lightroom": 85,
-        "ai_news": 49
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 24,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-17T10:15:18.887228+00:00",
       "member_count": 2892,
@@ -4645,6 +4629,22 @@
         "experimental_trend": 17,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-08T16:58:33.464454+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 114,
+        "lightroom": 121,
+        "ai_news": 66
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 17,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4664,7 +4664,7 @@
     "half-face extreme close-up with hard flash and film grain": 3,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
-    "1920s Hollywood glamour studio portrait": 4,
+    "1920s Hollywood glamour studio portrait": 5,
     "cyberpunk neon city night portrait": 2,
     "cozy winter close-up with oversized white faux-fur hood": 5,
     "OpenAI": 3,
@@ -4754,7 +4754,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 113,
+    "ai_image_prompt": 114,
     "lightroom": 121,
     "ai_news": 66
   }
