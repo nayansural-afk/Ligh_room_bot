@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-24T08:17:15.142032+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 Who’s behind the new ‘stealth model’ Ox Alpha?",
-      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "status": "published",
-      "message_id": 1069
-    },
-    {
       "timestamp": "2026-08-24T11:13:35.439903+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3170,15 @@
       "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
       "status": "published",
       "message_id": 1534
+    },
+    {
+      "timestamp": "2026-11-09T21:21:52.770015+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "golden hour beach portrait soft rim light",
+      "title": "Sunset Silhouette 🌅",
+      "ai_prompt": "Sunset Silhouette 🌅\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic beach portrait at golden hour, with soft rim light highlighting the subject’s profile against a warm turquoise shoreline. Use a 50mm prime lens simulation with a shallow depth of field (f/1.8) to blur the distant sand and waves, while keeping the subject in crisp focus. Position the subject slightly off‑center, looking toward the horizon, with the sun just below the waterline casting a golden halo around the hair. Emphas",
+      "status": "published",
+      "message_id": 1537
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-17T21:07:13.370315+00:00",
-      "member_count": 2892,
-      "total_posts_recorded": 222,
-      "content_type_counts": {
-        "ai_image_prompt": 79,
-        "lightroom": 87,
-        "ai_news": 49
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 26,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-18T10:30:34.126284+00:00",
       "member_count": 2893,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 17,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-09T21:21:52.959588+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 116,
+        "lightroom": 121,
+        "ai_news": 68
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 17,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4668,7 +4668,7 @@
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 3,
-    "golden hour beach portrait soft rim light": 4,
+    "golden hour beach portrait soft rim light": 5,
     "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
     "Hugging Face": 4,
@@ -4752,7 +4752,7 @@
     "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 115,
+    "ai_image_prompt": 116,
     "lightroom": 121,
     "ai_news": 68
   }
