@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-24T11:13:35.439903+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "soft pastel tones for portraits",
-      "preset_name": "Teal Mood",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1070,
-      "document_message_id": 1071
-    },
-    {
       "timestamp": "2026-08-24T16:19:46.791917+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3166,15 @@
       "ai_prompt": "Sunset Silhouette 🌅\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a photorealistic beach portrait at golden hour, with soft rim light highlighting the subject’s profile against a warm turquoise shoreline. Use a 50mm prime lens simulation with a shallow depth of field (f/1.8) to blur the distant sand and waves, while keeping the subject in crisp focus. Position the subject slightly off‑center, looking toward the horizon, with the sun just below the waterline casting a golden halo around the hair. Emphas",
       "status": "published",
       "message_id": 1537
+    },
+    {
+      "timestamp": "2026-11-09T23:38:23.920937+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Jensen Huang reportedly engaged a PR firm with a history of handling high-profil",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "status": "published",
+      "message_id": 1538
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 27
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-18T10:30:34.126284+00:00",
-      "member_count": 2893,
-      "total_posts_recorded": 223,
-      "content_type_counts": {
-        "ai_image_prompt": 79,
-        "lightroom": 87,
-        "ai_news": 50
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 26,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-18T14:25:13.124498+00:00",
       "member_count": 2891,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 17,
         "quick_tip": 27
       }
+    },
+    {
+      "timestamp": "2026-11-09T23:38:24.114765+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 116,
+        "lightroom": 121,
+        "ai_news": 69
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 44,
+        "experimental_trend": 17,
+        "quick_tip": 27
+      }
     }
   ],
   "theme_counts": {
@@ -4649,7 +4645,7 @@
     "80s retro film look candid": 4,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 35,
+    "TechCrunch AI": 36,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 21,
@@ -4749,11 +4745,12 @@
     "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
     "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
     "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-    "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+    "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 116,
     "lightroom": 121,
-    "ai_news": 68
+    "ai_news": 69
   }
 }
