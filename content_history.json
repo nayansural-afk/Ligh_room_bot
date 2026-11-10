@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-25T17:04:15.556606+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "ancient Egyptian pharaoh / queen gold and linen",
-      "title": "Pharaoh's Radiance ✨",
-      "ai_prompt": "Pharaoh's Radiance ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic portrait of an ancient Egyptian",
-      "status": "published",
-      "message_id": 1078
-    },
-    {
       "timestamp": "2026-08-25T19:59:13.227166+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3175,6 +3166,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, noir detective rainy street black and white, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1543
+    },
+    {
+      "timestamp": "2026-11-10T21:06:00.601590+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "80s retro film look candid",
+      "title": "Retro Snap 🎥",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render this candid moment as an 80s retro film snapshot: grainy film texture, muted teal and orange color grading, slight vignetting around edges, soft rim lighting from a streetlamp. Camera feels like a 35mm Polaroid, with a 50mm lens and shallow depth of field, capturing the subject at eye level, slightly tilted head, natural smile. Composition: rule of thirds, background blurred with neon city lights, subtle reflection in a puddle. Aspect ratio 4:5 to mimic classic poster frames. Add a subtle film scratch overlay and a light dust mote effect for authenticity.",
+      "status": "published",
+      "message_id": 1546
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 28
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-19T12:20:47.831137+00:00",
-      "member_count": 2890,
-      "total_posts_recorded": 227,
-      "content_type_counts": {
-        "ai_image_prompt": 81,
-        "lightroom": 88,
-        "ai_news": 51
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 27,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-19T17:23:37.558248+00:00",
       "member_count": 2889,
@@ -4637,12 +4621,28 @@
         "experimental_trend": 17,
         "quick_tip": 28
       }
+    },
+    {
+      "timestamp": "2026-11-10T21:06:00.733156+00:00",
+      "member_count": 2896,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 118,
+        "lightroom": 123,
+        "ai_news": 69
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 45,
+        "experimental_trend": 17,
+        "quick_tip": 28
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 3,
-    "80s retro film look candid": 4,
+    "80s retro film look candid": 5,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 36,
@@ -4749,7 +4749,7 @@
     "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 117,
+    "ai_image_prompt": 118,
     "lightroom": 123,
     "ai_news": 69
   }
