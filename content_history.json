@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-25T12:01:35.584249+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "golden hour sunset with rich saturation",
-      "preset_name": "Quiet Glow",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1076,
-      "document_message_id": 1077
-    },
-    {
       "timestamp": "2026-08-25T17:04:15.556606+00:00",
       "content_type": "ai_image_prompt",
       "theme": "ancient Egyptian pharaoh / queen gold and linen",
@@ -3179,6 +3166,15 @@
       "tip": null,
       "photo_message_id": 1541,
       "document_message_id": 1542
+    },
+    {
+      "timestamp": "2026-11-10T18:33:03.134019+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "noir detective rainy street black and white",
+      "title": "Noir Detective Rainy Street Black And White",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, noir detective rainy street black and white, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1543
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 28
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-18T21:09:17.103804+00:00",
-      "member_count": 2893,
-      "total_posts_recorded": 226,
-      "content_type_counts": {
-        "ai_image_prompt": 81,
-        "lightroom": 88,
-        "ai_news": 50
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 27,
-        "before_after": 34,
-        "experimental_trend": 11,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-19T12:20:47.831137+00:00",
       "member_count": 2890,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 17,
         "quick_tip": 28
       }
+    },
+    {
+      "timestamp": "2026-11-10T18:33:03.341100+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 117,
+        "lightroom": 123,
+        "ai_news": 69
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 45,
+        "experimental_trend": 17,
+        "quick_tip": 28
+      }
     }
   ],
   "theme_counts": {
@@ -4667,7 +4663,7 @@
     "underwater mermaid / merman fantasy": 5,
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
-    "noir detective rainy street black and white": 3,
+    "noir detective rainy street black and white": 4,
     "golden hour beach portrait soft rim light": 5,
     "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
@@ -4753,7 +4749,7 @@
     "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 116,
+    "ai_image_prompt": 117,
     "lightroom": 123,
     "ai_news": 69
   }
