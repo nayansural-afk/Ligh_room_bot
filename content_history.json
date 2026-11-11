@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-27T11:54:44.350349+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "Studio Ghibli anime version of the person",
-      "title": "Ghibli Glow 🌸",
-      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render as a Studio Ghibli anime illustration, hyper-detailed, with lush forest backdrop, misty light filtering through canopy, soft golden hour glow, subtle rim lighting on hair. Use 85mm lens perspective, shallow depth of field, focus on face and upper torso. Add whimsical elements like floating fireflies, subtle watercolor texture, gentle motion blur on background. Composition: head to chest, slightly off-center, slight upward tilt for a dreamy look. Aspect ratio 9:16. High-resolution, photorealistic detail, vibrant colors, atmospheric depth.",
-      "status": "published",
-      "message_id": 1083
-    },
-    {
       "timestamp": "2026-08-28T01:00:36.976420+00:00",
       "content_type": "ai_image_prompt",
       "theme": "cinematic low-angle outdoor portrait with wildflowers and sky",
@@ -3179,6 +3170,15 @@
       "tip": null,
       "photo_message_id": 1551,
       "document_message_id": 1552
+    },
+    {
+      "timestamp": "2026-11-11T21:39:06.047786+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "half-face extreme close-up with hard flash and film grain",
+      "title": "Half-Face Extreme Close-Up With Hard Flash And Film Grain",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, half-face extreme close-up with hard flash and film grain, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1554
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 28
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-20T11:00:44.762841+00:00",
-      "member_count": 2889,
-      "total_posts_recorded": 231,
-      "content_type_counts": {
-        "ai_image_prompt": 82,
-        "lightroom": 91,
-        "ai_news": 51
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 35,
-        "experimental_trend": 12,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-20T15:36:05.687458+00:00",
       "member_count": 2889,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 18,
         "quick_tip": 28
       }
+    },
+    {
+      "timestamp": "2026-11-11T21:39:06.184676+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 119,
+        "lightroom": 125,
+        "ai_news": 70
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 28
+      }
     }
   ],
   "theme_counts": {
@@ -4657,7 +4657,7 @@
     "cinematic low-angle outdoor portrait with wildflowers and sky": 4,
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 2,
-    "half-face extreme close-up with hard flash and film grain": 3,
+    "half-face extreme close-up with hard flash and film grain": 4,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
     "1920s Hollywood glamour studio portrait": 5,
@@ -4754,7 +4754,7 @@
     "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 118,
+    "ai_image_prompt": 119,
     "lightroom": 125,
     "ai_news": 70
   }
