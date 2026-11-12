@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-28T21:28:50.577297+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "vintage polaroid faded look",
-      "preset_name": "Soft Haze",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1087,
-      "document_message_id": 1088
-    },
-    {
       "timestamp": "2026-08-28T21:49:42.394130+00:00",
       "content_type": "ai_image_prompt",
       "theme": "rockstar stage performance dramatic lights",
@@ -3175,6 +3162,19 @@
       "ai_prompt": "Midnight Mermaid Glow 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic underwater scene featuring a mermaid with flowing seaweed hair, shimmering scales, and a translucent tail. The lighting is soft, diffused from bioluminescent coral and a subtle overhead spotlight, creating gentle rim light around the figure. Use a 35mm lens simulation with shallow depth of field, focusing on the face while gently blurring the tail and background. Composition is vertical, 9:16 aspect ratio, with the mermaid centered and slightly angled toward the",
       "status": "published",
       "message_id": 1556
+    },
+    {
+      "timestamp": "2026-11-12T18:46:08.407653+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "cool blue hour cityscape",
+      "preset_name": "Midnight Glow",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1557,
+      "document_message_id": 1558
     }
   ],
   "style_counts": {
@@ -3184,7 +3184,7 @@
     "high-key fashion with soft contrast": 14,
     "vintage polaroid faded look": 10,
     "dark street style with subtle green tint": 10,
-    "cool blue hour cityscape": 9,
+    "cool blue hour cityscape": 10,
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 11,
@@ -3195,25 +3195,9 @@
     "preset_of_the_day": 36,
     "before_after": 46,
     "experimental_trend": 18,
-    "quick_tip": 28
+    "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-20T21:59:01.003017+00:00",
-      "member_count": 2888,
-      "total_posts_recorded": 234,
-      "content_type_counts": {
-        "ai_image_prompt": 84,
-        "lightroom": 92,
-        "ai_news": 51
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 35,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-21T11:17:46.642571+00:00",
       "member_count": 2885,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 28
       }
+    },
+    {
+      "timestamp": "2026-11-12T18:46:08.550718+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 120,
+        "lightroom": 126,
+        "ai_news": 71
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4752,7 +4752,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 120,
-    "lightroom": 125,
+    "lightroom": 126,
     "ai_news": 71
   }
 }
