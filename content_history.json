@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-28T02:12:07.018734+00:00",
-      "content_type": "lightroom",
-      "pillar": "preset_of_the_day",
-      "style": "golden hour sunset with rich saturation",
-      "preset_name": "Amber Drift",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1085,
-      "document_message_id": 1086
-    },
-    {
       "timestamp": "2026-08-28T21:28:50.577297+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3166,15 @@
       "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "status": "published",
       "message_id": 1555
+    },
+    {
+      "timestamp": "2026-11-12T14:44:03.848842+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "underwater mermaid / merman fantasy",
+      "title": "Midnight Mermaid Glow 🌊",
+      "ai_prompt": "Midnight Mermaid Glow 🌊\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic underwater scene featuring a mermaid with flowing seaweed hair, shimmering scales, and a translucent tail. The lighting is soft, diffused from bioluminescent coral and a subtle overhead spotlight, creating gentle rim light around the figure. Use a 35mm lens simulation with shallow depth of field, focusing on the face while gently blurring the tail and background. Composition is vertical, 9:16 aspect ratio, with the mermaid centered and slightly angled toward the",
+      "status": "published",
+      "message_id": 1556
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 28
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-20T18:49:21.104160+00:00",
-      "member_count": 2888,
-      "total_posts_recorded": 233,
-      "content_type_counts": {
-        "ai_image_prompt": 83,
-        "lightroom": 92,
-        "ai_news": 51
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 35,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-20T21:59:01.003017+00:00",
       "member_count": 2888,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 28
       }
+    },
+    {
+      "timestamp": "2026-11-12T14:44:04.003377+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 120,
+        "lightroom": 125,
+        "ai_news": 71
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 28
+      }
     }
   ],
   "theme_counts": {
@@ -4664,7 +4660,7 @@
     "cyberpunk neon city night portrait": 2,
     "cozy winter close-up with oversized white faux-fur hood": 5,
     "OpenAI": 4,
-    "underwater mermaid / merman fantasy": 5,
+    "underwater mermaid / merman fantasy": 6,
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 4,
@@ -4755,7 +4751,7 @@
     "https://openai.com/index/gilbert-tobin-sam-nickless"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 119,
+    "ai_image_prompt": 120,
     "lightroom": 125,
     "ai_news": 71
   }
