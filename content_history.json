@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-28T21:49:42.394130+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "rockstar stage performance dramatic lights",
-      "title": "Rockstar Stage Performance Dramatic Lights",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, rockstar stage performance dramatic lights, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1089
-    },
-    {
       "timestamp": "2026-08-28T21:58:23.323430+00:00",
       "content_type": "ai_news",
       "theme": "TechCrunch AI",
@@ -3175,6 +3166,15 @@
       "tip": "",
       "photo_message_id": 1557,
       "document_message_id": 1558
+    },
+    {
+      "timestamp": "2026-11-12T21:38:41.732109+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "modern high-fashion magazine cover",
+      "title": "Glam Glow ✨",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, high-fashion magazine cover featuring the subject in a dramatic, cinematic pose. Use a shallow depth of field, 85mm lens look, with a soft golden hour rim light illuminating the cheekbones, and a subtle high-key spotlight on the forehead. The background is a minimalist monochrome gradient with a faint reflective texture, creating a clean, editorial feel. Capture the subject looking slightly off-camera, head tilted, with a confident smirk. Composition follows the rule of thirds, with the eye line at the upper right, framing the face within a 9:16 vertical frame. Add subtle lens flare and a slight vignette to enhance luxury vibe.",
+      "status": "published",
+      "message_id": 1560
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-21T11:17:46.642571+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 235,
-      "content_type_counts": {
-        "ai_image_prompt": 84,
-        "lightroom": 92,
-        "ai_news": 52
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 35,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-21T15:53:32.700521+00:00",
       "member_count": 2885,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-12T21:38:41.933639+00:00",
+      "member_count": 2891,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 121,
+        "lightroom": 126,
+        "ai_news": 71
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4652,7 +4652,7 @@
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 4,
     "rockstar stage performance dramatic lights": 4,
-    "modern high-fashion magazine cover": 2,
+    "modern high-fashion magazine cover": 3,
     "half-face extreme close-up with hard flash and film grain": 4,
     "black and white film noir detective": 4,
     "street style urban fashion editorial": 3,
@@ -4751,7 +4751,7 @@
     "https://openai.com/index/gilbert-tobin-sam-nickless"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 120,
+    "ai_image_prompt": 121,
     "lightroom": 126,
     "ai_news": 71
   }
