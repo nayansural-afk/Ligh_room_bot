@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-28T21:58:23.323430+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 Neocloud Lambda secures $1B in debt to buy more chips",
-      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "status": "published",
-      "message_id": 1090
-    },
-    {
       "timestamp": "2026-08-28T22:00:16.753777+00:00",
       "content_type": "lightroom",
       "pillar": "preset_of_the_day",
@@ -3175,6 +3166,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic, high-fashion magazine cover featuring the subject in a dramatic, cinematic pose. Use a shallow depth of field, 85mm lens look, with a soft golden hour rim light illuminating the cheekbones, and a subtle high-key spotlight on the forehead. The background is a minimalist monochrome gradient with a faint reflective texture, creating a clean, editorial feel. Capture the subject looking slightly off-camera, head tilted, with a confident smirk. Composition follows the rule of thirds, with the eye line at the upper right, framing the face within a 9:16 vertical frame. Add subtle lens flare and a slight vignette to enhance luxury vibe.",
       "status": "published",
       "message_id": 1560
+    },
+    {
+      "timestamp": "2026-11-12T23:55:29.368386+00:00",
+      "content_type": "lightroom",
+      "pillar": "preset_of_the_day",
+      "style": "dark street style with subtle green tint",
+      "preset_name": "Golden Fade",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1561,
+      "document_message_id": 1562
     }
   ],
   "style_counts": {
@@ -3183,7 +3187,7 @@
     "golden hour sunset with rich saturation": 10,
     "high-key fashion with soft contrast": 14,
     "vintage polaroid faded look": 10,
-    "dark street style with subtle green tint": 10,
+    "dark street style with subtle green tint": 11,
     "cool blue hour cityscape": 10,
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 9,
@@ -3192,28 +3196,12 @@
     "warm cinematic with high contrast": 14
   },
   "pillar_counts": {
-    "preset_of_the_day": 36,
+    "preset_of_the_day": 37,
     "before_after": 46,
     "experimental_trend": 18,
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-21T15:53:32.700521+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 236,
-      "content_type_counts": {
-        "ai_image_prompt": 84,
-        "lightroom": 93,
-        "ai_news": 52
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 36,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-21T19:01:42.989013+00:00",
       "member_count": 2885,
@@ -4637,6 +4625,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-12T23:55:29.510093+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 121,
+        "lightroom": 127,
+        "ai_news": 71
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4752,7 +4756,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 121,
-    "lightroom": 126,
+    "lightroom": 127,
     "ai_news": 71
   }
 }
