@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-28T01:00:36.976420+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "cinematic low-angle outdoor portrait with wildflowers and sky",
-      "title": "Blooming Sky Lens 🌸",
-      "ai_prompt": "Blooming Sky Lens 🌸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cinematic low‑angle outdoor portrait, shot with a 24mm wide",
-      "status": "published",
-      "message_id": 1084
-    },
-    {
       "timestamp": "2026-08-28T02:12:07.018734+00:00",
       "content_type": "lightroom",
       "pillar": "preset_of_the_day",
@@ -3179,6 +3170,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, half-face extreme close-up with hard flash and film grain, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1554
+    },
+    {
+      "timestamp": "2026-11-12T01:07:51.524680+00:00",
+      "content_type": "ai_news",
+      "theme": "OpenAI",
+      "title": "🤖 Law Firm Gilbert + Tobin Embraces AI",
+      "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "status": "published",
+      "message_id": 1555
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 28
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-20T15:36:05.687458+00:00",
-      "member_count": 2889,
-      "total_posts_recorded": 232,
-      "content_type_counts": {
-        "ai_image_prompt": 83,
-        "lightroom": 91,
-        "ai_news": 51
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 35,
-        "experimental_trend": 12,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-20T18:49:21.104160+00:00",
       "member_count": 2888,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 18,
         "quick_tip": 28
       }
+    },
+    {
+      "timestamp": "2026-11-12T01:07:51.738792+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 119,
+        "lightroom": 125,
+        "ai_news": 71
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 36,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 28
+      }
     }
   ],
   "theme_counts": {
@@ -4663,7 +4663,7 @@
     "1920s Hollywood glamour studio portrait": 5,
     "cyberpunk neon city night portrait": 2,
     "cozy winter close-up with oversized white faux-fur hood": 5,
-    "OpenAI": 3,
+    "OpenAI": 4,
     "underwater mermaid / merman fantasy": 5,
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
@@ -4751,11 +4751,12 @@
     "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
     "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
     "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-    "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+    "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+    "https://openai.com/index/gilbert-tobin-sam-nickless"
   ],
   "content_type_counts": {
     "ai_image_prompt": 119,
     "lightroom": 125,
-    "ai_news": 70
+    "ai_news": 71
   }
 }
