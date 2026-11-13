@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-28T22:00:16.753777+00:00",
-      "content_type": "lightroom",
-      "pillar": "preset_of_the_day",
-      "style": "dark street style with subtle green tint",
-      "preset_name": "Soft Haze",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1091,
-      "document_message_id": 1092
-    },
-    {
       "timestamp": "2026-08-29T06:06:44.743788+00:00",
       "content_type": "ai_image_prompt",
       "theme": "modern high-fashion magazine cover",
@@ -3179,6 +3166,15 @@
       "tip": null,
       "photo_message_id": 1561,
       "document_message_id": 1562
+    },
+    {
+      "timestamp": "2026-11-13T14:01:27.853266+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Claude Duet: Neurotic but Helpful",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "status": "published",
+      "message_id": 1563
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-21T19:01:42.989013+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 237,
-      "content_type_counts": {
-        "ai_image_prompt": 84,
-        "lightroom": 94,
-        "ai_news": 52
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 37,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-21T22:01:50.253978+00:00",
       "member_count": 2885,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-13T14:01:28.032790+00:00",
+      "member_count": 2894,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 121,
+        "lightroom": 127,
+        "ai_news": 72
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4652,7 +4648,7 @@
     "TechCrunch AI": 37,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 21,
+    "The Verge AI": 22,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 4,
     "rockstar stage performance dramatic lights": 4,
@@ -4752,11 +4748,12 @@
     "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
     "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
     "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-    "https://openai.com/index/gilbert-tobin-sam-nickless"
+    "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
   ],
   "content_type_counts": {
     "ai_image_prompt": 121,
     "lightroom": 127,
-    "ai_news": 71
+    "ai_news": 72
   }
 }
