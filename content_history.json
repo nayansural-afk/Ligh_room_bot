@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-29T06:06:44.743788+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "modern high-fashion magazine cover",
-      "title": "Runway Radiance ✨",
-      "ai_prompt": "Runway Radiance ✨\n\nDo not change the face. Keep exact facial features, identity, skin tone",
-      "status": "published",
-      "message_id": 1093
-    },
-    {
       "timestamp": "2026-08-29T11:08:32.591581+00:00",
       "content_type": "ai_image_prompt",
       "theme": "ancient Egyptian pharaoh / queen gold and linen",
@@ -3175,6 +3166,15 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
       "status": "published",
       "message_id": 1563
+    },
+    {
+      "timestamp": "2026-11-13T18:27:48.084776+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "street style urban fashion editorial",
+      "title": "Street Style Urban Fashion Editorial",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, street style urban fashion editorial, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1565
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-21T22:01:50.253978+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 238,
-      "content_type_counts": {
-        "ai_image_prompt": 84,
-        "lightroom": 94,
-        "ai_news": 53
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 37,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-22T11:16:50.576107+00:00",
       "member_count": 2886,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-13T18:27:48.263254+00:00",
+      "member_count": 2894,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 122,
+        "lightroom": 127,
+        "ai_news": 72
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 46,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4655,7 +4655,7 @@
     "modern high-fashion magazine cover": 3,
     "half-face extreme close-up with hard flash and film grain": 4,
     "black and white film noir detective": 4,
-    "street style urban fashion editorial": 3,
+    "street style urban fashion editorial": 4,
     "1920s Hollywood glamour studio portrait": 5,
     "cyberpunk neon city night portrait": 2,
     "cozy winter close-up with oversized white faux-fur hood": 5,
@@ -4752,7 +4752,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 121,
+    "ai_image_prompt": 122,
     "lightroom": 127,
     "ai_news": 72
   }
