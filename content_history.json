@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-29T19:02:06.503208+00:00",
-      "content_type": "lightroom",
-      "pillar": "quick_tip",
-      "style": "cool blue hour cityscape",
-      "preset_name": "Golden Fade",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": "",
-      "photo_message_id": 1097,
-      "document_message_id": 1098
-    },
-    {
       "timestamp": "2026-08-30T06:06:29.783613+00:00",
       "content_type": "ai_image_prompt",
       "theme": "half-face extreme close-up with hard flash and film grain",
@@ -3175,6 +3162,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, golden hour beach portrait soft rim light, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1569
+    },
+    {
+      "timestamp": "2026-11-14T13:03:45.419217+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "moody forest with teal shadows",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1570,
+      "document_message_id": 1571
     }
   ],
   "style_counts": {
@@ -3188,32 +3188,16 @@
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 11,
-    "moody forest with teal shadows": 9,
+    "moody forest with teal shadows": 10,
     "warm cinematic with high contrast": 14
   },
   "pillar_counts": {
     "preset_of_the_day": 37,
-    "before_after": 47,
+    "before_after": 48,
     "experimental_trend": 18,
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-22T18:57:31.333666+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 241,
-      "content_type_counts": {
-        "ai_image_prompt": 85,
-        "lightroom": 96,
-        "ai_news": 53
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 38,
-        "experimental_trend": 13,
-        "quick_tip": 20
-      }
-    },
     {
       "timestamp": "2026-10-22T21:58:53.375108+00:00",
       "member_count": 2886,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-14T13:03:45.585932+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 123,
+        "lightroom": 129,
+        "ai_news": 72
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 48,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4753,7 +4753,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 123,
-    "lightroom": 128,
+    "lightroom": 129,
     "ai_news": 72
   }
 }
