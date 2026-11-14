@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-30T11:08:10.006017+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual p",
-      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "status": "published",
-      "message_id": 1100
-    },
-    {
       "timestamp": "2026-08-30T15:02:17.280485+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3170,15 @@
       "tip": null,
       "photo_message_id": 1572,
       "document_message_id": 1573
+    },
+    {
+      "timestamp": "2026-11-14T19:34:48.180410+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 AI Graveyard: Projects That Fell Short",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "status": "published",
+      "message_id": 1575
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-23T11:07:42.595940+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 243,
-      "content_type_counts": {
-        "ai_image_prompt": 86,
-        "lightroom": 97,
-        "ai_news": 53
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 38,
-        "experimental_trend": 13,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-23T15:41:10.147955+00:00",
       "member_count": 2888,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-14T19:34:48.376735+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 123,
+        "lightroom": 130,
+        "ai_news": 73
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 49,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4649,7 +4649,7 @@
     "80s retro film look candid": 5,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
-    "TechCrunch AI": 37,
+    "TechCrunch AI": 38,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 22,
@@ -4753,11 +4753,12 @@
     "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
     "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
     "https://openai.com/index/gilbert-tobin-sam-nickless",
-    "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
+    "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+    "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 123,
     "lightroom": 130,
-    "ai_news": 72
+    "ai_news": 73
   }
 }
