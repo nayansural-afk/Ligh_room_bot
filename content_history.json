@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-29T15:02:01.093099+00:00",
-      "content_type": "lightroom",
-      "pillar": "experimental_trend",
-      "style": "bright minimal with neutral tones",
-      "preset_name": "Film Dust",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1095,
-      "document_message_id": 1096
-    },
-    {
       "timestamp": "2026-08-29T19:02:06.503208+00:00",
       "content_type": "lightroom",
       "pillar": "quick_tip",
@@ -3179,6 +3166,15 @@
       "tip": null,
       "photo_message_id": 1567,
       "document_message_id": 1568
+    },
+    {
+      "timestamp": "2026-11-14T00:00:14.721378+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "golden hour beach portrait soft rim light",
+      "title": "Golden Hour Beach Portrait Soft Rim Light",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, golden hour beach portrait soft rim light, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1569
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-22T15:50:23.144463+00:00",
-      "member_count": 2885,
-      "total_posts_recorded": 240,
-      "content_type_counts": {
-        "ai_image_prompt": 85,
-        "lightroom": 95,
-        "ai_news": 53
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 38,
-        "experimental_trend": 13,
-        "quick_tip": 19
-      }
-    },
     {
       "timestamp": "2026-10-22T18:57:31.333666+00:00",
       "member_count": 2885,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-14T00:00:14.843447+00:00",
+      "member_count": 2894,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 123,
+        "lightroom": 128,
+        "ai_news": 72
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 47,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4668,7 +4664,7 @@
     "vampire gothic elegance candlelight": 4,
     "luxury fashion editorial on sport motorcycle studio shot": 5,
     "noir detective rainy street black and white": 4,
-    "golden hour beach portrait soft rim light": 5,
+    "golden hour beach portrait soft rim light": 6,
     "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
     "Hugging Face": 4,
@@ -4756,7 +4752,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 122,
+    "ai_image_prompt": 123,
     "lightroom": 128,
     "ai_news": 72
   }
