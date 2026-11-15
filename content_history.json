@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-31T06:07:28.939880+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 The U.S. is building barriers around drones and robots, but China has scale to g",
-      "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-      "status": "published",
-      "message_id": 1104
-    },
-    {
       "timestamp": "2026-08-31T11:08:18.946919+00:00",
       "content_type": "ai_news",
       "theme": "The Verge AI",
@@ -3175,6 +3166,15 @@
       "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
       "status": "published",
       "message_id": 1578
+    },
+    {
+      "timestamp": "2026-11-15T17:37:47.229960+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "80s retro film look candid",
+      "title": "Retro Street Snap 🎬",
+      "ai_prompt": "Retro Street Snap 🎬\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture the subject in an 80s retro film candid style: neon-lit alley, gritty texture, grainy film emulsion, soft orange and blue hue, cinematic depth of field. Use a 35mm lens simulation,",
+      "status": "published",
+      "message_id": 1579
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-23T21:44:28.012640+00:00",
-      "member_count": 2887,
-      "total_posts_recorded": 246,
-      "content_type_counts": {
-        "ai_image_prompt": 87,
-        "lightroom": 98,
-        "ai_news": 54
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 38,
-        "experimental_trend": 14,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-24T10:24:46.823447+00:00",
       "member_count": 2887,
@@ -4637,12 +4621,28 @@
         "experimental_trend": 18,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-15T17:37:47.538194+00:00",
+      "member_count": 2894,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 125,
+        "lightroom": 130,
+        "ai_news": 74
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 49,
+        "experimental_trend": 18,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
     "image generation model upgrade": 1,
     "futuristic android soft neon": 3,
-    "80s retro film look candid": 5,
+    "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 4,
     "TechCrunch AI": 38,
@@ -4754,7 +4754,7 @@
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 124,
+    "ai_image_prompt": 125,
     "lightroom": 130,
     "ai_news": 74
   }
