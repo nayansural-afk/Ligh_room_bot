@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-31T15:02:24.040756+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 Meeting notetaker Circleback adds a free tier to attract more customers",
-      "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-      "status": "published",
-      "message_id": 1106
-    },
-    {
       "timestamp": "2026-08-31T19:02:18.068933+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3170,15 @@
       "tip": null,
       "photo_message_id": 1580,
       "document_message_id": 1581
+    },
+    {
+      "timestamp": "2026-11-15T23:13:28.063896+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "black and white film noir detective",
+      "title": "Black And White Film Noir Detective",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, black and white film noir detective, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1584
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-24T14:23:30.766340+00:00",
-      "member_count": 2888,
-      "total_posts_recorded": 248,
-      "content_type_counts": {
-        "ai_image_prompt": 88,
-        "lightroom": 98,
-        "ai_news": 55
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 38,
-        "experimental_trend": 14,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-24T17:42:45.987453+00:00",
       "member_count": 2889,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 19,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-15T23:13:28.196669+00:00",
+      "member_count": 2893,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 126,
+        "lightroom": 131,
+        "ai_news": 74
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 49,
+        "experimental_trend": 19,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4658,7 +4658,7 @@
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 3,
     "half-face extreme close-up with hard flash and film grain": 4,
-    "black and white film noir detective": 4,
+    "black and white film noir detective": 5,
     "street style urban fashion editorial": 4,
     "1920s Hollywood glamour studio portrait": 5,
     "cyberpunk neon city night portrait": 3,
@@ -4758,7 +4758,7 @@
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 125,
+    "ai_image_prompt": 126,
     "lightroom": 131,
     "ai_news": 74
   }
