@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-01T06:15:00.903365+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "sports athlete action sweat and intensity",
-      "title": "Sweat‑Sculpted Victory 💪",
-      "ai_prompt": "Sweat‑Sculpted Victory 💪\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic, highly detailed image of a professional athlete in mid‑action, muscles taut, sweat droplets suspended in air. Use dramatic cinematic lighting: a single warm key light from the left with a subtle rim light to accentuate sweat glistening, back‑lit by a cool blue spotlight to create depth. Shoot with an 85mm prime lens simulation, moderate depth of field",
-      "status": "published",
-      "message_id": 1116
-    },
-    {
       "timestamp": "2026-09-01T11:14:42.837997+00:00",
       "content_type": "ai_image_prompt",
       "theme": "astronaut space suit helmet open",
@@ -3175,6 +3166,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, astronaut space suit helmet open, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1585
+    },
+    {
+      "timestamp": "2026-11-16T20:52:58.753610+00:00",
+      "content_type": "lightroom",
+      "pillar": "experimental_trend",
+      "style": "dark street style with subtle green tint",
+      "preset_name": "Film Dust",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1588,
+      "document_message_id": 1589
     }
   ],
   "style_counts": {
@@ -3183,7 +3187,7 @@
     "golden hour sunset with rich saturation": 10,
     "high-key fashion with soft contrast": 14,
     "vintage polaroid faded look": 10,
-    "dark street style with subtle green tint": 12,
+    "dark street style with subtle green tint": 13,
     "cool blue hour cityscape": 10,
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 9,
@@ -3194,26 +3198,10 @@
   "pillar_counts": {
     "preset_of_the_day": 37,
     "before_after": 49,
-    "experimental_trend": 19,
+    "experimental_trend": 20,
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-24T21:18:02.680420+00:00",
-      "member_count": 2888,
-      "total_posts_recorded": 250,
-      "content_type_counts": {
-        "ai_image_prompt": 88,
-        "lightroom": 100,
-        "ai_news": 55
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 40,
-        "experimental_trend": 14,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-25T10:52:03.497907+00:00",
       "member_count": 2889,
@@ -4637,6 +4625,22 @@
         "experimental_trend": 19,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-16T20:52:58.892650+00:00",
+      "member_count": 2893,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 127,
+        "lightroom": 132,
+        "ai_news": 74
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 49,
+        "experimental_trend": 20,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4755,7 +4759,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 127,
-    "lightroom": 131,
+    "lightroom": 132,
     "ai_news": 74
   }
 }
