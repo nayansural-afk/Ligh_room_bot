@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-08-31T19:02:18.068933+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "analog film look with controlled grain and fade",
-      "preset_name": "Soft Film Fade",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1107,
-      "document_message_id": 1108
-    },
-    {
       "timestamp": "2026-09-01T06:15:00.903365+00:00",
       "content_type": "ai_image_prompt",
       "theme": "sports athlete action sweat and intensity",
@@ -3179,6 +3166,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, black and white film noir detective, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1584
+    },
+    {
+      "timestamp": "2026-11-16T14:59:50.933852+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "astronaut space suit helmet open",
+      "title": "Astronaut Space Suit Helmet Open",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, astronaut space suit helmet open, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1585
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-24T17:42:45.987453+00:00",
-      "member_count": 2889,
-      "total_posts_recorded": 249,
-      "content_type_counts": {
-        "ai_image_prompt": 88,
-        "lightroom": 99,
-        "ai_news": 55
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 39,
-        "experimental_trend": 14,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-24T21:18:02.680420+00:00",
       "member_count": 2888,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 19,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-16T14:59:51.216087+00:00",
+      "member_count": 2892,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 127,
+        "lightroom": 131,
+        "ai_news": 74
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 37,
+        "before_after": 49,
+        "experimental_trend": 19,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4648,7 +4644,7 @@
     "futuristic android soft neon": 3,
     "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
-    "astronaut space suit helmet open": 4,
+    "astronaut space suit helmet open": 5,
     "TechCrunch AI": 38,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
@@ -4758,7 +4754,7 @@
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 126,
+    "ai_image_prompt": 127,
     "lightroom": 131,
     "ai_news": 74
   }
