@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-01T15:03:24.310462+00:00",
-      "content_type": "lightroom",
-      "pillar": "preset_of_the_day",
-      "style": "cool blue hour cityscape",
-      "preset_name": "Midnight Urban Cool",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1128,
-      "document_message_id": 1129
-    },
-    {
       "timestamp": "2026-09-01T19:02:34.799264+00:00",
       "content_type": "ai_image_prompt",
       "theme": "astronaut space suit helmet open",
@@ -3183,6 +3170,19 @@
       "tip": null,
       "photo_message_id": 1590,
       "document_message_id": 1591
+    },
+    {
+      "timestamp": "2026-11-17T02:11:16.611581+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "moody forest with teal shadows",
+      "preset_name": "Moody Teal Forest",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1592,
+      "document_message_id": 1593
     }
   ],
   "style_counts": {
@@ -3196,32 +3196,16 @@
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 12,
-    "moody forest with teal shadows": 10,
+    "moody forest with teal shadows": 11,
     "warm cinematic with high contrast": 14
   },
   "pillar_counts": {
     "preset_of_the_day": 38,
-    "before_after": 49,
+    "before_after": 50,
     "experimental_trend": 20,
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-25T14:54:48.611704+00:00",
-      "member_count": 2887,
-      "total_posts_recorded": 252,
-      "content_type_counts": {
-        "ai_image_prompt": 89,
-        "lightroom": 100,
-        "ai_news": 56
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 40,
-        "experimental_trend": 14,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-25T17:57:41.807344+00:00",
       "member_count": 2886,
@@ -4645,6 +4629,22 @@
         "experimental_trend": 20,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-17T02:11:16.744635+00:00",
+      "member_count": 2891,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 127,
+        "lightroom": 134,
+        "ai_news": 74
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4763,7 +4763,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 127,
-    "lightroom": 133,
+    "lightroom": 134,
     "ai_news": 74
   }
 }
