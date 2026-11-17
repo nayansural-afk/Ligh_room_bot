@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-02T11:15:07.010220+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "black and white film noir detective",
-      "title": "Black And White Film Noir Detective",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, black and white film noir detective, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1133
-    },
-    {
       "timestamp": "2026-09-02T15:08:38.148412+00:00",
       "content_type": "lightroom",
       "pillar": "preset_of_the_day",
@@ -3179,6 +3170,15 @@
       "ai_prompt": "Blooming Lens 🌸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cinematic low‑angle outdoor portrait at golden hour, with a wide‑open 85mm lens, shallow depth of field and a slight tilt",
       "status": "published",
       "message_id": 1596
+    },
+    {
+      "timestamp": "2026-11-17T22:43:24.310476+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "status": "published",
+      "message_id": 1598
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-26T12:22:53.272643+00:00",
-      "member_count": 2888,
-      "total_posts_recorded": 255,
-      "content_type_counts": {
-        "ai_image_prompt": 91,
-        "lightroom": 101,
-        "ai_news": 56
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 40,
-        "experimental_trend": 14,
-        "quick_tip": 22
-      }
-    },
     {
       "timestamp": "2026-10-26T17:13:59.743702+00:00",
       "member_count": 2887,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 20,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-17T22:43:24.457927+00:00",
+      "member_count": 2890,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 129,
+        "lightroom": 134,
+        "ai_news": 75
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4649,7 +4649,7 @@
     "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 5,
-    "TechCrunch AI": 38,
+    "TechCrunch AI": 39,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 23,
@@ -4755,11 +4755,12 @@
     "https://openai.com/index/gilbert-tobin-sam-nickless",
     "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
     "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-    "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+    "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+    "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 129,
     "lightroom": 134,
-    "ai_news": 74
+    "ai_news": 75
   }
 }
