@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-02T06:20:02.496607+00:00",
-      "content_type": "lightroom",
-      "pillar": "quick_tip",
-      "style": "bright minimal with neutral tones",
-      "preset_name": "Film Dust",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": "",
-      "photo_message_id": 1131,
-      "document_message_id": 1132
-    },
-    {
       "timestamp": "2026-09-02T11:15:07.010220+00:00",
       "content_type": "ai_image_prompt",
       "theme": "black and white film noir detective",
@@ -3183,6 +3170,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic, ultra‑detailed, 8K resolution portrait of a gothic vampire in candlelight. The subject sits against a dark velvet backdrop, a single flickering candle casting dramatic chiaroscuro shadows across pale skin, with subtle blood‑red undertones. A delicate lace collar and a flowing velvet cape add elegance. Capture the scene with an 85 mm prime lens, f/1.4 aperture, ISO 100, 1/50 s exposure, creating a shallow depth of field that isolates the face while softly blurring the background. Composition is a close‑up, slightly angled head‑and‑shoulders view, centered and dramatic, with the eye as the focal point. Aspect ratio 9:16 for vertical portrait.",
       "status": "published",
       "message_id": 1594
+    },
+    {
+      "timestamp": "2026-11-17T19:42:26.699750+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cinematic low-angle outdoor portrait with wildflowers and sky",
+      "title": "Blooming Lens 🌸",
+      "ai_prompt": "Blooming Lens 🌸\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cinematic low‑angle outdoor portrait at golden hour, with a wide‑open 85mm lens, shallow depth of field and a slight tilt",
+      "status": "published",
+      "message_id": 1596
     }
   ],
   "style_counts": {
@@ -3206,22 +3202,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-25T21:18:06.841275+00:00",
-      "member_count": 2887,
-      "total_posts_recorded": 254,
-      "content_type_counts": {
-        "ai_image_prompt": 91,
-        "lightroom": 100,
-        "ai_news": 56
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 28,
-        "before_after": 40,
-        "experimental_trend": 14,
-        "quick_tip": 21
-      }
-    },
     {
       "timestamp": "2026-10-26T12:22:53.272643+00:00",
       "member_count": 2888,
@@ -4645,6 +4625,22 @@
         "experimental_trend": 20,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-17T19:42:26.872497+00:00",
+      "member_count": 2890,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 129,
+        "lightroom": 134,
+        "ai_news": 74
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4658,7 +4654,7 @@
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 23,
     "Studio Ghibli anime version of the person": 4,
-    "cinematic low-angle outdoor portrait with wildflowers and sky": 4,
+    "cinematic low-angle outdoor portrait with wildflowers and sky": 5,
     "rockstar stage performance dramatic lights": 4,
     "modern high-fashion magazine cover": 3,
     "half-face extreme close-up with hard flash and film grain": 4,
@@ -4762,7 +4758,7 @@
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 128,
+    "ai_image_prompt": 129,
     "lightroom": 134,
     "ai_news": 74
   }
