@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-02T19:02:47.588418+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "lush green nature tones for landscapes",
-      "preset_name": "Verdant Horizon",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1136,
-      "document_message_id": 1137
-    },
-    {
       "timestamp": "2026-09-03T06:16:06.885045+00:00",
       "content_type": "ai_image_prompt",
       "theme": "street style urban fashion editorial",
@@ -3175,6 +3162,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic fantasy mage portrait with swirling luminous glyphs orbiting their eyes, casting a gentle violet glow. Use a shallow depth of field with a 85mm lens simulation, soft rim lighting from a back‑lit source at 45° to highlight the robes' embroidered runes. The mage stands in a misty, ancient library, with floating crystal orbs casting subtle reflections. Compose a close‑up, slightly off‑center framing, 4:5 aspect ratio. Add a subtle bokeh halo, and ensure the magic emanates naturally from the hands, emphasizing realism and mystical ambiance.",
       "status": "published",
       "message_id": 1599
+    },
+    {
+      "timestamp": "2026-11-18T15:13:45.479745+00:00",
+      "content_type": "ai_news",
+      "theme": "Hugging Face",
+      "title": "🤖 Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "status": "published",
+      "message_id": 1600
     }
   ],
   "style_counts": {
@@ -3198,22 +3194,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-26T20:12:57.581887+00:00",
-      "member_count": 2887,
-      "total_posts_recorded": 257,
-      "content_type_counts": {
-        "ai_image_prompt": 91,
-        "lightroom": 102,
-        "ai_news": 57
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 29,
-        "before_after": 40,
-        "experimental_trend": 14,
-        "quick_tip": 22
-      }
-    },
     {
       "timestamp": "2026-10-26T22:56:00.487981+00:00",
       "member_count": 2886,
@@ -4637,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-18T15:13:45.678301+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 130,
+        "lightroom": 134,
+        "ai_news": 76
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4667,7 +4663,7 @@
     "golden hour beach portrait soft rim light": 6,
     "wild west cowboy desert sunset": 5,
     "playful bubblegum bubble shot with crimson backdrop and flash": 3,
-    "Hugging Face": 4,
+    "Hugging Face": 5,
     "Disney Pixar 3D stylized character": 6,
     "medieval knight armor photorealistic portrait": 1,
     "MIT Tech Review AI": 5,
@@ -4752,11 +4748,12 @@
     "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
     "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-    "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
+    "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+    "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
   ],
   "content_type_counts": {
     "ai_image_prompt": 130,
     "lightroom": 134,
-    "ai_news": 75
+    "ai_news": 76
   }
 }
