@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-02T15:08:38.148412+00:00",
-      "content_type": "lightroom",
-      "pillar": "preset_of_the_day",
-      "style": "vintage polaroid faded look",
-      "preset_name": "Vintage Polaroid Fade",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1134,
-      "document_message_id": 1135
-    },
-    {
       "timestamp": "2026-09-02T19:02:47.588418+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3166,15 @@
       "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
       "status": "published",
       "message_id": 1598
+    },
+    {
+      "timestamp": "2026-11-18T01:25:34.263518+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "fantasy mage glowing magic portrait",
+      "title": "Mage Glow ✨",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic fantasy mage portrait with swirling luminous glyphs orbiting their eyes, casting a gentle violet glow. Use a shallow depth of field with a 85mm lens simulation, soft rim lighting from a back‑lit source at 45° to highlight the robes' embroidered runes. The mage stands in a misty, ancient library, with floating crystal orbs casting subtle reflections. Compose a close‑up, slightly off‑center framing, 4:5 aspect ratio. Add a subtle bokeh halo, and ensure the magic emanates naturally from the hands, emphasizing realism and mystical ambiance.",
+      "status": "published",
+      "message_id": 1599
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 29
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-26T17:13:59.743702+00:00",
-      "member_count": 2887,
-      "total_posts_recorded": 256,
-      "content_type_counts": {
-        "ai_image_prompt": 91,
-        "lightroom": 102,
-        "ai_news": 56
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 29,
-        "before_after": 40,
-        "experimental_trend": 14,
-        "quick_tip": 22
-      }
-    },
     {
       "timestamp": "2026-10-26T20:12:57.581887+00:00",
       "member_count": 2887,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 29
       }
+    },
+    {
+      "timestamp": "2026-11-18T01:25:34.499044+00:00",
+      "member_count": 2889,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 130,
+        "lightroom": 134,
+        "ai_news": 75
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 29
+      }
     }
   ],
   "theme_counts": {
@@ -4678,7 +4674,7 @@
     "samurai warrior traditional armor": 6,
     "tropical vacation candid smartphone photo": 7,
     "steampunk inventor workshop": 2,
-    "fantasy mage glowing magic portrait": 2,
+    "fantasy mage glowing magic portrait": 3,
     "oil painting classical museum portrait style": 2
   },
   "used_news_links": [
@@ -4759,7 +4755,7 @@
     "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 129,
+    "ai_image_prompt": 130,
     "lightroom": 134,
     "ai_news": 75
   }
