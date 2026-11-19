@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-03T15:03:24.741111+00:00",
-      "content_type": "ai_news",
-      "theme": "The Verge AI",
-      "title": "🌧️ Google Enhances AI Weather Forecasts",
-      "link": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-      "status": "published",
-      "message_id": 1141
-    },
-    {
       "timestamp": "2026-09-03T19:02:24.141157+00:00",
       "content_type": "ai_news",
       "theme": "TechCrunch AI",
@@ -3171,6 +3162,15 @@
       "tip": "",
       "photo_message_id": 1605,
       "document_message_id": 1606
+    },
+    {
+      "timestamp": "2026-11-19T15:20:43.233914+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "status": "published",
+      "message_id": 1607
     }
   ],
   "style_counts": {
@@ -3194,22 +3194,6 @@
     "quick_tip": 30
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-27T19:44:54.997809+00:00",
-      "member_count": 2890,
-      "total_posts_recorded": 261,
-      "content_type_counts": {
-        "ai_image_prompt": 93,
-        "lightroom": 104,
-        "ai_news": 57
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 29,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 23
-      }
-    },
     {
       "timestamp": "2026-10-27T22:44:05.407466+00:00",
       "member_count": 2891,
@@ -4633,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 30
       }
+    },
+    {
+      "timestamp": "2026-11-19T15:20:43.454095+00:00",
+      "member_count": 2888,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 131,
+        "lightroom": 135,
+        "ai_news": 77
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 30
+      }
     }
   ],
   "theme_counts": {
@@ -4641,7 +4641,7 @@
     "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 5,
-    "TechCrunch AI": 39,
+    "TechCrunch AI": 40,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 23,
@@ -4749,11 +4749,12 @@
     "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
     "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
-    "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+    "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+    "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 131,
     "lightroom": 135,
-    "ai_news": 76
+    "ai_news": 77
   }
 }
