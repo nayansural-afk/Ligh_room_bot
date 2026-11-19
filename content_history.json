@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-03T19:02:24.141157+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 Abliteration.ai is making a business out of removing AI guardrails",
-      "link": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-      "status": "published",
-      "message_id": 1142
-    },
-    {
       "timestamp": "2026-09-04T06:14:54.592293+00:00",
       "content_type": "ai_news",
       "theme": "TechCrunch AI",
@@ -3171,12 +3162,25 @@
       "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
       "status": "published",
       "message_id": 1607
+    },
+    {
+      "timestamp": "2026-11-19T19:26:07.183994+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "golden hour sunset with rich saturation",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "",
+      "photo_message_id": 1609,
+      "document_message_id": 1610
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 11,
     "soft pastel tones for portraits": 10,
-    "golden hour sunset with rich saturation": 10,
+    "golden hour sunset with rich saturation": 11,
     "high-key fashion with soft contrast": 14,
     "vintage polaroid faded look": 10,
     "dark street style with subtle green tint": 14,
@@ -3191,25 +3195,9 @@
     "preset_of_the_day": 38,
     "before_after": 50,
     "experimental_trend": 20,
-    "quick_tip": 30
+    "quick_tip": 31
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-27T22:44:05.407466+00:00",
-      "member_count": 2891,
-      "total_posts_recorded": 262,
-      "content_type_counts": {
-        "ai_image_prompt": 93,
-        "lightroom": 105,
-        "ai_news": 57
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 30,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 23
-      }
-    },
     {
       "timestamp": "2026-10-28T12:14:40.339466+00:00",
       "member_count": 2889,
@@ -4633,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 30
       }
+    },
+    {
+      "timestamp": "2026-11-19T19:26:07.326745+00:00",
+      "member_count": 2889,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 131,
+        "lightroom": 136,
+        "ai_news": 77
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 50,
+        "experimental_trend": 20,
+        "quick_tip": 31
+      }
     }
   ],
   "theme_counts": {
@@ -4754,7 +4758,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 131,
-    "lightroom": 135,
+    "lightroom": 136,
     "ai_news": 77
   }
 }
