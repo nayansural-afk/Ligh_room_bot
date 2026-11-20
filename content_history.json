@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-04T15:03:27.638592+00:00",
-      "content_type": "lightroom",
-      "pillar": "quick_tip",
-      "style": "golden hour sunset with rich saturation",
-      "preset_name": "Sunset Glow",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": "",
-      "photo_message_id": 1145,
-      "document_message_id": 1146
-    },
-    {
       "timestamp": "2026-09-04T19:02:31.193573+00:00",
       "content_type": "ai_image_prompt",
       "theme": "1920s Hollywood glamour studio portrait",
@@ -3183,6 +3170,15 @@
       "tip": "",
       "photo_message_id": 1614,
       "document_message_id": 1615
+    },
+    {
+      "timestamp": "2026-11-20T22:01:59.241432+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "astronaut space suit helmet open",
+      "title": "Astronaut Space Suit Helmet Open",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, astronaut space suit helmet open, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1618
     }
   ],
   "style_counts": {
@@ -3206,22 +3202,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-29T12:24:45.084425+00:00",
-      "member_count": 2891,
-      "total_posts_recorded": 267,
-      "content_type_counts": {
-        "ai_image_prompt": 95,
-        "lightroom": 106,
-        "ai_news": 59
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 31,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 23
-      }
-    },
     {
       "timestamp": "2026-10-29T17:21:54.638606+00:00",
       "member_count": 2893,
@@ -4645,6 +4625,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-20T22:01:59.493424+00:00",
+      "member_count": 2893,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 132,
+        "lightroom": 138,
+        "ai_news": 77
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 51,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4652,7 +4648,7 @@
     "futuristic android soft neon": 3,
     "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
-    "astronaut space suit helmet open": 5,
+    "astronaut space suit helmet open": 6,
     "TechCrunch AI": 40,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
@@ -4765,7 +4761,7 @@
     "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 131,
+    "ai_image_prompt": 132,
     "lightroom": 138,
     "ai_news": 77
   }
