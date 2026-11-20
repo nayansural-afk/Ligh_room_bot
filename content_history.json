@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-04T06:14:54.592293+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 The sameness problem behind those unappetizing AI-generated menus",
-      "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "status": "published",
-      "message_id": 1143
-    },
-    {
       "timestamp": "2026-09-04T11:14:55.644071+00:00",
       "content_type": "ai_image_prompt",
       "theme": "street style urban fashion editorial",
@@ -3175,6 +3166,19 @@
       "tip": "",
       "photo_message_id": 1609,
       "document_message_id": 1610
+    },
+    {
+      "timestamp": "2026-11-20T00:57:57.859071+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "moody forest with teal shadows",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1612,
+      "document_message_id": 1613
     }
   ],
   "style_counts": {
@@ -3188,32 +3192,16 @@
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 9,
     "dramatic black and white with heavy contrast": 12,
-    "moody forest with teal shadows": 11,
+    "moody forest with teal shadows": 12,
     "warm cinematic with high contrast": 14
   },
   "pillar_counts": {
     "preset_of_the_day": 38,
-    "before_after": 50,
+    "before_after": 51,
     "experimental_trend": 20,
     "quick_tip": 31
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-28T17:03:48.818227+00:00",
-      "member_count": 2889,
-      "total_posts_recorded": 264,
-      "content_type_counts": {
-        "ai_image_prompt": 94,
-        "lightroom": 105,
-        "ai_news": 58
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 30,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 23
-      }
-    },
     {
       "timestamp": "2026-10-28T19:58:19.547305+00:00",
       "member_count": 2890,
@@ -4637,6 +4625,22 @@
         "experimental_trend": 20,
         "quick_tip": 31
       }
+    },
+    {
+      "timestamp": "2026-11-20T00:57:58.038885+00:00",
+      "member_count": 2889,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 131,
+        "lightroom": 137,
+        "ai_news": 77
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 51,
+        "experimental_trend": 20,
+        "quick_tip": 31
+      }
     }
   ],
   "theme_counts": {
@@ -4758,7 +4762,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 131,
-    "lightroom": 136,
+    "lightroom": 137,
     "ai_news": 77
   }
 }
