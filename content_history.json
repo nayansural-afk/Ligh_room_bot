@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-05T11:13:45.766931+00:00",
-      "content_type": "lightroom",
-      "pillar": "preset_of_the_day",
-      "style": "lush green nature tones for landscapes",
-      "preset_name": "Amber Drift",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1150,
-      "document_message_id": 1151
-    },
-    {
       "timestamp": "2026-09-05T15:03:13.417829+00:00",
       "content_type": "lightroom",
       "pillar": "quick_tip",
@@ -3179,6 +3166,15 @@
       "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
       "status": "published",
       "message_id": 1621
+    },
+    {
+      "timestamp": "2026-11-21T17:55:03.541831+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "playful bubblegum bubble shot with crimson backdrop and flash",
+      "title": "Bubblegum Bliss 🍭",
+      "ai_prompt": "Bubblegum Bliss 🍭\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a playful bubblegum bubble shot with a deep crimson backdrop and a crisp, focused flash that highlights the glossy bubble surface. Use a 50 mm macro lens on a full‑frame camera to achieve razor‑sharp detail and a shallow depth of field, blurring the crimson wall into a soft, velvety bokeh. Compose the image in a 9:16 portrait frame, placing",
+      "status": "published",
+      "message_id": 1622
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-29T23:02:14.205822+00:00",
-      "member_count": 2892,
-      "total_posts_recorded": 270,
-      "content_type_counts": {
-        "ai_image_prompt": 96,
-        "lightroom": 108,
-        "ai_news": 59
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 32,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-30T12:15:59.706090+00:00",
       "member_count": 2893,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-21T17:55:03.711599+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 133,
+        "lightroom": 139,
+        "ai_news": 78
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 52,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4670,7 +4666,7 @@
     "noir detective rainy street black and white": 4,
     "golden hour beach portrait soft rim light": 6,
     "wild west cowboy desert sunset": 5,
-    "playful bubblegum bubble shot with crimson backdrop and flash": 3,
+    "playful bubblegum bubble shot with crimson backdrop and flash": 4,
     "Hugging Face": 5,
     "Disney Pixar 3D stylized character": 6,
     "medieval knight armor photorealistic portrait": 1,
@@ -4762,7 +4758,7 @@
     "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 132,
+    "ai_image_prompt": 133,
     "lightroom": 139,
     "ai_news": 78
   }
