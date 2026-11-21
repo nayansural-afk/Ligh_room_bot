@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-05T06:13:54.564749+00:00",
-      "content_type": "lightroom",
-      "pillar": "quick_tip",
-      "style": "dramatic black and white with heavy contrast",
-      "preset_name": "Midnight Contrast",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": "",
-      "photo_message_id": 1148,
-      "document_message_id": 1149
-    },
-    {
       "timestamp": "2026-09-05T11:13:45.766931+00:00",
       "content_type": "lightroom",
       "pillar": "preset_of_the_day",
@@ -3183,6 +3170,15 @@
       "tip": null,
       "photo_message_id": 1619,
       "document_message_id": 1620
+    },
+    {
+      "timestamp": "2026-11-21T14:19:32.925062+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "♟️ Chess.com Expands Beyond Chess",
+      "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "status": "published",
+      "message_id": 1621
     }
   ],
   "style_counts": {
@@ -3206,22 +3202,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-29T19:56:46.371081+00:00",
-      "member_count": 2893,
-      "total_posts_recorded": 269,
-      "content_type_counts": {
-        "ai_image_prompt": 95,
-        "lightroom": 108,
-        "ai_news": 59
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 32,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-29T23:02:14.205822+00:00",
       "member_count": 2892,
@@ -4645,6 +4625,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-21T14:19:33.080958+00:00",
+      "member_count": 2897,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 132,
+        "lightroom": 139,
+        "ai_news": 78
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 52,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4656,7 +4652,7 @@
     "TechCrunch AI": 40,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 23,
+    "The Verge AI": 24,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 5,
     "rockstar stage performance dramatic lights": 4,
@@ -4762,11 +4758,12 @@
     "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
     "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
     "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-    "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
+    "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
   ],
   "content_type_counts": {
     "ai_image_prompt": 132,
     "lightroom": 139,
-    "ai_news": 77
+    "ai_news": 78
   }
 }
