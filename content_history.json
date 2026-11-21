@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-05T19:02:29.638902+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "cyberpunk neon city night portrait",
-      "title": "Neon Night Vibes 🌆",
-      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic cyberpunk portrait at night, neon‑lit skyscraper backdrop with holographic billboards reflecting off rain‑slick pavement. The subject stands in front of a glowing, translucent glass wall, silhouette framed by cascading neon signs in magenta, teal, and violet. Use a shallow depth of field with a 50mm prime lens feel, soft bokeh, slight fisheye distortion, and subtle motion blur from a slow shutter. Capture dramatic backlighting and rim lights to accentuate cheekbones, hair, and clothing textures. Compose in 9:16 portrait, center the face, lower third for cityscape, balanced with vertical neon columns. Add atmospheric haze, lens flare, and a slight vignette for cinematic depth.",
-      "status": "published",
-      "message_id": 1154
-    },
-    {
       "timestamp": "2026-09-06T06:13:53.611982+00:00",
       "content_type": "ai_image_prompt",
       "theme": "cozy winter close-up with oversized white faux-fur hood",
@@ -3171,6 +3162,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render as a photorealistic oil painting in a classical museum portrait style. Use soft, diffused studio lighting from a 50mm lens at f/1.8, creating a shallow depth of field that blurs the background but keeps the face in sharp focus. Position the subject slightly off-center in a 3:4 aspect ratio, with a subtle golden gradient wash in the background reminiscent of 19th‑century portrait rooms. Include rich, buttery brushstroke textures and a warm, slightly saturated color palette that captures the timeless elegance of oil portraiture.",
       "status": "published",
       "message_id": 1623
+    },
+    {
+      "timestamp": "2026-11-21T23:37:39.014269+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "oil painting classical museum portrait style",
+      "title": "Royal Portrait 🎩",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic oil painting in the style of a 19th‑century French portrait. Use a soft, diffused golden hour lighting that highlights the subject’s cheekbones and adds a subtle rim light from the left. Capture the scene with a 50mm lens emulation, shallow depth of field, focusing on the eyes, with a slightly blurred, textured canvas background. Center composition, slight head tilt, serene expression. Aspect ratio 3:4. Include fine brushstroke details, rich color palette, and a subtle varnish glow for depth.",
+      "status": "published",
+      "message_id": 1624
     }
   ],
   "style_counts": {
@@ -3194,22 +3194,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-30T16:58:24.542465+00:00",
-      "member_count": 2894,
-      "total_posts_recorded": 272,
-      "content_type_counts": {
-        "ai_image_prompt": 97,
-        "lightroom": 109,
-        "ai_news": 59
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-30T19:46:18.290912+00:00",
       "member_count": 2892,
@@ -4633,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-21T23:37:39.158685+00:00",
+      "member_count": 2896,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 135,
+        "lightroom": 139,
+        "ai_news": 78
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 52,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4671,7 +4671,7 @@
     "tropical vacation candid smartphone photo": 7,
     "steampunk inventor workshop": 2,
     "fantasy mage glowing magic portrait": 3,
-    "oil painting classical museum portrait style": 3
+    "oil painting classical museum portrait style": 4
   },
   "used_news_links": [
     "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -4754,7 +4754,7 @@
     "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 134,
+    "ai_image_prompt": 135,
     "lightroom": 139,
     "ai_news": 78
   }
