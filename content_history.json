@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-06T19:02:26.227847+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "sports athlete action sweat and intensity",
-      "title": "Sports Athlete Action Sweat And Intensity",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, sports athlete action sweat and intensity, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1157
-    },
-    {
       "timestamp": "2026-09-07T11:15:57.211583+00:00",
       "content_type": "ai_news",
       "theme": "OpenAI",
@@ -3175,6 +3166,15 @@
       "tip": null,
       "photo_message_id": 1626,
       "document_message_id": 1627
+    },
+    {
+      "timestamp": "2026-11-22T20:52:31.670191+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 Why data centers are at the center of the Big Tech backlash",
+      "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "status": "published",
+      "message_id": 1628
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-31T11:47:33.251537+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 275,
-      "content_type_counts": {
-        "ai_image_prompt": 99,
-        "lightroom": 109,
-        "ai_news": 60
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-31T15:59:49.055910+00:00",
       "member_count": 2896,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-22T20:52:31.811382+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 136,
+        "lightroom": 140,
+        "ai_news": 79
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 53,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4645,7 +4645,7 @@
     "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 6,
-    "TechCrunch AI": 40,
+    "TechCrunch AI": 41,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 24,
@@ -4755,11 +4755,12 @@
     "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
     "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
     "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-    "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
+    "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+    "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 136,
     "lightroom": 140,
-    "ai_news": 78
+    "ai_news": 79
   }
 }
