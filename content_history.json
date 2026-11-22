@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-06T06:13:53.611982+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "cozy winter close-up with oversized white faux-fur hood",
-      "title": "Frosty Fur Hug ❄️",
-      "ai_prompt": "Frosty Fur Hug ❄️\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture a cozy winter close‑up with an oversized white faux‑fur hood draped over a softly lit face. Warm amber lantern light spills across the hood, creating a gentle rim glow and highlighting the plush texture.",
-      "status": "published",
-      "message_id": 1155
-    },
-    {
       "timestamp": "2026-09-06T15:03:21.632237+00:00",
       "content_type": "ai_news",
       "theme": "TechCrunch AI",
@@ -3171,6 +3162,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a hyper‑realistic oil painting in the style of a 19th‑century French portrait. Use a soft, diffused golden hour lighting that highlights the subject’s cheekbones and adds a subtle rim light from the left. Capture the scene with a 50mm lens emulation, shallow depth of field, focusing on the eyes, with a slightly blurred, textured canvas background. Center composition, slight head tilt, serene expression. Aspect ratio 3:4. Include fine brushstroke details, rich color palette, and a subtle varnish glow for depth.",
       "status": "published",
       "message_id": 1624
+    },
+    {
+      "timestamp": "2026-11-22T14:10:52.968257+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "steampunk inventor workshop",
+      "title": "Inventor’s Steam Dreams 🚂",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic image of a steampunk inventor’s workshop in a dim, warm amber glow. The inventor stands in the foreground, hands on a brass gear, wearing a leather apron and goggles. The background is a maze of copper pipes, steam vents, and ticking clocks, all rendered with hyper-detailed textures and subtle reflections. Soft spotlight highlights the inventor’s face, casting gentle shadows across the workshop’s cluttered shelves. Capture with a 50mm prime lens effect, shallow depth of field, slightly low angle to emphasize the grandeur of the workshop. 3:4 aspect ratio.",
+      "status": "published",
+      "message_id": 1625
     }
   ],
   "style_counts": {
@@ -3194,22 +3194,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-30T19:46:18.290912+00:00",
-      "member_count": 2892,
-      "total_posts_recorded": 273,
-      "content_type_counts": {
-        "ai_image_prompt": 97,
-        "lightroom": 109,
-        "ai_news": 60
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-30T22:42:48.726776+00:00",
       "member_count": 2892,
@@ -4633,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-22T14:10:54.369587+00:00",
+      "member_count": 2898,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 136,
+        "lightroom": 139,
+        "ai_news": 78
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 52,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4669,7 +4669,7 @@
     "MIT Tech Review AI": 5,
     "samurai warrior traditional armor": 6,
     "tropical vacation candid smartphone photo": 7,
-    "steampunk inventor workshop": 2,
+    "steampunk inventor workshop": 3,
     "fantasy mage glowing magic portrait": 3,
     "oil painting classical museum portrait style": 4
   },
@@ -4754,7 +4754,7 @@
     "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 135,
+    "ai_image_prompt": 136,
     "lightroom": 139,
     "ai_news": 78
   }
