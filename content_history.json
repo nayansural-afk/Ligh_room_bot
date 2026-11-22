@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-06T15:03:21.632237+00:00",
-      "content_type": "ai_news",
-      "theme": "TechCrunch AI",
-      "title": "🤖 Seattle Times and Newsday are the latest publications to sue OpenAI and Microsof",
-      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "status": "published",
-      "message_id": 1156
-    },
-    {
       "timestamp": "2026-09-06T19:02:26.227847+00:00",
       "content_type": "ai_image_prompt",
       "theme": "sports athlete action sweat and intensity",
@@ -3171,6 +3162,19 @@
       "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic image of a steampunk inventor’s workshop in a dim, warm amber glow. The inventor stands in the foreground, hands on a brass gear, wearing a leather apron and goggles. The background is a maze of copper pipes, steam vents, and ticking clocks, all rendered with hyper-detailed textures and subtle reflections. Soft spotlight highlights the inventor’s face, casting gentle shadows across the workshop’s cluttered shelves. Capture with a 50mm prime lens effect, shallow depth of field, slightly low angle to emphasize the grandeur of the workshop. 3:4 aspect ratio.",
       "status": "published",
       "message_id": 1625
+    },
+    {
+      "timestamp": "2026-11-22T18:22:23.854244+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "dramatic black and white with heavy contrast",
+      "preset_name": "Monochrome Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1626,
+      "document_message_id": 1627
     }
   ],
   "style_counts": {
@@ -3183,33 +3187,17 @@
     "cool blue hour cityscape": 10,
     "analog film look with controlled grain and fade": 11,
     "lush green nature tones for landscapes": 10,
-    "dramatic black and white with heavy contrast": 12,
+    "dramatic black and white with heavy contrast": 13,
     "moody forest with teal shadows": 13,
     "warm cinematic with high contrast": 14
   },
   "pillar_counts": {
     "preset_of_the_day": 38,
-    "before_after": 52,
+    "before_after": 53,
     "experimental_trend": 20,
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-30T22:42:48.726776+00:00",
-      "member_count": 2892,
-      "total_posts_recorded": 274,
-      "content_type_counts": {
-        "ai_image_prompt": 98,
-        "lightroom": 109,
-        "ai_news": 60
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-31T11:47:33.251537+00:00",
       "member_count": 2897,
@@ -4633,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-22T18:22:23.989842+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 136,
+        "lightroom": 140,
+        "ai_news": 78
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 38,
+        "before_after": 53,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4755,7 +4759,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 136,
-    "lightroom": 139,
+    "lightroom": 140,
     "ai_news": 78
   }
 }
