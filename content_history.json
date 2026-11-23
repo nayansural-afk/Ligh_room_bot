@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-07T19:02:18.182420+00:00",
-      "content_type": "lightroom",
-      "pillar": "experimental_trend",
-      "style": "dramatic black and white with heavy contrast",
-      "preset_name": "Quiet Glow",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1161,
-      "document_message_id": 1162
-    },
-    {
       "timestamp": "2026-09-08T06:15:19.020992+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3166,15 @@
       "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, rockstar stage performance dramatic lights, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
       "status": "published",
       "message_id": 1631
+    },
+    {
+      "timestamp": "2026-11-23T22:30:07.485668+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Trump engineered a risky comeback for Jensen Huang",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "status": "published",
+      "message_id": 1635
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-31T22:00:31.995881+00:00",
-      "member_count": 2896,
-      "total_posts_recorded": 278,
-      "content_type_counts": {
-        "ai_image_prompt": 100,
-        "lightroom": 110,
-        "ai_news": 61
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 41,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-11-01T12:46:28.051275+00:00",
       "member_count": 2897,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-23T22:30:07.681419+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 137,
+        "lightroom": 141,
+        "ai_news": 80
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 39,
+        "before_after": 53,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4652,7 +4648,7 @@
     "TechCrunch AI": 41,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 24,
+    "The Verge AI": 25,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 5,
     "rockstar stage performance dramatic lights": 5,
@@ -4760,11 +4756,12 @@
     "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
     "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
     "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
-    "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+    "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+    "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
   ],
   "content_type_counts": {
     "ai_image_prompt": 137,
     "lightroom": 141,
-    "ai_news": 79
+    "ai_news": 80
   }
 }
