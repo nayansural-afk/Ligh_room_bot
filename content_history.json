@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-07T15:03:31.739466+00:00",
-      "content_type": "ai_news",
-      "theme": "The Verge AI",
-      "title": "🤖 Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "status": "published",
-      "message_id": 1160
-    },
-    {
       "timestamp": "2026-09-07T19:02:18.182420+00:00",
       "content_type": "lightroom",
       "pillar": "experimental_trend",
@@ -3179,6 +3170,15 @@
       "tip": null,
       "photo_message_id": 1629,
       "document_message_id": 1630
+    },
+    {
+      "timestamp": "2026-11-23T17:32:07.867473+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "rockstar stage performance dramatic lights",
+      "title": "Rockstar Stage Performance Dramatic Lights",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, rockstar stage performance dramatic lights, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1631
     }
   ],
   "style_counts": {
@@ -3202,22 +3202,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-10-31T18:54:34.118256+00:00",
-      "member_count": 2896,
-      "total_posts_recorded": 277,
-      "content_type_counts": {
-        "ai_image_prompt": 100,
-        "lightroom": 109,
-        "ai_news": 61
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 40,
-        "experimental_trend": 15,
-        "quick_tip": 24
-      }
-    },
     {
       "timestamp": "2026-10-31T22:00:31.995881+00:00",
       "member_count": 2896,
@@ -4641,6 +4625,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-23T17:32:08.076451+00:00",
+      "member_count": 2902,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 137,
+        "lightroom": 141,
+        "ai_news": 79
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 39,
+        "before_after": 53,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4655,7 +4655,7 @@
     "The Verge AI": 24,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 5,
-    "rockstar stage performance dramatic lights": 4,
+    "rockstar stage performance dramatic lights": 5,
     "modern high-fashion magazine cover": 3,
     "half-face extreme close-up with hard flash and film grain": 4,
     "black and white film noir detective": 5,
@@ -4763,7 +4763,7 @@
     "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 136,
+    "ai_image_prompt": 137,
     "lightroom": 141,
     "ai_news": 79
   }
