@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-08T15:04:56.364632+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "soft pastel tones for portraits",
-      "preset_name": "Teal Mood",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1167,
-      "document_message_id": 1168
-    },
-    {
       "timestamp": "2026-09-08T19:03:20.323004+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3179,6 +3166,15 @@
       "tip": null,
       "photo_message_id": 1638,
       "document_message_id": 1639
+    },
+    {
+      "timestamp": "2026-11-24T17:03:37.257805+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "playful bubblegum bubble shot with crimson backdrop and flash",
+      "title": "Crimson Bubble Pop 🎉",
+      "ai_prompt": "Crimson Bubble Pop 🎉\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Create a photorealistic, hyper‑detailed bubblegum bubble shot. The subject is holding a translucent bubble that glows with a soft, diffused white flash, set against a rich crimson backdrop that adds dramatic contrast. Use a shallow depth‑of‑field, 85mm lens simulation, with a slight tilt‑shift to keep the bubble crisp while softly blurring the background. Capture the burst of the",
+      "status": "published",
+      "message_id": 1640
     }
   ],
   "style_counts": {
@@ -3202,22 +3198,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-01T19:16:14.213483+00:00",
-      "member_count": 2897,
-      "total_posts_recorded": 281,
-      "content_type_counts": {
-        "ai_image_prompt": 102,
-        "lightroom": 111,
-        "ai_news": 61
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 33,
-        "before_after": 41,
-        "experimental_trend": 15,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-01T22:30:57.200511+00:00",
       "member_count": 2897,
@@ -4641,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-24T17:03:37.473350+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 138,
+        "lightroom": 143,
+        "ai_news": 80
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 40,
+        "before_after": 54,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4670,7 +4666,7 @@
     "noir detective rainy street black and white": 4,
     "golden hour beach portrait soft rim light": 6,
     "wild west cowboy desert sunset": 5,
-    "playful bubblegum bubble shot with crimson backdrop and flash": 4,
+    "playful bubblegum bubble shot with crimson backdrop and flash": 5,
     "Hugging Face": 5,
     "Disney Pixar 3D stylized character": 6,
     "medieval knight armor photorealistic portrait": 1,
@@ -4764,7 +4760,7 @@
     "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 137,
+    "ai_image_prompt": 138,
     "lightroom": 143,
     "ai_news": 80
   }
