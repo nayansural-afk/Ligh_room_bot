@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-10T11:15:16.474753+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "Studio Ghibli anime version of the person",
-      "title": "Studio Ghibli Anime Version Of The Person",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, Studio Ghibli anime version of the person, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1177
-    },
-    {
       "timestamp": "2026-09-10T15:03:22.455980+00:00",
       "content_type": "lightroom",
       "pillar": "preset_of_the_day",
@@ -3171,6 +3162,15 @@
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "status": "published",
       "message_id": 1646
+    },
+    {
+      "timestamp": "2026-11-25T23:24:30.238899+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cozy winter close-up with oversized white faux-fur hood",
+      "title": "Cozy Winter Close-Up With Oversized White Faux-Fur Hood",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, cozy winter close-up with oversized white faux-fur hood, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1647
     }
   ],
   "style_counts": {
@@ -3194,22 +3194,6 @@
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-03T13:43:59.293897+00:00",
-      "member_count": 2905,
-      "total_posts_recorded": 287,
-      "content_type_counts": {
-        "ai_image_prompt": 104,
-        "lightroom": 114,
-        "ai_news": 62
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 15,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-03T18:19:56.173600+00:00",
       "member_count": 2905,
@@ -4633,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-25T23:24:30.459160+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 141,
+        "lightroom": 144,
+        "ai_news": 82
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 40,
+        "before_after": 54,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4654,7 +4654,7 @@
     "street style urban fashion editorial": 4,
     "1920s Hollywood glamour studio portrait": 5,
     "cyberpunk neon city night portrait": 5,
-    "cozy winter close-up with oversized white faux-fur hood": 5,
+    "cozy winter close-up with oversized white faux-fur hood": 6,
     "OpenAI": 4,
     "underwater mermaid / merman fantasy": 6,
     "vampire gothic elegance candlelight": 5,
@@ -4758,7 +4758,7 @@
     "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 140,
+    "ai_image_prompt": 141,
     "lightroom": 144,
     "ai_news": 82
   }
