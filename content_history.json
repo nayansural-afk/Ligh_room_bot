@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-10T06:16:00.966133+00:00",
-      "content_type": "lightroom",
-      "pillar": "preset_of_the_day",
-      "style": "dark street style with subtle green tint",
-      "preset_name": "Amber Drift",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1175,
-      "document_message_id": 1176
-    },
-    {
       "timestamp": "2026-09-10T11:15:16.474753+00:00",
       "content_type": "ai_image_prompt",
       "theme": "Studio Ghibli anime version of the person",
@@ -3175,6 +3162,15 @@
       "tip": "Boost the green channel in the HSL panel",
       "photo_message_id": 1644,
       "document_message_id": 1645
+    },
+    {
+      "timestamp": "2026-11-25T20:25:02.144789+00:00",
+      "content_type": "ai_news",
+      "theme": "TechCrunch AI",
+      "title": "🤖 OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "status": "published",
+      "message_id": 1646
     }
   ],
   "style_counts": {
@@ -3198,22 +3194,6 @@
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-03T01:24:03.790875+00:00",
-      "member_count": 2899,
-      "total_posts_recorded": 286,
-      "content_type_counts": {
-        "ai_image_prompt": 104,
-        "lightroom": 114,
-        "ai_news": 61
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 15,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-03T13:43:59.293897+00:00",
       "member_count": 2905,
@@ -4637,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-25T20:25:02.388815+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 140,
+        "lightroom": 144,
+        "ai_news": 82
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 40,
+        "before_after": 54,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4645,7 +4641,7 @@
     "80s retro film look candid": 6,
     "royal Victorian era formal portrait": 4,
     "astronaut space suit helmet open": 6,
-    "TechCrunch AI": 42,
+    "TechCrunch AI": 43,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
     "The Verge AI": 25,
@@ -4758,11 +4754,12 @@
     "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
     "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
     "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-    "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
+    "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+    "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
   ],
   "content_type_counts": {
     "ai_image_prompt": 140,
     "lightroom": 144,
-    "ai_news": 81
+    "ai_news": 82
   }
 }
