@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-09T11:15:32.859054+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "sports athlete action sweat and intensity",
-      "title": "Sports Athlete Action Sweat And Intensity",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, sports athlete action sweat and intensity, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1172
-    },
-    {
       "timestamp": "2026-09-09T15:03:24.427234+00:00",
       "content_type": "ai_image_prompt",
       "theme": "half-face extreme close-up with hard flash and film grain",
@@ -3171,6 +3162,15 @@
       "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
       "status": "published",
       "message_id": 1642
+    },
+    {
+      "timestamp": "2026-11-25T02:50:47.630580+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "cyberpunk neon city night portrait",
+      "title": "Neon Noir Glow 🌃",
+      "ai_prompt": "Neon Noir Glow 🌃\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic cyberpunk night portrait with the subject standing under flickering neon signs in a rain-soaked alley. Use a 50mm lens simulation at f/1.8 for shallow depth of field, blurring the neon-lit background into bokeh. The lighting should be a mix of deep teal and hot pink backlight, with subtle rim lighting on the subject's shoulders. Composition: the subject occupies the upper right third, head slightly tilted, with a reflective puddle mirroring neon colors. Add motion blur to passing holo-ads, and a subtle digital glitch effect. Set aspect ratio 9:16 for vertical",
+      "status": "published",
+      "message_id": 1643
     }
   ],
   "style_counts": {
@@ -3194,22 +3194,6 @@
     "quick_tip": 32
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-02T20:42:27.129789+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 284,
-      "content_type_counts": {
-        "ai_image_prompt": 102,
-        "lightroom": 114,
-        "ai_news": 61
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 15,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-02T22:56:21.698787+00:00",
       "member_count": 2898,
@@ -4633,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-25T02:50:47.771772+00:00",
+      "member_count": 2899,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 140,
+        "lightroom": 143,
+        "ai_news": 81
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 40,
+        "before_after": 54,
+        "experimental_trend": 20,
+        "quick_tip": 32
+      }
     }
   ],
   "theme_counts": {
@@ -4653,7 +4653,7 @@
     "black and white film noir detective": 5,
     "street style urban fashion editorial": 4,
     "1920s Hollywood glamour studio portrait": 5,
-    "cyberpunk neon city night portrait": 4,
+    "cyberpunk neon city night portrait": 5,
     "cozy winter close-up with oversized white faux-fur hood": 5,
     "OpenAI": 4,
     "underwater mermaid / merman fantasy": 6,
@@ -4757,7 +4757,7 @@
     "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 139,
+    "ai_image_prompt": 140,
     "lightroom": 143,
     "ai_news": 81
   }
