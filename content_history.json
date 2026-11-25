@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-09T15:03:24.427234+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "half-face extreme close-up with hard flash and film grain",
-      "title": "Flashy Lens Glow 🌟",
-      "ai_prompt": "Flashy Lens Glow 🌟\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Capture an extreme half‑face close‑up with a hard flash that creates sharp, high‑contrast highlights on the skin and sharp edges. Use a 50mm prime lens simulation, 1/200",
-      "status": "published",
-      "message_id": 1173
-    },
-    {
       "timestamp": "2026-09-10T06:16:00.966133+00:00",
       "content_type": "lightroom",
       "pillar": "preset_of_the_day",
@@ -3171,6 +3162,19 @@
       "ai_prompt": "Neon Noir Glow 🌃\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Render a photorealistic cyberpunk night portrait with the subject standing under flickering neon signs in a rain-soaked alley. Use a 50mm lens simulation at f/1.8 for shallow depth of field, blurring the neon-lit background into bokeh. The lighting should be a mix of deep teal and hot pink backlight, with subtle rim lighting on the subject's shoulders. Composition: the subject occupies the upper right third, head slightly tilted, with a reflective puddle mirroring neon colors. Add motion blur to passing holo-ads, and a subtle digital glitch effect. Set aspect ratio 9:16 for vertical",
       "status": "published",
       "message_id": 1643
+    },
+    {
+      "timestamp": "2026-11-25T16:53:08.400006+00:00",
+      "content_type": "lightroom",
+      "pillar": "quick_tip",
+      "style": "lush green nature tones for landscapes",
+      "preset_name": "Noir Edge",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": "Boost the green channel in the HSL panel",
+      "photo_message_id": 1644,
+      "document_message_id": 1645
     }
   ],
   "style_counts": {
@@ -3182,7 +3186,7 @@
     "dark street style with subtle green tint": 15,
     "cool blue hour cityscape": 10,
     "analog film look with controlled grain and fade": 11,
-    "lush green nature tones for landscapes": 10,
+    "lush green nature tones for landscapes": 11,
     "dramatic black and white with heavy contrast": 13,
     "moody forest with teal shadows": 13,
     "warm cinematic with high contrast": 14
@@ -3191,25 +3195,9 @@
     "preset_of_the_day": 40,
     "before_after": 54,
     "experimental_trend": 20,
-    "quick_tip": 32
+    "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-02T22:56:21.698787+00:00",
-      "member_count": 2898,
-      "total_posts_recorded": 285,
-      "content_type_counts": {
-        "ai_image_prompt": 103,
-        "lightroom": 114,
-        "ai_news": 61
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 15,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-03T01:24:03.790875+00:00",
       "member_count": 2899,
@@ -4633,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 32
       }
+    },
+    {
+      "timestamp": "2026-11-25T16:53:08.556279+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 140,
+        "lightroom": 144,
+        "ai_news": 81
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 40,
+        "before_after": 54,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4758,7 +4762,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 140,
-    "lightroom": 143,
+    "lightroom": 144,
     "ai_news": 81
   }
 }
