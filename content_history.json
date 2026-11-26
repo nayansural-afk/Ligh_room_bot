@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-11T06:14:56.890592+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "vampire gothic elegance candlelight",
-      "title": "Vampire Gothic Elegance Candlelight",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, vampire gothic elegance candlelight, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1182
-    },
-    {
       "timestamp": "2026-09-11T11:15:22.151367+00:00",
       "content_type": "ai_news",
       "theme": "TechCrunch AI",
@@ -3171,11 +3162,24 @@
       "tip": null,
       "photo_message_id": 1650,
       "document_message_id": 1651
+    },
+    {
+      "timestamp": "2026-11-26T20:03:16.733483+00:00",
+      "content_type": "lightroom",
+      "pillar": "before_after",
+      "style": "soft pastel tones for portraits",
+      "preset_name": "Soft Pastel Portrait",
+      "status": "published",
+      "has_before_after": true,
+      "format": "single_collage",
+      "tip": null,
+      "photo_message_id": 1652,
+      "document_message_id": 1653
     }
   ],
   "style_counts": {
     "bright minimal with neutral tones": 11,
-    "soft pastel tones for portraits": 10,
+    "soft pastel tones for portraits": 11,
     "golden hour sunset with rich saturation": 12,
     "high-key fashion with soft contrast": 14,
     "vintage polaroid faded look": 13,
@@ -3189,27 +3193,11 @@
   },
   "pillar_counts": {
     "preset_of_the_day": 42,
-    "before_after": 54,
+    "before_after": 55,
     "experimental_trend": 20,
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-03T23:45:40.477742+00:00",
-      "member_count": 2905,
-      "total_posts_recorded": 290,
-      "content_type_counts": {
-        "ai_image_prompt": 105,
-        "lightroom": 115,
-        "ai_news": 63
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 16,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-04T13:52:39.477085+00:00",
       "member_count": 2904,
@@ -4633,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-26T20:03:16.878647+00:00",
+      "member_count": 2903,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 141,
+        "lightroom": 147,
+        "ai_news": 82
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 42,
+        "before_after": 55,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4759,7 +4763,7 @@
   ],
   "content_type_counts": {
     "ai_image_prompt": 141,
-    "lightroom": 146,
+    "lightroom": 147,
     "ai_news": 82
   }
 }
