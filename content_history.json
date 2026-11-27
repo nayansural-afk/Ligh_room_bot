@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-11T15:03:13.534201+00:00",
-      "content_type": "ai_news",
-      "theme": "The Verge AI",
-      "title": "🛑 Meta Tightens AI Prompting After Privacy Blunder",
-      "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
-      "status": "published",
-      "message_id": 1184
-    },
-    {
       "timestamp": "2026-09-11T19:02:26.842635+00:00",
       "content_type": "lightroom",
       "pillar": "before_after",
@@ -3175,6 +3166,15 @@
       "ai_prompt": "Glam Noir 🌟\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic high-fashion magazine cover with a glossy finish, dramatic cinematic lighting that casts a soft rim light around the subject’s silhouette. Use a prime 85mm lens at f/1.4 for silky background blur, capturing crisp details on skin and fabric. Center composition with a slight tilt to give dynamic tension, model in a striking pose holding an avant‑garde accessory. The background is a minimalist monochrome gradient that emphasizes contrast",
       "status": "published",
       "message_id": 1654
+    },
+    {
+      "timestamp": "2026-11-27T01:59:10.771512+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "medieval knight armor photorealistic portrait",
+      "title": "Medieval Knight Armor Photorealistic Portrait",
+      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, medieval knight armor photorealistic portrait, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
+      "status": "published",
+      "message_id": 1655
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-04T18:32:19.887624+00:00",
-      "member_count": 2904,
-      "total_posts_recorded": 292,
-      "content_type_counts": {
-        "ai_image_prompt": 107,
-        "lightroom": 115,
-        "ai_news": 63
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 16,
-        "quick_tip": 25
-      }
-    },
     {
       "timestamp": "2026-11-04T20:59:08.971442+00:00",
       "member_count": 2904,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-27T01:59:10.894869+00:00",
+      "member_count": 2901,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 143,
+        "lightroom": 147,
+        "ai_news": 82
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 42,
+        "before_after": 55,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4669,7 +4669,7 @@
     "playful bubblegum bubble shot with crimson backdrop and flash": 5,
     "Hugging Face": 5,
     "Disney Pixar 3D stylized character": 6,
-    "medieval knight armor photorealistic portrait": 1,
+    "medieval knight armor photorealistic portrait": 2,
     "MIT Tech Review AI": 5,
     "samurai warrior traditional armor": 6,
     "tropical vacation candid smartphone photo": 7,
@@ -4762,7 +4762,7 @@
     "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 142,
+    "ai_image_prompt": 143,
     "lightroom": 147,
     "ai_news": 82
   }
