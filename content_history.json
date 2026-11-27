@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-12T06:14:08.845679+00:00",
-      "content_type": "ai_news",
-      "theme": "OpenAI",
-      "title": "🤖 Perplexity Deploys GPT‑6 Astra for End‑to‑End Ops",
-      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "status": "published",
-      "message_id": 1187
-    },
-    {
       "timestamp": "2026-09-12T11:13:42.187429+00:00",
       "content_type": "ai_image_prompt",
       "theme": "luxury fashion editorial on sport motorcycle studio shot",
@@ -3175,6 +3166,15 @@
       "tip": null,
       "photo_message_id": 1656,
       "document_message_id": 1657
+    },
+    {
+      "timestamp": "2026-11-27T19:51:23.206033+00:00",
+      "content_type": "ai_news",
+      "theme": "The Verge AI",
+      "title": "🤖 Android’s DIY widgets are a bit of vibe-coding fun",
+      "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "status": "published",
+      "message_id": 1658
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-05T00:02:02.159180+00:00",
-      "member_count": 2904,
-      "total_posts_recorded": 294,
-      "content_type_counts": {
-        "ai_image_prompt": 108,
-        "lightroom": 116,
-        "ai_news": 63
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 34,
-        "before_after": 43,
-        "experimental_trend": 16,
-        "quick_tip": 26
-      }
-    },
     {
       "timestamp": "2026-11-05T14:07:15.978573+00:00",
       "member_count": 2904,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-27T19:51:23.380443+00:00",
+      "member_count": 2902,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 143,
+        "lightroom": 148,
+        "ai_news": 83
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 43,
+        "before_after": 55,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4648,7 +4648,7 @@
     "TechCrunch AI": 43,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
     "sports athlete action sweat and intensity": 5,
-    "The Verge AI": 25,
+    "The Verge AI": 26,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 5,
     "rockstar stage performance dramatic lights": 5,
@@ -4759,11 +4759,12 @@
     "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
     "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
     "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-    "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+    "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
   ],
   "content_type_counts": {
     "ai_image_prompt": 143,
     "lightroom": 148,
-    "ai_news": 82
+    "ai_news": 83
   }
 }
