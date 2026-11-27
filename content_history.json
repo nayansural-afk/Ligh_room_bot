@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-12T11:13:42.187429+00:00",
-      "content_type": "ai_image_prompt",
-      "theme": "luxury fashion editorial on sport motorcycle studio shot",
-      "title": "Luxury Fashion Editorial On Sport Motorcycle Studio Shot",
-      "ai_prompt": "Do not change the face. Keep exact facial features and identity from the reference photo. Photorealistic portrait, luxury fashion editorial on sport motorcycle studio shot, natural skin texture, detailed lighting, shallow depth of field, 85mm lens, cinematic color grade, 9:16 vertical.",
-      "status": "published",
-      "message_id": 1188
-    },
-    {
       "timestamp": "2026-09-12T15:03:12.347473+00:00",
       "content_type": "ai_image_prompt",
       "theme": "noir detective rainy street black and white",
@@ -3175,6 +3166,15 @@
       "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
       "status": "published",
       "message_id": 1658
+    },
+    {
+      "timestamp": "2026-11-27T23:03:45.004387+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "sports athlete action sweat and intensity",
+      "title": "🏃‍♂️ Sweat & Grit",
+      "ai_prompt": "🏃‍♂️ Sweat & Grit\n\nDo not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. A hyper-realistic portrait of an athlete mid-stride, drenched in sweat, muscles tensing, intense gaze, captured in cinematic 85mm lens, dramatic low-key lighting with a rim light to highlight sweat droplets, shallow depth of field, slight motion blur to convey speed, composition centered with the athlete filling the frame, background a blurred stadium, aspect ratio 9:16, high dynamic range, color grading warm with subtle contrast, ultra-detailed textures",
+      "status": "published",
+      "message_id": 1659
     }
   ],
   "style_counts": {
@@ -3198,22 +3198,6 @@
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-05T14:07:15.978573+00:00",
-      "member_count": 2904,
-      "total_posts_recorded": 295,
-      "content_type_counts": {
-        "ai_image_prompt": 108,
-        "lightroom": 117,
-        "ai_news": 63
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 35,
-        "before_after": 43,
-        "experimental_trend": 16,
-        "quick_tip": 26
-      }
-    },
     {
       "timestamp": "2026-11-05T18:37:53.997466+00:00",
       "member_count": 2903,
@@ -4637,6 +4621,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-27T23:03:45.142532+00:00",
+      "member_count": 2900,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 144,
+        "lightroom": 148,
+        "ai_news": 83
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 43,
+        "before_after": 55,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4647,7 +4647,7 @@
     "astronaut space suit helmet open": 6,
     "TechCrunch AI": 43,
     "ancient Egyptian pharaoh / queen gold and linen": 5,
-    "sports athlete action sweat and intensity": 5,
+    "sports athlete action sweat and intensity": 6,
     "The Verge AI": 26,
     "Studio Ghibli anime version of the person": 4,
     "cinematic low-angle outdoor portrait with wildflowers and sky": 5,
@@ -4763,7 +4763,7 @@
     "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 143,
+    "ai_image_prompt": 144,
     "lightroom": 148,
     "ai_news": 83
   }
