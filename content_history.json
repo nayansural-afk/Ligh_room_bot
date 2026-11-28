@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": "2026-09-12T19:02:23.603441+00:00",
-      "content_type": "lightroom",
-      "pillar": "before_after",
-      "style": "moody forest with teal shadows",
-      "preset_name": "Golden Fade",
-      "status": "published",
-      "has_before_after": true,
-      "format": "single_collage",
-      "tip": null,
-      "photo_message_id": 1190,
-      "document_message_id": 1191
-    },
-    {
       "timestamp": "2026-09-13T06:18:55.561699+00:00",
       "content_type": "lightroom",
       "pillar": "quick_tip",
@@ -3175,6 +3162,15 @@
       "link": "https://huggingface.co/blog/video-trainium3",
       "status": "published",
       "message_id": 1660
+    },
+    {
+      "timestamp": "2026-11-28T15:09:20.407372+00:00",
+      "content_type": "ai_image_prompt",
+      "theme": "street style urban fashion editorial",
+      "title": "Urban Glow 🎤",
+      "ai_prompt": "Do not change the face. Keep exact facial features, identity, skin tone and proportions from the reference photo. Photorealistic street style editorial: a model stands on a neon-lit city sidewalk, rain-slick asphalt reflecting puddles of chrome and graffiti. Capture with a 50mm prime lens, shallow depth of field, f/1.8 aperture, cinematic golden hour backlight filtering through skyscraper windows, adding a warm rim glow. Composition: rule of thirds, model slightly off-center, dynamic angle from slightly below, giving an elevated perspective. Include high contrast shadows, subtle motion blur on passing cyclists. 4:5 aspect ratio, HDR rendering, ultra-detailed textures of denim, leather jacket, and reflective sunglasses. Emphasize texture detail, crisp edges, and realistic lighting for a high-fashion urban vibe.",
+      "status": "published",
+      "message_id": 1661
     }
   ],
   "style_counts": {
@@ -3198,22 +3194,6 @@
     "quick_tip": 33
   },
   "analytics_snapshots": [
-    {
-      "timestamp": "2026-11-05T21:16:14.782726+00:00",
-      "member_count": 2902,
-      "total_posts_recorded": 297,
-      "content_type_counts": {
-        "ai_image_prompt": 110,
-        "lightroom": 117,
-        "ai_news": 63
-      },
-      "pillar_counts": {
-        "preset_of_the_day": 35,
-        "before_after": 43,
-        "experimental_trend": 16,
-        "quick_tip": 26
-      }
-    },
     {
       "timestamp": "2026-11-05T23:52:46.185912+00:00",
       "member_count": 2902,
@@ -4637,6 +4617,22 @@
         "experimental_trend": 20,
         "quick_tip": 33
       }
+    },
+    {
+      "timestamp": "2026-11-28T15:09:20.570283+00:00",
+      "member_count": 2902,
+      "total_posts_recorded": 300,
+      "content_type_counts": {
+        "ai_image_prompt": 145,
+        "lightroom": 148,
+        "ai_news": 84
+      },
+      "pillar_counts": {
+        "preset_of_the_day": 43,
+        "before_after": 55,
+        "experimental_trend": 20,
+        "quick_tip": 33
+      }
     }
   ],
   "theme_counts": {
@@ -4655,7 +4651,7 @@
     "modern high-fashion magazine cover": 4,
     "half-face extreme close-up with hard flash and film grain": 4,
     "black and white film noir detective": 5,
-    "street style urban fashion editorial": 4,
+    "street style urban fashion editorial": 5,
     "1920s Hollywood glamour studio portrait": 5,
     "cyberpunk neon city night portrait": 5,
     "cozy winter close-up with oversized white faux-fur hood": 6,
@@ -4764,7 +4760,7 @@
     "https://huggingface.co/blog/video-trainium3"
   ],
   "content_type_counts": {
-    "ai_image_prompt": 144,
+    "ai_image_prompt": 145,
     "lightroom": 148,
     "ai_news": 84
   }
